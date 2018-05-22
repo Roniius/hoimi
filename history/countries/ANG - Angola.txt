@@ -1,0 +1,47 @@
+﻿capital = 541
+
+#oob = "ANG_1936"
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+}
+
+set_politics = {
+
+	parties = {
+		authoritarian = { 
+			popularity = 60
+			banned = yes
+		}
+
+		mod_ordaism = {
+			popularity = 20
+			banned = yes
+		}
+		
+		monarchism = {
+			popularity = 20
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = authoritarian
+	last_election = "1935.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Manuel da Costa"
+	desc = "POLITICS_MANUEL_DA_COSTA_DESC"
+	picture = "Portrait_ANG_Manuel_Da_Costa.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

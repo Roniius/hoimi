@@ -1,0 +1,22 @@
+
+state={
+	id=610
+	name="STATE_610"
+
+	history={
+		owner = MEN
+		add_core_of = MEN
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		814 972 3814 3881 6837 6898 6937 7575 7633 9873 9905 11801 11855 11886 
+	}
+	manpower=1975377
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

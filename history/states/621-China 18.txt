@@ -1,0 +1,25 @@
+
+state={
+	id=621
+	name="STATE_621"
+
+	history={
+		owner = SHX
+		add_core_of = SHX
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1027 1203 1438 2087 4074 4469 4525 7048 7158 7631 10424 10480 10507 10629 12300 12331 12403 12432 12609 
+	}
+	manpower=1583700
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

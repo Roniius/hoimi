@@ -1,0 +1,23 @@
+
+state={
+	id=749
+	name="STATE_749"
+
+	history={
+		owner = NSC
+		add_core_of = NSC
+		buildings = {
+			infrastructure = 4
+
+		}
+		
+
+	}
+
+	provinces={
+		1066 1099 1125 1153 1171 1628 3992 4038 4105 4173 4185 7007 7054 7104 7653 10044 11937 12019 
+	}
+	manpower=5000000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

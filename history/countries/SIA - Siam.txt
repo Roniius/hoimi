@@ -1,0 +1,48 @@
+﻿capital = 289
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+
+set_politics = {
+
+	parties = {
+		liberalism = { 
+			popularity = 30
+		}
+		conservatism = { 
+			popularity = 12
+		}
+		fascism = { 
+			popularity = 20
+		}
+		mod_ordaism = { 
+			popularity = 15
+		}
+		monarchism = { 
+			popularity = 23
+		}
+	}
+	
+	ruling_party = liberalism
+	last_election = "1932.4.2"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "King Rama VI"
+	desc = "POLITICS_KING_RAMA_VI_DESC"
+	picture = "Portrait_SIA_King_Rama_VI.dds"
+	expire = "1965.1.1"
+	ideology = sub_liberalism
+	traits = {
+		#
+	}
+}

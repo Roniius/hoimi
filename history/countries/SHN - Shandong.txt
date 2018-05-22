@@ -1,0 +1,42 @@
+﻿capital = 597
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+
+set_politics = {
+
+	parties = {
+		conservatism = { 
+			popularity = 49
+			banned = yes
+		}
+		
+		mod_ordaism = {
+			popularity = 51
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = conservatism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Bai Chongxi"
+	desc = "POLITICS_BAI_CHONGXI_DESC"
+	picture = "Portrait_SHN_Bai_Chongxi.dds"
+	expire = "1965.1.1"
+	ideology = chongxism
+	traits = {
+		#
+	}
+}

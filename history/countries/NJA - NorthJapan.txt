@@ -1,0 +1,46 @@
+﻿capital = 536
+
+#oob = "MON_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+}
+set_politics = {
+
+	parties = {
+		communism = { 
+			popularity = 20
+		}
+
+		liberalism = {
+			popularity = 30
+			banned = yes
+		}
+		
+		monarchism = {
+			popularity = 50
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = monarchism
+	last_election = "1935.2.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Guntomor Khan"
+	desc = "POLITICS_GUNTOMOR_KHAN_DESC"
+	picture = "Portrait_NJA_Guntomor_Khan.dds"
+	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		#
+	}
+}

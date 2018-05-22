@@ -1,0 +1,3 @@
+﻿capital = 9
+
+#oob = "CZE_1936"

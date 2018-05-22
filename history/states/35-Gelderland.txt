@@ -1,0 +1,26 @@
+
+state={
+	id=35
+	name="STATE_35"
+
+	history={
+		owner = BEL
+		add_core_of = BEL
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+
+		}
+		victory_points = {
+			6496 5 
+		}
+
+	}
+
+	provinces={
+		587 3262 3444 6496 6500 9522 11456 11562 
+	}
+	manpower=1449000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,41 @@
+﻿capital = 274
+
+#oob = "SOV_1936"
+
+set_convoys = 50
+
+set_politics = {
+
+	parties = {
+		conservatism = {
+			popularity = 50
+		}
+		
+		liberalism = {
+			popularity = 50
+		}
+	}
+	
+	ruling_party = conservatism
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Yagovkin Damian"
+	desc = "POLITICS_YAGOVKIN_DAMIAN_DESC"
+	picture = "Portrait_BUK_Yagovkin_Damian.dds"
+	expire = "1953.3.1"
+	ideology = sub_conservatism
+	traits = {
+		
+	}
+}
+
+#Intelligence Minister will be Nikolai Yezhov
+
+add_namespace = {
+	name = "unit_leader_sov"
+	type = unit_leader
+}

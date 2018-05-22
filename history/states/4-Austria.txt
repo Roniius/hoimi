@@ -1,0 +1,34 @@
+
+state={
+	id=4
+	name="STATE_4"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = HUN
+		add_core_of = HUN
+		victory_points = {
+			11666 30.0 
+		}
+		victory_points = {
+			9648 5 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 6
+
+		}
+
+	}
+
+	provinces={
+		543 557 596 653 665 682 686 701 704 732 3670 3673 3674 3683 3684 3700 3718 5283 6552 6672 6687 6690 6691 6703 6720 6723 6739 9527 9541 9596 9646 9648 9650 9661 9665 9676 9679 11525 11612 11627 11630 11651 11663 11666 13125 
+	}
+	manpower=2595983
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

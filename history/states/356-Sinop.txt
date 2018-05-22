@@ -1,0 +1,24 @@
+
+state={
+	id=356
+	name="STATE_356"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			6995 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		804 6978 11839 11897 
+	}
+	manpower=860589
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

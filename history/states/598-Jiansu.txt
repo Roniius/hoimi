@@ -1,0 +1,22 @@
+
+state={
+	id=598
+	name="STATE_598"
+
+	history={
+		owner = DNG
+		add_core_of = DNG
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		4005 4031 4082 4123 7142 7181 9953 10095 12067 
+	}
+	manpower=23669300
+	buildings_max_level_factor=1.000
+	state_category=town
+}

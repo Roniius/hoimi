@@ -1,0 +1,26 @@
+
+state={
+	id=332
+	name="STATE_332"
+
+	history={
+		owner = VLD
+		add_core_of = VLD
+		buildings = {
+			infrastructure = 1
+			12503 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1426 1712 1785 3208 3691 4666 4720 4787 7364 7683 7810 7813 10176 10534 12147 12503 12600 13165 13166 13180 13181 13184 13186 13196 
+	}
+	manpower=22179
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

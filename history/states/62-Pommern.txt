@@ -1,0 +1,23 @@
+
+state={
+	id=62
+	name="STATE_62"
+	manpower = 1006221
+	
+	
+	state_category = town
+
+	history={
+		owner = PRS
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = PRS
+
+		
+	}
+
+	provinces={
+		349 3207 3258 3312 3340 9388 
+	}
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=655
+	name="STATE_655"
+	manpower = 94759
+	
+	state_category = large_town
+	history={
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+		}
+
+		owner = MON
+		add_core_of = MON
+	}
+
+	provinces={
+		855 1742 1755 
+	}
+}

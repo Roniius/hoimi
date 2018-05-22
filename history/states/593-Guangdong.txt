@@ -1,0 +1,35 @@
+
+state={
+	id=593
+	name="STATE_593"
+	resources={
+		tungsten=15.000
+		steel=15.000
+		chromium=3.000
+	}
+
+	history={
+		add_core_of = GXC
+		owner = GXC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			9938 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+
+			}
+
+		}
+		
+
+	}
+
+	provinces={
+		1120 7128 7210 9970 9997 10080 10121 12014 12095 
+	}
+	manpower=12700000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

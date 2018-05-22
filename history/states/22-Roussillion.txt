@@ -1,0 +1,31 @@
+
+state={
+	id=22
+	name="STATE_22"
+	resources={
+		steel=70.000
+		aluminium=50.000
+	}
+
+	history={
+		owner = OCC
+		victory_points = {
+			9898 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			air_base = 2
+
+		}
+		add_core_of = OCC
+
+	}
+
+	provinces={
+		590 752 769 3751 3754 6773 6789 6960 6962 9593 9723 9748 11709 
+	}
+	manpower=1691200
+	buildings_max_level_factor=1.000
+	state_category=town
+}

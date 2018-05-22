@@ -1,0 +1,34 @@
+
+state={
+	id=599
+	name="STATE_599"
+	resources={
+		tungsten=15.000
+		steel=15.000
+		chromium=3.000
+	}
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 2
+
+		}
+		victory_points = {
+			10404 3 
+		}
+		
+
+	}
+
+	provinces={
+		1023 1625 4085 4134 4628 7095 10039 10404 10431 10459 12407 12436 
+	}
+	manpower=8685200
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=637
+	name="STATE_637"
+
+	resources={
+		oil = 44.000
+	}
+	
+	history={
+		buildings = {
+			infrastructure = 4
+			12207 = {
+				naval_base = 2
+
+			}
+			
+			arms_factory = 3
+			industrial_complex = 4
+			
+		}
+		
+		owner = KAM
+		add_core_of = KAM
+
+	}
+
+	provinces={
+		1823 1839 1863 4728 7878 12207 12522 
+	}
+	manpower=48831
+	state_category="large_town"
+}

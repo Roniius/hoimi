@@ -1,0 +1,30 @@
+
+state={
+	id=496
+	name="STATE_496"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			11002 = {
+				naval_base = 1
+
+			}
+
+		}
+		owner = NCO
+		add_core_of = NCO
+
+	}
+
+	provinces={
+		10419 12422 
+	}
+	manpower=4603600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

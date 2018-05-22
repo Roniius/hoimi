@@ -1,0 +1,25 @@
+
+state={
+	id=541
+	name="STATE_541"
+
+	history={
+		owner = ANG
+		add_core_of = ANG
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			4879 1 
+		}
+
+	}
+
+	provinces={
+		1552 1580 2207 2229 4735 4879 5154 5189 7605 7770 8136 10538 10957 10963 12519 12940 
+	}
+	manpower=462000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

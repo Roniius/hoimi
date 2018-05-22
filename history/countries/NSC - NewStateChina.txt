@@ -1,0 +1,47 @@
+﻿capital = 613
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+
+set_politics = {
+
+	parties = {
+		authoritarian = { 
+			popularity = 41
+			banned = yes
+		}
+
+		fascism = {
+			popularity = 35
+			banned = yes
+		}
+		
+		monarchism = {
+			popularity = 24
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Council of Ten"
+	desc = "POLITICS_COUNCIL_of_TEN_DESC"
+	picture = "Portrait_NSC_Council_of_Ten.dds"
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = {
+		#
+	}
+}

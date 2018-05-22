@@ -1,0 +1,52 @@
+﻿capital = 81
+
+#oob = "WAL_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+
+set_politics = {
+
+	parties = {
+		conservatism = { 
+			popularity = 73
+		}
+		
+		fascism = { 
+			popularity = 22
+		}
+		
+		liberalism = { 
+			popularity = 5
+		}
+		
+		communism = { 
+			popularity = 0
+		}
+	}
+	
+	ruling_party = conservatism
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+#The Drăculești Royal House
+
+create_country_leader = {
+	name = "King Petru XI"
+	desc = "POLITICS_PETRU_XI_DESC"
+	picture = "Portrait_WAL_Petru_XI.dds"
+	expire = "1965.1.1"
+	ideology = sub_conservatism
+	traits = {
+		#
+	}
+}

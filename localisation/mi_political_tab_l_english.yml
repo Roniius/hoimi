@@ -1,0 +1,30 @@
+﻿l_english:
+ laws_1:0 "Laws"
+ cabinet:0 "Cabinet"
+ head_of_government:0 "Head of Government"
+ chief_of_staff:0 "Chief of Staff"
+ head_of_judiciary:0 "Head of Judiciary"
+ defense_minister:0 "Defense Minister"
+ foreign_minister:0 "Foreign Minister"
+ economic_minister:0 "Economic Minister"
+ cabinet2:0 "Cabinet"
+ intelligence_minister:0 "Intelligence Minister"
+ construction_minister:0 "Construction Minister"
+ 
+ can_replace_hog:0 "Can Replace Head of Government"
+ ministers_cannot_be_replaced:0 "Ministers Cannot Be Replaced"
+ can_replace_hog:0 "Can Replace Head of Government"
+ 
+ can_replace_cos:0 "Can Replace Chief of Staff"
+ 
+ can_replace_hoj:0 "Can Replace Head of Judiciary"
+ 
+ can_replace_dm:0 "Can Replace Defense Minister"
+ 
+ can_replace_fm:0 "Can Replace Foreign Minister"
+ 
+ can_replace_im:0 "Can Replace Intelligence Minister"
+ 
+ can_replace_cm:0 "Can Replace Construction Minister"
+ 
+ can_replace_em:0 "Can Replace Economic Minister"

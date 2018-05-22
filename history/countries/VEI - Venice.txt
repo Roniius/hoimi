@@ -1,0 +1,53 @@
+﻿capital = 160
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+
+set_politics = {
+
+	parties = {
+		monarchism = { 
+			popularity = 20
+		}
+		
+		fascism = { 
+			popularity = 14
+		}
+		
+		conservatism = { 
+			popularity = 24
+		}
+		
+		liberalism = { 
+			popularity = 29
+		}
+		
+		mod_ordaism = { 
+			popularity = 13
+		}
+	}
+	
+	ruling_party = monarchism
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Emperor Orso II"
+	desc = "POLITICS_ORSO_II_DESC"
+	picture = "Portrait_VEI_Orso_II.dds"
+	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		#
+	}
+}

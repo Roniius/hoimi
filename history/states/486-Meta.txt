@@ -1,0 +1,20 @@
+
+state={
+	id=486
+	name="STATE_486"
+
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		2007 12729 12770 12825 
+	}
+	manpower=213160
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

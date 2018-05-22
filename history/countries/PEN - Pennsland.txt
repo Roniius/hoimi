@@ -1,0 +1,59 @@
+﻿capital = 363
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+
+set_politics = {
+
+	parties = {
+		conservatism = { 
+			popularity = 20
+		}
+		
+		authoritarian = { 
+			popularity = 47
+		}
+		
+		monarchism = { 
+			popularity = 0
+		}
+		
+		fascism = { 
+			popularity = 0
+		}
+		
+		communism = { 
+			popularity = 0
+		}
+		
+		liberalism = { 
+			popularity = 33
+		}
+		
+		mod_ordaism = { 
+			popularity = 0
+		}
+	}
+	
+	ruling_party = authoritarian
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Robert Baden-Powell"
+	desc = "POLITICS_ROBERT_BADEN_POWELL_DESC"
+	picture = "Portrait_PEN_Robert_Baden_Powell.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

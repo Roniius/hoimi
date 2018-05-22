@@ -1,0 +1,32 @@
+
+state={
+	id=28
+	name="STATE_28"
+	resources={
+		steel=100.000
+	}
+
+	history={
+		victory_points = {
+			678 5 
+		}
+		victory_points = {
+			9503 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			anti_air_building = 5
+			air_base = 5
+
+		}
+
+	}
+
+	provinces={
+		549 678 1346 6529 9503 
+	}
+	manpower=1915600
+	buildings_max_level_factor=1.000
+	state_category=city
+}

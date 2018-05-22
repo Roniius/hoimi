@@ -1,0 +1,47 @@
+
+state={
+	id=672
+	name="STATE_672"
+	resources={
+		rubber=75.000
+		oil=10.000
+		aluminium=8.000
+	}
+
+	history={
+		owner = SUM
+		add_core_of = SUM
+		victory_points = {
+			4652 1 
+		}
+		victory_points = {
+			12268 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+			4652 = {
+				naval_base = 3
+
+			}
+			1648 = {
+				naval_base = 1
+
+			}
+			12268 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1277 1332 1345 1373 1460 1533 1648 4364 4381 4446 4652 7327 7463 7658 7673 8360 10209 10225 10294 10354 10382 10509 10522 12126 12168 12181 12184 12212 12268 12302 12343 12488 
+	}
+	manpower=6331600
+	buildings_max_level_factor=1.000
+	state_category=city
+}

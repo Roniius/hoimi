@@ -1,0 +1,47 @@
+﻿capital = 745
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+}
+
+set_politics = {
+
+	parties = {
+		mod_ordaism = { 
+			popularity = 14
+			banned = yes
+		}
+
+		liberalism = {
+			popularity = 7
+			banned = yes
+		}
+		
+		monarchism = {
+			popularity = 79
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Emperor Hulagu"
+	desc = "POLITICS_EMPEROR_HULAGU_DESC"
+	picture = "Portrait_MAN_Hulagu.dds"
+	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		#
+	}
+}

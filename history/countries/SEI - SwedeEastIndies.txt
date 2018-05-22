@@ -1,0 +1,47 @@
+﻿capital = 767
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+
+set_politics = {
+
+	parties = {
+		authoritarian = { 
+			popularity = 13
+			banned = yes
+		}
+		
+		communism = {
+			popularity = 60
+			#banned = no #default is no
+		}
+		
+		mod_ordaism = {
+			popularity = 27
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Ludvig Hammarskiöld"
+	desc = "POLITICS_LUDVIG_HAMMARSKIOLD_DESC"
+	picture = "Portrait_SEI_Ludvig_Hammarskiold.dds"
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = {
+		#
+	}
+}

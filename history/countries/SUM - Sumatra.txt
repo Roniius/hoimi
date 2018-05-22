@@ -1,0 +1,47 @@
+﻿capital = 672
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+
+set_politics = {
+
+	parties = {
+		monarchism = { 
+			popularity = 76
+			banned = yes
+		}
+		
+		mod_ordaism = {
+			popularity = 21
+			#banned = no #default is no
+		}
+		
+		liberalism = {
+			popularity = 3
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Syarif Qasim II"
+	desc = "POLITICS_SYARIF_QASIM_II_DESC"
+	picture = "Portrait_SUM_Syarif_Qasim_II.dds"
+	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		#
+	}
+}

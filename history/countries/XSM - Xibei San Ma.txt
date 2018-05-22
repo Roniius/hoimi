@@ -1,0 +1,47 @@
+﻿capital = 604
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+
+set_politics = {
+
+	parties = {
+		authoritarian = { 
+			popularity = 44
+			banned = yes
+		}
+		
+		fascism = {
+			popularity = 21
+			#banned = no #default is no
+		}
+		
+		monarchism = {
+			popularity = 35
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Ma Bufang"
+	desc = "POLITICS_MA_BUFANG_DESC"
+	picture = "Portrait_XSM_Ma_Bufang.dds"
+	expire = "1965.1.1"
+	ideology = militaryreign
+	traits = {
+		#
+	}
+}

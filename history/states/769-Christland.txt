@@ -1,0 +1,20 @@
+state={
+	id=769
+	name="STATE_769"
+	provinces={
+		185 567 3152 3174 3525 6201 6222 6322 9240 9317 9340 11291 11426 
+	}
+	history = {
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = TEU
+		owner = TEU
+	}
+	manpower=124236
+	buildings_max_level_factor=1.000
+	state_category=town
+}

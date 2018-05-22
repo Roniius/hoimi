@@ -1,0 +1,26 @@
+
+state={
+	id=395
+	name="STATE_395"
+
+	history={
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 11
+			air_base = 3
+
+		}
+		victory_points = {
+			9450 30.0 
+		}
+
+	}
+
+	provinces={
+		720 954 1604 1655 4508 7611 7626 7831 9682 10457 10461 12305 12497 12697 
+	}
+	manpower=7630651
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

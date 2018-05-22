@@ -1,0 +1,19 @@
+state={
+	id=763
+	name="STATE_763"
+	provinces={
+		1735 4782 4853 7802 7876 10570 10699 12523 
+	}
+	
+	history={
+		buildings = {
+			infrastructure = 4
+		}
+		owner = EAF
+		add_core_of = EAF
+	}
+	
+	manpower=14005
+	buildings_max_level_factor=1.000
+	state_category=town
+}

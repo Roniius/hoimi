@@ -1,0 +1,45 @@
+﻿capital = 104
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+
+set_politics = {
+
+	parties = {
+		
+		authoritarian = { 
+			popularity = 56
+		}
+		
+		communism = { 
+			popularity = 40
+		}
+		
+		fascism = { 
+			popularity = 4
+		}
+	}
+	
+	ruling_party = authoritarian
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Muhamed Hadžiefendić"
+	desc = "POLITICS_MUHAMED_HADZIEFENDIC_DESC"
+	picture = "Portrait_BOS_Muhamed_Hadziefendic.dds"
+	expire = "1965.1.1"
+	ideology = militaryreign
+	traits = {
+		#
+	}
+}

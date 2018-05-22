@@ -1,0 +1,26 @@
+
+state={
+	id=736
+	name="STATE_736"
+
+	history={
+		add_core_of = VEI
+		owner = VEI
+		buildings = {
+			infrastructure = 2
+			11735 = {
+				naval_base = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		599 3631 6626 9627 11595 11735 
+	}
+	manpower=1063159
+	buildings_max_level_factor=1.000
+	state_category=city
+}

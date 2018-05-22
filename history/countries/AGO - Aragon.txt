@@ -1,0 +1,46 @@
+﻿capital = 165
+
+puppet = AWI
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+
+set_politics = {
+
+	parties = {
+		conservatism = { 
+			popularity = 45
+		}
+		
+		monarchism = { 
+			popularity = 10
+		}
+		
+		liberalism = { 
+			popularity = 45
+		}
+	}
+	
+	ruling_party = conservatism
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "King Martin II"
+	desc = "POLITICS_MARTIN_II_DESC"
+	picture = "Portrait_AGO_Martin_II.dds"
+	expire = "1965.1.1"
+	ideology = sub_conservatism
+	traits = {
+		#
+	}
+}

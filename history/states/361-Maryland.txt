@@ -1,0 +1,39 @@
+
+state={
+	id=361
+	name="STATE_361"
+
+	history={
+		owner = PEN
+		victory_points = {
+			3957 40 
+		}
+		victory_points = {
+			6984 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			dockyard = 1
+			air_base = 6
+			6984 = {
+				naval_base = 2
+
+			}
+			3957 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = PEN
+
+	}
+
+	provinces={
+		3917 6892 9786 
+	}
+	manpower=2118394
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,43 @@
+﻿capital = 524
+
+
+set_politics = {
+
+	parties = {
+		mod_ordaism = { 
+			popularity = 20
+			banned = yes
+		}
+		
+		communism = { 
+			popularity = 20
+			banned = yes
+		}
+
+		liberalism = {
+			popularity = 25
+			banned = yes
+		}
+		
+		authoritarian = {
+			popularity = 45
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Boal Yuan"
+	desc = "POLITICS_BOAL_YUAN_DESC"
+	picture = "Portrait_TAI_Boal_Yuan.dds"
+	expire = "1965.1.1"
+	ideology = militaryreign
+	traits = {
+		#
+	}
+}

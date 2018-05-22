@@ -1,0 +1,50 @@
+﻿capital = 47
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+
+set_politics = {
+
+	parties = {
+		monarchism = { 
+			popularity = 33
+		}
+		
+		fascism = { 
+			popularity = 33
+		}
+		
+		liberalism = { 
+			popularity = 32
+		}
+		
+		communism = { 
+			popularity = 2
+		}
+	}
+	
+	ruling_party = monarchism
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+#The Palaiologos Royal House
+
+create_country_leader = {
+	name = "Constantine XXI"
+	desc = "POLITICS_CONSTANTINE_XXI_DESC"
+	picture = "Portrait_GRE_Constantine_XXI.dds"
+	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		#
+	}
+}

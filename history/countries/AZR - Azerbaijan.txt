@@ -1,0 +1,5 @@
+﻿capital = 229 #Baku
+
+#oob = "AZR_1936"
+
+set_research_slots = 3

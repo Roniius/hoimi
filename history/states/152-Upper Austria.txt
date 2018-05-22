@@ -1,0 +1,28 @@
+
+state={
+	id=152
+	name="STATE_152"
+	resources={
+		steel=5.000
+		aluminium=1.000
+	}
+
+	history={
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+
+		}
+		victory_points = {
+			688 10 
+		}
+
+	}
+
+	provinces={
+		688 3703 6708 
+	}
+	manpower=2275377
+	buildings_max_level_factor=1.000
+	state_category=city
+}

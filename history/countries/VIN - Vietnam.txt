@@ -1,0 +1,48 @@
+﻿capital = 671 #Hanoi
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+
+set_politics = {
+
+	parties = {
+		liberalism = { 
+			popularity = 25
+		}
+		conservatism = { 
+			popularity = 25
+		}
+		mod_ordaism = { 
+			popularity = 25
+		}
+		authoritarian = { 
+			popularity = 13
+		}
+		monarchism = { 
+			popularity = 12
+		}
+	}
+	
+	ruling_party = conservatism
+	last_election = "1932.4.2"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Emperor Bao Dai"
+	desc = "POLITICS_EMPEROR_BAO_DAI_DESC"
+	picture = "Portrait_VIN_Bao_Dai.dds"
+	expire = "1965.1.1"
+	ideology = sub_conservatism
+	traits = {
+		#
+	}
+}

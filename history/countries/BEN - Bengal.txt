@@ -1,0 +1,48 @@
+﻿capital = 430
+
+#oob = "DNG_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+}
+
+set_politics = {
+
+	parties = {
+		communism = { 
+			popularity = 74
+			banned = yes
+		}
+
+		mod_ordaism = {
+			popularity = 20
+			banned = yes
+		}
+		
+		fascism = {
+			popularity = 6
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Debendra Satyananda"
+	desc = "POLITICS_DEBENDRA_SATYANANDA_DESC"
+	picture = "Portrait_BEN_Debendra_Satyananda.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}

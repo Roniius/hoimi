@@ -1,0 +1,61 @@
+﻿capital = 496
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+
+set_politics = {
+
+	parties = {
+		conservatism = { 
+			popularity = 4
+		}
+		
+		authoritarian = { 
+			popularity = 72
+		}
+		
+		monarchism = { 
+			popularity = 0
+		}
+		
+		fascism = { 
+			popularity = 0
+		}
+		
+		communism = { 
+			popularity = 0
+		}
+		
+		liberalism = { 
+			popularity = 20
+		}
+		
+		mod_ordaism = { 
+			popularity = 4
+		}
+	}
+	
+	ruling_party = authoritarian
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Michael O'Ryan"
+	desc = "POLITICS_MICHAEL_O_RYAN_DESC"
+	picture = "Portrait_NCO_Michael_O_Ryan.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=600
+	name="STATE_600"
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+		victory_points = {
+			3992 3 
+		}
+
+	}
+
+	provinces={
+		1053 1110 4083 4156 4183 7004 7172 7199 9942 9984 10057 10501 11961 11988 12030 12495 13141 
+	}
+	manpower=15820400
+	buildings_max_level_factor=1.000
+	state_category=town
+}

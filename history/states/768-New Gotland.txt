@@ -1,0 +1,28 @@
+state={
+	id=768
+	name="STATE_768"
+	provinces={
+		 1316 2170 4335 4409 7227 10282 12955 
+	}
+	
+	history={
+		owner = SEI
+		add_core_of = SEI
+		victory_points = {
+			1316 10
+		}
+		buildings = {
+			infrastructure = 2
+			1316 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+	
+	manpower=21434
+	state_category=town
+	buildings_max_level_factor=1.000
+}

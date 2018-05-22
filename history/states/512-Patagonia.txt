@@ -1,0 +1,29 @@
+
+state={
+	id=512
+	name="STATE_512"
+	resources={
+		oil=5.000
+	}
+
+	history={
+		owner = CHL
+		buildings = {
+			infrastructure = 3
+			10953 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = CHL
+
+	}
+
+	provinces={
+		2169 5173 8161 8176 10953 10981 11005 12349 12946 12952 12982 
+	}
+	manpower=226638
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

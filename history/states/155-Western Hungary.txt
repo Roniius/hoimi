@@ -1,0 +1,31 @@
+
+state={
+	id=155
+	name="STATE_155"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = DAN
+		add_core_of = DAN
+		victory_points = {
+			11610 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 3
+
+		}
+
+	}
+
+	provinces={
+		684 716 3680 6670 6685 6700 6716 9624 9643 9660 11610 11625 
+	}
+	manpower=2197605
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,38 @@
+﻿capital = 282
+
+
+set_politics = {
+
+	parties = {
+		fascism = { 
+			popularity = 5
+			banned = yes
+		}
+
+		liberalism = {
+			popularity = 5
+			banned = yes
+		}
+		
+		monarchism = {
+			popularity = 90
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Emperor Taishō"
+	desc = "POLITICS_EMPEROR_TAISHO_DESC"
+	picture = "Portrait_JAP_Taisho.dds"
+	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		#
+	}
+}

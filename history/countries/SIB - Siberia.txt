@@ -1,0 +1,64 @@
+﻿capital = 578
+
+#oob = "SIB_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+
+set_politics = {
+
+	parties = {
+		mod_ordaism = { 
+			popularity = 20
+			banned = yes
+		}
+
+		liberalism = {
+			popularity = 5
+			banned = yes
+		}
+		
+		conservatism = {
+			popularity = 20
+			banned = yes
+		}
+		
+		fascism = {
+			popularity = 13
+			#banned = no #default is no
+		}
+		
+		communism = {
+			popularity = 12
+			#banned = no #default is no
+		}
+		
+		authoritarian = {
+			popularity = 30
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = mod_ordaism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Aysen Ibragimov"
+	desc = "POLITICS_AYSEN_IBRAGIMOV_DESC"
+	picture = "Portrait_SIB_Aysen_Ibragimov.dds"
+	expire = "1965.1.1"
+	ideology = engelism
+	traits = {
+		#
+	}
+}
