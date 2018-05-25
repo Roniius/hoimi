@@ -1,0 +1,59 @@
+﻿capital = 358
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+
+set_politics = {
+
+	parties = {
+		conservatism = { 
+			popularity = 47
+		}
+		
+		authoritarian = { 
+			popularity = 0
+		}
+		
+		monarchism = { 
+			popularity = 0
+		}
+		
+		fascism = { 
+			popularity = 0
+		}
+		
+		communism = { 
+			popularity = 0
+		}
+		
+		liberalism = { 
+			popularity = 49
+		}
+		
+		mod_ordaism = { 
+			popularity = 4
+		}
+	}
+	
+	ruling_party = liberalism
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Prince Diederick, Duke of Holland"
+	desc = "POLITICS_PRINCE_DIEDERICK_DESC"
+	picture = "Portrait_BUR_Prince_Diederick.dds"
+	expire = "1965.1.1"
+	ideology = sub_liberalism
+	traits = {
+		#
+	}
+}

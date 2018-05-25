@@ -611,6 +611,10 @@ PEN = {
 	color = rgb { 198  48  39 }
 	color_ui = rgb { 119  48  39 }
 }
+BUR = {
+	color = rgb { 159 51 0  }
+	color_ui = rgb { 159 51 0  }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

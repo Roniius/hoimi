@@ -1,0 +1,24 @@
+ideas = {
+	country = {
+		MON_a_thirst_for_democracy = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = -0.05
+				#conscription = -0.006
+			}
+		}
+	}
+}
