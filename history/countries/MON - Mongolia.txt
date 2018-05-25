@@ -17,6 +17,8 @@ add_ideas = {
 	MON_jamtsangiin_ochirbat_im
 	MON_ukhnaagiin_bagabandi_cm
 	MON_ukhnaagiin_bagabandi_em
+
+	MON_a_thirst_for_democracy
 }
 
 set_politics = {

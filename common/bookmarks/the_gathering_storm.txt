@@ -11,7 +11,7 @@ bookmarks = {
 			history = "MON_MONGOLII_IMPERIUM_DESC"
 			ideology = monarchism
 			ideas = {
-				
+				MON_a_thirst_for_democracy
 			}
 			focuses = {
 				

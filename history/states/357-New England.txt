@@ -9,7 +9,8 @@ state={
 
 
 	history={
-		owner = USA
+		owner = BUR
+		add_core_of = BUR
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
@@ -26,7 +27,6 @@ state={
 			}
 
 		}
-		add_core_of = USA
 		victory_points = {
 			6732 20 
 		}

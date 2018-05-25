@@ -4,6 +4,8 @@ state={
 	name="STATE_276"
 
 	history={
+		owner = BUR
+		add_core_of = BUR
 		buildings = {
 			infrastructure = 7
 			arms_factory = 2
