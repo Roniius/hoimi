@@ -1,4 +1,4 @@
-﻿capital = 11
+﻿capital = 137
 
 set_technology = {
 	infantry_weapons = 1
@@ -17,42 +17,42 @@ set_politics = {
 		}
 		
 		authoritarian = { 
-			popularity = 83
+			popularity = 0
 		}
 		
 		monarchism = { 
-			popularity = 1
+			popularity = 0
 		}
 		
 		fascism = { 
-			popularity = 1
+			popularity = 0
 		}
 		
 		communism = { 
-			popularity = 3
+			popularity = 0
 		}
 		
 		liberalism = { 
-			popularity = 12
+			popularity = 62
 		}
 		
 		mod_ordaism = { 
-			popularity = 0
+			popularity = 38
 		}
 	}
 	
-	ruling_party = authoritarian
+	ruling_party = liberalism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "King-Lord Vytautas V"
-	desc = "POLITICS_VYTAUTAS_V_DESC"
-	picture = "Portrait_LIT_Vytautas_V.dds"
+	name = "Noman Çelebicihan"
+	desc = "POLITICS_NOMAN_CELEBICIHAN_DESC"
+	picture = "Portrait_TAT_Noman_Celebicihan.dds"
 	expire = "1965.1.1"
-	ideology = militaryreign
+	ideology = sub_liberalism
 	traits = {
 		#
 	}

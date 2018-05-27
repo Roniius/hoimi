@@ -9,6 +9,9 @@ state={
 			air_base = 3
 
 		}
+		
+		owner = LIT
+		add_core_of = LIT
 
 	}
 

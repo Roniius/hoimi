@@ -615,6 +615,10 @@ BUR = {
 	color = rgb { 159 51 0  }
 	color_ui = rgb { 159 51 0  }
 }
+TAT = {
+	color = rgb { 124  120  71 }
+	color_ui = rgb { 124  120  71 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

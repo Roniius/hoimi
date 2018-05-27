@@ -8,11 +8,13 @@ state={
 			infrastructure = 5
 
 		}
+		owner = LIT
+		add_core_of = LIT
 
 	}
 
 	provinces={
-		304 331 360 386 3293 3350 6319 6373 9249 
+		304 331 360 386 3293 3350 6373 
 	}
 	manpower=1041084
 	buildings_max_level_factor=1.000
