@@ -15,11 +15,13 @@ state={
 			air_base = 8
 
 		}
+		owner = BLR
+		add_core_of = BLR
 
 	}
 
 	provinces={
-		489 504 525 582 3494 6497 9465 9543 11557 
+		489 582 3584 9437 11557 
 	}
 	manpower=2495352
 	buildings_max_level_factor=1.000

@@ -2,18 +2,20 @@
 state={
 	id=224
 	name="STATE_224"
-	manpower = 1707567
-	
-	state_category = town
 
-	history = {
+	history={
 		buildings = {
 			infrastructure = 5
 			air_base = 2
+
 		}
+
 	}
 
 	provinces={
-		288 315 343 371 398 3226 3306 3335 3364 3390 6305 6330 6386 6411 11229 11298 11325 
+		288 343 398 3226 3306 3335 3364 3390 6305 6330 6386 6411 
 	}
+	manpower=1707567
+	buildings_max_level_factor=1.000
+	state_category=town
 }
