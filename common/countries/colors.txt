@@ -34,16 +34,16 @@ CZE = {	color = rgb { 54 167 156 }
 		color_ui = rgb { 70 217 203 }
 }
 POL = {
-	color = rgb { 197 92 106 }
-	color_ui = rgb { 255 120 138 }
+	color = rgb { 181  85  97 }
+	color_ui = rgb { 181  85  97 }
 }
 AUS = {
 	color = rgb { 26  128  239 }
 	color_ui = rgb { 26  128  239 }
 }
 LIT = {
-	color = rgb { 219 219 119 }
-	color_ui = rgb { 255 255 155 }
+	color = rgb { 158  109  79 }
+	color_ui = rgb { 158  109  79 }
 }
 EST = {
 	color = rgb { 50 135 175 }
@@ -419,8 +419,8 @@ MNT = {
 }
 
 BLR = {
-	color = rgb { 180 220 190 }
-	color_ui = rgb { 180 220 190 }
+	color = rgb { 206 142 103 }
+	color_ui = rgb { 206 142 103 }
 }
 MAN = {
 	color = rgb { 132 131 173 }
@@ -618,6 +618,10 @@ BUR = {
 TAT = {
 	color = rgb { 124  120  71 }
 	color_ui = rgb { 124  120  71 }
+}
+GNA = {
+	color = rgb { 151  216  244 }
+	color_ui = rgb { 151  216  244 }
 }
 D01 = {
 	color = rgb { 200 100 31 }

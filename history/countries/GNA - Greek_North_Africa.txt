@@ -1,0 +1,60 @@
+﻿capital = 451
+
+#oob = "GNR_1936"
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+set_politics = {
+
+	parties = {
+		conservatism = { 
+			popularity = 20
+		}
+		
+		authoritarian = { 
+			popularity = 41
+		}
+		
+		monarchism = { 
+			popularity = 9
+		}
+		
+		fascism = { 
+			popularity = 7
+		}
+		
+		communism = { 
+			popularity = 15
+		}
+		
+		liberalism = { 
+			popularity = 23
+		}
+		
+		mod_ordaism = { 
+			popularity = 5
+		}
+	}
+	
+	ruling_party = authoritarian
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Kyros Papagos"
+	desc = "POLITICS_KYROS_PAPAGOS_DESC"
+	picture = "Portrait_GNA_Kyros_Papagos.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

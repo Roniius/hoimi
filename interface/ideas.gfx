@@ -3673,4 +3673,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/MON/MON_ukhnaagiin_bagabandi.dds"
 	}
 	
+	#Mongolian NatSpirits
+	
+	spriteType = {
+		name = "GFX_idea_MON_a_thirst_for_democracy"
+		texturefile = "gfx/interface/ideas/MON/MON_thirst_for_democracy.dds"
+	}
+	
 }

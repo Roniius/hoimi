@@ -2,12 +2,10 @@
 state={
 	id=451
 	name="STATE_451"
-	manpower = 45628
-	
-	state_category = wasteland
 
 	history={
-		
+		owner = GNA
+		add_core_of = GNA
 		victory_points = {
 			1130 5 
 		}
@@ -16,11 +14,17 @@ state={
 			air_base = 4
 			1130 = {
 				naval_base = 6
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		1130 1204 4136 4151 7082 9992 10120 12094 
+		1130 1204 4136 4151 5078 7079 7082 9989 9992 10120 11967 12033 12091 12094 12764 
 	}
+	manpower=45628
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

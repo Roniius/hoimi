@@ -10,6 +10,8 @@ add_ideas = {
 	
 }
 
+puppet = GNA
+
 set_politics = {
 
 	parties = {
