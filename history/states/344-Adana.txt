@@ -2,11 +2,10 @@
 state={
 	id=344
 	name="STATE_344"
-	manpower = 727198
-	
-	state_category = town
 
 	history={
+		owner = KAR
+		add_core_of = KAR
 		victory_points = {
 			9893 3 
 		}
@@ -18,11 +17,17 @@ state={
 			industrial_complex = 2
 			11746 = {
 				naval_base = 3
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		806 886 3889 3921 6813 6956 9893 11746 11810 
+		886 921 3921 6888 6956 6977 11746 
 	}
+	manpower=727198
+	buildings_max_level_factor=1.000
+	state_category=town
 }

@@ -57,6 +57,21 @@
  chongxism:0 "Chongxism"
  chongxism_desc:0 "Chongxism is a ideology based around the writings of Bai Chongxi. The ideology lays out his view of how the nation should be ran, with a mixed economy, strict traditional values."
  
+ #Hanseatic League
+ HAN_communism_party:0 "OPoTHL"
+ HAN_communism_party_long:0 "Ordaist Party of The Hanseatic League"
+ HAN_mod_ordaism_party:0 "WPPoTHL"
+ HAN_mod_ordaism_party_long:0 "Worker's People's Party of The Hanseatic Leauge"
+ HAN_liberalism_party:0 "UFFoTHL"
+ HAN_liberalism_party_long:0 "United Federal Front of The Hanseatic League"
+ HAN_conservatism_party:0 "PPoTHL"
+ HAN_conservatism_party_long:0 "People's Party of The Hanseatic League"
+ HAN_authoritarian_party:0 "NRHLA"
+ HAN_authoritarian_party_long:0  "National Republican Hanseatic League Army"
+ HAN_monarchism_party:0 "HMC"
+ HAN_monarchism_party_long:0 "Hanseatic Monarchist Council"
+ HAN_fascism_party:0 "HNWPF"
+ HAN_fascism_party_long:0 "Hanseatic National Worker's People's Front"
  
  ##Muscovy
  SOV_liberalism_party:0 "MLoLR"

@@ -76,3 +76,69 @@ create_country_leader = {
 		
 	}
 }
+
+create_country_leader = {
+	name = "Friedrich Naumann"
+	desc = "POLITICS_FRIEDRICH_NAUMANN_DESC"
+	picture = "Portrait_HAN_Friedrich_Naumann.dds"
+	expire = "1965.1.1"
+	ideology = sub_liberalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Julius Leber"
+	desc = "POLITICS_JULIUS_LEBER_DESC"
+	picture = "Portrait_HAN_Julius_Leber.dds"
+	expire = "1965.1.1"
+	ideology = engelism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Joachim von Ribbentrop"
+	desc = "POLITICS_JOACHIM_VON_RIBBENTROP_DESC"
+	picture = "Portrait_HAN_Joachim_von_Ribbentrop.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Friedrich Paulus"
+	desc = "POLITICS_FRIEDRICH_PAULUS_DESC"
+	picture = "Portrait_HAN_Friedrich_Paulus.dds"
+	expire = "1965.1.1"
+	ideology = militaryreign
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Hanseatic Monarchist Council"
+	desc = "POLITICS_HANSEATIC_MONARCHIST_COUNCIL_DESC"
+	picture = "Portrait_HAN_Hanseatic_Monarchist_Council.dds"
+	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Friedrich Syrup"
+	desc = "POLITICS_FRIEDRICH_SYRUP_DESC"
+	picture = "Portrait_HAN_Friedrich_Syrup.dds"
+	expire = "1965.1.1"
+	ideology = falangism
+	traits = {
+		
+	}
+}

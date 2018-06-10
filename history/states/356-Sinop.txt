@@ -12,6 +12,8 @@ state={
 			}
 
 		}
+		owner = RUM
+		add_core_of = RUM
 
 	}
 

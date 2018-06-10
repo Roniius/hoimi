@@ -1,0 +1,48 @@
+﻿capital = 343
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+
+set_politics = {
+
+	parties = {
+		conservatism = { 
+			popularity = 30
+		}
+		
+		fascism = { 
+			popularity = 10
+		}
+		
+		mod_ordaism = { 
+			popularity = 4
+		}
+		
+		liberalism = { 
+			popularity = 56
+		}
+	}
+	
+	ruling_party = liberalism
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Sultan Sevket II"
+	desc = "POLITICS_SEVKET_II_DESC"
+	picture = "Portrait_KAR_Sevket_II.dds"
+	expire = "1965.1.1"
+	ideology = sub_liberalism
+	traits = {
+		#
+	}
+}

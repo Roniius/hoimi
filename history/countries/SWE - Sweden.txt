@@ -41,7 +41,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Gustav V"
+	name = "Emperor Gustav V"
 	desc = "POLITICS_GUSTAV_V_DESC"
 	picture = "Portrait_SWE_Gustav_V.dds"
 	expire = "1965.1.1"

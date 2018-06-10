@@ -1,1 +1,58 @@
-﻿capital = 292
+﻿capital = 658
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+set_politics = {
+
+	parties = {
+		conservatism = { 
+			popularity = 0
+		}
+		
+		authoritarian = { 
+			popularity = 10
+		}
+		
+		monarchism = { 
+			popularity = 50
+		}
+		
+		fascism = { 
+			popularity = 25
+		}
+		
+		communism = { 
+			popularity = 10
+		}
+		
+		liberalism = { 
+			popularity = 5
+		}
+		
+		mod_ordaism = { 
+			popularity = 0
+		}
+	}
+	
+	ruling_party = monarchism
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Emir Ali"
+	desc = "POLITICS_EMIR_ALI_DESC"
+	picture = "Portrait_SAU_Emir_Ali.dds"
+	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,59 @@
+﻿capital = 550
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+set_stability = 0.25
+set_politics = {
+
+	parties = {
+		conservatism = { 
+			popularity = 10
+		}
+		
+		authoritarian = { 
+			popularity = 15
+		}
+		
+		monarchism = { 
+			popularity = 0
+		}
+		
+		fascism = { 
+			popularity = 0
+		}
+		
+		communism = { 
+			popularity = 0
+		}
+		
+		liberalism = { 
+			popularity = 5
+		}
+		
+		mod_ordaism = { 
+			popularity = 70
+		}
+	}
+	
+	ruling_party = mod_ordaism
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Mulugeta Yeggazu"
+	desc = "POLITICS_MULUGETA_YEGGAZU_DESC"
+	picture = "Portrait_BET_Mulugeta_Yeggazu.dds"
+	expire = "1965.1.1"
+	ideology = engelism
+	traits = {
+		#
+	}
+}

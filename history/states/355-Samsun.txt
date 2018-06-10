@@ -12,6 +12,8 @@ state={
 				naval_base = 3
 			}
 		}
+		owner = RUM
+		add_core_of = RUM
 	}
 
 	provinces={

@@ -6,7 +6,8 @@ state={
 	state_category = rural
 
 	history={
-		owner = USA
+		owner = HAI
+		add_core_of = HAI
 		victory_points = {
 			1440 1 
 		}

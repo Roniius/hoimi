@@ -1,1 +1,58 @@
 ﻿capital = 446
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+set_politics = {
+
+	parties = {
+		conservatism = { 
+			popularity = 20
+		}
+		
+		authoritarian = { 
+			popularity = 0
+		}
+		
+		monarchism = { 
+			popularity = 59
+		}
+		
+		fascism = { 
+			popularity = 0
+		}
+		
+		communism = { 
+			popularity = 0
+		}
+		
+		liberalism = { 
+			popularity = 21
+		}
+		
+		mod_ordaism = { 
+			popularity = 0
+		}
+	}
+	
+	ruling_party = monarchism
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Mohamed Tawfik Pasha"
+	desc = "POLITICS_MOHAMED_TAWFIK_PASHA_DESC"
+	picture = "Portrait_EGY_Mohamed_Tawfik_Pasha.dds"
+	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		#
+	}
+}

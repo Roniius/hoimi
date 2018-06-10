@@ -1,1 +1,58 @@
 ﻿capital = 294
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+set_politics = {
+
+	parties = {
+		conservatism = { 
+			popularity = 0
+		}
+		
+		authoritarian = { 
+			popularity = 0
+		}
+		
+		monarchism = { 
+			popularity = 46
+		}
+		
+		fascism = { 
+			popularity = 10
+		}
+		
+		communism = { 
+			popularity = 39
+		}
+		
+		liberalism = { 
+			popularity = 5
+		}
+		
+		mod_ordaism = { 
+			popularity = 0
+		}
+	}
+	
+	ruling_party = monarchism
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Taimur bin Feisal"
+	desc = "POLITICS_TAIMUR_BIN_FEISAL_DESC"
+	picture = "Portrait_OMA_Taimur_bin_Feisal.dds"
+	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		#
+	}
+}

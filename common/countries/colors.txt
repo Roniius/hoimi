@@ -130,8 +130,8 @@ BHU = {
 	color_ui = rgb { 172 122 88 }
 }
 BOL = {
-	color = hsv { 0.1 0.47 0.8 } #255 180 136
-	color_ui = rgb { 255 234 177 }
+	color = rgb { 0  121  52 } #255 180 136
+	color_ui = rgb { 0  121  52 }
 }
 BRA = {
 	color = rgb { 76 145 63 }
@@ -162,8 +162,8 @@ ECU = {
 	color_ui = rgb { 255 190 127 }
 }
 ELS = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 0  106  181 }
+	color_ui = rgb { 0  106  181 }
 }
 ETH = {
 	color = rgb { 152 130 191 }
@@ -226,8 +226,8 @@ SAF = {
 	color_ui = rgb { 198 169 248 }
 }
 SAU = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 127  221  0 }
+	color_ui = rgb { 127  221  0 }
 }
 SIA = {
 	color = rgb { 171 190 152 }
@@ -283,16 +283,16 @@ DOM = {
 	color_ui = rgb { 198 169 248 }
 }
 HAI = {
-	color = rgb { 174 113 113 }
-	color_ui = rgb { 174 113 113 }
+	color = rgb { 188  75  58 }
+	color_ui = rgb { 188  75  58 }
 }
 YEM = {
 	color = rgb { 155 101 107 }
 	color_ui = rgb { 202 131 139 }
 }
 OMA = {
-	color = rgb { 155 101 107 }
-	color_ui = rgb { 202 131 139 }
+	color = rgb { 188  0  7 }
+	color_ui = rgb { 188  0  7 }
 }
 SLO = {
 	color = rgb { 158  161  188 }
@@ -334,8 +334,8 @@ LBA = {
 }
 
 EGY = {
-	color = rgb { 230 230 70 }
-	color_ui = rgb { 230 230 70 }
+	color = rgb { 0 103 43 }
+	color_ui = rgb { 0 103 43 }
 }
 
 PAL = {
@@ -622,6 +622,26 @@ TAT = {
 GNA = {
 	color = rgb { 151  216  244 }
 	color_ui = rgb { 151  216  244 }
+}
+KAR = {
+	color = rgb { 0  0  85 }
+	color_ui = rgb { 0  0  85 }
+}
+RUM = {
+	color = rgb { 237  229  215 }
+	color_ui = rgb { 237  229  215 }
+}
+BET = {
+	color = rgb { 253  252  1 }
+	color_ui = rgb { 253  252  1 }
+}
+RET = {
+	color = rgb { 218  18  26 }
+	color_ui = rgb { 218  18  26 }
+}
+ABY = {
+	color = rgb { 7  137  48 }
+	color_ui = rgb { 7  137  48 }
 }
 D01 = {
 	color = rgb { 200 100 31 }
