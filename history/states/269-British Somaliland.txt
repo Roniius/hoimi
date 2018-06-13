@@ -4,7 +4,8 @@ state={
 	name="STATE_269"
 
 	history={
-		owner = ENG
+		owner = PSO
+		add_core_of = PSO
 		buildings = {
 			infrastructure = 3
 			12759 = {
@@ -17,9 +18,9 @@ state={
 	}
 
 	provinces={
-		1905 5068 8094 10833 10921 12759 12814 
+		1966 10891 10921 12759 12814 
 	}
 	manpower=344700
 	buildings_max_level_factor=1.000
-	state_category=enclave
+	state_category=town
 }

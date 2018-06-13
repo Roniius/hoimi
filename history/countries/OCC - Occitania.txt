@@ -10,6 +10,7 @@ add_ideas = {
 	limited_conscription
 	
 }
+puppet = CMO
 
 set_politics = {
 

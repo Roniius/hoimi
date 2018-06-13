@@ -12,6 +12,7 @@ add_ideas = {
 	limited_conscription
 	
 }
+puppet = PSO
 
 set_politics = {
 

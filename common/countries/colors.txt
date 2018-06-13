@@ -222,8 +222,8 @@ PRU = {
 	color_ui = rgb { 255 246 255 }
 }
 SAF = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 0  56  132 }
+	color_ui = rgb { 0  56  132 }
 }
 SAU = {
 	color = rgb { 127  221  0 }
@@ -642,6 +642,14 @@ RET = {
 ABY = {
 	color = rgb { 7  137  48 }
 	color_ui = rgb { 7  137  48 }
+}
+PSO = {
+	color = rgb { 153  204  51 }
+	color_ui = rgb { 153  204  51 }
+}
+CMO = {
+	color = rgb { 204  0  0 }
+	color_ui = rgb { 204  0  0 }
 }
 D01 = {
 	color = rgb { 200 100 31 }

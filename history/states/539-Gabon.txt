@@ -2,19 +2,18 @@
 state={
 	id=539
 	name="STATE_539"
-	manpower = 2564000
-	
-	state_category = rural
 	resources={
-		rubber=1 # was: 1
+		rubber=1.000
 	}
+
 	history={
-		owner = FRA
+		owner = CMO
+		add_core_of = CMO
 		victory_points = {
-			8193 2
+			8193 2 
 		}
 		victory_points = {
-			5139 1
+			5139 1 
 		}
 		buildings = {
 			infrastructure = 3
@@ -22,12 +21,17 @@ state={
 			air_base = 1
 			5139 = {
 				naval_base = 1
+
 			}
+
 		}
 
 	}
 
 	provinces={
-		2080 2192 3109 5036 5054 5139 6008 6039 8193 8207 9137 10948 11012 12975 
+		988 2080 2115 2192 3109 5054 5139 6008 7931 8048 8193 8207 10883 10948 10951 10968 11012 12741 12824 12975 
 	}
+	manpower=2564000
+	buildings_max_level_factor=1.000
+	state_category=city
 }
