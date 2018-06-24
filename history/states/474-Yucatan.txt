@@ -2,28 +2,31 @@
 state={
 	id=474
 	name="STATE_474"
-	manpower = 440289
-	
-	state_category = rural
 
 	history={
-		owner = MEX
+		owner = HON
+		add_core_of = HON
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 			air_base = 1
 			4904 = {
 				naval_base = 2
+
 			}
 			4965 = {
 				naval_base = 3
+
 			}
+
 		}
-		add_core_of = MEX
+
 	}
 
 	provinces={
-		4904 4965 12715 
+		12715 
 	}
-	
+	manpower=440289
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

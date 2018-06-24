@@ -70,8 +70,8 @@ YUG = {
 	color_ui = rgb { 94 95 164 }
 }
 SWI = {
-	color = rgb { 224 5 5 }
-	color_ui = rgb { 193 81 81 }
+	color = rgb { 252 241 4 }
+	color_ui = rgb { 252 241 4 }
 }
 TUR = {
 	color = rgb { 171 190 152 }
@@ -650,6 +650,26 @@ PSO = {
 CMO = {
 	color = rgb { 204  0  0 }
 	color_ui = rgb { 204  0  0 }
+}
+SCU = {
+	color = rgb { 182  255  181 }
+	color_ui = rgb { 182  255  181 }
+}
+NWN = {
+	color = rgb { 45  96  172 }
+	color_ui = rgb { 45  96  172 }
+}
+MLT = {
+	color = rgb { 207  20  43 }
+	color_ui = rgb { 207  20  43 }
+}
+BAV = {
+	color = rgb { 0  152  212 }
+	color_ui = rgb { 0  152  212 }
+}
+TYR = {
+	color = rgb { 50  137  37 }
+	color_ui = rgb { 50  137  37 }
 }
 D01 = {
 	color = rgb { 200 100 31 }

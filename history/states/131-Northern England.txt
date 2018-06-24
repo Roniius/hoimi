@@ -28,21 +28,14 @@ state={
 
 		}
 		add_core_of = ENG
-		1939.1.1 = {
-			buildings = {
-				dockyard = 5
-				industrial_complex = 2
-
-			}
-
-		}
+		
 
 	}
 
 	provinces={
 		219 351 3311 6399 9285 9314 11218 11270 11299 11332 11378 
 	}
-	manpower=2128860
+	manpower=9928860
 	buildings_max_level_factor=1.000
 	state_category=city
 }

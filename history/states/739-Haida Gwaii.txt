@@ -3,6 +3,8 @@ state={
 	name="STATE_739"
 
 	history={
+		owner = NWN
+		add_core_of = NWN
 		buildings = {
 			infrastructure = 1
 

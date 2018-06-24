@@ -4,6 +4,8 @@ state={
 	name="STATE_153"
 
 	history={
+		owner = TYR
+		add_core_of = TYR
 		victory_points = {
 			673 5 
 		}
@@ -17,7 +19,7 @@ state={
 	}
 
 	provinces={
-		673 3675 6678 6680 9633 9636 11618 11634 
+		3675 9633 11618 11634 
 	}
 	manpower=1655340
 	buildings_max_level_factor=1.000

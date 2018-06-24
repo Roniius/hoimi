@@ -4,7 +4,6 @@ state={
 	manpower=458
 	state_category = tiny_island
 	history= {
-		owner = ENG
 		buildings = {
 			infrastructure = 1
 			13013 = {

@@ -7,7 +7,8 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = SCU
+		add_core_of = SCU
 		victory_points = {
 			3369 5 
 		}
@@ -22,7 +23,6 @@ state={
 			}
 
 		}
-		add_core_of = ENG
 
 	}
 

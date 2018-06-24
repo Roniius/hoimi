@@ -4,10 +4,12 @@ state={
 	name="STATE_470"
 	manpower = 690800
 
-	state_category = rural
+	state_category = city
 
 
 	history={
+		owner = NWN
+		add_core_of = NWN
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1

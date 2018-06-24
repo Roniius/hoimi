@@ -1,19 +1,26 @@
-state=
-{
+
+state={
 	id=311
 	name="STATE_311"
-	manpower = 51000
-	
-	state_category = enclave
-	history=
-	{
-		owner = ENG
+
+	history={
+		owner = HON
+		add_core_of = HON
 		buildings = {
 			infrastructure = 4
 			2077 = {
 				naval_base = 1
+
 			}
+
 		}
+
 	}
-	provinces= { 2077 }
+
+	provinces={
+		2077 4965 
+	}
+	manpower=51000
+	buildings_max_level_factor=1.000
+	state_category=enclave
 }

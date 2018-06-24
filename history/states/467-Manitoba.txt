@@ -4,6 +4,8 @@ state={
 	name="STATE_467"
 
 	history={
+		owner = NWN
+		add_core_of = NWN
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

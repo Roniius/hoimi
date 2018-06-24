@@ -163,6 +163,9 @@
  BEL_monarchism_party:0 "Hohenstaufen"
  BEL_monarchism_party_long:0 "House of Hohenstaufen"
  
+ #Cantonese Republic
+ GXC_liberalism_party:0 "BFM"
+ GXC_liberalism_party_long:0 "The Black Flag Movement"
  
  
  
