@@ -4,6 +4,8 @@ state={
 	name="STATE_590"
 
 	history={
+		owner = GLD
+		add_core_of = GLD
 		buildings = {
 			infrastructure = 4
 

@@ -5,14 +5,13 @@ state={
 	
 	state_category = rural
 	
-	history=
-	{
-		owner = ROM
+	history= {
+		owner = MLD
+		add_core_of = MLD
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
 		}
-		add_core_of = ROM
 	}
 	provinces={
 		577 9548

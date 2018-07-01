@@ -1,3 +1,59 @@
 ﻿capital = 9
 
-#oob = "CZE_1936"
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+set_politics = {
+
+	parties = {
+		conservatism = { 
+			popularity = 22
+		}
+		
+		authoritarian = { 
+			popularity = 10
+		}
+		
+		monarchism = { 
+			popularity = 15
+		}
+		
+		fascism = { 
+			popularity = 7
+		}
+		
+		communism = { 
+			popularity = 7
+		}
+		
+		liberalism = { 
+			popularity = 20
+		}
+		
+		mod_ordaism = { 
+			popularity = 19
+		}
+	}
+	
+	ruling_party = conservatism
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+create_country_leader = {
+	name = "Zdeněk Fierlinger"
+	desc = "POLITICS_ZDENEK_FIERLINGER_DESC"
+	picture = "Portrait_CZE_Zdenek_Fierlinger.dds"
+	expire = "1965.1.1"
+	ideology = sub_conservatism
+	traits = {
+		#
+	}
+}

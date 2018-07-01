@@ -5,6 +5,8 @@ state={
 	state_category = small_island
 
 	history={
+		owner = NKL
+		add_core_of = NKL
 		buildings = {
 			infrastructure = 4
 			13010 = {

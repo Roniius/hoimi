@@ -11,6 +11,9 @@ state={
 	}
 
 	history={
+	
+		add_core_of = NOV
+		owner = NOV
 		buildings = {
 			infrastructure = 1
 			12530 = {

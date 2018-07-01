@@ -6,6 +6,8 @@ state={
 	}
 
 	history={
+		owner = KRL
+		add_core_of = KRL
 		buildings = {
 			infrastructure = 3
 

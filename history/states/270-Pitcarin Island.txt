@@ -5,8 +5,10 @@ state=
 	manpower = 40
 	state_category = enclave
 	
-	history=
-	{
+	history={
+	
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
 			infrastructure = 1
 			1280 = {

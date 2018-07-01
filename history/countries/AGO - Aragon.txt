@@ -1,6 +1,7 @@
 ﻿capital = 165
 
 puppet = AWI
+puppet = INS
 
 # Starting tech
 set_technology = {
@@ -32,6 +33,46 @@ set_politics = {
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+INS = {
+	set_politics = {
+
+		parties = {
+			conservatism = { 
+				popularity = 9
+			}
+		
+			authoritarian = { 
+				popularity = 51
+			}
+		
+			monarchism = { 
+				popularity = 5
+			}
+		
+			fascism = { 
+				popularity = 0
+			}
+		
+			communism = { 
+				popularity = 15
+			}
+		
+			liberalism = { 
+				popularity = 0
+			}
+		
+			mod_ordaism = { 
+				popularity = 20
+			}
+		}
+	
+		ruling_party = authoritarian
+		last_election = "1933.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
 }
 
 create_country_leader = {

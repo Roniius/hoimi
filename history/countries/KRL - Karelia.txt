@@ -1,0 +1,60 @@
+﻿capital = 216
+
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+set_politics = {
+
+	parties = {
+		conservatism = { 
+			popularity = 0
+		}
+		
+		authoritarian = { 
+			popularity = 0
+		}
+		
+		monarchism = { 
+			popularity = 0
+		}
+		
+		fascism = { 
+			popularity = 5
+		}
+		
+		communism = { 
+			popularity = 89
+		}
+		
+		liberalism = { 
+			popularity = 6
+		}
+		
+		mod_ordaism = { 
+			popularity = 0
+		}
+	}
+	
+	ruling_party = communism
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+create_country_leader = {
+	name = "Veikko Ahtisaari"
+	desc = "POLITICS_VEIKKO_AHTISAARI_DESC"
+	picture = "Portrait_KRL_Veikko_Ahtisaari.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}

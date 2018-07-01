@@ -7,12 +7,9 @@ state={
 	}
 
 	history={
-		victory_points = {
-			678 5 
-		}
-		victory_points = {
-			9503 5 
-		}
+		owner = ALS
+		add_core_of = ALS
+		
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3

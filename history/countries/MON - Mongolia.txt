@@ -48,6 +48,7 @@ set_politics = {
 
 puppet = NJA
 puppet = TAI
+puppet = MAL
 
 create_country_leader = {
 	name = "Batzorig Khan"

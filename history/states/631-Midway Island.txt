@@ -6,7 +6,8 @@ state=
 	state_category = tiny_island
 
 	history={
-		owner = USA
+		owner = BOL
+		add_core_of = BOL
 		buildings = {
 			infrastructure = 3
 			13052 = {

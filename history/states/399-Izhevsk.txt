@@ -3,12 +3,14 @@ state={
 	id=399
 	name="STATE_399"
 	manpower = 1324935
-	state_category = rural
+	state_category = city
 	resources={
 		chromium=18 # was: 24
 	}
 
 	history={
+		owner = GLD
+		add_core_of = GLD
 		buildings = {
 			infrastructure = 3
 		}

@@ -4,9 +4,9 @@ state=
 	name="STATE_638"
 	state_category = small_island
 	manpower=75153
-	history=
-	{
-		owner = USA
+	history = {
+		owner = TAI
+		add_core_of = TAI
 		buildings = {
 			infrastructure = 5
 			12140 = {

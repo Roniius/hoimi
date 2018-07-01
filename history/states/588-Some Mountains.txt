@@ -9,6 +9,8 @@ state={
 	}
 
 	history={
+		owner = GLD
+		add_core_of = GLD
 		buildings = {
 			infrastructure = 4
 

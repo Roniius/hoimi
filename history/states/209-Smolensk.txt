@@ -7,6 +7,8 @@ state={
 	state_category = town
 
 	history={
+		add_core_of = NOV
+		owner = NOV
 		buildings = {
 			infrastructure = 6
 			air_base = 4

@@ -4,8 +4,9 @@ state={
 	manpower=42	
 	state_category = tiny_island
 	
-	history=
-	{
+	history={
+		owner = AST
+		add_core_of = AST
 		buildings = {
 			infrastructure = 3
 			13002 = {

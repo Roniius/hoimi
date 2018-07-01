@@ -5,6 +5,8 @@ state={
 	state_category = rural
 
 	history={
+		owner = KRL
+		add_core_of = KRL
 		buildings = {
 			infrastructure = 4
 			air_base = 3

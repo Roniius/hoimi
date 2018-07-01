@@ -6,6 +6,8 @@ state={
 	state_category = city
 
 	history={
+		owner = SOV
+		add_core_of = SOV
 		buildings = {
 			infrastructure = 5
 			air_base = 1

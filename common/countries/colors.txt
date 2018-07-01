@@ -30,8 +30,9 @@ BEL = { color 	 = rgb { 127 0 0  }
 HOL = {	color = rgb { 203 138 74 }
 		color_ui = rgb { 255 179 96 }
 }
-CZE = {	color = rgb { 54 167 156 }
-		color_ui = rgb { 70 217 203 }
+CZE = {	
+	color = rgb { 186  43  26 }
+	color_ui = rgb { 186  43  26 }
 }
 POL = {
 	color = rgb { 181  85  97 }
@@ -369,8 +370,8 @@ ICE = {
 }
 
 UKR = {
-	color = rgb { 0  80  230 }
-	color_ui = rgb { 0  80  230 }	
+	color = rgb { 165  0  132 }
+	color_ui = rgb { 165  0  132 }	
 }
 
 AZR = {
@@ -670,6 +671,38 @@ BAV = {
 TYR = {
 	color = rgb { 50  137  37 }
 	color_ui = rgb { 50  137  37 }
+}
+ALS = {
+	color = rgb { 237 41 57 }
+	color_ui = rgb { 237 41 57 }
+}
+NOV = {
+	color = rgb { 0  91  153 }
+	color_ui = rgb { 0  91  153 }
+}
+KRL = {
+	color = rgb { 0  153  0 }
+	color_ui = rgb { 0  153  0 }
+}
+MLD = {
+	color = rgb { 176  0  0 }
+	color_ui = rgb { 176  0  0 }
+}
+GLD = {
+	color = rgb { 147  149  152 }
+	color_ui = rgb { 147  149  152 }
+}
+NKL = {
+	color = rgb { 212  33  61 }
+	color_ui = rgb { 212  33  61 }
+}
+SAX = {
+	color = rgb { 41  113  30 }
+	color_ui = rgb { 41  113  30 }
+}
+MLY = {
+	color = rgb { 255  131  122 }
+	color_ui = rgb { 255  131  122 }
 }
 D01 = {
 	color = rgb { 200 100 31 }

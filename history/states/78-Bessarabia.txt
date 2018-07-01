@@ -4,7 +4,8 @@ state={
 	name="STATE_78"
 
 	history={
-		owner = ROM
+		owner = MLD
+		add_core_of = MLD
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
@@ -16,7 +17,6 @@ state={
 			}
 
 		}
-		add_core_of = ROM
 
 	}
 

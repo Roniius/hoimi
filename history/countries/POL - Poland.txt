@@ -1,6 +1,7 @@
 ﻿capital = 10
 
 #oob = "POL_1936"
+puppet = NKL
 
 set_research_slots = 3
 

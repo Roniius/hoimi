@@ -1,0 +1,59 @@
+﻿capital = 60
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+set_politics = {
+
+	parties = {
+		conservatism = { 
+			popularity = 6
+		}
+		
+		authoritarian = { 
+			popularity = 50
+		}
+		
+		monarchism = { 
+			popularity = 12
+		}
+		
+		fascism = { 
+			popularity = 22
+		}
+		
+		communism = { 
+			popularity = 0
+		}
+		
+		liberalism = { 
+			popularity = 9
+		}
+		
+		mod_ordaism = { 
+			popularity = 1
+		}
+	}
+	
+	ruling_party = authoritarian
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+create_country_leader = {
+	name = "Karl von Einem"
+	desc = "POLITICS_KARL_VON_EINEM_DESC"
+	picture = "Portrait_SAX_Karl_von_Einem.dds"
+	expire = "1965.1.1"
+	ideology = militaryreign
+	traits = {
+		#
+	}
+}
