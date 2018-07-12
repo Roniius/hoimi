@@ -3,3 +3,62 @@
 #oob = "AZR_1936"
 
 set_research_slots = 3
+
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+set_politics = {
+
+	parties = {
+		conservatism = { 
+			popularity = 56
+		}
+		
+		authoritarian = { 
+			popularity = 0
+		}
+		
+		monarchism = { 
+			popularity = 2
+		}
+		
+		fascism = { 
+			popularity = 0
+		}
+		
+		communism = { 
+			popularity = 0
+		}
+		
+		liberalism = { 
+			popularity = 40
+		}
+		
+		mod_ordaism = { 
+			popularity = 3
+		}
+	}
+	
+	ruling_party = conservatism
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+create_country_leader = {
+	name = "Fatali Khan Khoyski"
+	desc = "POLITICS_FATALI_KHAN_KHOYSKI_DESC"
+	picture = "Portrait_AZR_Fatali_Khan_Khoyski.dds"
+	expire = "1965.1.1"
+	ideology = sub_conservatism
+	traits = {
+		#
+	}
+}

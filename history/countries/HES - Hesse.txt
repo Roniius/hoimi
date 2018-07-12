@@ -1,0 +1,60 @@
+﻿capital = 55
+
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+set_politics = {
+
+	parties = {
+		conservatism = { 
+			popularity = 25
+		}
+		
+		authoritarian = { 
+			popularity = 15
+		}
+		
+		monarchism = { 
+			popularity = 10
+		}
+		
+		fascism = { 
+			popularity = 10
+		}
+		
+		communism = { 
+			popularity = 16
+		}
+		
+		liberalism = { 
+			popularity = 0
+		}
+		
+		mod_ordaism = { 
+			popularity = 24
+		}
+	}
+	
+	ruling_party = conservatism
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+create_country_leader = {
+	name = "Grand Duke Frederick XI"
+	desc = "POLITICS_GRAND_DUKE_FREDERICK_XI_DESC"
+	picture = "Portrait_HES_Grand_Duke_Frederick_XI.dds"
+	expire = "1965.1.1"
+	ideology = sub_conservatism
+	traits = {
+		#
+	}
+}

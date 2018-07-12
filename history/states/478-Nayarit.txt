@@ -11,11 +11,9 @@ state={
 	}
 
 	history={
-		owner = MEX
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = MEX
 		victory_points = {
 			13089 1
 		}

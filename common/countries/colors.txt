@@ -115,8 +115,8 @@ HUN = {
 	color_ui = rgb { 255 164 127 }
 }
 AFG = {
-	color = rgb { 64 160 167 }
-	color_ui = rgb { 83 208 217 }
+	color = rgb { 99  153  138 }
+	color_ui = rgb { 99  153  138 }
 }
 ARG = {
 	color = rgb { 145 157 236 }
@@ -215,8 +215,8 @@ PER = {
 	color_ui = rgb { 92 147 126 }
 }
 PHI = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 153  123  78 }
+	color_ui = rgb { 153  123  78 }
 }
 PRU = {
 	color = rgb { 196 189 204 }
@@ -703,6 +703,42 @@ SAX = {
 MLY = {
 	color = rgb { 255  131  122 }
 	color_ui = rgb { 255  131  122 }
+}
+CAR = {
+	color = rgb { 42  127  255 }
+	color_ui = rgb { 42  127  255 }
+}
+SIL = {
+	color = rgb { 255  206  8 }
+	color_ui = rgb { 255  206  8 }
+}
+LOR = {
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 194 198 215 }
+}
+POT = {
+	color = rgb { 236 178 55 }
+	color_ui = rgb { 236 178 55 }
+}
+BRU = {
+	color = rgb { 0  0  204 }
+	color_ui = rgb { 0  0  204 }
+}
+HES = {
+	color = rgb { 124 90 153 }
+	color_ui = rgb { 124 90 153 }
+}
+ALA = {
+	color = rgb { 107  131  153 }
+	color_ui = rgb { 107  131  153 }
+}
+TEJ = {
+	color = rgb { 130  153  74 }
+	color_ui = rgb { 130  153  74 }
+}
+CAS = {
+	color = rgb { 153  126  138 }
+	color_ui = rgb { 153  126  138 }
 }
 D01 = {
 	color = rgb { 200 100 31 }

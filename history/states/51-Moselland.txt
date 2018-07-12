@@ -7,6 +7,8 @@ state={
 	}
 
 	history={
+		owner = LOR
+		add_core_of = LOR
 		victory_points = {
 			6469 10 
 		}
@@ -24,7 +26,7 @@ state={
 	}
 
 	provinces={
-		529 3512 6469 6570 9482 
+		529 6444 6570 9482 9486 
 	}
 	manpower=6144743
 	buildings_max_level_factor=1.000

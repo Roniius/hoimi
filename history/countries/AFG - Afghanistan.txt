@@ -1,3 +1,62 @@
 ﻿capital = 267
 
 #oob = "AFG_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+
+set_politics = {
+
+	parties = {
+		authoritarian = { 
+			popularity = 6
+		}
+		
+		communism = { 
+			popularity = 0
+		}
+		
+		mod_ordaism = { 
+			popularity = 0
+		}
+		
+		conservatism = { 
+			popularity = 23
+		}
+		
+		fascism = { 
+			popularity = 2
+		}
+		
+		monarchism = { 
+			popularity = 51
+		}
+		
+		liberalism = { 
+			popularity = 18
+		}
+	}
+	
+	ruling_party = monarchism
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Mohammed Alim Khan"
+	desc = "POLITICS_MOHAMMED_ALIM_KHAN_DESC"
+	picture = "Portrait_AFG_Mohammed_Alim_Khan.dds"
+	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		#
+	}
+}

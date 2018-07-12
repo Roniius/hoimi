@@ -4,6 +4,8 @@ state={
 	name="STATE_55"
 
 	history={
+		owner = HES
+		add_core_of = HES
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
@@ -17,7 +19,7 @@ state={
 	}
 
 	provinces={
-		564 3397 3524 6444 6488 6549 9486 9524 9547 11445 11533 11560 
+		3397 6488 6549 9524 11445 
 	}
 	manpower=3798235
 	buildings_max_level_factor=1.000

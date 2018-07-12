@@ -8,6 +8,8 @@ state={
 	}
 
 	history={
+		owner = CAR
+		add_core_of = CAR
 		buildings = {
 			infrastructure = 6
 			arms_factory = 4

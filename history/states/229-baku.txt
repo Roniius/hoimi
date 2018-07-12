@@ -7,6 +7,8 @@ state={
 	}
 
 	history={
+		owner = AZR
+		add_core_of = AZR
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
