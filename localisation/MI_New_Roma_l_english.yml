@@ -1,4 +1,15 @@
 ﻿l_english:
  NRO_communism_party:0 "FoWFoNR"
  NRO_communism_party_long:0 "Front of Workers, and Farmers of New Roma"
- 
+ NRO_fascism_party:0 "NRLFoNU"
+ NRO_fascism_party_long:0 "New Roman Latin Front of National Unity"
+ NRO_monarchism_party:0 "RCoNR"
+ NRO_monarchism_party_long:0 "Royalist Council of New Roma"
+ NRO_authoritarianism_party:0 "Attanasio Clique"
+ NRO_authoritarianism_party_long:0 "Attanasio Military Clique"
+ NRO_liberalism_party:0 "Constitutional"
+ NRO_liberalism_party_long:0 "Constitutional Party of New Roma"
+ NRO_conservatism_party:0 "Federal-Orange"
+ NRO_conservatism_party_long:0 "The Federal-Orange Party of New Roma"
+ NRO_mod_ordaism_party:0 "NOFoNR"
+ NRO_mod_ordaism_party_long:0 "National Ordaist Front of New Roma"
