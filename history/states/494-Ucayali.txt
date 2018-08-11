@@ -4,6 +4,8 @@ state={
 	name="STATE_494"
 
 	history={
+		owner = AMZ
+		add_core_of = AMZ
 		buildings = {
 			infrastructure = 3
 
@@ -12,7 +14,7 @@ state={
 	}
 
 	provinces={
-		2198 2212 2226 5166 5216 8160 8191 10940 10960 
+		5166 5216 8160 8191 10940 10960 
 	}
 	manpower=735826
 	buildings_max_level_factor=1.000

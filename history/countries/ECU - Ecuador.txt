@@ -1,3 +1,61 @@
 ﻿capital = 305
 
 #oob = "ECU_1936"
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+set_politics = {
+
+	parties = {
+		conservatism = { 
+			popularity = 30
+		}
+		
+		authoritarian = { 
+			popularity = 0
+		}
+		
+		monarchism = { 
+			popularity = 0
+		}
+		
+		fascism = { 
+			popularity = 0
+		}
+		
+		communism = { 
+			popularity = 0
+		}
+		
+		liberalism = { 
+			popularity = 50
+		}
+		
+		mod_ordaism = { 
+			popularity = 20
+		}
+	}
+	
+	ruling_party = liberalism
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+create_country_leader = {
+	name = "Béraut Vidal"
+	desc = "POLITICS_BERAUT_VIDAL_DESC"
+	picture = "Portrait_ECU_Beraut_Vidal.dds"
+	expire = "1965.1.1"
+	ideology = sub_liberalism
+	traits = {
+		#
+	}
+}

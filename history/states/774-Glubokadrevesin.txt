@@ -1,0 +1,21 @@
+state={
+	id=774
+	name="STATE_774"
+	provinces={
+		7983 8071 10836 
+	}
+	
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+		owner = MAM
+		add_core_of = MAM
+
+	}
+	
+	manpower=234014
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

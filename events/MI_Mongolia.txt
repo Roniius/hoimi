@@ -1,0 +1,16 @@
+﻿add_namespace = mongolia
+
+#Opening Event for Mongolia
+country_event = {
+	id = mongolia.1
+	title = mongolia.1.t
+	desc = mongolia.1.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = mongolia.1.o1
+		
+	}
+}

@@ -1,0 +1,60 @@
+﻿capital = 459
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+
+set_politics = {
+
+	parties = {
+		conservatism = { 
+			popularity = 5
+		}
+		
+		mod_ordaism = { 
+			popularity = 15
+		}
+		
+		communism = { 
+			popularity = 30
+		}
+		
+		fascism = { 
+			popularity = 0
+		}
+		
+		authoritarian = { 
+			popularity = 20
+		}
+		
+		monarchism = { 
+			popularity = 10
+		}
+		
+		liberalism = { 
+			popularity = 20
+		}
+	}
+	
+	ruling_party = authoritarian
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Antonio Franco"
+	desc = "POLITICS_ANTONIO_FRANCO_DESC"
+	picture = "Portrait_AGM_Antonio_Franco.dds"
+	expire = "1965.1.1"
+	ideology = militaryreign
+	traits = {
+		#
+	}
+}

@@ -211,8 +211,8 @@ PAN = {
 	color_ui = rgb { 198 169 248 }
 }
 PER = {
-	color = rgb { 71 113 97 }
-	color_ui = rgb { 92 147 126 }
+	color = rgb { 255  204  51 }
+	color_ui = rgb { 255  204  51 }
 }
 PHI = {
 	color = rgb { 153  123  78 }
@@ -739,6 +739,30 @@ TEJ = {
 CAS = {
 	color = rgb { 153  126  138 }
 	color_ui = rgb { 153  126  138 }
+}
+ILK = {
+	color = rgb { 198  204  255 }
+	color_ui = rgb { 198  204  255 }
+}
+KAL = {
+	color = rgb { 255  151  86 }
+	color_ui = rgb { 255  151  86 }
+}
+AGM = {
+	color = rgb { 168  66  58 }
+	color_ui = rgb { 168  66  58 }
+}
+MAM = {
+	color = rgb { 0  168  165 }
+	color_ui = rgb { 0  168  165 }
+}
+SCK = {
+	color = rgb { 126  204  200 }
+	color_ui = rgb { 126  204  200 }
+}
+AMZ = {
+	color = rgb { 51  115  32 }
+	color_ui = rgb { 51  115  32 }
 }
 D01 = {
 	color = rgb { 200 100 31 }

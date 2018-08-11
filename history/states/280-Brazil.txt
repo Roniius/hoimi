@@ -4,6 +4,8 @@ state={
 	name="STATE_280"
 
 	history={
+		owner = AMZ
+		add_core_of = AMZ
 		buildings = {
 			infrastructure = 1
 

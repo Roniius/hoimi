@@ -1,0 +1,62 @@
+﻿capital = 233
+
+set_research_slots = 3
+
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+set_politics = {
+
+	parties = {
+		conservatism = { 
+			popularity = 0
+		}
+		
+		authoritarian = { 
+			popularity = 90
+		}
+		
+		monarchism = { 
+			popularity = 5
+		}
+		
+		fascism = { 
+			popularity = 0
+		}
+		
+		communism = { 
+			popularity = 3
+		}
+		
+		liberalism = { 
+			popularity = 0
+		}
+		
+		mod_ordaism = { 
+			popularity = 2
+		}
+	}
+	
+	ruling_party = authoritarian
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+create_country_leader = {
+	name = "Akpay Ahmadi"
+	desc = "POLITICS_AKPAY_AHMADI_DESC"
+	picture = "Portrait_ILK_Akpay_Ahmadi.dds"
+	expire = "1965.1.1"
+	ideology = militaryreign
+	traits = {
+		#
+	}
+}

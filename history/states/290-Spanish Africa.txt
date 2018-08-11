@@ -12,6 +12,8 @@ state={
 	}
 
 	history={
+		owner = AGM
+		add_core_of = AGM
 		victory_points = {
 			9945 5 
 		}

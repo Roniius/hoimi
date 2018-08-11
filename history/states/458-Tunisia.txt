@@ -9,7 +9,8 @@ state={
 	}
 
 	history={
-		owner = FRA
+		owner = AGM
+		add_core_of = AGM
 		victory_points = {
 			11969 10 
 		}

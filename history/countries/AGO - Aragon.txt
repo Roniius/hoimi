@@ -2,6 +2,7 @@
 
 puppet = AWI
 puppet = INS
+puppet = AGM
 
 # Starting tech
 set_technology = {

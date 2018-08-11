@@ -4,6 +4,8 @@ state={
 	name="STATE_306"
 
 	history={
+		owner = ECU
+		add_core_of = ECU
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1

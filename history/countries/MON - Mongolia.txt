@@ -25,17 +25,37 @@ set_politics = {
 
 	parties = {
 		communism = { 
-			popularity = 20
+			popularity = 2
 			banned = yes
+		}
+		
+		conservatism = { 
+			popularity = 0
+			banned = no
+		}
+		
+		mod_ordaism = { 
+			popularity = 5
+			banned = no
 		}
 
 		liberalism = {
-			popularity = 30
+			popularity = 31
+			banned = yes
+		}
+		
+		fascism = { 
+			popularity = 3
+			banned = yes
+		}
+		
+		authoritarian = { 
+			popularity = 0
 			banned = yes
 		}
 		
 		monarchism = {
-			popularity = 50
+			popularity = 59
 			#banned = no #default is no
 		}
 	}

@@ -1,0 +1,64 @@
+﻿capital = 494
+
+#oob = "PRS_1936"
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+
+
+set_politics = {
+
+	parties = {
+		authoritarian = { 
+			popularity = 10
+		}
+		
+		communism = { 
+			popularity = 10
+		}
+		
+		mod_ordaism = { 
+			popularity = 15
+		}
+		
+		conservatism = { 
+			popularity = 14
+		}
+		
+		fascism = { 
+			popularity = 5
+		}
+		
+		monarchism = { 
+			popularity = 23
+		}
+		
+		liberalism = { 
+			popularity = 23
+		}
+	}
+	
+	ruling_party = liberalism
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+#Walter Von Truchen
+create_country_leader = {
+	name = "King Walter I"
+	desc = "POLITICS_WALTER_VON_TRUCHEN_DESC"
+	picture = "Portrait_AMZ_Walter_Von_Truchen.dds"
+	expire = "1965.1.1"
+	ideology = sub_liberalism
+	traits = {
+		#
+	}
+}

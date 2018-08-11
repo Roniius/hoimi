@@ -1,0 +1,62 @@
+﻿capital = 217
+
+set_research_slots = 3
+
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	
+}
+set_politics = {
+
+	parties = {
+		conservatism = { 
+			popularity = 0
+		}
+		
+		authoritarian = { 
+			popularity = 41
+		}
+		
+		monarchism = { 
+			popularity = 1
+		}
+		
+		fascism = { 
+			popularity = 5
+		}
+		
+		communism = { 
+			popularity = 40
+		}
+		
+		liberalism = { 
+			popularity = 19
+		}
+		
+		mod_ordaism = { 
+			popularity = 3
+		}
+	}
+	
+	ruling_party = authoritarian
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+create_country_leader = {
+	name = "Xap Dvesha"
+	desc = "POLITICS_XAP_DVESHA_DESC"
+	picture = "Portrait_KAL_Xap_Dvesha.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

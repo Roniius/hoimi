@@ -3,8 +3,10 @@ state={
 	name="STATE_701"
 	manpower = 199520
 	
-	state_category = enclave
+	state_category = city
 	history={
+		owner = SCK
+		add_core_of = SCK
 		buildings = {
 			infrastructure = 3
 			4989 = {
