@@ -12,7 +12,14 @@ puppet = CAN
 
 add_ideas = {
 	limited_conscription
-	
+	IRE_patrick_pearse_hog
+	IRE_eoin_francis_cos
+	IRE_hugo_macneill_hoj
+	IRE_eoin_francis_dm
+	IRE_douglas_hyde_fm
+	IRE_liam_tobin_im
+	IRE_w_t_cosgrave_cm
+	IRE_w_t_cosgrave_em
 }
 
 set_politics = {
@@ -43,7 +50,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = conservatism
+	ruling_party = authoritarian
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -54,7 +61,7 @@ create_country_leader = {
 	desc = "POLITICS_HIGH_KING_IOAICHIM_DESC"
 	picture = "Portrait_IRE_HK_Ioaichim.dds"
 	expire = "1965.1.1"
-	ideology = sub_conservatism
+	ideology = despotism
 	traits = {
 		#
 	}

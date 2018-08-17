@@ -1,0 +1,52 @@
+﻿capital = 558
+
+#oob = "COG_1936"
+
+set_politics = {
+
+	parties = {
+		liberalism = { 
+			popularity = 14
+		}
+		
+		conservatism = { 
+			popularity = 13
+		}
+		
+		mod_ordaism = { 
+			popularity = 13
+		}
+		
+		authoritarian = { 
+			popularity = 15
+		}
+		
+		communism = { 
+			popularity = 24
+		}
+
+		fascism = {
+			popularity = 12
+		}
+		
+		monarchism = {
+			popularity = 9
+		}
+	}
+	
+	ruling_party = authoritarian
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Colonial Council"
+	desc = "POLITICS_COLONIAL_COUNCIL_DESC"
+	picture = "Portrait_FAF_Colonial_Council.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}

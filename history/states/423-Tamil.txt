@@ -11,6 +11,8 @@ state={
 	}
 
 	history={
+		owner = VIJ
+		add_core_of = VIJ
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1

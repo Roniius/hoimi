@@ -4,6 +4,8 @@ state={
 	name="STATE_479"
 
 	history={
+		owner = CAT
+		add_core_of = CAT
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

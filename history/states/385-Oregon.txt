@@ -4,6 +4,8 @@ state={
 	name="STATE_385"
 
 	history={
+		owner = FUR
+		add_core_of = FUR
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
@@ -21,7 +23,7 @@ state={
 	}
 
 	provinces={
-		505 528 1414 3471 3513 4274 4328 4347 4826 7398 7721 7865 10151 10305 10625 10687 11495 11733 12183 12553 
+		505 528 610 781 1414 3471 3513 3644 4274 4328 4331 4347 4826 6482 6665 6757 6772 7398 7721 7865 9730 10151 10305 10625 10687 11495 11733 12183 12553 
 	}
 	manpower=953785
 	buildings_max_level_factor=1.000

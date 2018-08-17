@@ -1,0 +1,94 @@
+﻿capital = 700
+
+#oob = "FRA_1936"
+
+set_research_slots = 1
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	CAS1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	basic_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	basic_battlecruiser = 1
+	early_carrier = 1
+	transport = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+}
+
+set_convoys = 300
+
+
+set_politics = {
+
+	parties = {
+		liberalism = { 
+			popularity = 0
+		}
+		
+		conservatism = { 
+			popularity = 0
+		}
+		
+		mod_ordaism = { 
+			popularity = 90
+		}
+		
+		authoritarian = { 
+			popularity = 5
+		}
+		
+		communism = { 
+			popularity = 5
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		monarchism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = authoritarian
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "J. B. de Carvalho Araújo"
+	desc = "POLITICS_J_B_DE_CARVALHO_ARAUJO_DESC"
+	picture = "Portrait_WAT_J_B_de_Carvalho_Araujo.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}

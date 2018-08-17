@@ -9,6 +9,8 @@ state={
 	}
 
 	history={
+		owner = FUR
+		add_core_of = FUR
 		buildings = {
 			infrastructure = 4
 

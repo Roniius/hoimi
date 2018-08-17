@@ -4,6 +4,8 @@ state={
 	name="STATE_544"
 
 	history={
+		owner = AAF
+		add_core_of = AAF
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -24,7 +26,7 @@ state={
 	}
 
 	provinces={
-		2120 2123 2159 2180 2193 2202 2217 5155 5164 5177 5212 10972 12935 12950 12971 
+		1874 2120 2123 2151 2159 2180 2193 2202 2216 2217 4851 5155 5164 5177 5212 7842 10929 10972 12935 12971 
 	}
 	manpower=4125000
 	buildings_max_level_factor=1.000

@@ -1,0 +1,52 @@
+﻿capital = 543
+
+#oob = "COG_1936"
+
+set_politics = {
+
+	parties = {
+		liberalism = { 
+			popularity = 2
+		}
+		
+		conservatism = { 
+			popularity = 0
+		}
+		
+		mod_ordaism = { 
+			popularity = 0
+		}
+		
+		authoritarian = { 
+			popularity = 4
+		}
+		
+		communism = { 
+			popularity = 94
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		monarchism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = authoritarian
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Salvador Batista"
+	desc = "POLITICS_SALVADOR_BATISTA_DESC"
+	picture = "Portrait_PMA_Salvador_Batista.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}

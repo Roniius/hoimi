@@ -6,6 +6,8 @@ state={
 	state_category = small_island
 
 	history={
+		owner = PMA
+		add_core_of = PMA
 		buildings = {
 			infrastructure = 3
 			13018 = {

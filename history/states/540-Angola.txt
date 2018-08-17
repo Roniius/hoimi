@@ -7,6 +7,8 @@ state={
 	}
 
 	history={
+		owner = IRS
+		add_core_of = IRS
 		buildings = {
 			infrastructure = 2
 			8248 = {
@@ -16,16 +18,13 @@ state={
 
 		}
 		victory_points = {
-			8248 1 
-		}
-		victory_points = {
-			10966 1 
+			10966 5 
 		}
 
 	}
 
 	provinces={
-		2126 5158 7548 8054 8138 8202 8219 8248 10966 10978 12391 12921 12958 12981 12985 
+		2126 5158 8138 8202 10966 10978 12391 12921 12958 12985 
 	}
 	manpower=3225000
 	buildings_max_level_factor=1.000

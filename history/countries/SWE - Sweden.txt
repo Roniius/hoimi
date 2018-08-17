@@ -3,6 +3,7 @@ puppet = SEI
 puppet = SUM
 puppet = NOR
 puppet = VLD
+puppet = COG
 
 # Starting tech
 set_technology = {

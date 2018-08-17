@@ -7,6 +7,8 @@ state={
 	}
 
 	history={
+		owner = FAF
+		add_core_of = FAF
 		buildings = {
 			infrastructure = 3
 			arms_factory = 0
@@ -24,7 +26,7 @@ state={
 	}
 
 	provinces={
-		1891 1932 1969 1992 2025 4889 4938 4952 4972 4997 5028 7978 8021 8034 8109 10820 10831 12817 12900 
+		1969 1992 4889 4938 4952 4972 4997 5028 7978 8021 8034 8109 10820 10831 
 	}
 	manpower=19757000
 	buildings_max_level_factor=1.000

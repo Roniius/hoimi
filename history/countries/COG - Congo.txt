@@ -1,3 +1,52 @@
 ﻿capital = 295
 
 #oob = "COG_1936"
+
+set_politics = {
+
+	parties = {
+		liberalism = { 
+			popularity = 0
+		}
+		
+		conservatism = { 
+			popularity = 0
+		}
+		
+		mod_ordaism = { 
+			popularity = 40
+		}
+		
+		authoritarian = { 
+			popularity = 10
+		}
+		
+		communism = { 
+			popularity = 40
+		}
+
+		fascism = {
+			popularity = 10
+		}
+		
+		monarchism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = authoritarian
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Colonial Government"
+	desc = "POLITICS_COLONIAL_GOVERNMENT_DESC"
+	picture = "Portrait_COG_Colonial_Government.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}

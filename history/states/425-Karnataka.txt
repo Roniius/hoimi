@@ -12,6 +12,8 @@ state={
 	}
 
 	history={
+		owner = VIJ
+		add_core_of = VIJ
 		victory_points = {
 			8011 1
 		}

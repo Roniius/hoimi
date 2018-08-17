@@ -7,6 +7,8 @@ state={
 	}
 
 	history={
+		owner = WAT
+		add_core_of = WAT
 		buildings = {
 			infrastructure = 3
 

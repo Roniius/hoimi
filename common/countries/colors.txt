@@ -195,8 +195,8 @@ MEX = {
 	color_ui = rgb { 135 198 108 }
 }
 NEP = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 33  0  143 }
+	color_ui = rgb { 33  0  143 }
 }
 NIC = {
 	color = rgb { 146 179 191 }
@@ -763,6 +763,42 @@ SCK = {
 AMZ = {
 	color = rgb { 51  115  32 }
 	color_ui = rgb { 51  115  32 }
+}
+CAT = {
+	color = rgb { 166  16  30 }
+	color_ui = rgb { 166  16  30 }
+}
+FUR = {
+	color = rgb { 211  211  211 }
+	color_ui = rgb { 211  211  211 }
+}
+WAT = {
+	color = rgb { 255  215  0 }
+	color_ui = rgb { 255  215  0 }
+}
+CST = {
+	color = rgb { 219  185  85 }
+	color_ui = rgb { 219  185  85 }
+}
+VIJ = {
+	color = rgb { 167  185  85 }
+	color_ui = rgb { 167  185  85 }
+}
+IRS = {
+	color = rgb { 82  183  0 }
+	color_ui = rgb { 82  183  0 }
+}
+AAF = {
+	color = rgb { 183  145  163 }
+	color_ui = rgb { 183  145  163 }
+}
+PMA = {
+	color = rgb { 0  183  149 }
+	color_ui = rgb { 0  183  149 }
+}
+FAF = {
+	color = rgb { 96  224  224 }
+	color_ui = rgb { 96  224  224 }
 }
 D01 = {
 	color = rgb { 200 100 31 }

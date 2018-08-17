@@ -3631,7 +3631,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_generic_democratic_europe.dds"
 	}
 	
-	##Mongolian Minister/Cabinet #MON_peljidiin_genden
+	##Mongolian Minister/Cabinet 
 	
 	spriteType = {
 		name = "GFX_idea_MON_peljidiin_genden_hog"
@@ -3671,6 +3671,53 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_MON_ukhnaagiin_bagabandi_em"
 		texturefile = "gfx/interface/ideas/MON/MON_ukhnaagiin_bagabandi.dds"
+	}
+	
+	#Irish Cabinet
+	
+	spriteType = {
+		name = "GFX_idea_IRE_patrick_pearse_hog"
+		texturefile = "gfx/interface/ideas/IRE/IRE_patrick_pearse.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_IRE_eoin_francis_cos"
+		texturefile = "gfx/interface/ideas/IRE/IRE_eoin_francis.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_IRE_eoin_francis_dm"
+		texturefile = "gfx/interface/ideas/IRE/IRE_eoin_francis.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_IRE_hugo_macneill_hoj"
+		texturefile = "gfx/interface/ideas/IRE/IRE_hugo_macneill.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_IRE_douglas_hyde_fm"
+		texturefile = "gfx/interface/ideas/IRE/IRE_douglas_hyde.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_IRE_liam_tobin_im"
+		texturefile = "gfx/interface/ideas/IRE/IRE_liam_tobin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_IRE_liam_tobin_im"
+		texturefile = "gfx/interface/ideas/IRE/IRE_liam_tobin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_IRE_w_t_cosgrave_cm"
+		texturefile = "gfx/interface/ideas/IRE/IRE_wt_cosgrave.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_IRE_w_t_cosgrave_em"
+		texturefile = "gfx/interface/ideas/IRE/IRE_wt_cosgrave.dds"
 	}
 	
 	#Mongolian NatSpirits

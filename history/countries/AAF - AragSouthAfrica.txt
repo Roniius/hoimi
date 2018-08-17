@@ -1,0 +1,52 @@
+﻿capital = 544
+
+#oob = "COG_1936"
+
+set_politics = {
+
+	parties = {
+		liberalism = { 
+			popularity = 70
+		}
+		
+		conservatism = { 
+			popularity = 0
+		}
+		
+		mod_ordaism = { 
+			popularity = 0
+		}
+		
+		authoritarian = { 
+			popularity = 20
+		}
+		
+		communism = { 
+			popularity = 5
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		monarchism = {
+			popularity = 5
+		}
+	}
+	
+	ruling_party = authoritarian
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Francesc Macià"
+	desc = "POLITICS_FRANCESC_MACIA_DESC"
+	picture = "Portrait_AAF_Francesc_Macia.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}

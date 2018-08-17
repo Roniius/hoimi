@@ -1,0 +1,187 @@
+ideas = {
+	
+	head_of_government = {
+	
+		IRE_patrick_pearse_hog = { 
+			allowed = {original_tag = IRE}
+			available = {
+				OR = {
+					has_government = monarchism
+					has_government = authoritarian
+					has_government = fascism
+					has_government = conservatism
+					has_government = liberalism
+				}
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = patrick_pearse_dead}
+				NOT = {has_country_flag = pearse_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+	
+	}
+	
+	
+	chief_of_staff = {
+		#John French = Eóin Fraincis
+		IRE_eoin_francis_cos = { 
+			allowed = {original_tag = IRE}
+			available = {
+				OR = {
+					has_government = monarchism
+					has_government = authoritarian
+					has_government = fascism
+					has_government = conservatism
+					has_government = liberalism
+					has_government = mod_ordaism
+				}
+				has_country_flag = can_replace_cos
+				NOT = {has_country_flag = eoin_fraincis_dead}
+				NOT = {has_country_flag = eoin_fraincis_cos_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+	}
+	
+	head_of_judiciary = {
+	
+		IRE_hugo_macneill_hoj = { 
+			allowed = {original_tag = IRE}
+			available = {
+				OR = {
+					has_government = monarchism
+					has_government = authoritarian
+					has_government = fascism
+					has_government = conservatism
+					has_government = liberalism
+					has_government = mod_ordaism
+				}
+				has_country_flag = can_replace_hoj
+				NOT = {has_country_flag = hugo_macneill_dead}
+				NOT = {has_country_flag = hugo_macneill_hoj_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+	
+	}
+	
+	defense_minister = {
+	
+		IRE_eoin_francis_dm = { 
+			allowed = {original_tag = IRE}
+			available = {
+				OR = {
+					has_government = monarchism
+					has_government = authoritarian
+					has_government = fascism
+					has_government = conservatism
+					has_government = liberalism
+					has_government = mod_ordaism
+				}
+				has_country_flag = can_replace_dm
+				NOT = {has_country_flag = eoin_francis_dead}
+				NOT = {has_country_flag = eoin_francis_dm_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+	
+	}
+	
+	foreign_minister = {
+	
+		IRE_douglas_hyde_fm = { 
+			allowed = {original_tag = IRE}
+			available = {
+				OR = {
+					has_government = monarchism
+					has_government = authoritarian
+					has_government = conservatism
+					has_government = liberalism
+					has_government = mod_ordaism
+				}
+				has_country_flag = can_replace_fm
+				NOT = {has_country_flag = douglas_hyde_dead}
+				NOT = {has_country_flag = douglas_hyde_fm_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+	
+	}
+	
+	intelligence_minister = {
+	
+		IRE_liam_tobin_im = { 
+			allowed = {original_tag = IRE}
+			available = {
+				OR = {
+					has_government = monarchism
+					has_government = authoritarian
+					has_government = conservatism
+					has_government = fascism
+				}
+				has_country_flag = can_replace_im
+				NOT = {has_country_flag = liam_tobin_dead}
+				NOT = {has_country_flag = liam_tobin_im_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+	
+	}
+	
+	construction_minister = {
+	
+		IRE_w_t_cosgrave_cm = { 
+			allowed = {original_tag = IRE}
+			available = {
+				OR = {
+					has_government = monarchism
+					has_government = authoritarian
+					has_government = conservatism
+					has_government = liberalism
+				}
+				has_country_flag = can_replace_cm
+				NOT = {has_country_flag = w_t_cosgrave_dead}
+				NOT = {has_country_flag = w_t_cosgrave_cm_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+	
+	}
+	
+	economic_minister = {
+	
+		IRE_w_t_cosgrave_em = { 
+			allowed = {original_tag = IRE}
+			available = {
+				OR = {
+					has_government = monarchism
+					has_government = authoritarian
+					has_government = conservatism
+					has_government = liberalism
+				}
+				has_country_flag = can_replace_em
+				NOT = {has_country_flag = w_t_cosgrave_dead}
+				NOT = {has_country_flag = w_t_cosgrave_em_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+	
+	}
+
+}
