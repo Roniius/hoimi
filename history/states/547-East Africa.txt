@@ -4,6 +4,8 @@ state={
 	name="STATE_547"
 
 	history={
+		owner = KEN
+		add_core_of = KEN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

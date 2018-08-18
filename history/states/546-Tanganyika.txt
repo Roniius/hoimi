@@ -7,6 +7,8 @@ state={
 	}
 
 	history={
+		owner = KEN
+		add_core_of = KEN
 		victory_points = {
 			2196 1 
 		}
