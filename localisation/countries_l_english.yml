@@ -4137,6 +4137,29 @@
  ICE_fascism_ADJ:0 "Icelander"
  ICE_communism_ADJ:0 "Icelander"
  
+ #Burgundy Somalia
+ SOM_fascism:0 "Burgundian Somaliland"
+ SOM_fascism_DEF:0 "Burgundian Somaliland"
+ SOM_communism:0 "Burgundian Somaliland"
+ SOM_communism_DEF:0 "Burgundian Somaliland"
+ SOM_authoritarian:0 "Burgundian Somaliland"
+ SOM_authoritarian_DEF:0 "Burgundian Somaliland"
+ SOM_monarchism:0 "Burgundian Somaliland"
+ SOM_monarchism_DEF:0 "Burgundian Somaliland"
+ SOM_liberalism:0 "Burgundian Somaliland"
+ SOM_liberalism_DEF:0 "Burgundian Somaliland"
+ SOM_conservatism:0 "Burgundian Somaliland"
+ SOM_conservatism_DEF:0 "Burgundian Somaliland"
+ SOM_mod_ordaism:0 "Burgundian Somaliland"
+ SOM_mod_ordaism_DEF:0 "Burgundian Somaliland"
+ SOM_authoritarian_ADJ:0 "Burgundian Somali"
+ SOM_monarchism_ADJ:0 "Burgundian Somali"
+ SOM_liberalism_ADJ:0 "Burgundian Somali"
+ SOM_conservatism_ADJ:0 "Burgundian Somali"
+ SOM_mod_ordaism_ADJ:0 "Burgundian Somali"
+ SOM_fascism_ADJ:0 "Burgundian Somali"
+ SOM_communism_ADJ:0 "Burgundian Somali"
+ 
  
  ############################
  #######Cosmetic Tags########

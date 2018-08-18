@@ -12,6 +12,7 @@ add_ideas = {
 
 puppet = ANG
 puppet = WAT
+puppet = PMA
 
 set_politics = {
 

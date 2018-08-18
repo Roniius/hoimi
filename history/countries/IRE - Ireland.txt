@@ -9,6 +9,7 @@ set_technology = {
 
 puppet = NCO
 puppet = CAN
+puppet = IRS
 
 add_ideas = {
 	limited_conscription

@@ -43,6 +43,8 @@ set_technology = {
 
 set_convoys = 300
 
+puppet = SOM
+
 
 set_politics = {
 

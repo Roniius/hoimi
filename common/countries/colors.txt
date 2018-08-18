@@ -800,6 +800,10 @@ FAF = {
 	color = rgb { 96  224  224 }
 	color_ui = rgb { 96  224  224 }
 }
+SOM = {
+	color = rgb { 193  146  112 }
+	color_ui = rgb { 193  146  112 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
