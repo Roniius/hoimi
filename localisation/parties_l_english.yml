@@ -167,15 +167,6 @@
  GXC_liberalism_party:0 "BFM"
  GXC_liberalism_party_long:0 "The Black Flag Movement"
  
- #Alibamou
- ALA_liberalism_party:0 ""
- ALA_monarchism_party:0 ""
- ALA_communism_party:0 ""
- ALA_mod_ordaism_party:0 ""
- ALA_fascism_party:0 ""
- ALA_conservatism_party:0 "LHP"
- ALA_conservatism_party_long:0 "League of Hendersonian People's"
- ALA_authoritarian_party:0 ""
 
  GER_fascism_party:0 "NSDAP"
  GER_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
