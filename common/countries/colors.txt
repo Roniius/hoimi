@@ -355,8 +355,8 @@ JOR = {
 }
 
 SYR = {
-	color = rgb { 100  100  150 }
-	color_ui = rgb { 100  100  150 }
+	color = rgb { 100  151  150 }
+	color_ui = rgb { 100  151  150 }
 }
 
 SER = {
