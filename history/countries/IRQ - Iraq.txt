@@ -1,1 +1,50 @@
-﻿capital = 291
+﻿capital = 292
+
+set_politics = {
+
+	parties = {
+		liberalism = { 
+			popularity = 0
+		}
+		
+		conservatism = { 
+			popularity = 0
+		}
+		
+		mod_ordaism = { 
+			popularity = 0
+		}
+		
+		authoritarian = { 
+			popularity = 30
+		}
+		
+		communism = { 
+			popularity = 10
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		monarchism = {
+			popularity = 60
+		}
+	}
+	
+	ruling_party = monarchism
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Sultan Jawhar II"
+	desc = "POLITICS_SULTAN_JAWHAR_II_DESC"
+	picture = "Portrait_IRQ_Jawhar_II.dds"
+	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		
+	}
+}

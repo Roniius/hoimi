@@ -41,7 +41,7 @@
  STATE_40:0 "Barnaul"
  STATE_41:0 "Madrid"
  STATE_42:0 "Moselland"
- STATE_43:0 "Northern Hungary"
+ STATE_43:0 "Uhorshchyna" #Formally Northern Hungary, now the Ukranian name for Hungary
  STATE_44:0 "Albania"
  STATE_45:0 "Vojvodina"
  STATE_46:0 "Muntenia"
@@ -365,7 +365,7 @@
  STATE_364:0 "South Carolina"
  STATE_365:0 "Javierland"
  STATE_366:0 "Florida"
- STATE_367:0 "New Barcelona"
+ STATE_367:0 "New Beja"
  STATE_368:0 "Tennessee"
  STATE_369:0 "Kentucky"
  STATE_370:0 "Mississippi"
