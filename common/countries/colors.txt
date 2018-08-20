@@ -804,6 +804,14 @@ SOM = {
 	color = rgb { 193  146  112 }
 	color_ui = rgb { 193  146  112 }
 }
+BRM = {
+	color = rgb { 35  190  43 }
+	color_ui = rgb { 193  146  112 }
+}
+PAJ = {
+	color = rgb { 21  114  26 }
+	color_ui = rgb { 21  114  26 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
