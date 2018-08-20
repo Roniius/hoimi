@@ -7,6 +7,8 @@ state={
 	}
 
 	history={
+		owner = ODI
+		add_core_of = ODI
 		victory_points = {
 			8087 1 
 		}

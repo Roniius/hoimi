@@ -812,6 +812,14 @@ PAJ = {
 	color = rgb { 21  114  26 }
 	color_ui = rgb { 21  114  26 }
 }
+ODI = {
+	color = rgb { 156  222  229 }
+	color_ui = rgb { 156  222  229 }
+}
+SIN = {
+	color = rgb { 74  105  29 }
+	color_ui = rgb { 74  105  29 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

@@ -1,0 +1,52 @@
+﻿capital = 426
+
+#oob = "COG_1936"
+
+set_politics = {
+
+	parties = {
+		liberalism = { 
+			popularity = 40
+		}
+		
+		conservatism = { 
+			popularity = 30
+		}
+		
+		mod_ordaism = { 
+			popularity = 30
+		}
+		
+		authoritarian = { 
+			popularity = 0
+		}
+		
+		communism = { 
+			popularity = 0
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		monarchism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = liberalism
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Biswanath Das"
+	desc = "POLITICS_BISWANATH_DAS_DESC"
+	picture = "Portrait_ODI_Biswanath_Das.dds"
+	expire = "1965.1.1"
+	ideology = sub_liberalism
+	traits = {
+		
+	}
+}
