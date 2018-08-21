@@ -1,0 +1,73 @@
+sicilian_colony_a = {
+
+	establish_colony_in_sicily = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = SYR
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = establish_sicily_colony_req_state_tt
+				owns_state = 115
+			}
+		}
+
+		visible = {
+			original_tag = SYR
+			SYR = {
+				OR = {
+					controls_state = 115
+					owns_state = 115
+				}
+			}
+		}
+
+		complete_effect = {
+			SIC = {
+				
+				set_cosmetic_tag = SIC_SYR_colony_a
+				set_state_owner = 115
+				
+
+			}
+			
+			115 = { add_core_of = SYR }
+			
+			SYR = {
+				country_event = syria_puppet.1 
+				puppet = SIC
+			}
+			
+			SIC = {
+				set_politics = {
+					ruling_party = authoritarian
+					elections_allowed = no
+				}
+				create_country_leader = {
+					name = "Colonial Council"
+					desc = "POLITICS_Colonial_Council_DESC"
+					picture = "Portrait_SIC_Colonial_Council.dds"
+					expire = "1965.1.1"
+					ideology = despotism
+					traits = {
+		
+					}
+				}
+			}
+			
+		}
+
+		ai_will_do = {
+			factor = 50
+			modifier = {
+				factor = 10
+				is_historical_focus_on = yes
+			}
+		}
+	}
+
+}

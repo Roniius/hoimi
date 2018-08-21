@@ -832,6 +832,10 @@ MLW = {
 	color = rgb { 185  150  242 }
 	color_ui = rgb { 185  150  242 }
 }
+SIC = {
+	color = rgb { 188  135  75 }
+	color_ui = rgb { 188  135  75 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

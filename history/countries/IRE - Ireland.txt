@@ -8,8 +8,22 @@ set_technology = {
 }
 
 puppet = NCO
-puppet = CAN
 puppet = IRS
+
+# DIPLOMACY
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = CAN
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	else = {
+		puppet = CAN
+	}
+}
 
 add_ideas = {
 	limited_conscription

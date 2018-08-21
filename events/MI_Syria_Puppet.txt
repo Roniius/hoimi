@@ -1,0 +1,81 @@
+﻿add_namespace = syria_puppet
+
+#Establishing Damascan Sicily Leadership
+country_event = {
+	id = syria_puppet.1
+	title = syria_puppet.1.t
+	desc = syria_puppet.1.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	#Usama Al Shami
+	option = {
+		name = syria_puppet.1.o1
+			SIC = {
+				create_country_leader = {
+					name = "Usama Al Shami"
+					desc = "POLITICS_USAMA_AL_SHAMI_DESC"
+					picture = "Portrait_SIC_Usama_Al_Shami.dds"
+					expire = "1965.1.1"
+					ideology = despotism
+					traits = {
+			
+					}
+				}
+			}
+			
+			SYR = {
+				country_event = syria_puppet.2
+			}
+	}
+	
+	#Keep Council Leadership
+	option = {
+		name = syria_puppet.1.o2
+			SYR = {
+				country_event = syria_puppet.2
+			}
+	}
+	
+	#Jamil al-Ulshi
+	option = {
+		name = syria_puppet.1.o3
+			SIC = {
+				create_country_leader = {
+					name = "Jamil al-Ulshi"
+					desc = "POLITICS_JAMIL_AL_ULSHI_DESC"
+					picture = "Portrait_SIC_Jamil_al_Ulshi.dds"
+					expire = "1965.1.1"
+					ideology = despotism
+					traits = {
+			
+					}
+				}
+			}
+			SYR = {
+				country_event = syria_puppet.2
+			}
+	}
+}
+
+#Do You Wish To Intervene In The Government
+country_event = {
+	id = syria_puppet.2
+	title = syria_puppet.2.t
+	desc = syria_puppet.2.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	#Yes
+	option = {
+		name = syria_puppet.2.o1
+		SIC = { change_tag_from = SYR }
+	}
+	
+	#No
+	option = {
+		name = syria_puppet.2.o2
+	}
+}

@@ -4353,6 +4353,29 @@
  MLW_fascism_ADJ:0 "Malwani"
  MLW_communism_ADJ:0 "Malwani"
  
+ #Sicily
+ SIC_fascism:0 "Sicily"
+ SIC_fascism_DEF:0 "Sicily"
+ SIC_communism:0 "Sicily"
+ SIC_communism_DEF:0 "Sicily"
+ SIC_authoritarian:0 "Sicily"
+ SIC_authoritarian_DEF:0 "Sicily"
+ SIC_monarchism:0 "Sicily"
+ SIC_monarchism_DEF:0 "Sicily"
+ SIC_liberalism:0 "Sicily"
+ SIC_liberalism_DEF:0 "Sicily"
+ SIC_conservatism:0 "Sicily"
+ SIC_conservatism_DEF:0 "Sicily"
+ SIC_mod_ordaism:0 "Sicily"
+ SIC_mod_ordaism_DEF:0 "Sicily"
+ SIC_authoritarian_ADJ:0 "Sicilian"
+ SIC_monarchism_ADJ:0 "Sicilian"
+ SIC_liberalism_ADJ:0 "Sicilian"
+ SIC_conservatism_ADJ:0 "Sicilian"
+ SIC_mod_ordaism_ADJ:0 "Sicilian"
+ SIC_fascism_ADJ:0 "Sicilian"
+ SIC_communism_ADJ:0 "Sicilian"
+ 
  
  ############################
  #######Cosmetic Tags########
