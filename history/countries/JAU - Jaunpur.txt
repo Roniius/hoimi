@@ -1,0 +1,52 @@
+﻿capital = 438
+
+#oob = "COG_1936"
+
+set_politics = {
+
+	parties = {
+		liberalism = { 
+			popularity = 20
+		}
+		
+		conservatism = { 
+			popularity = 20
+		}
+		
+		mod_ordaism = { 
+			popularity = 20
+		}
+		
+		authoritarian = { 
+			popularity = 10
+		}
+		
+		communism = { 
+			popularity = 15
+		}
+
+		fascism = {
+			popularity = 15
+		}
+		
+		monarchism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = mod_ordaism
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Ratanji D. Tata"
+	desc = "POLITICS_RATANJI_D_TATA_DESC"
+	picture = "Portrait_JAU_Ratanji_Dadabhoy_Tata.dds"
+	expire = "1965.1.1"
+	ideology = engelism
+	traits = {
+		
+	}
+}

@@ -4,6 +4,8 @@ state={
 	name="STATE_435"
 
 	history={
+		owner = NEP
+		add_core_of = NEP
 		victory_points = {
 			4516 1 
 		}
@@ -15,7 +17,7 @@ state={
 	}
 
 	provinces={
-		1444 1569 1637 4516 4544 4571 7475 7537 7593 10358 10361 10471 10751 12035 12307 12452 
+		7475 10361 
 	}
 	manpower=36574500
 	buildings_max_level_factor=1.000

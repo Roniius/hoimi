@@ -820,6 +820,18 @@ SIN = {
 	color = rgb { 74  105  29 }
 	color_ui = rgb { 74  105  29 }
 }
+DEL = {
+	color = rgb { 242  215  125 }
+	color_ui = rgb { 242  215  125 }
+}
+JAU = {
+	color = rgb { 242  159  242 }
+	color_ui = rgb { 242  159  242 }
+}
+MLW = {
+	color = rgb { 185  150  242 }
+	color_ui = rgb { 185  150  242 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

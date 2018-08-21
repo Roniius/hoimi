@@ -1,0 +1,52 @@
+﻿capital = 439
+
+#oob = "COG_1936"
+
+set_politics = {
+
+	parties = {
+		liberalism = { 
+			popularity = 0
+		}
+		
+		conservatism = { 
+			popularity = 10
+		}
+		
+		mod_ordaism = { 
+			popularity = 15
+		}
+		
+		authoritarian = { 
+			popularity = 60
+		}
+		
+		communism = { 
+			popularity = 5
+		}
+
+		fascism = {
+			popularity = 10
+		}
+		
+		monarchism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = authoritarian
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Hari Singh"
+	desc = "POLITICS_HARI_SINGH_DESC"
+	picture = "Portrait_DEL_Hari_Singh.dds"
+	expire = "1965.1.1"
+	ideology = militaryreign
+	traits = {
+		
+	}
+}
