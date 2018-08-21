@@ -10,10 +10,7 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
-			11002 = {
-				naval_base = 1
-
-			}
+			
 
 		}
 		owner = NCO

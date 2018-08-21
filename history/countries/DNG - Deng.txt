@@ -1,4 +1,4 @@
-﻿capital = 330
+﻿capital = 598
 
 #oob = "DNG_1936"
 

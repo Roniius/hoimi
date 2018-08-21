@@ -8,10 +8,7 @@ state={
 		add_core_of = PAL
 		buildings = {
 			infrastructure = 2
-			1155 = {
-				naval_base = 2
-
-			}
+			
 
 		}
 		
