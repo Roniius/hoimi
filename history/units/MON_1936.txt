@@ -85,7 +85,7 @@ units = {
 	division = {
 		name = "4 Gunigtai Kheltes"
 	
-		location = 5876
+		location = 4876
 		division_template = "Gunigtai Kheltes"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -95,7 +95,7 @@ units = {
 	division = {
 		name = "5 Gunigtai Kheltes"
 	
-		location = 5876
+		location = 4876
 		division_template = "Gunigtai Kheltes"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -115,7 +115,7 @@ units = {
 	division = {
 		name = "7 Gunigtai Kheltes"
 	
-		location = 5876
+		location = 4876
 		division_template = "Gunigtai Kheltes"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -129,6 +129,116 @@ units = {
 		division_template = "Gunigtai Kheltes"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
+
+	}
+	
+	division = {
+		name = "8 Gunigtai Kheltes"
+	
+		location = 1820
+		division_template = "Gunigtai Kheltes"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "9 Gunigtai Kheltes"
+	
+		location = 1820
+		division_template = "Gunigtai Kheltes"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "10 Gunigtai Kheltes"
+	
+		location = 9604
+		division_template = "Gunigtai Kheltes"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "11 Gunigtai Kheltes"
+	
+		location = 1820
+		division_template = "Gunigtai Kheltes"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "12 Gunigtai Kheltes"
+	
+		location = 9604
+		division_template = "Gunigtai Kheltes"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "13 Gunigtai Kheltes"
+	
+		location = 9604
+		division_template = "Gunigtai Kheltes"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "14 Gunigtai Kheltes"
+	
+		location = 9604
+		division_template = "Gunigtai Kheltes"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "15 Gunigtai Kheltes"
+	
+		location = 957
+		division_template = "Gunigtai Kheltes"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "16 Gunigtai Kheltes"
+	
+		location = 957
+		division_template = "Gunigtai Kheltes"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "17 Gunigtai Kheltes"
+	
+		location = 957
+		division_template = "Gunigtai Kheltes"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "18 Gunigtai Kheltes"
+	
+		location = 957
+		division_template = "Gunigtai Kheltes"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
 
 	}
 	
@@ -156,6 +266,36 @@ units = {
 		name = "3 Khuyagt kheseg"
 	
 		location = 4801
+		division_template = "Khuyagt kheseg"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "4 Khuyagt kheseg"
+	
+		location = 957
+		division_template = "Khuyagt kheseg"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "5 Khuyagt kheseg"
+	
+		location = 957
+		division_template = "Khuyagt kheseg"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "6 Khuyagt kheseg"
+	
+		location = 957
 		division_template = "Khuyagt kheseg"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5

@@ -8,12 +8,12 @@ state={
 
 	history={
 		buildings = {
-			infrastructure = 4
-			dockyard = 1
+			infrastructure = 5
+			dockyard = 2
 			air_base = 5
 			957 = {
 				naval_base = 8
-				coastal_bunker = 3
+				coastal_bunker = 5
 
 			}
 
