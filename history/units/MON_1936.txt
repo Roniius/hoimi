@@ -1,105 +1,231 @@
 ﻿division_template = {
-	name = "Morit Diviziin"			# Cavalry Division
+	name = "Valyensi kheltes"			# Cav
 
-	division_names_group = MON_CAV_01
+	
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
 		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Gunigtai Kheltes"			# Infantry
+
+	
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Khuyagt kheseg"			# Armor
+
+	
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 1 y = 0 }
 	}
 }
 
 units = {
 	##### Mongol Ardyn Armiin #####
 	division = {
-		#name = "1-r Morit Diviziin"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 1
-		}
+		name = "1-r Valyensi kheltes"
+	
 		location = 4801
-		division_template = "Morit Diviziin"
+		division_template = "Valyensi kheltes"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
 	}
+	
 	division = {
-		#name = "2-p Morit Diviziin"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 2
-		}
+		name = "1 Gunigtai Kheltes"
+	
+		location = 4801
+		division_template = "Gunigtai Kheltes"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "2 Gunigtai Kheltes"
+	
+		location = 4801
+		division_template = "Gunigtai Kheltes"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "3 Gunigtai Kheltes"
+	
+		location = 4801
+		division_template = "Gunigtai Kheltes"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "4 Gunigtai Kheltes"
+	
+		location = 5876
+		division_template = "Gunigtai Kheltes"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "5 Gunigtai Kheltes"
+	
+		location = 5876
+		division_template = "Gunigtai Kheltes"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "6 Gunigtai Kheltes"
+	
+		location = 4801
+		division_template = "Gunigtai Kheltes"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "7 Gunigtai Kheltes"
+	
+		location = 5876
+		division_template = "Gunigtai Kheltes"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "Temüjinii armi"
+	
+		location = 4801
+		division_template = "Gunigtai Kheltes"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	
+	division = {
+		name = "1 Khuyagt kheseg"
+	
+		location = 4801
+		division_template = "Khuyagt kheseg"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "2 Khuyagt kheseg"
+	
+		location = 1820
+		division_template = "Khuyagt kheseg"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "3 Khuyagt kheseg"
+	
+		location = 4801
+		division_template = "Khuyagt kheseg"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "2-p Valyensi kheltes"
+		
 		location = 4792
-		division_template = "Morit Diviziin"
+		division_template = "Valyensi kheltes"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 	}
 	division = {
-		#name = "3-p Morit Diviziin"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 3
-		}
+		name = "3-p Valyensi kheltes"
+		
 		location = 12557
-		division_template = "Morit Diviziin"
+		division_template = "Valyensi kheltes"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 	}
 	division = {
-		#name = "4-p Morit Diviziin"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 4
-		}
+		name = "4-p Valyensi kheltes"
+		
 		location = 1743
-		division_template = "Morit Diviziin"
+		division_template = "Valyensi kheltes"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 	}
 	division = {
-		#name = "5-p Morit Diviziin"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 5
-		}
+		name = "5-p Valyensi kheltes"
+		
 		location = 4873
-		division_template = "Morit Diviziin"
+		division_template = "Valyensi kheltes"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 	}
 	#division = {
-	#	name = "6-p Morit Diviziin"
+	#	name = "6-p Valyensi kheltes"
 	#	division_name = {    # New syntax for compatibility with name lists
 	#		is_name_ordered = yes
 	#		name_order = 6
 	#	}
 	#	location = 10575
-	#	division_template = "Morit Diviziin"
+	#	division_template = "Valyensi kheltes"
 	#	start_experience_factor = 0.1
 	#	start_equipment_factor = 0.5
 	#}
 	#division = {
-	#	name = "7-p Morit Diviziin"
+	#	name = "7-p Valyensi kheltes"
 	#	division_name = {    # New syntax for compatibility with name lists
 	#		is_name_ordered = yes
 	#		name_order = 7
 	#	}
 	#	location = 4856
-	#	division_template = "Morit Diviziin"
+	#	division_template = "Valyensi kheltes"
 	#	start_experience_factor = 0.1
 	#	start_equipment_factor = 0.5
     #
 	#}
 
 	#division = {
-	#	name = "8-p Morit Diviziin"
+	#	name = "8-p Valyensi kheltes"
 	#	division_name = {    # New syntax for compatibility with name lists
 	#		is_name_ordered = yes
 	#		name_order = 8
 	#	}
 	#	location = 1723
-	#	division_template = "Morit Diviziin"
+	#	division_template = "Valyensi kheltes"
 	#	start_experience_factor = 0.1
 	#	start_equipment_factor = 0.5
 	#}
@@ -114,8 +240,8 @@ instant_effect = {
 			type = infantry_equipment_0
 			creator = "MON"
 		}
-		requested_factories = 1
-		progress = 0.20
+		requested_factories = 3
+		progress = 0.65
 		efficiency = 100
 	}
 }

@@ -83,16 +83,6 @@
  SOV_fascism_party:0 "RUP"
  SOV_fascism_party_long:0 "Russian Unionist Party"
  
- #Mongolia
- MON_conservatism_party:0 "MNCP"
- MON_conservatism_party_long:0 "Mongolian National Conservative Party"
- MON_monarchism_party:0 "Borjigin"
- MON_monarchism_party_long:0 "Borjigin Clan"
- MON_fascism_party:0 "MAP"
- MON_fascism_party_long:0 "Mongolian Ado Party"
- MON_communism_party:0 "MPOP"
- MON_communism_party_long:0 "Mongolian People's Ordaist Party"
- 
  #Francia
  FRA_monarchism_party:0 "Reinhart"
  FRA_monarchism_party_long:0 "House of Reinhart"
