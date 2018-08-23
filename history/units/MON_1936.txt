@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Valyensi kheltes"			# Cav
+	name = "Valyensi Kheltes"			# Cav
 
 	
 
@@ -28,7 +28,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Khuyagt kheseg"			# Armor
+	name = "Khuyagt Kheseg"			# Armor
 
 	
 
