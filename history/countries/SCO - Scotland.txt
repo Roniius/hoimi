@@ -28,7 +28,7 @@ set_politics = {
 		}
 		
 		liberalism = { 
-			popularity = 25
+			popularity = 34
 		}
 		
 		authoritarian = { 
@@ -40,11 +40,11 @@ set_politics = {
 		}
 		
 		mod_ordaism = { 
-			popularity = 34
+			popularity = 25
 		}
 	}
 	
-	ruling_party = mod_ordaism
+	ruling_party = liberalism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -54,6 +54,17 @@ create_country_leader = {
 	name = "Edmund Bruce"
 	desc = "POLITICS_EDMOND_BRUCE_DESC"
 	picture = "Portrait_SCO_Edmond_Bruce.dds"
+	expire = "1965.1.1"
+	ideology = sub_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Keir Hardie"
+	desc = "POLITICS_KEIR_HARDIE_DESC"
+	picture = "Portrait_SCO_KEIR_HARDIE.dds"
 	expire = "1965.1.1"
 	ideology = engelism
 	traits = {

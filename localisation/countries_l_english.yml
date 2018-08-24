@@ -4450,6 +4450,29 @@
  ITA_rome_imperium_one_fascism_ADJ:0 "Roman"
  ITA_rome_imperium_one_communism_ADJ:0 "Roman"
  
+ #Revolutionary Mongolia
+ MON_revolutionary_A_fascism:0 "Revolutionary Mongolia"
+ MON_revolutionary_A_fascism_DEF:0 "Revolutionary Mongolia"
+ MON_revolutionary_A_communism:0 "Revolutionary Mongolia"
+ MON_revolutionary_A_communism_DEF:0 "Revolutionary Mongolia"
+ MON_revolutionary_A_authoritarian:0 "Revolutionary Mongolia"
+ MON_revolutionary_A_authoritarian_DEF:0 "Revolutionary Mongolia"
+ MON_revolutionary_A_monarchism:0 "Revolutionary Mongolia"
+ MON_revolutionary_A_monarchism_DEF:0 "Revolutionary Mongolia"
+ MON_revolutionary_A_liberalism:0 "Revolutionary Mongolia"
+ MON_revolutionary_A_liberalism_DEF:0 "Revolutionary Mongolia"
+ MON_revolutionary_A_conservatism:0 "Revolutionary Mongolia"
+ MON_revolutionary_A_conservatism_DEF:0 "Revolutionary Mongolia"
+ MON_revolutionary_A_mod_ordaism:0 "Revolutionary Mongolia"
+ MON_revolutionary_A_mod_ordaism_DEF:0 "Revolutionary Mongolia"
+ MON_revolutionary_A_authoritarian_ADJ:0 "Mongolian"
+ MON_revolutionary_A_monarchism_ADJ:0 "Mongolian"
+ MON_revolutionary_A_liberalism_ADJ:0 "Mongolian"
+ MON_revolutionary_A_conservatism_ADJ:0 "Mongolian"
+ MON_revolutionary_A_mod_ordaism_ADJ:0 "Mongolian"
+ MON_revolutionary_A_fascism_ADJ:0 "Mongolian"
+ MON_revolutionary_A_communism_ADJ:0 "Mongolian"
+ 
  
 
  

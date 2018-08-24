@@ -372,7 +372,47 @@ units = {
 }
 
 
-##### No notable air force (only about 6 aircraft in 1936) #####
+air_wings = {
+	330 = { 
+		### The Ooof bois
+		fighter_equipment_0 = {
+			owner = "MON" 
+			amount = 216
+		}
+	}
+	
+	330 = { 
+		### The Bomb Squad
+		tac_bomber_equipment_0 = {
+			owner = "MON" 
+			amount = 12
+		}
+	}
+	
+	537= { 
+		### The Ooof bois Pt 2
+		fighter_equipment_0 = {
+			owner = "MON" 
+			amount = 103
+		}
+	}
+	
+	524= { 
+		### The Ooof bois Pt 3
+		fighter_equipment_0 = {
+			owner = "MON" 
+			amount = 50
+		}
+	}
+	
+	524 = { #Suppression Force 1
+		CAS_equipment_1 = {
+			owner = "MON" 
+			amount = 50
+		}
+	}
+	
+}
 
 instant_effect = {
 	add_equipment_production = {
