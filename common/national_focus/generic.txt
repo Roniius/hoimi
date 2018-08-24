@@ -474,6 +474,108 @@ focus_tree = {
 			
 		}
 	}
+	
+	focus = {
+		id = reforming_the_system
+		#icon = GFX_goal_generic_allies_build_infantry
+		x = 24
+		y = 0
+		cost = 10
+		#relative_position_id = ENG_snap_elections
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = strong_leadership
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = reforming_the_system }
+		available = {
+			OR = {
+				has_government = fascism
+				has_government = communism
+				has_government = monarchism
+				has_government = authoritarian
+			}
+		}
+		x = -2
+		y = 1
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = national_supremacy
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = strong_leadership }
+		available = {
+			
+			has_government = fascism
+			
+		}
+		x = -5
+		y = 2
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = militarism
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = national_supremacy }
+		x = -5
+		y = 3
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = minority_opression
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = militarism }
+		x = -5
+		y = 4
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = expand_the_homeland
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = minority_opression }
+		x = -5
+		y = 5
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
 
 	
 

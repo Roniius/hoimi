@@ -116,3 +116,69 @@ create_country_leader = {
 		#
 	}
 }
+
+create_country_leader = {
+	name = "Batzorig Khan"
+	desc = "POLITICS_BATZORIG_KHAN_DESC"
+	picture = "Portrait_MON_Batzorig_Khan.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Batzorig Khan"
+	desc = "POLITICS_BATZORIG_KHAN_DESC"
+	picture = "Portrait_MON_Batzorig_Khan.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Batzorig Khan"
+	desc = "POLITICS_BATZORIG_KHAN_DESC"
+	picture = "Portrait_MON_Batzorig_Khan.dds"
+	expire = "1965.1.1"
+	ideology = sub_conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Batzorig Khan"
+	desc = "POLITICS_BATZORIG_KHAN_DESC"
+	picture = "Portrait_MON_Batzorig_Khan.dds"
+	expire = "1965.1.1"
+	ideology = sub_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Batzorig Khan"
+	desc = "POLITICS_BATZORIG_KHAN_DESC"
+	picture = "Portrait_MON_Batzorig_Khan.dds"
+	expire = "1965.1.1"
+	ideology = engelism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Batzorig Khan"
+	desc = "POLITICS_BATZORIG_KHAN_DESC"
+	picture = "Portrait_MON_Batzorig_Khan.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
