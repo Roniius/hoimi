@@ -388,7 +388,7 @@ units = {
 		ship = { name = "KLNS Khüchingiin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON } } }			
 		ship = { name = "KLNS Mongol uls" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON } } }	
 		### 6th Destroyer Flotilla
-		ship = { name = "KLNS Keith" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON  } } }
+		ship = { name = "KLNS Tedubilid" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON  } } }
 		# Destroyer Division 11
 		ship = { name = "KLNS Baigali nuur" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON } } }	
 		ship = { name = "KLNS Khorgo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON } } }	
