@@ -3727,4 +3727,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/MON/MON_thirst_for_democracy.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_MON_failing_economy"
+		texturefile = "gfx/interface/ideas/MON/MON_failing_economy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_MON_split_military"
+		texturefile = "gfx/interface/ideas/MON/MON_split_military.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_MON_unrestrained_corruption"
+		texturefile = "gfx/interface/ideas/generic_disjointed_gov.dds"
+	}	
+	
 }

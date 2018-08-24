@@ -12,6 +12,8 @@ bookmarks = {
 			ideology = monarchism
 			ideas = {
 				MON_a_thirst_for_democracy
+				MON_failing_economy
+				MON_unrestrained_corruption
 			}
 			focuses = {
 				

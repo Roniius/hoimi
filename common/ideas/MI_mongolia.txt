@@ -20,5 +20,62 @@ ideas = {
 				#conscription = -0.006
 			}
 		}
+		
+		MON_split_military = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				war_support_factor = -0.05
+				conscription = -0.006
+				planning_speed = -0.15
+			}
+		}
+		
+		MON_failing_economy = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				stability_factor = -0.05
+				industrial_capacity_factory = -0.05
+				local_resources_factor = -0.10
+			}
+		}
+		
+		MON_unrestrained_corruption = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				consumer_goods_factor = 0.10
+				research_time_factor = 0.05
+				political_power_gain = -0.25
+			}
+		}
 	}
 }

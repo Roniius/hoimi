@@ -14,3 +14,41 @@ country_event = {
 		
 	}
 }
+
+#Genden Meets With Corporate Leaders
+country_event = {
+	id = mongolia.2
+	title = mongolia.2.t
+	desc = mongolia.2.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	#This Can't be good
+	option = {
+		name = mongolia.2.o1
+		
+	}
+}
+
+#Mongolian Liberation Party Demand Genden Removal
+country_event = {
+	id = mongolia.3
+	title = mongolia.3.t
+	desc = mongolia.3.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	#Listen To Their Wishes
+	option = {
+		name = mongolia.3.o1
+		
+	}
+	
+	#Ignore Them
+	option = {
+		name = mongolia.3.o1
+		
+	}
+}

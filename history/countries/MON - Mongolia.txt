@@ -40,8 +40,8 @@ set_technology = {
 	radio_detection = 1
 }
 
-set_stability = 0.45
-set_war_support = 0.31
+set_stability = 0.55
+set_war_support = 0.41
 
 add_ideas = {
 	limited_conscription
@@ -55,6 +55,9 @@ add_ideas = {
 	MON_ukhnaagiin_bagabandi_em
 
 	MON_a_thirst_for_democracy
+	MON_split_military
+	MON_failing_economy
+	MON_unrestrained_corruption
 }
 
 set_politics = {
