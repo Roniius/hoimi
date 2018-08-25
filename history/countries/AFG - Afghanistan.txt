@@ -1,4 +1,4 @@
-﻿capital = 267
+﻿capital = 617
 
 #oob = "AFG_1936"
 
@@ -11,6 +11,9 @@ add_ideas = {
 	limited_conscription
 	
 }
+
+set_stability = 0.43
+set_war_support = 0.36
 
 set_politics = {
 
