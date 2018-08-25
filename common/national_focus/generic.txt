@@ -576,6 +576,433 @@ focus_tree = {
 			
 		}
 	}
+	
+	focus = {
+		id = institute_divine_rule
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = strong_leadership }
+		available = {
+			
+			has_government = monarchism
+			
+		}
+		x = -3
+		y = 2
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = work_with_the_churches
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = institute_divine_rule }
+		x = -3
+		y = 3
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = hang_royal_portraits
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = work_with_the_churches }
+		x = -3
+		y = 4
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = land_for_their_majesty
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = hang_royal_portraits }
+		x = -3
+		y = 5
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = a_new_authority
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = strong_leadership }
+		available = {
+			
+			has_government = authoritarian
+			
+		}
+		x = -1
+		y = 2
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = work_with_the_military
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = a_new_authority }
+		x = -1
+		y = 3
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = work_with_the_corporations
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = work_with_the_military }
+		x = -1
+		y = 4
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = build_our_sphere
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = work_with_the_corporations }
+		x = -1
+		y = 5
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = dictatorship_of_the_ajilchin
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = strong_leadership }
+		available = {
+			
+			has_government = communism
+			
+		}
+		x = 1
+		y = 2
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = purge_unloyal_elements
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = dictatorship_of_the_ajilchin }
+		x = 1
+		y = 3
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = work_with_unions
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = purge_unloyal_elements }
+		x = 1
+		y = 4
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = export_the_revolution
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = work_with_unions }
+		x = 1
+		y = 5
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = international_friends
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = export_the_revolution focus = expand_the_homeland focus = land_for_their_majesty focus = build_our_sphere }
+		x = -4
+		y = 6
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = liberalize_the_nation
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = reforming_the_system }
+		available = {
+			OR = {
+				has_government = conservatism
+				has_government = liberalism
+				has_government = mod_ordaism
+			}
+		}
+		x = 5
+		y = 1
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = for_the_worker_the_farmer_the_peasant
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = liberalize_the_nation }
+		available = {
+			
+			has_government = mod_ordaism
+			
+		}
+		x = 3
+		y = 2
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = government_intervention
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = for_the_worker_the_farmer_the_peasant }
+		x = 3
+		y = 3
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = environmental_refom
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = government_intervention }
+		x = 3
+		y = 4
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = the_spread_of_socialism
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = environmental_refom }
+		x = 3
+		y = 5
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = new_found_freedom
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = liberalize_the_nation }
+		available = {
+			
+			has_government = liberalism
+			
+		}
+		x = 5
+		y = 2
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = liberalize_the_constitution
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = new_found_freedom }
+		x = 5
+		y = 3
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = progressive_reform
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = liberalize_the_constitution }
+		x = 5
+		y = 4
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = the_spread_of_democracy
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = progressive_reform }
+		x = 5
+		y = 5
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = we_must_keep_tradition
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = liberalize_the_nation }
+		available = {
+			
+			has_government = conservatism
+			
+		}
+		x = 7
+		y = 2
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = tighten_borders
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = we_must_keep_tradition }
+		x = 7
+		y = 3
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = conservative_reform
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = tighten_borders }
+		x = 7
+		y = 4
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = the_spread_of_tradition
+		#icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = conservative_reform }
+		x = 7
+		y = 5
+		cost = 10
+		relative_position_id = reforming_the_system
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
 
 	
 

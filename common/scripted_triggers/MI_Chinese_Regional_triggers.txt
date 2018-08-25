@@ -1,0 +1,8 @@
+﻿#is_chinese_nation = {
+#	OR = {
+#		original_tag = CHI
+#	
+#	
+#	}
+#
+#}
