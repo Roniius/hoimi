@@ -9,6 +9,9 @@ state= {
 	state_category = city
 
 	history= {
+		victory_points = {
+			1820 5 
+		}
 		buildings = {
 			infrastructure = 3
 			air_base = 3

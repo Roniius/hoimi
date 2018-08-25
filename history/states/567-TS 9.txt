@@ -7,6 +7,9 @@ state={
 	}
 
 	history={
+		victory_points = {
+			1876 15
+		}
 		owner = MON
 		add_core_of = MON
 		buildings = {

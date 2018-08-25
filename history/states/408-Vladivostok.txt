@@ -7,6 +7,9 @@ state={
 	}
 
 	history={
+		victory_points = {
+			957 20 
+		}
 		buildings = {
 			infrastructure = 5
 			dockyard = 2
