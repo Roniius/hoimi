@@ -52,3 +52,19 @@ country_event = {
 		
 	}
 }
+
+#Failed Mutiny at Fort Baikal
+country_event = {
+	id = mongolia.4
+	title = mongolia.4.t
+	desc = mongolia.4.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	#Dear Lord
+	option = {
+		name = mongolia.4.o1
+		add_manpower = -500
+	}
+}

@@ -185,3 +185,60 @@ create_country_leader = {
 		#
 	}
 }
+
+create_field_marshal = {
+	name = "Khorloogiin Choibalsan"
+	picture = "Portrait_MON_Khorloogiin_Choibalsan.dds"
+	traits = { defensive_doctrine trait_cautious }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 6
+}
+
+create_field_marshal = {
+	name = "Demchugdongrub"
+	picture = "Portrait_MON_Demchugdongrub.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+#
+
+create_corps_commander = {
+	name = "Jodbajab"
+	picture = "Portrait_MON_Jodbajab.dds"
+	traits = { inflexible_strategist }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Yondonwangchug"
+	picture = "Portrait_MON_Yondonwangchug.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Zhang Jinghui"
+	picture = "Portrait_MON_Zhang_Jinghui.dds"
+	traits = { }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 3
+}
