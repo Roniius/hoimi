@@ -77,6 +77,72 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "G.P. Ivan IX"
+	desc = "POLITICS_IVAN_IX_DESC"
+	picture = "Portrait_SOV_Ivan_IX.dds"
+	expire = "1953.3.1"
+	ideology = marxism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "G.P. Ivan IX"
+	desc = "POLITICS_IVAN_IX_DESC"
+	picture = "Portrait_SOV_Ivan_IX.dds"
+	expire = "1953.3.1"
+	ideology = engelism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "G.P. Ivan IX"
+	desc = "POLITICS_IVAN_IX_DESC"
+	picture = "Portrait_SOV_Ivan_IX.dds"
+	expire = "1953.3.1"
+	ideology = sub_liberalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "G.P. Ivan IX"
+	desc = "POLITICS_IVAN_IX_DESC"
+	picture = "Portrait_SOV_Ivan_IX.dds"
+	expire = "1953.3.1"
+	ideology = sub_conservatism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "G.P. Ivan IX"
+	desc = "POLITICS_IVAN_IX_DESC"
+	picture = "Portrait_SOV_Ivan_IX.dds"
+	expire = "1953.3.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "G.P. Ivan IX"
+	desc = "POLITICS_IVAN_IX_DESC"
+	picture = "Portrait_SOV_Ivan_IX.dds"
+	expire = "1953.3.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+
 add_namespace = {
 	name = "unit_leader_sov"
 	type = unit_leader

@@ -17,5 +17,12 @@ country_event = {
 			}
 			MON = { country_event = mongolia.1 }
 		}
+		
+		if = {
+			limit = { 
+				country_exists = SOV
+			}
+			SOV = { country_event = muscovy.1 }
+		}
 	}
 }

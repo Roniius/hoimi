@@ -1,0 +1,16 @@
+﻿add_namespace = muscovy
+
+#Opening Event for Muscovy
+country_event = {
+	id = muscovy.1
+	title = muscovy.1.t
+	desc = muscovy.1.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.1.o1
+		
+	}
+}

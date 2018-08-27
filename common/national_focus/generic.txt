@@ -10,7 +10,7 @@ focus_tree = {
 
 	focus = {
 		id = military_doctrine
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_army_artillery
 		x = 5
 		y = 0
 		cost = 10
@@ -24,7 +24,7 @@ focus_tree = {
 	
 	focus = {
 		id = army_expansion
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_allies_build_infantry
 		prerequisite = { focus = military_doctrine }
 		x = -2
 		y = 1
@@ -39,7 +39,7 @@ focus_tree = {
 	
 	focus = {
 		id = motorized_research
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_army_motorized
 		prerequisite = { focus = army_expansion }
 		x = -4
 		y = 2
@@ -54,7 +54,7 @@ focus_tree = {
 	
 	focus = {
 		id = upgrade_infantry_equipment
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_small_arms
 		prerequisite = { focus = army_expansion }
 		x = -2
 		y = 2
@@ -69,7 +69,7 @@ focus_tree = {
 	
 	focus = {
 		id = artillery_research
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_army_artillery2
 		prerequisite = { focus = motorized_research }
 		prerequisite = { focus = upgrade_infantry_equipment }
 		x = -3
@@ -85,7 +85,7 @@ focus_tree = {
 	
 	focus = {
 		id = invest_in_armor
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_army_tanks
 		prerequisite = { focus = artillery_research }
 		x = -3
 		y = 4
@@ -100,7 +100,7 @@ focus_tree = {
 	
 	focus = {
 		id = aerial_expansion
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_build_airforce
 		prerequisite = { focus = military_doctrine }
 		x = 0
 		y = 1
@@ -115,7 +115,7 @@ focus_tree = {
 	
 	focus = {
 		id = aerial_tactics
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_air_doctrine
 		prerequisite = { focus = aerial_expansion }
 		x = 0
 		y = 2
@@ -130,7 +130,7 @@ focus_tree = {
 	
 	focus = {
 		id = bomber_research
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_air_bomber
 		prerequisite = { focus = aerial_tactics }
 		x = 0
 		y = 3
@@ -145,7 +145,7 @@ focus_tree = {
 	
 	focus = {
 		id = fighter_research
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_air_fighter
 		prerequisite = { focus = bomber_research }
 		x = 0
 		y = 4
@@ -160,7 +160,7 @@ focus_tree = {
 	
 	focus = {
 		id = naval_expansion
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_build_navy
 		prerequisite = { focus = military_doctrine }
 		x = 2
 		y = 1
@@ -175,7 +175,7 @@ focus_tree = {
 	
 	focus = {
 		id = cruiser_research
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_navy_cruiser
 		prerequisite = { focus = naval_expansion }
 		x = 2
 		y = 2
@@ -190,7 +190,7 @@ focus_tree = {
 	
 	focus = {
 		id = battleship_research
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_navy_battleship
 		prerequisite = { focus = naval_expansion }
 		x = 4
 		y = 2
@@ -205,7 +205,7 @@ focus_tree = {
 	
 	focus = {
 		id = carrier_research
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_navy_doctrines_tactics
 		prerequisite = { focus = battleship_research }
 		prerequisite = { focus = cruiser_research }
 		x = 3
@@ -221,7 +221,7 @@ focus_tree = {
 	
 	focus = {
 		id = submarine_research
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_navy_submarine
 		prerequisite = { focus = carrier_research }
 		x = 3
 		y = 4
@@ -236,7 +236,7 @@ focus_tree = {
 	
 	focus = {
 		id = fund_electronic_research
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_research
 		prerequisite = { focus = submarine_research }
 		prerequisite = { focus = fighter_research }
 		prerequisite = { focus = invest_in_armor }
@@ -253,7 +253,7 @@ focus_tree = {
 	
 	focus = {
 		id = rocket_science
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_rocketry
 		prerequisite = { focus = fund_electronic_research }
 		x = -1
 		y = 6
@@ -268,7 +268,7 @@ focus_tree = {
 	
 	focus = {
 		id = abuse_the_atom
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_wonderweapons
 		prerequisite = { focus = fund_electronic_research }
 		x = 1
 		y = 6
