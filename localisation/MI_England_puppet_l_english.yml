@@ -1,0 +1,41 @@
+﻿l_english:
+ 
+ north_sea_trading_company_a:0 "North Sea Trading Company"
+ establish_trading_company_on_northsea_denmark:0 "Establish North Sea Company"
+ establish_ENG_north_sea_trading_company_req_state_tt:0 "Own Denmark"
+ 
+ 
+ #Cosmetic Tags
+ DEN_ENG_northsea_trading_company_fascism:0 "North Sea Trading Company"
+ DEN_ENG_northsea_trading_company_fascism_DEF:0 "The North Sea Trading Company"
+ DEN_ENG_northsea_trading_company_communism:0 "North Sea Trading Company"
+ DEN_ENG_northsea_trading_company_communism_DEF:0 "The North Sea Trading Company"
+ DEN_ENG_northsea_trading_company_authoritarian:0 "North Sea Trading Company"
+ DEN_ENG_northsea_trading_company_authoritarian_DEF:0 "The North Sea Trading Company"
+ DEN_ENG_northsea_trading_company_monarchism:0 "North Sea Trading Company"
+ DEN_ENG_northsea_trading_company_monarchism_DEF:0 "The North Sea Trading Company"
+ DEN_ENG_northsea_trading_company_liberalism:0 "North Sea Trading Company"
+ DEN_ENG_northsea_trading_company_liberalism_DEF:0 "The North Sea Trading Company"
+ DEN_ENG_northsea_trading_company_conservatism:0 "North Sea Trading Company"
+ DEN_ENG_northsea_trading_company_conservatism_DEF:0 "The North Sea Trading Company"
+ DEN_ENG_northsea_trading_company_mod_ordaism:0 "North Sea Trading Company"
+ DEN_ENG_northsea_trading_company_mod_ordaism_DEF:0 "The North Sea Trading Company"
+ DEN_ENG_northsea_trading_company_authoritarian_ADJ:0 "North Sea TC English"
+ DEN_ENG_northsea_trading_company_monarchism_ADJ:0 "North Sea TC English"
+ DEN_ENG_northsea_trading_company_liberalism_ADJ:0 "North Sea TC English"
+ DEN_ENG_northsea_trading_company_conservatism_ADJ:0 "North Sea TC English"
+ DEN_ENG_northsea_trading_company_mod_ordaism_ADJ:0 "North Sea TC English"
+ DEN_ENG_northsea_trading_company_fascism_ADJ:0 "North Sea TC English"
+ DEN_ENG_northsea_trading_company_communism_ADJ:0 "North Sea TC English"
+ 
+ #Events
+ england_puppet.1.t:0 "Establishing Leadership In The North Sea Trading Company"
+ england_puppet.1.d:0 "We have established The North Sea Trading Company, and currently they are lead by a council we quickly established. However we should probably choose a leader of this new trading company, while we can keep the council in power, parliament has recommended we chose out of the two suggestions they voted on. Their first suggestion is Jack Churchill, brother of political figure Winston Churchill, and former Mayor of Manchester. Our second choice is Cuthbert Headlam, a member of parliament. Both have accepted the offer and are awaiting a choice from the administration."
+ england_puppet.1.o1:0 "Jack Churchill"
+ england_puppet.1.o2:0 "Keep Council Leadership"
+ england_puppet.1.o3:0 "Cuthbert Headlam"
+ 
+ england_puppet.2.t:0 "Shall We Take Direct Control"
+ england_puppet.2.d:0 "Shall we take direct control over the North Sea Trading Company?"
+ england_puppet.2.o1:0 "Yes (Become The Trading Company)"
+ england_puppet.2.o2:0 "No"

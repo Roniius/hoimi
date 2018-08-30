@@ -14,7 +14,10 @@
  SOV_authoritarian_party:0 "Cadet"
  SOV_authoritarian_party_long:0 "Constitutional Democratic Party of Muscovy"
  
+ #Bookmark
+ SOV_MONGOLII_IMPERIUM_DESC:0 "Muscovy stands as it has for centuries, a symbol of Eastern European independence. During the years following the end of Mongol control, Muscovy was in a state of reconstruction and for a while it was weak, almost completely up for grabs to all outsiders but no one took the chance. After some time, Muscovy pulled itself up and began pushing back the old hordes of the former Mongol Empire. Muscovy had become one of the largest nations in Europe, nearly unstoppable in it's might."
+ 
  #Events
  muscovy.1.t:0 "From Muscovy, With Love\nMuscovy"
- 
+ muscovy.1.d:0 "Muscovy stands as it has for centuries, a symbol of Eastern European independence. During the years following the end of Mongol control, Muscovy was in a state of reconstruction and for a while it was weak, almost completely up for grabs to all outsiders but no one took the chance. After some time, Muscovy pulled itself up and began pushing back the old hordes of the former Mongol Empire. Muscovy had become one of the largest nations in Europe, nearly unstoppable in it's might.\n\nTimes have changed since those days: The Grand Duke seems persistent on fruitless purges: The people fear he is mad. With Novgorod to the North and Lithuania to the west, the weakened nation may find itself in a more vulnerable position then ever.. However that is only foreign problems, to say that Muscovy is clear of domestic problems would be a complete lie, in fact, Muscovy is sprawling with different factions, from the Ordaist Party of Muscovy, known mostly as The Bolsheviks to the Russian Unionist Party. While most factions remain fairly peaceful, if the Grand Duke was to target them who knows what they may do?"
  muscovy.1.o1:0 "Muscovy Is Forever!"

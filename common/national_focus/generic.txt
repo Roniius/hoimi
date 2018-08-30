@@ -283,7 +283,7 @@ focus_tree = {
 	
 	focus = {
 		id = invest_in_new_contracts
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_stolen_papers
 		x = 14
 		y = 0
 		cost = 10
@@ -297,7 +297,7 @@ focus_tree = {
 	
 	focus = {
 		id = invest_in_infrastructure
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_construct_civilian
 		prerequisite = { focus = invest_in_new_contracts }
 		x = -3
 		y = 1
@@ -312,7 +312,7 @@ focus_tree = {
 	
 	focus = {
 		id = rail_expansion
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = { focus = invest_in_infrastructure }
 		x = -3
 		y = 2
@@ -327,7 +327,7 @@ focus_tree = {
 	
 	focus = {
 		id = national_highway
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_rubber
 		prerequisite = { focus = rail_expansion }
 		x = -3
 		y = 3
@@ -342,7 +342,7 @@ focus_tree = {
 	
 	focus = {
 		id = invest_in_the_civilian_sector
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_industry_2
 		prerequisite = { focus = invest_in_new_contracts }
 		x = -1
 		y = 1
@@ -357,7 +357,7 @@ focus_tree = {
 	
 	focus = {
 		id = work_with_consumer_companies
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_consumer_goods
 		prerequisite = { focus = invest_in_the_civilian_sector }
 		x = -1
 		y = 2
@@ -372,7 +372,7 @@ focus_tree = {
 	
 	focus = {
 		id = expand_civil_factories
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_the_giant_wakes
 		prerequisite = { focus = work_with_consumer_companies }
 		x = -1
 		y = 3
@@ -387,7 +387,7 @@ focus_tree = {
 	
 	focus = {
 		id = invest_in_the_military_sector
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_intelligence_exchange
 		prerequisite = { focus = invest_in_new_contracts }
 		x = 1
 		y = 1
@@ -402,7 +402,7 @@ focus_tree = {
 	
 	focus = {
 		id = new_arms_factories
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = invest_in_the_military_sector }
 		x = 1
 		y = 2
@@ -417,7 +417,7 @@ focus_tree = {
 	
 	focus = {
 		id = cut_a_deal_with_the_military
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_soldiers_for_workers
 		prerequisite = { focus = new_arms_factories }
 		x = 1
 		y = 3
@@ -432,7 +432,7 @@ focus_tree = {
 	
 	focus = {
 		id = invest_in_excavation
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_construction2
 		prerequisite = { focus = invest_in_new_contracts }
 		x = 3
 		y = 1
@@ -447,7 +447,7 @@ focus_tree = {
 	
 	focus = {
 		id = the_search_for_black_gold
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_oil_refinery
 		prerequisite = { focus = invest_in_excavation }
 		x = 3
 		y = 2
@@ -462,7 +462,7 @@ focus_tree = {
 	
 	focus = {
 		id = mine_for_metal
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_steel
 		prerequisite = { focus = the_search_for_black_gold }
 		x = 3
 		y = 3
@@ -477,7 +477,7 @@ focus_tree = {
 	
 	focus = {
 		id = reforming_the_system
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_free_press
 		x = 24
 		y = 0
 		cost = 10
@@ -491,7 +491,7 @@ focus_tree = {
 	
 	focus = {
 		id = strong_leadership
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_swing_the_sword
 		prerequisite = { focus = reforming_the_system }
 		available = {
 			OR = {
@@ -514,7 +514,7 @@ focus_tree = {
 	
 	focus = {
 		id = national_supremacy
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_support_fascism
 		prerequisite = { focus = strong_leadership }
 		available = {
 			
@@ -534,7 +534,7 @@ focus_tree = {
 	
 	focus = {
 		id = militarism
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_enlist_the_police
 		prerequisite = { focus = national_supremacy }
 		x = -5
 		y = 3
@@ -549,7 +549,7 @@ focus_tree = {
 	
 	focus = {
 		id = minority_opression
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_death_or_dishonor
 		prerequisite = { focus = militarism }
 		x = -5
 		y = 4
@@ -564,7 +564,7 @@ focus_tree = {
 	
 	focus = {
 		id = expand_the_homeland
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_attack_allies
 		prerequisite = { focus = minority_opression }
 		x = -5
 		y = 5
@@ -579,7 +579,7 @@ focus_tree = {
 	
 	focus = {
 		id = institute_divine_rule
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_divine_rule
 		prerequisite = { focus = strong_leadership }
 		available = {
 			
@@ -599,7 +599,7 @@ focus_tree = {
 	
 	focus = {
 		id = work_with_the_churches
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_work_with_church
 		prerequisite = { focus = institute_divine_rule }
 		x = -3
 		y = 3
@@ -614,7 +614,7 @@ focus_tree = {
 	
 	focus = {
 		id = hang_royal_portraits
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_royal_portraits
 		prerequisite = { focus = work_with_the_churches }
 		x = -3
 		y = 4
@@ -629,7 +629,7 @@ focus_tree = {
 	
 	focus = {
 		id = land_for_their_majesty
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_monarchist
 		prerequisite = { focus = hang_royal_portraits }
 		x = -3
 		y = 5
@@ -644,7 +644,7 @@ focus_tree = {
 	
 	focus = {
 		id = a_new_authority
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_authority
 		prerequisite = { focus = strong_leadership }
 		available = {
 			
@@ -664,7 +664,7 @@ focus_tree = {
 	
 	focus = {
 		id = work_with_the_military
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_parade
 		prerequisite = { focus = a_new_authority }
 		x = -1
 		y = 3
@@ -679,7 +679,7 @@ focus_tree = {
 	
 	focus = {
 		id = work_with_the_corporations
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_root_out_funding
 		prerequisite = { focus = work_with_the_military }
 		x = -1
 		y = 4
@@ -694,7 +694,7 @@ focus_tree = {
 	
 	focus = {
 		id = build_our_sphere
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_build_our_sphere
 		prerequisite = { focus = work_with_the_corporations }
 		x = -1
 		y = 5
@@ -729,7 +729,7 @@ focus_tree = {
 	
 	focus = {
 		id = purge_unloyal_elements
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_war_with_comintern
 		prerequisite = { focus = dictatorship_of_the_ajilchin }
 		x = 1
 		y = 3
@@ -744,7 +744,7 @@ focus_tree = {
 	
 	focus = {
 		id = work_with_unions
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_union
 		prerequisite = { focus = purge_unloyal_elements }
 		x = 1
 		y = 4
@@ -759,7 +759,7 @@ focus_tree = {
 	
 	focus = {
 		id = export_the_revolution
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_export_the_revolution
 		prerequisite = { focus = work_with_unions }
 		x = 1
 		y = 5
@@ -774,7 +774,7 @@ focus_tree = {
 	
 	focus = {
 		id = international_friends
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_anschluss
 		prerequisite = { focus = export_the_revolution focus = expand_the_homeland focus = land_for_their_majesty focus = build_our_sphere }
 		x = -4
 		y = 6
@@ -789,7 +789,7 @@ focus_tree = {
 	
 	focus = {
 		id = liberalize_the_nation
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_support_democracy
 		prerequisite = { focus = reforming_the_system }
 		available = {
 			OR = {
@@ -811,7 +811,7 @@ focus_tree = {
 	
 	focus = {
 		id = for_the_worker_the_farmer_the_peasant
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_mod_ordaism
 		prerequisite = { focus = liberalize_the_nation }
 		available = {
 			
