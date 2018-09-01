@@ -1332,5 +1332,25 @@ spriteTypes = {
 		name = "GFX_focus_generic_mod_ordaism"
 		texturefile = "gfx/interface/goals/focus_generic_mod_ordaism.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_focus_generic_ajilchin"
+		texturefile = "gfx/interface/goals/focus_generic_ajilchin.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_generic_agrarian_reforms"
+		texturefile = "gfx/interface/goals/focus_generic_agrarian_reforms.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_generic_new_found_freedom"
+		texturefile = "gfx/interface/goals/focus_generic_new_found_freedom.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_generic_democratic_reform"
+		texturefile = "gfx/interface/goals/focus_generic_democratic_reform.dds"
+	}
 
 }

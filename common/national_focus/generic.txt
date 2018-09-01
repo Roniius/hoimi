@@ -709,7 +709,7 @@ focus_tree = {
 	
 	focus = {
 		id = dictatorship_of_the_ajilchin
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_ajilchin
 		prerequisite = { focus = strong_leadership }
 		available = {
 			
@@ -831,7 +831,7 @@ focus_tree = {
 	
 	focus = {
 		id = government_intervention
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_self_management
 		prerequisite = { focus = for_the_worker_the_farmer_the_peasant }
 		x = 3
 		y = 3
@@ -846,7 +846,7 @@ focus_tree = {
 	
 	focus = {
 		id = environmental_refom
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_agrarian_reforms
 		prerequisite = { focus = government_intervention }
 		x = 3
 		y = 4
@@ -861,7 +861,7 @@ focus_tree = {
 	
 	focus = {
 		id = the_spread_of_socialism
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_dangerous_deal
 		prerequisite = { focus = environmental_refom }
 		x = 3
 		y = 5
@@ -876,7 +876,7 @@ focus_tree = {
 	
 	focus = {
 		id = new_found_freedom
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_new_found_freedom
 		prerequisite = { focus = liberalize_the_nation }
 		available = {
 			
@@ -896,7 +896,7 @@ focus_tree = {
 	
 	focus = {
 		id = liberalize_the_constitution
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_democratic_reform
 		prerequisite = { focus = new_found_freedom }
 		x = 5
 		y = 3
@@ -911,7 +911,7 @@ focus_tree = {
 	
 	focus = {
 		id = progressive_reform
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_concessions
 		prerequisite = { focus = liberalize_the_constitution }
 		x = 5
 		y = 4
@@ -926,7 +926,7 @@ focus_tree = {
 	
 	focus = {
 		id = the_spread_of_democracy
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_propaganda
 		prerequisite = { focus = progressive_reform }
 		x = 5
 		y = 5
@@ -941,7 +941,7 @@ focus_tree = {
 	
 	focus = {
 		id = we_must_keep_tradition
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_strike_at_democracy1
 		prerequisite = { focus = liberalize_the_nation }
 		available = {
 			
@@ -961,7 +961,7 @@ focus_tree = {
 	
 	focus = {
 		id = tighten_borders
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_construct_military
 		prerequisite = { focus = we_must_keep_tradition }
 		x = 7
 		y = 3
@@ -976,7 +976,7 @@ focus_tree = {
 	
 	focus = {
 		id = conservative_reform
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_cavalry
 		prerequisite = { focus = tighten_borders }
 		x = 7
 		y = 4
@@ -991,7 +991,7 @@ focus_tree = {
 	
 	focus = {
 		id = the_spread_of_tradition
-		#icon = GFX_goal_generic_allies_build_infantry
+		icon = goal_continuous_def_against_influence
 		prerequisite = { focus = conservative_reform }
 		x = 7
 		y = 5

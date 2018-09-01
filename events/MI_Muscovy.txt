@@ -14,3 +14,32 @@ country_event = {
 		
 	}
 }
+
+#The 65th Purge
+country_event = {
+	id = muscovy.2
+	title = muscovy.2.t
+	desc = muscovy.2.d
+	picture = GFX_report_event_generic_military_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.2.o1
+		remove_unit_leader = 001
+	}
+}
+
+#Grad Duke makes announcement in The Royal Square
+country_event = {
+	id = muscovy.3
+	title = muscovy.3.t
+	desc = muscovy.3.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.3.o1
+	}
+}
