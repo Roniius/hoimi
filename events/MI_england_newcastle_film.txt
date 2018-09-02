@@ -1,0 +1,16 @@
+add_namespace = england_newcastle_film
+
+#Monroe Staples Studios Purchases MGM Studios
+country_event = {
+	id = england_newcastle_film.1
+	title = england_newcastle_film.1.t
+	desc = england_newcastle_film.1.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = england_newcastle_film.1.o1
+		
+	}
+}

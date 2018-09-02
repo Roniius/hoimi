@@ -18,7 +18,9 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			army_experience = 10
+			navy_experience = 10
+			air_experience = 10
 		}
 	}
 	
@@ -33,7 +35,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = army_expansion_idea
 		}
 	}
 	
@@ -48,7 +50,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = motorized_generic_boost
+				bonus = 0.50
+				uses = 1
+				category = motorized_equipment
+			}
 		}
 	}
 	
@@ -63,7 +70,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = upgrade_infantry_equipment_re
+				bonus = 0.50
+				uses = 1
+				category = infantry_weapons
+			}
 		}
 	}
 	
@@ -79,7 +91,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = generic_artillery_research
+				bonus = 0.50
+				uses = 1
+				category = artillery
+			}
 		}
 	}
 	
@@ -94,7 +111,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = generic_invest_in_armor
+				bonus = 0.50
+				uses = 1
+				category = armor
+			}
 		}
 	}
 	
@@ -109,7 +131,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = aerial_expansion_idea
 		}
 	}
 	
@@ -124,7 +146,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = generic_aerial_tactics
+				bonus = 0.50
+				uses = 2
+				category = air_doctrine
+			}
 		}
 	}
 	
@@ -139,7 +166,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = generic_bomber_research
+				bonus = 0.50
+				uses = 1
+				category = tactical_bomber
+			}
 		}
 	}
 	
@@ -154,7 +186,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = generic_fighter_research
+				bonus = 0.50
+				uses = 1
+				category = light_fighter
+			}
 		}
 	}
 	
@@ -169,7 +206,13 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			navy_experience = 10
+			add_tech_bonus = {
+				name = generic_naval_expansion
+				bonus = 0.50
+				uses = 1
+				category = naval_doctrine
+			}
 		}
 	}
 	
@@ -184,7 +227,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = generic_cruiser_research
+				bonus = 0.50
+				uses = 1
+				category = cl_tech
+			}
 		}
 	}
 	
@@ -199,7 +247,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = generic_battleship_research
+				bonus = 0.50
+				uses = 2
+				category = bb_tech
+			}
 		}
 	}
 	
@@ -215,7 +268,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = generic_carrier_research
+				bonus = 0.50
+				uses = 2
+				category = cv_tech
+			}
 		}
 	}
 	
@@ -230,7 +288,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = generic_submarine_research
+				bonus = 0.50
+				uses = 1
+				category = ss_tech
+			}
 		}
 	}
 	
@@ -247,7 +310,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = generic_electronic_research
+				bonus = 0.50
+				uses = 3
+				category = electronics
+			}
 		}
 	}
 	
@@ -262,7 +330,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = generic_rocket_science
+				bonus = 0.50
+				uses = 1
+				category = rocketry
+			}
 		}
 	}
 	
@@ -277,7 +350,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = generic_abuse_the_atom
+				bonus = 0.50
+				uses = 1
+				category = nuclear
+			}
 		}
 	}
 	

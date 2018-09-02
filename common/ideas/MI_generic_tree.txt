@@ -1,0 +1,39 @@
+ideas = {
+	country = {
+		army_expansion_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				war_support_factor = 0.05
+				conscription_factor = 0.1
+			}
+		}
+		
+		aerial_expansion_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				experience_gain_air_factor = 0.1
+				air_ace_generation_chance_factor = 0.15
+			}
+		}
+	}
+}

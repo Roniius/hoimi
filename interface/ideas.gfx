@@ -3742,4 +3742,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/generic_disjointed_gov.dds"
 	}	
 	
+	#Generic Tree Spirits
+	
+	spriteType = {
+		name = "GFX_idea_army_expansion_idea"
+		texturefile = "gfx/interface/ideas/idea_chi_army_corruption3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_aerial_expansion_idea"
+		texturefile = "gfx/interface/ideas/generic_air_bonus.dds"
+	}
+	
 }

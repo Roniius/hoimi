@@ -126,6 +126,32 @@
  the_spread_of_tradition:0 "The Spread of Tradition"
  the_spread_of_tradition_desc:0 "The spread of tradition will help the world into a period of greatness."
  
+ #National Spirits
+ army_expansion_idea:0 "Army Expansion"
+ army_expansion_idea_desc:0 "We are expanding the Army."
+ 
+ aerial_expansion_idea:0 "Aerial Expansion"
+ aerial_expansion_idea_desc:0 "We are expanding the Air Force."
+ 
+ #Tech Boosts
+ motorized_generic_boost:0 "Motorized Research"
+ upgrade_infantry_equipment_re:0 "Upgrading Infantry Equipment"
+ generic_artillery_research:0 "Artillery Research"
+ generic_invest_in_armor:0 "Investing In Armor"
+ generic_aerial_tactics:0 "Learning New Aerial Tactics"
+ generic_bomber_research:0 "Bomber Research"
+ generic_fighter_research:0 "Fighter Research"
+ generic_naval_expansion:0 "Naval Expansion"
+ generic_cruiser_research:0 "Cruiser Research"
+ generic_battleship_research:0 "Battleship Research"
+ generic_carrier_research:0 "Carrier Research"
+ generic_submarine_research:0 "Submarine Research"
+ generic_electronic_research:0 "Electronic Research"
+ generic_rocket_science:0 "Conducting Rocket Science"
+ generic_abuse_the_atom:0 "Abusing The Atom"
+ 
+ 
+ 
  
  
  
