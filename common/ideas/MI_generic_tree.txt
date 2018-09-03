@@ -35,5 +35,108 @@ ideas = {
 				air_ace_generation_chance_factor = 0.15
 			}
 		}
+		
+		infrastructure_investments_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				production_speed_infrastructure_factor = 0.15
+			}
+		}
+		
+		civilian_investments_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				 production_speed_industrial_complex_factor = 0.15
+			}
+		}
+		
+		working_with_consumer_companies_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				consumer_goods_factor = 0.-10
+			}
+		}
+		
+		military_investments_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				production_speed_arms_factory_factor = 0.15
+			}
+		}
+		
+		deal_with_military_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				conversion_cost_civ_to_mil_factor = -0.15
+				industrial_capacity_factory = 0.1
+			}
+		}
+		
+		excavation_investments_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				local_resources_factor = 0.15
+			}
+		}
 	}
 }

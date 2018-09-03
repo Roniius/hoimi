@@ -369,7 +369,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = generic_invest_in_new_contracts
+				bonus = 0.50
+				uses = 2
+				category = industry
+			}
 		}
 	}
 	
@@ -384,7 +389,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = infrastructure_investments_idea
 		}
 	}
 	
@@ -399,7 +404,13 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			random_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -414,7 +425,13 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			random_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -429,7 +446,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = civilian_investments_idea
 		}
 	}
 	
@@ -444,7 +461,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = working_with_consumer_companies_idea
 		}
 	}
 	
@@ -459,7 +476,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			random_state = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -474,7 +498,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = military_investments_idea
 		}
 	}
 	
@@ -489,7 +513,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			random_state = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -504,7 +535,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = deal_with_military_idea
 		}
 	}
 	
@@ -519,7 +550,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = excavation_investments_idea
 		}
 	}
 	
@@ -534,7 +565,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			random_owned_state = { 
+				add_resource = { type = rubber amount = 5 }
+			}
+			random_owned_state = { 
+				add_resource = { type = oil amount = 5 }
+			}
 		}
 	}
 	
@@ -549,7 +585,18 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			random_owned_state = { 
+				add_resource = { type = aluminium amount = 5 }
+			}
+			random_owned_state = { 
+				add_resource = { type = tungsten amount = 5 }
+			}
+			random_owned_state = { 
+				add_resource = { type = steel amount = 5 }
+			}
+			random_owned_state = { 
+				add_resource = { type = chromium amount = 5 }
+			}
 		}
 	}
 	

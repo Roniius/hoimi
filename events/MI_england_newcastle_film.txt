@@ -1,4 +1,4 @@
-add_namespace = england_newcastle_film
+﻿add_namespace = england_newcastle_film
 
 #Monroe Staples Studios Purchases MGM Studios
 country_event = {

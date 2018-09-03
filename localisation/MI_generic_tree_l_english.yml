@@ -133,6 +133,25 @@
  aerial_expansion_idea:0 "Aerial Expansion"
  aerial_expansion_idea_desc:0 "We are expanding the Air Force."
  
+ infrastructure_investments_idea:0 "Infrastructure Investments"
+ infrastructure_investments_idea_desc:0 "We have investments in Infrastructure, this will surly help us to improve it across the nation."
+ 
+ civilian_investments_idea:0 "Civilian Investments"
+ civilian_investments_idea_desc:0 "We have investments in the civilian sector, this will surly help us to improve it across the nation."
+ 
+ working_with_consumer_companies_idea:0 "Working With Consumer Companies"
+ working_with_consumer_companies_idea_desc:0 "Working with consumer companies will help us keep people supplied for every day life."
+ 
+ military_investments_idea:0 "Military Investments"
+ military_investments_idea_desc:0 "We have investments in the military sector, this will surly help us to improve it across the nation."
+ 
+ deal_with_military_idea:0 "Deal With The Military"
+ deal_with_military_idea_desc:0 "We have formed a deal witht the military to help the military sector."
+ 
+ excavation_investments_idea:0 "Excavation Investments"
+ excavation_investments_idea_desc:0 "Our investments in excavation will help us with finding new resources."
+ 
+ 
  #Tech Boosts
  motorized_generic_boost:0 "Motorized Research"
  upgrade_infantry_equipment_re:0 "Upgrading Infantry Equipment"
@@ -149,6 +168,8 @@
  generic_electronic_research:0 "Electronic Research"
  generic_rocket_science:0 "Conducting Rocket Science"
  generic_abuse_the_atom:0 "Abusing The Atom"
+ generic_invest_in_new_contracts:0 "Industrial Contracts"
+ 
  
  
  
