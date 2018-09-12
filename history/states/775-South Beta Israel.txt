@@ -1,0 +1,21 @@
+state={
+	id=775
+	name="STATE_775"
+	provinces={
+		13137 13137 13206 13207 13211 
+	}
+	
+	history={
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		owner = BET
+		add_core_of = BET
+
+	}
+	
+	state_category=city
+	manpower=141201
+	buildings_max_level_factor=1.000
+}

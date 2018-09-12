@@ -242,3 +242,16 @@ create_corps_commander = {
 	planning_skill = 5
 	logistics_skill = 3
 }
+
+create_navy_leader = {
+	name = "Ganbold Tsoros"
+		picture = "Portrait_MON_Ganbold_Tsoros.dds"
+	traits = { superior_tactician }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "Nergüi Atagan"
+		picture = "Portrait_MON_Nergui_Atagan.dds"
+	skill = 2
+}

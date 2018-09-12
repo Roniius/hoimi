@@ -3720,6 +3720,49 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/IRE/IRE_wt_cosgrave.dds"
 	}
 	
+	#Muscovite Ideas
+	
+	spriteType = {
+		name = "GFX_idea_SOV_ivan_ix_hog"
+		texturefile = "gfx/interface/ideas/SOV/SOV_ivan_ix.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_ivan_ix_cos"
+		texturefile = "gfx/interface/ideas/SOV/SOV_ivan_ix.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_ivan_ix_hoj"
+		texturefile = "gfx/interface/ideas/SOV/SOV_ivan_ix.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_smotrov_milomir_georgiy_dm"
+		texturefile = "gfx/interface/ideas/SOV/SOV_smotrov_milomir_georgiy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_vladimir_sidorin_fm"
+		texturefile = "gfx/interface/ideas/SOV/SOV_vladimir_sidorin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_pytor_krasnov_im"
+		texturefile = "gfx/interface/ideas/SOV/SOV_pytor_krasnov.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_SOV_vladimir_kokovtsov_em"
+		texturefile = "gfx/interface/ideas/SOV/SOV_vladimir_kokovtsov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_silin_lukyan_cm"
+		texturefile = "gfx/interface/ideas/SOV/SOV_silin_lukyan.dds"
+	}
+	
 	#Mongolian NatSpirits
 	
 	spriteType = {
@@ -3752,6 +3795,81 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_aerial_expansion_idea"
 		texturefile = "gfx/interface/ideas/generic_air_bonus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_oppressed_minorities_idea"
+		texturefile = "gfx/interface/ideas/idea_saf_history_of_segregation_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_excavation_investments_idea"
+		texturefile = "gfx/interface/ideas/generic_mining.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_deal_with_military_idea"
+		texturefile = "gfx/interface/ideas/idea_generic_reserve_divisions.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_military_investments_idea"
+		texturefile = "gfx/interface/ideas/idea_send_attache.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_working_with_consumer_companies_idea"
+		texturefile = "gfx/interface/ideas/good_econ.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_civilian_investments_idea"
+		texturefile = "gfx/interface/ideas/idea_harsh_economy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_infrastructure_investments_idea"
+		texturefile = "gfx/interface/ideas/idea_generic_build_infrastructure.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_expanding_the_homeland_idea"
+		texturefile = "gfx/interface/ideas/FRA_scw_intervention_nationalists_focus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_approved_divine_right_idea"
+		texturefile = "gfx/interface/ideas/generic_victors_of_ww1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_monarchy_cult_idea"
+		texturefile = "gfx/interface/ideas/idea_ast_abandon_the_westminster_system.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_expanding_the_kingdom_idea"
+		texturefile = "gfx/interface/ideas/FRA_scw_intervention_nationalists_focus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_working_with_corporations_idea"
+		texturefile = "gfx/interface/ideas/idea_chi_hyper_inflation4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_building_our_sphere_idea"
+		texturefile = "gfx/interface/ideas/FRA_scw_intervention_nationalists_focus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_union_support_idea"
+		texturefile = "gfx/interface/ideas/generic_production_bonus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_exporting_the_revolution_idea"
+		texturefile = "gfx/interface/ideas/FRA_scw_intervention_republicans_focus.dds"
 	}
 	
 }

@@ -83,7 +83,7 @@ ideas = {
 			removal_cost = -1
 						
 			modifier = {
-				consumer_goods_factor = 0.-10
+				consumer_goods_factor = -0.10
 			}
 		}
 		
@@ -136,6 +136,169 @@ ideas = {
 						
 			modifier = {
 				local_resources_factor = 0.15
+			}
+		}
+		
+		oppressed_minorities_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				war_support_factor = 0.15
+				stability_factor = -0.10
+				political_power_factor = 0.15
+			}
+		}
+		
+		expanding_the_homeland_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				war_support_factor = 0.05
+				justify_war_goal_time = -0.45
+			}
+		}
+		
+		approved_divine_right_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				political_power_factor = 0.10
+			}
+		}
+		
+		monarchy_cult_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				political_power_factor = 0.15
+			}
+		}
+		
+		expanding_the_kingdom_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				war_support_factor = 0.05
+				justify_war_goal_time = -0.45
+			}
+		}
+		
+		working_with_corporations_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = -0.15
+			}
+		}
+		
+		building_our_sphere_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				war_support_factor = 0.05
+				justify_war_goal_time = -0.45
+			}
+		}
+		
+		union_support_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = -0.15
+			}
+		}
+		
+		exporting_the_revolution_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				war_support_factor = 0.05
+				justify_war_goal_time = -0.45
 			}
 		}
 	}

@@ -48,3 +48,25 @@ create_country_leader = {
 		
 	}
 }
+
+
+#This guys ideology has a few key aspects
+#
+#-Arab Pan-Nationalism
+#-Moderate Ordaism
+#-Socially Progressive
+#-Secularism
+#-Damascan Nationalism
+#
+#It is important too note that the Damascan Nationalism comes second too Arab Nationalism.
+#
+create_country_leader = {
+	name = "Abderrazak Al-Dandashli"
+	desc = "POLITICS_ABDERRAZAK_AL_DANDASHLI_DESC"
+	picture = "Portrait_SYR_Abderrazak_Al_Dandashli.dds"
+	expire = "1965.1.1"
+	ideology = sub_liberalism
+	traits = {
+		
+	}
+}

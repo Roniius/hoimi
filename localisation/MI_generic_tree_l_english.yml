@@ -151,6 +151,33 @@
  excavation_investments_idea:0 "Excavation Investments"
  excavation_investments_idea_desc:0 "Our investments in excavation will help us with finding new resources."
  
+ oppressed_minorities_idea:0 "Oppressed Minorities"
+ oppressed_minorities_idea_desc:0 "We are activly oppressing minorities in our nation."
+ 
+ expanding_the_homeland_idea:0 "Expanding The Homeland"
+ expanding_the_homeland_idea_desc:0 "We must expand the homeland, more living space for our kind."
+ 
+ approved_divine_right_idea:0 "Approved Divine Right"
+ approved_divine_right_idea_desc:0 "Our divine right is approved after working with the churches."
+ 
+ monarchy_cult_idea:0 "Monarchist Cult"
+ monarchy_cult_idea_desc:0 "The people shall worship our monarchy."
+ 
+ expanding_the_kingdom_idea:0 "Expanding The Kingdom"
+ expanding_the_kingdom_idea_desc:0 "We must expand the kingdom for our royalty."
+ 
+ working_with_corporations_idea:0 "Working With Corporations"
+ working_with_corporations_idea_desc:0 "Working with the corporations will surely help our economy fluerish."
+ 
+ building_our_sphere_idea:0 "Building Our Sphere"
+ building_our_sphere_idea_desc:0 "We must build the area that we control."
+ 
+ union_support_idea:0 "Union Support"
+ union_support_idea_desc:0 "We have the support of the unions for our regime."
+ 
+ exporting_the_revolution_idea:0 "Exporting The Revolution"
+ exporting_the_revolution_idea_desc:0 "We should export the revolution out of the nation."
+ 
  
  #Tech Boosts
  motorized_generic_boost:0 "Motorized Research"

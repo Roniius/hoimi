@@ -1,0 +1,181 @@
+ideas = {
+	head_of_government = {
+	
+		SOV_ivan_ix_hog = { 
+			allowed = {original_tag = SOV}
+			available = {
+				OR = {
+					has_government = monarchism
+				}
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = ivan_ix_dead}
+				NOT = {has_country_flag = ivan_ix_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+	
+	}
+	
+	chief_of_staff = {
+		#IVAN IX
+		SOV_ivan_ix_cos = { 
+			allowed = {original_tag = SOV }
+			available = {
+				OR = {
+					has_government = monarchism
+					has_government = authoritarian
+					has_government = fascism
+					has_government = conservatism
+					has_government = liberalism
+					has_government = mod_ordaism
+				}
+				has_country_flag = can_replace_cos
+				NOT = {has_country_flag = ivan_ix_dead}
+				NOT = {has_country_flag = ivan_ix_cos_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+	}
+	
+	head_of_judiciary = {
+	
+		SOV_ivan_ix_hoj = { 
+			allowed = {original_tag = SOV }
+			available = {
+				OR = {
+					has_government = monarchism
+					has_government = authoritarian
+					has_government = fascism
+					has_government = conservatism
+					has_government = liberalism
+					has_government = mod_ordaism
+				}
+				has_country_flag = can_replace_hoj
+				NOT = {has_country_flag = ivan_ix_dead}
+				NOT = {has_country_flag = ivan_ix_hoj_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+	
+	}
+	
+	defense_minister = {
+	
+		SOV_smotrov_milomir_georgiy_dm = { 
+			allowed = {original_tag = SOV }
+			available = {
+				OR = {
+					has_government = monarchism
+					has_government = authoritarian
+					has_government = fascism
+					has_government = conservatism
+					has_government = liberalism
+				}
+				has_country_flag = can_replace_dm
+				NOT = {has_country_flag = smotrov_milomir_georgiy_dead}
+				NOT = {has_country_flag = smotrov_milomir_georgiy_dm_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+	
+	}
+	
+	foreign_minister = {
+	
+		SOV_vladimir_sidorin_fm = { 
+			allowed = {original_tag = SOV }
+			available = {
+				OR = {
+					has_government = monarchism
+					has_government = authoritarian
+					has_government = conservatism
+					has_government = liberalism
+					has_government = mod_ordaism
+				}
+				has_country_flag = can_replace_fm
+				NOT = {has_country_flag = vladimir_sidorin_dead}
+				NOT = {has_country_flag = vladimir_sidorin_fm_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+	
+	}
+	
+	intelligence_minister = {
+	
+		SOV_pytor_krasnov_im = { 
+			allowed = {original_tag = SOV }
+			available = {
+				OR = {
+					has_government = monarchism
+					has_government = authoritarian
+					has_government = conservatism
+					has_government = fascism
+				}
+				has_country_flag = can_replace_im
+				NOT = {has_country_flag = pytor_krasnov_dead}
+				NOT = {has_country_flag = pytor_krasnov_im_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+	
+	}
+	
+	construction_minister = {
+	
+		SOV_silin_lukyan_cm = { 
+			allowed = {original_tag = IRE}
+			available = {
+				OR = {
+					has_government = monarchism
+					has_government = authoritarian
+					has_government = conservatism
+					has_government = liberalism
+				}
+				has_country_flag = can_replace_cm
+				NOT = {has_country_flag = silin_lukyan_dead}
+				NOT = {has_country_flag = silin_lukyan_cm_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+	
+	}
+	
+	#Vladimir Kokovtsov
+	economic_minister = {
+	
+		SOV_vladimir_kokovtsov_em = { 
+			allowed = {original_tag = SOV }
+			available = {
+				OR = {
+					has_government = monarchism
+					has_government = authoritarian
+					has_government = conservatism
+					has_government = liberalism
+				}
+				has_country_flag = can_replace_em
+				NOT = {has_country_flag = vladimir_kokovtsov_dead}
+				NOT = {has_country_flag = vladimir_kokovtsov_em_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+	
+	}
+	
+}

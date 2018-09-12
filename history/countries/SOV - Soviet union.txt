@@ -1,6 +1,6 @@
 ﻿capital = 219
 
-#oob = "SOV_1936"
+oob = "SOV_1936"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -9,36 +9,51 @@ set_war_support = 0.8
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	tech_recon = 1
 	tech_support = 1		
 	tech_engineers = 1
-	tech_military_police = 1
-	tech_mountaineers = 1
+	tech_recon = 1
 	motorised_infantry = 1
-	paratroopers = 1
 	gw_artillery = 1
+	interwar_antiair = 1
 	gwtank = 1
-	basic_light_tank = 1  # PLACEHOLDER
+	basic_light_tank = 1
+	#improved_light_tank = 1  # PLACEHOLDER
 	#basic_heavy_tank = 1  # PLACEHOLDER
 	#basic_medium_tank = 1 # PLACEHOLDER
 	early_fighter = 1
-	fighter1 = 1
-	early_bomber = 1
-	strategic_bomber1 = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
 	naval_bomber1 = 1
+	early_bomber = 1
+	CAS1 = 1
 	early_submarine = 1
-	basic_submarine = 1
 	early_destroyer = 1
+	basic_destroyer = 1
 	early_light_cruiser = 1
 	early_heavy_cruiser = 1
 	early_battleship = 1
 	early_battlecruiser = 1
+	early_carrier = 1
+	trench_warfare = 1
+
 	transport = 1
-	mass_assault = 1
 	fleet_in_being = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
 }
 
 set_convoys = 50
+
+add_ideas = {
+	SOV_ivan_ix_hog
+	SOV_ivan_ix_cos
+	SOV_ivan_ix_hoj
+	SOV_smotrov_milomir_georgiy_dm
+	SOV_vladimir_sidorin_fm
+	SOV_pytor_krasnov_im
+	SOV_vladimir_kokovtsov_em
+	SOV_silin_lukyan_cm
+}
 
 set_politics = {
 

@@ -610,7 +610,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_political_power = 50
 		}
 	}
 	
@@ -633,7 +633,18 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = liberalism
+				popularity = -0.10
+			}
+			add_popularity = {
+				ideology = conservatism
+				popularity = -0.10
+			}
+			add_popularity = {
+				ideology = mod_ordaism
+				popularity = -0.10
+			}
 		}
 	}
 	
@@ -653,7 +664,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
 		}
 	}
 	
@@ -668,7 +682,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = militarism_focus
 		}
 	}
 	
@@ -683,7 +697,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = oppressed_minorities_idea
 		}
 	}
 	
@@ -698,7 +712,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = expanding_the_homeland_idea
 		}
 	}
 	
@@ -718,7 +732,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = monarchism
+				popularity = 0.05
+			}
 		}
 	}
 	
@@ -733,7 +750,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = approved_divine_right_idea
 		}
 	}
 	
@@ -748,7 +765,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = monarchy_cult_idea
 		}
 	}
 	
@@ -763,7 +780,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = expanding_the_kingdom_idea
 		}
 	}
 	
@@ -783,7 +800,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = authoritarian
+				popularity = 0.05
+			}
 		}
 	}
 	
@@ -798,7 +818,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			army_experience = 50
+			add_war_support = 0.15
 		}
 	}
 	
@@ -813,7 +834,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = working_with_corporations_idea
 		}
 	}
 	
@@ -828,7 +849,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = building_our_sphere_idea
 		}
 	}
 	
@@ -848,7 +869,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
 		}
 	}
 	
@@ -863,7 +887,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_political_power = 100
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
 		}
 	}
 	
@@ -878,7 +906,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = union_support_idea
 		}
 	}
 	
@@ -893,7 +921,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = exporting_the_revolution_idea
 		}
 	}
 	
@@ -908,7 +936,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			set_rule = { can_create_factions = yes }
 		}
 	}
 	
@@ -930,7 +958,22 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = authoritarian
+				popularity = -0.10
+			}
+			add_popularity = {
+				ideology = monarchism
+				popularity = -0.10
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = -0.10
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.10
+			}
 		}
 	}
 	

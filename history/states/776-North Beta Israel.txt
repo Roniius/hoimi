@@ -1,0 +1,21 @@
+state={
+	id=776
+	name="STATE_776"
+	provinces={
+		13208 13209 13210 
+	}
+	
+	history={
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		owner = BET
+		add_core_of = BET
+
+	}
+	
+	state_category=rural
+	manpower=21405
+	buildings_max_level_factor=1.000
+}
