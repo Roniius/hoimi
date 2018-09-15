@@ -1,5 +1,6 @@
 ﻿capital = 282
 
+oob = "generic"
 
 set_politics = {
 

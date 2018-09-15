@@ -4,7 +4,7 @@
 set_technology = {
 	infantry_weapons = 1
 }
-
+oob = "generic"
 puppet = SCK
 
 add_ideas = {

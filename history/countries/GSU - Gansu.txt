@@ -1,6 +1,6 @@
 ﻿capital = 616
 
-#oob = "CHI_1936"
+oob = "generic"
 
 # Starting tech
 set_technology = {

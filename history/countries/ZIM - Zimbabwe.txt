@@ -1,1 +1,2 @@
 ﻿capital = 545
+oob = "generic"

@@ -5,6 +5,8 @@ state={
 	state_category = small_island
 	
 	history={
+		owner = BRM
+		add_core_of = BRM
 		buildings = {
 			infrastructure = 3
 			12251 = {

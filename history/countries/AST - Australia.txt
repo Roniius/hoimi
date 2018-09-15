@@ -1,6 +1,6 @@
 ﻿capital = 285
 
-#oob = "AST_1936"
+oob = "generic"
 set_stability = 0.55
 set_war_support = 0.3
 

@@ -1,6 +1,6 @@
 ﻿capital = 385
 
-#oob = "FRA_1936"
+oob = "generic"
 
 set_research_slots = 2
 

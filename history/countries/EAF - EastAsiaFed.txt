@@ -1,6 +1,6 @@
 ﻿capital = 561
 
-#oob = "EAF_1936"
+oob = "generic"
 
 # Starting tech
 set_technology = {

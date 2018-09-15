@@ -1,5 +1,6 @@
 ﻿capital = 158
 
+oob = "generic"
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

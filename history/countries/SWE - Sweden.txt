@@ -9,7 +9,7 @@ puppet = COG
 set_technology = {
 	infantry_weapons = 1
 }
-
+oob = "generic"
 add_ideas = {
 	limited_conscription
 	

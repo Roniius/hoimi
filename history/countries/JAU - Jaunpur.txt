@@ -1,6 +1,6 @@
 ﻿capital = 438
 
-#oob = "COG_1936"
+oob = "generic"
 
 set_politics = {
 

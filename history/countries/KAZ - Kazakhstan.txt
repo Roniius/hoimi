@@ -1,1 +1,3 @@
 ﻿capital = 586 #Almaty
+
+oob = "generic"

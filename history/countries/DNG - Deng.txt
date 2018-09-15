@@ -1,6 +1,6 @@
 ﻿capital = 598
 
-#oob = "DNG_1936"
+oob = "generic"
 
 # Starting tech
 set_technology = {

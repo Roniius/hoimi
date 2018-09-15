@@ -1,6 +1,6 @@
 ﻿capital = 617
 
-#oob = "AFG_1936"
+oob = "generic"
 
 # Starting tech
 set_technology = {
@@ -9,7 +9,7 @@ set_technology = {
 
 add_ideas = {
 	limited_conscription
-	
+	chagi_idea
 }
 
 set_stability = 0.43

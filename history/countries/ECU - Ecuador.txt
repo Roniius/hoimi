@@ -1,6 +1,6 @@
 ﻿capital = 305
 
-#oob = "ECU_1936"
+oob = "generic"
 
 set_technology = {
 	infantry_weapons = 1

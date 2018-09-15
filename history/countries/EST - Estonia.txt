@@ -1,6 +1,6 @@
 ﻿capital = 13
 
-#oob = "EST_1936"
+oob = "generic"
 
 # Starting tech
 set_technology = {

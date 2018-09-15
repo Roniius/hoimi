@@ -3887,86 +3887,91 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/FRA_scw_intervention_nationalists_focus.dds"
 	}
 	
-	#Religions
+	#religions
 	
 	spriteType = {
 		name = "GFX_idea_catholic_idea"
-		texturefile = "gfx/interface/Religions/Catholic.dds"
+		texturefile = "gfx/interface/ideas/religions/Catholic.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_reformist_idea"
-		texturefile = "gfx/interface/Religions/Reformist.dds"
+		texturefile = "gfx/interface/ideas/religions/Reformist.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_buddhism_idea"
-		texturefile = "gfx/interface/Religions/Buddhist.dds"
+		texturefile = "gfx/interface/ideas/religions/Buddhist.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_judaism_idea"
-		texturefile = "gfx/interface/Religions/Judaism.dds"
+		texturefile = "gfx/interface/ideas/religions/Judaism.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_coptic_idea"
-		texturefile = "gfx/interface/Religions/Coptic.dds"
+		texturefile = "gfx/interface/ideas/religions/Coptic.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_hindu_idea"
-		texturefile = "gfx/interface/Religions/Hindu.dds"
+		texturefile = "gfx/interface/ideas/religions/Hindu.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_ibadi_idea"
-		texturefile = "gfx/interface/Religions/Ibadi.dds"
+		texturefile = "gfx/interface/ideas/religions/Ibadi.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_shia_idea"
-		texturefile = "gfx/interface/Religions/Shia.dds"
+		texturefile = "gfx/interface/ideas/religions/Shia.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_sunni_idea"
-		texturefile = "gfx/interface/Religions/Sunni.dds"
+		texturefile = "gfx/interface/ideas/religions/Sunni.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_orthodox_idea"
-		texturefile = "gfx/interface/Religions/Orthodox.dds"
+		texturefile = "gfx/interface/ideas/religions/Orthodox.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_shinto_idea"
-		texturefile = "gfx/interface/Religions/Shinto.dds"
+		texturefile = "gfx/interface/ideas/religions/Shinto.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_animist_idea"
-		texturefile = "gfx/interface/Religions/Animist.dds"
+		texturefile = "gfx/interface/ideas/religions/Animist.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_tengri_idea"
-		texturefile = "gfx/interface/Religions/Tengri.dds"
+		texturefile = "gfx/interface/ideas/religions/Tengri.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_chagi_idea"
-		texturefile = "gfx/interface/Religions/Chagi.dds"
+		texturefile = "gfx/interface/ideas/religions/Chagi.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_atheism_idea"
-		texturefile = "gfx/interface/Religions/Atheism.dds"
+		texturefile = "gfx/interface/ideas/religions/Atheism.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_secularism_idea"
-		texturefile = "gfx/interface/Religions/Secularism.dds"
+		texturefile = "gfx/interface/ideas/religions/Secularism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_confucianism_idea"
+		texturefile = "gfx/interface/ideas/religions/Confucianism.dds"
 	}
 	
 }

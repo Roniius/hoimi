@@ -1,5 +1,8 @@
 ﻿capital = 271
 
+
+oob = "generic"
+
 set_technology = {
 	infantry_weapons = 1
 }

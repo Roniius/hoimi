@@ -1,1 +1,3 @@
 ﻿capital = 100 #Iceland
+
+oob = "generic"

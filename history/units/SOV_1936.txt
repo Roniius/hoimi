@@ -91,7 +91,6 @@ division_template = {
 }
 division_template = {
 	name = "Mekhanizirovaniy Korpus" 				# Represents regular mechanized corps (4 existed in 1935-38); 
-	division_names_group = SOV_MEC_01
 												# Also represents groups of independent tank, mech brigades of the time, though groups are best represented by tank bge 
 													# (2x M/L tank + 1x mot), and 2x mech bge (2x L tank + 1x mot)
 	regiments = {
@@ -108,8 +107,6 @@ division_template = {
 }
 division_template = {
 	name = "Vozdushno-Desantnaya Brigada"			# Airborne Brigade
-	division_names_group = SOV_PAR_01
-
 	regiments = {
 		paratrooper = { x = 0 y = 0 }
 		paratrooper = { x = 0 y = 1 }
@@ -119,6 +116,49 @@ division_template = {
 ### Note: OOB abstracts away the following:
 #	Marine Brigade (3x marine bn), 2 Brigades: Leningrad, Sevastopol
 #	Airborne Brigade (3x paratrooper bn), 1 Brigade: Moscow
+
+
+units = {
+	division = {
+		name = "1st Strelkovaya Diviziya"
+	
+		location = 6380
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "2nd Strelkovaya Diviziya"
+	
+		location = 6380
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "3rd Strelkovaya Diviziya"
+	
+		location = 401
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "4th Strelkovaya Diviziya"
+	
+		location = 6380
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+}
 
 
 instant_effect = {

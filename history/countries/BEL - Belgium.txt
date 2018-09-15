@@ -1,6 +1,6 @@
 ﻿capital = 34
 
-#oob = "BEL_1936"
+oob = "generic"
 
 set_research_slots = 3
 

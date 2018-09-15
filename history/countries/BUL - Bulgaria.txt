@@ -1,6 +1,6 @@
 ﻿capital = 48
 
-#oob = "BUL_1936"
+oob = "generic"
 
 # Starting tech
 set_technology = {

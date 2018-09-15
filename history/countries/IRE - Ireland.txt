@@ -1,12 +1,11 @@
 ﻿capital = 113
 
-#Liam Lynch will be starting Taoiseach
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 }
-
+oob = "generic"
 puppet = NCO
 puppet = IRS
 

@@ -1,6 +1,6 @@
 ﻿capital = 451
 
-#oob = "GNR_1936"
+oob = "generic"
 
 set_technology = {
 	infantry_weapons = 1

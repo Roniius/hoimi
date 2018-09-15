@@ -1,1 +1,3 @@
 ﻿capital = 46
+
+oob = "generic"

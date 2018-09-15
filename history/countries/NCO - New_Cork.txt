@@ -10,7 +10,7 @@ add_ideas = {
 	limited_conscription
 	
 }
-
+oob = "generic"
 set_politics = {
 
 	parties = {

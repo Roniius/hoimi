@@ -1,1 +1,3 @@
 ﻿capital = 301
+
+oob = "generic"
