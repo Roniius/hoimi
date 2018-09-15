@@ -301,5 +301,59 @@ ideas = {
 				justify_war_goal_time = -0.45
 			}
 		}
+		
+		spreading_socialism_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				war_support_factor = 0.05
+				justify_war_goal_time = -0.45
+			}
+		}
+		
+		spreading_democracy_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				war_support_factor = 0.05
+				justify_war_goal_time = -0.45
+			}
+		}
+		
+		spreading_tradition_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				war_support_factor = 0.05
+				justify_war_goal_time = -0.45
+			}
+		}
 	}
 }

@@ -178,6 +178,15 @@
  exporting_the_revolution_idea:0 "Exporting The Revolution"
  exporting_the_revolution_idea_desc:0 "We should export the revolution out of the nation."
  
+ spreading_socialism_idea:0 "Spreading Socialism"
+ spreading_socialism_idea_desc:0 "We must spread Socialism across the world."
+ 
+ spreading_democracy_idea:0 "Spreading Democracy"
+ spreading_democracy_idea_desc:0 "We must spread democracy across the world, it is our duty."
+ 
+ spreading_tradition_idea:0 "Spreading Tradition"
+ spreading_tradition_idea_desc:0 "We must spread tradition across the world."
+ 
  
  #Tech Boosts
  motorized_generic_boost:0 "Motorized Research"
