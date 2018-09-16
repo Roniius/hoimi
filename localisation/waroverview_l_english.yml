@@ -11,6 +11,7 @@
  INDUSTRY_COUNTRY:0 "§T$COUNTRY|H$ has $VAL|H$ total factories§!"
  CASUALTY:0 "Casualties"
  CASUALTY_COUNTRY:0 "§T$COUNTRY|H$ has $VAL|H2*$ in Casualties§!"
+ take_state:0 "Take State"
  CASUALTIES_START:0 "$COUNTRY|H$ Casualties:\n"
  CASUALTIES_ENTRY:0 "$COUNTRY|H$: $NUM|*1Y$\n"
  CASUALTIES_OTHER:0 "Other: $NUM|1*Y$\n"
