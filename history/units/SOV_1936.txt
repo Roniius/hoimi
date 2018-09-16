@@ -130,6 +130,26 @@ units = {
 	}
 	
 	division = {
+		name = "1st Verkhovnaya korolevskaya gvardiya"
+	
+		location = 6380
+		division_template = "Verkhovnaya korolevskaya gvardiya"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	
+		division = {
+		name = "2nd Verkhovnaya korolevskaya gvardiya"
+	
+		location = 6380
+		division_template = "Verkhovnaya korolevskaya gvardiya"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	
+	division = {
 		name = "2nd Strelkovaya Diviziya"
 	
 		location = 6380
@@ -153,6 +173,396 @@ units = {
 		name = "4th Strelkovaya Diviziya"
 	
 		location = 6380
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "1st Mekhanizirovaniy Korpus"
+	
+		location = 6380
+		division_template = "Mekhanizirovaniy Korpus"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "2nd Mekhanizirovaniy Korpus"
+	
+		location = 6380
+		division_template = "Mekhanizirovaniy Korpus"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "3rd Mekhanizirovaniy Korpus"
+	
+		location = 6380
+		division_template = "Mekhanizirovaniy Korpus"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "4th Mekhanizirovaniy Korpus"
+	
+		location = 6380
+		division_template = "Mekhanizirovaniy Korpus"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "5th Mekhanizirovaniy Korpus"
+	
+		location = 6380
+		division_template = "Mekhanizirovaniy Korpus"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "6th Mekhanizirovaniy Korpus"
+	
+		location = 6380
+		division_template = "Mekhanizirovaniy Korpus"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "7th Mekhanizirovaniy Korpus"
+	
+		location = 6380
+		division_template = "Mekhanizirovaniy Korpus"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "1st Kavaleriyskaya Diviziya"
+	
+		location = 31
+		division_template = "Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "2nd Kavaleriyskaya Diviziya"
+	
+		location = 45
+		division_template = "Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "3rd Kavaleriyskaya Diviziya"
+	
+		location = 31
+		division_template = "Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "4th Kavaleriyskaya Diviziya"
+	
+		location = 45
+		division_template = "Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "5th Kavaleriyskaya Diviziya"
+	
+		location = 73
+		division_template = "Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "6th Kavaleriyskaya Diviziya"
+	
+		location = 45
+		division_template = "Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "7th Kavaleriyskaya Diviziya"
+	
+		location = 45
+		division_template = "Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "8th Kavaleriyskaya Diviziya"
+	
+		location = 31
+		division_template = "Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "9th Kavaleriyskaya Diviziya"
+	
+		location = 6380
+		division_template = "Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "10th Kavaleriyskaya Diviziya"
+	
+		location = 3580
+		division_template = "Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "11th Kavaleriyskaya Diviziya"
+	
+		location = 3580
+		division_template = "Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "12th Kavaleriyskaya Diviziya"
+	
+		location = 3580
+		division_template = "Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "5th Strelkovaya Diviziya"
+	
+		location = 31
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "6th Strelkovaya Diviziya"
+	
+		location = 31
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "7th Strelkovaya Diviziya"
+	
+		location = 31
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "8th Strelkovaya Diviziya"
+	
+		location = 31
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "9th Strelkovaya Diviziya"
+	
+		location = 31
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "10th Strelkovaya Diviziya"
+	
+		location = 9253
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "11th Strelkovaya Diviziya"
+	
+		location = 9253
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "12th Strelkovaya Diviziya"
+	
+		location = 9253
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "13th Strelkovaya Diviziya"
+	
+		location = 31
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "14th Strelkovaya Diviziya"
+	
+		location = 9253
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "15th Strelkovaya Diviziya"
+	
+		location = 558
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "16th Strelkovaya Diviziya"
+	
+		location = 3580
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "17th Strelkovaya Diviziya"
+	
+		location = 3580
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "18th Strelkovaya Diviziya"
+	
+		location = 3580
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "19th Strelkovaya Diviziya"
+	
+		location = 558
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "20th Strelkovaya Diviziya"
+	
+		location = 3580
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "21st Strelkovaya Diviziya"
+	
+		location = 3580
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "22nd Strelkovaya Diviziya"
+	
+		location = 413
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "23rd Strelkovaya Diviziya"
+	
+		location = 413
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "24th Strelkovaya Diviziya"
+	
+		location = 413
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
