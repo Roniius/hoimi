@@ -34,6 +34,8 @@ add_ideas = {
 	IRE_liam_tobin_im
 	IRE_w_t_cosgrave_cm
 	IRE_w_t_cosgrave_em
+	
+	catholic_idea
 }
 
 set_politics = {

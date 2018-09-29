@@ -11,7 +11,7 @@ set_technology = {
 
 add_ideas = {
 	limited_conscription
-	
+	sunni_idea
 }
 set_politics = {
 

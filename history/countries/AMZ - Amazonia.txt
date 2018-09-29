@@ -10,7 +10,7 @@ set_technology = {
 
 add_ideas = {
 	limited_conscription
-	
+	reformist_idea
 }
 
 

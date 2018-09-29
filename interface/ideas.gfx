@@ -3748,10 +3748,79 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_idea_SOV_pyotr_stolypin_fm"
+		texturefile = "gfx/interface/ideas/SOV/SOV_pyotr_stolypin.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_idea_SOV_pytor_krasnov_im"
 		texturefile = "gfx/interface/ideas/SOV/SOV_pytor_krasnov.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_SOV_pyotr_stolypin_im"
+		texturefile = "gfx/interface/ideas/SOV/SOV_pyotr_stolypin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_pyotr_krasnov_hog"
+		texturefile = "gfx/interface/ideas/SOV/SOV_pytor_krasnov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_pyotr_krasnov_cos"
+		texturefile = "gfx/interface/ideas/SOV/SOV_pytor_krasnov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_pyotr_krasnov_hoj"
+		texturefile = "gfx/interface/ideas/SOV/SOV_pytor_krasnov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_alexander_kerensky_hoj"
+		texturefile = "gfx/interface/ideas/SOV/SOV_alexander_kerensky.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_alexander_kerensky_em"
+		texturefile = "gfx/interface/ideas/SOV/SOV_alexander_kerensky.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_arseni_filippovich_hoj"
+		texturefile = "gfx/interface/ideas/SOV/SOV_arseni_filippovich.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_arseni_filippovich_dm"
+		texturefile = "gfx/interface/ideas/SOV/SOV_arseni_filippovich.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_arkady_mishkin_dm"
+		texturefile = "gfx/interface/ideas/SOV/SOV_arkady_mishkin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_aleksei_aladin_hog"
+		texturefile = "gfx/interface/ideas/SOV/SOV_aleksei_aladin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_georgy_lvov_hog"
+		texturefile = "gfx/interface/ideas/SOV/SOV_georgy_lvov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_nikolay_krestinsky_hog"
+		texturefile = "gfx/interface/ideas/SOV/SOV_nikolay_krestinsky.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_fyokhlachev_panteley_hog"
+		texturefile = "gfx/interface/ideas/SOV/SOV_fyokhlachev_panteley.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_idea_SOV_vladimir_kokovtsov_em"
@@ -3761,6 +3830,18 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_SOV_silin_lukyan_cm"
 		texturefile = "gfx/interface/ideas/SOV/SOV_silin_lukyan.dds"
+	}
+	
+	#Muscovite NatSpirits
+	
+	spriteType = {
+		name = "GFX_idea_SOV_state_slavery"
+		texturefile = "gfx/interface/ideas/SOV/SOV_state_slavery.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_mass_purges"
+		texturefile = "gfx/interface/ideas/SOV/SOV_mass_purges.dds"
 	}
 	
 	#Mongolian NatSpirits

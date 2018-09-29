@@ -41,5 +41,209 @@ country_event = {
 
 	option = {
 		name = muscovy.3.o1
+		remove_ideas = SOV_mass_purges
+	}
+}
+
+#Anti-Slave Reforms
+country_event = {
+	id = muscovy.4
+	title = muscovy.4.t
+	desc = muscovy.4.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.4.o1
+		remove_ideas = SOV_state_slavery
+	}
+}
+
+#Loosen Press Laws
+country_event = {
+	id = muscovy.5
+	title = muscovy.5.t
+	desc = muscovy.5.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.5.o1
+	}
+}
+
+#Bolshevik Leaders Released!
+country_event = {
+	id = muscovy.6
+	title = muscovy.6.t
+	desc = muscovy.6.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.6.o1
+	}
+}
+
+#Aladin Meets With The Grand-Duke
+country_event = {
+	id = muscovy.7
+	title = muscovy.7.t
+	desc = muscovy.7.d
+	picture = GFX_report_event_ivan_meets_aladin
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.7.o1
+	}
+}
+
+#Tragedy
+country_event = {
+	id = muscovy.8
+	title = muscovy.8.t
+	desc = muscovy.8.d
+	picture = GFX_report_event_poland_rejects
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.8.o1
+		
+		hidden_effect = {
+			set_country_flag = ivan_ix_dead
+			set_country_flag = SOV_a_tragedy
+			set_politics = {
+				ruling_party = authoritarian
+				elections_allowed = no
+			}
+			
+			create_country_leader = {
+				name = "Pyotr Krasnov"
+				desc = "POLITICS_PYOTR_KRASNOV_DESC"
+				picture = "Portrait_SOV_Pyotr_Krasnov.dds"
+				expire = "1953.3.1"
+				ideology = despotism
+				traits = {
+		
+				}
+			}
+			
+			create_country_leader = {
+				name = "Fyokhlachev Panteley"
+				desc = "POLITICS_FYOKHLACHEV_PANTELEY_DESC"
+				picture = "Portrait_SOV_Fyokhlachev_Panteley.dds"
+				expire = "1953.3.1"
+				ideology = fascism_ideology
+				traits = {
+		
+				}
+			}
+			
+			create_country_leader = {
+				name = "Vladimir Moskvin"
+				desc = "POLITICS_VLADIMIR_MOSKIN_DESC"
+				picture = "Portrait_SOV_Vladimir_Moskvin.dds"
+				expire = "1953.3.1"
+				ideology = sub_monarchism
+				traits = {
+		
+				}
+			}
+			
+			create_country_leader = {
+				name = "Georgy Lvov"
+				desc = "POLITICS_GEORGY_LVOV_DESC"
+				picture = "Portrait_SOV_Georgy_Lvov.dds"
+				expire = "1953.3.1"
+				ideology = sub_conservatism
+				traits = {
+		
+				}
+			}
+			
+			create_country_leader = {
+				name = "Aleksei F. Aladin"
+				desc = "POLITICS_ALEKSEI_F_ALADIN_DESC"
+				picture = "Portrait_SOV_Aleksei_F_Aladin.dds"
+				expire = "1953.3.1"
+				ideology = sub_liberalism
+				traits = {
+		
+				}
+			}
+			
+			create_country_leader = {
+				name = "Nikolay Krestinsky"
+				desc = "POLITICS_NIKOLAY_KRESTINSKY_DESC"
+				picture = "Portrait_SOV_Nikolay_Krestinsky.dds"
+				expire = "1953.3.1"
+				ideology = engelism
+				traits = {
+		
+				}
+			}
+			
+			create_country_leader = {
+				name = "Grigori Sokolnikov"
+				desc = "POLITICS_GRIGORI_SOKOLNIKOV_DESC"
+				picture = "Portrait_SOV_Grigori_Sokolnikov.dds"
+				expire = "1953.3.1"
+				ideology = marxism
+				traits = {
+		
+				}
+			}
+			
+			swap_ideas = {
+				add_idea = SOV_pyotr_krasnov_hog
+				remove_idea = SOV_ivan_ix_hog
+			}
+			
+			swap_ideas = {
+				add_idea = SOV_pyotr_krasnov_cos
+				remove_idea = SOV_ivan_ix_cos
+			}
+			
+			swap_ideas = {
+				add_idea = SOV_pyotr_krasnov_hoj
+				remove_idea = SOV_ivan_ix_hoj
+			}
+ 
+			
+			load_focus_tree = generic_focus
+			
+			set_party_name = { 
+				ideology = authoritarian 
+				long_name = SOV_krasnov_clique_tragedy_long 
+				name = SOV_krasnov_clique_tragedy
+			}
+			
+			set_party_name = { 
+				ideology = monarchism 
+				long_name = SOV_tragedy_Moskvin_Gang_long 
+				name = SOV_tragedy_Moskvin_Gang
+			}
+			
+		}
+		
+	}
+}
+
+#Leftist Leadership Flees
+country_event = {
+	id = muscovy.9
+	title = muscovy.9.t
+	desc = muscovy.9.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.9.o1
 	}
 }

@@ -15,6 +15,96 @@ ideas = {
 			#traits = {}
 			cancel_if_invalid = no
 		}
+		
+		SOV_pyotr_krasnov_hog = { 
+			allowed = {original_tag = SOV}
+			available = {
+				OR = {
+					has_government = monarchism
+					has_government = authoritarian
+					has_government = conservatism
+					has_government = fascism
+				}
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = pyotr_krasnov_dead}
+				NOT = {has_country_flag = pyotr_krasnov_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+		
+		SOV_aleksei_aladin_hog = { 
+			allowed = {original_tag = SOV}
+			available = {
+				OR = {
+					has_government = liberalism
+					has_government = mod_ordaism
+					has_government = conservatism
+					has_government = authoritarian
+				}
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = aleksei_aladin_dead}
+				NOT = {has_country_flag = aleksei_aladin_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+		
+		SOV_georgy_lvov_hog = { 
+			allowed = {original_tag = SOV}
+			available = {
+				OR = {
+					has_government = liberalism
+					has_government = mod_ordaism
+					has_government = conservatism
+					has_government = authoritarian
+					has_government = monarchism
+					has_government = fascism
+				}
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = georgy_lvov_dead}
+				NOT = {has_country_flag = georgy_lvov_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+		
+		SOV_nikolay_krestinsky_hog = { 
+			allowed = {original_tag = SOV}
+			available = {
+				OR = {
+					has_government = liberalism
+					has_government = mod_ordaism
+					has_government = conservatism
+					has_government = authoritarian
+					has_government = communism
+				}
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = nikolay_krestinsky_dead}
+				NOT = {has_country_flag = nikolay_krestinsky_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+		
+		SOV_fyokhlachev_panteley_hog = { 
+			allowed = {original_tag = SOV}
+			available = {
+				OR = {
+					has_government = fascism
+				}
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = fyokhlachev_panteley_dead}
+				NOT = {has_country_flag = fyokhlachev_panteley_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
 	
 	}
 	
@@ -34,6 +124,26 @@ ideas = {
 				has_country_flag = can_replace_cos
 				NOT = {has_country_flag = ivan_ix_dead}
 				NOT = {has_country_flag = ivan_ix_cos_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+		
+		SOV_pyotr_krasnov_cos = { 
+			allowed = {original_tag = SOV }
+			available = {
+				OR = {
+					has_government = monarchism
+					has_government = authoritarian
+					has_government = conservatism
+					has_government = fascism
+					has_government = liberalism
+					has_government = mod_ordaism
+				}
+				has_country_flag = can_replace_cos
+				NOT = {has_country_flag = pyotr_krasnov_dead}
+				NOT = {has_country_flag = pyotr_krasnov_cos_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 			}
 			#traits = {}
@@ -62,6 +172,61 @@ ideas = {
 			#traits = {}
 			cancel_if_invalid = no
 		}
+		
+		SOV_pyotr_krasnov_hoj = { 
+			allowed = {original_tag = SOV }
+			available = {
+				OR = {
+					has_government = monarchism
+					has_government = authoritarian
+					has_government = conservatism
+					has_government = fascism
+				}
+				has_country_flag = can_replace_hoj
+				NOT = {has_country_flag = pyotr_krasnov_dead}
+				NOT = {has_country_flag = pyotr_krasnov_hoj_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+		
+		SOV_alexander_kerensky_hoj = { 
+			allowed = {original_tag = SOV }
+			available = {
+				OR = {
+					has_government = mod_ordaism
+					has_government = liberalism
+					has_government = conservatism
+					has_government = communism
+					has_government = authoritarian
+				}
+				has_country_flag = can_replace_hoj
+				NOT = {has_country_flag = alexander_kerensky_dead}
+				NOT = {has_country_flag = alexander_kerensky_hoj_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+		#Yakubovich Arseni Filippovich
+		SOV_arseni_filippovich_hoj = { 
+			allowed = {original_tag = SOV }
+			available = {
+				OR = {
+					has_government = monarchism
+					has_government = conservatism
+					has_government = fascism
+					has_government = authoritarian
+				}
+				has_country_flag = can_replace_hoj
+				NOT = {has_country_flag = arseni_filippovich_dead}
+				NOT = {has_country_flag = arseni_filippovich_hoj_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
 	
 	}
 	
@@ -80,6 +245,44 @@ ideas = {
 				has_country_flag = can_replace_dm
 				NOT = {has_country_flag = smotrov_milomir_georgiy_dead}
 				NOT = {has_country_flag = smotrov_milomir_georgiy_dm_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+		
+		SOV_arseni_filippovich_dm = { 
+			allowed = {original_tag = SOV }
+			available = {
+				OR = {
+					has_government = monarchism
+					has_government = conservatism
+					has_government = fascism
+					has_government = authoritarian
+				}
+				has_country_flag = can_replace_dm
+				NOT = {has_country_flag = arseni_filippovich_dead}
+				NOT = {has_country_flag = arseni_filippovich_dm_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+		
+		SOV_arkady_mishkin_dm = { 
+			allowed = {original_tag = SOV }
+			available = {
+				OR = {
+					has_government = mod_ordaism
+					has_government = communism
+					has_government = fascism
+					has_government = conservatism
+					has_government = liberalism
+					has_government = authoritarian
+				}
+				has_country_flag = can_replace_dm
+				NOT = {has_country_flag = arkady_mishkin_dead}
+				NOT = {has_country_flag = arkady_mishkin_dm_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 			}
 			#traits = {}
@@ -108,6 +311,27 @@ ideas = {
 			#traits = {}
 			cancel_if_invalid = no
 		}
+		
+		SOV_pyotr_stolypin_fm = { 
+			allowed = {original_tag = SOV }
+			available = {
+				OR = {
+					has_government = monarchism
+					has_government = authoritarian
+					has_government = communism
+					has_government = fascism
+					has_government = conservatism
+					has_government = liberalism
+					has_government = mod_ordaism
+				}
+				has_country_flag = can_replace_fm
+				NOT = {has_country_flag = pyotr_stolypin_dead}
+				NOT = {has_country_flag = pyotr_stolypin_fm_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
 	
 	}
 	
@@ -125,6 +349,27 @@ ideas = {
 				has_country_flag = can_replace_im
 				NOT = {has_country_flag = pytor_krasnov_dead}
 				NOT = {has_country_flag = pytor_krasnov_im_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+		
+		SOV_pyotr_stolypin_im = { 
+			allowed = {original_tag = SOV }
+			available = {
+				OR = {
+					has_government = monarchism
+					has_government = authoritarian
+					has_government = communism
+					has_government = fascism
+					has_government = conservatism
+					has_government = liberalism
+					has_government = mod_ordaism
+				}
+				has_country_flag = can_replace_im
+				NOT = {has_country_flag = pyotr_stolypin_dead}
+				NOT = {has_country_flag = pyotr_stolypin_im_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 			}
 			#traits = {}
@@ -170,6 +415,25 @@ ideas = {
 				has_country_flag = can_replace_em
 				NOT = {has_country_flag = vladimir_kokovtsov_dead}
 				NOT = {has_country_flag = vladimir_kokovtsov_em_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			#traits = {}
+			cancel_if_invalid = no
+		}
+		
+		SOV_alexander_kerensky_em = { 
+			allowed = {original_tag = SOV }
+			available = {
+				OR = {
+					has_government = mod_ordaism
+					has_government = liberalism
+					has_government = conservatism
+					has_government = communism
+					has_government = authoritarian
+				}
+				has_country_flag = can_replace_em
+				NOT = {has_country_flag = alexander_kerensky_dead}
+				NOT = {has_country_flag = alexander_kerensky_em_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
 			}
 			#traits = {}

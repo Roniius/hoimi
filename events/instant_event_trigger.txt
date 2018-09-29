@@ -27,6 +27,105 @@ country_event = {
 	}
 }
 
+#1936/02/06
+country_event = {
+	id = exact_date_trigger.37
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1936.2.5
+	}
+	
+	option = {
+		if = {
+			limit = { 
+				country_exists = SOV
+			}
+			SOV = { country_event = muscovy.2 }
+		}
+	}
+}
+
+#1936/03/02
+country_event = {
+	id = exact_date_trigger.62
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1936.3.1
+	}
+	
+	option = {
+		if = {
+			limit = { 
+				country_exists = SOV
+			}
+			SOV = { country_event = muscovy.3 }
+		}
+	}
+}
+
+#1936/03/09
+country_event = {
+	id = exact_date_trigger.69
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1936.3.8
+	}
+	
+	option = {
+		if = {
+			limit = { 
+				country_exists = SOV
+			}
+			SOV = { country_event = muscovy.4 }
+		}
+	}
+}
+
+#1936/03/21
+country_event = {
+	id = exact_date_trigger.81
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1936.3.20
+	}
+	
+	option = {
+		if = {
+			limit = { 
+				country_exists = SOV
+			}
+			SOV = { country_event = muscovy.5 }
+		}
+	}
+}
+
+#1936/04/02
+country_event = {
+	id = exact_date_trigger.93
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1936.4.1
+	}
+	
+	option = {
+		if = {
+			limit = { 
+				country_exists = SOV
+			}
+			SOV = { country_event = muscovy.6 }
+		}
+	}
+}
 
 #1936/04/03
 country_event = {
@@ -44,6 +143,66 @@ country_event = {
 				country_exists = ENG
 			}
 			ENG = { country_event = england_newcastle_film.1 }
+		}
+	}
+}
+
+#1936/04/12
+country_event = {
+	id = exact_date_trigger.103
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1936.4.11
+	}
+	
+	option = {
+		if = {
+			limit = { 
+				country_exists = SOV
+			}
+			SOV = { country_event = muscovy.7 }
+		}
+	}
+}
+
+#1936/04/20
+country_event = {
+	id = exact_date_trigger.112
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1936.4.19
+	}
+	
+	option = {
+		if = {
+			limit = { 
+				country_exists = SOV
+			}
+			SOV = { country_event = muscovy.8 }
+		}
+	}
+}
+
+#1936/04/25
+country_event = {
+	id = exact_date_trigger.117
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1936.4.24
+	}
+	
+	option = {
+		if = {
+			limit = { 
+				country_exists = SOV
+			}
+			SOV = { country_event = muscovy.9 }
 		}
 	}
 }

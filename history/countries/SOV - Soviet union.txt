@@ -53,6 +53,9 @@ add_ideas = {
 	SOV_pytor_krasnov_im
 	SOV_vladimir_kokovtsov_em
 	SOV_silin_lukyan_cm
+	
+	SOV_state_slavery
+	SOV_mass_purges
 }
 
 set_politics = {

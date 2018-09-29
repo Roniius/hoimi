@@ -42,7 +42,9 @@ set_technology = {
 }
 
 set_convoys = 300
-
+add_ideas = {
+	catholic_idea
+}
 
 set_politics = {
 

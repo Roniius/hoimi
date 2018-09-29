@@ -4,6 +4,10 @@ oob = "generic"
 
 set_convoys = 50
 
+add_ideas = {
+	orthodox_idea
+}
+
 set_politics = {
 
 	parties = {

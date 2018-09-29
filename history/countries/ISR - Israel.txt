@@ -1,3 +1,7 @@
 ﻿capital = 554
 
 oob = "generic"
+
+add_ideas = {
+	sunni_idea
+}

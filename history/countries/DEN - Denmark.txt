@@ -7,8 +7,10 @@ set_technology = {
 oob = "generic"
 add_ideas = {
 	limited_conscription
-	
+	catholic_idea
 }
+
+puppet = KEN
 
 set_politics = {
 

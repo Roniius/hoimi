@@ -14,6 +14,11 @@
  SOV_authoritarian_party:0 "Cadet"
  SOV_authoritarian_party_long:0 "Constitutional Democratic Party of Muscovy"
  
+ SOV_krasnov_clique_tragedy:0 "Krasnov Clique"
+ SOV_krasnov_clique_tragedy_long:0 "Krasnov Military Clique"
+ SOV_tragedy_Moskvin_Gang:0 "Moskvin Gang"
+ SOV_tragedy_Moskvin_Gang_long:0 "Moskvin Gang"
+ 
  #Bookmark
  SOV_MONGOLII_IMPERIUM_DESC:0 "Muscovy stands as it has for centuries, a symbol of Eastern European independence. During the years following the end of Mongol control, Muscovy was in a state of reconstruction and for a while it was weak, almost completely up for grabs to all outsiders but no one took the chance. After some time, Muscovy pulled itself up and began pushing back the old hordes of the former Mongol Empire. Muscovy had become one of the largest nations in Europe, nearly unstoppable in it's might."
  
@@ -30,12 +35,135 @@
  muscovy.3.d:0 "Earlier people in and around Moscow were gathered in the Royal Square for an announcement and people across the nation were gathered into their local town squares where radios were set up for an announcement that would change Muscovy for ever. With loyal General Krasnov beside him, the Grand Duke began a speech on his purges over the past 15 years, he goes into detail of how they were necessary for the future of the great nation. Following him speaking about his justifications for the purges, he goes onto his big announcement.\n\nThe crowd goes silent, then after a few seconds they burst into clapping and cheers as the Grand Duke had announced something no one expected, a mass liberalization of the nation. After the crowd has calmed he continues, he speaks about how he feared that many of the old generals would have attempted a coup against him as many supported the authoritaraian government but a mass single purge at once would have caused too much trouble. He ends his speech with an apology for the totalitarianism the people have suffered over the past 20 years of his reign and his predecessors, he also says he will abdicate the thrown to his son after the reforms are through. Today the Grand Duke surprised many, but he made many people happy."
  muscovy.3.o1:0 "A surprise, to be sure, but a welcome one."
  
+ muscovy.4.t:0 "Anti-Slave Reforms"
+ muscovy.4.d:0 "Today is a glorious day for all Mongols and prisoners of the Grand Duchy of Muscovy as Grand Duke Ivan has signed the Liberation Promulgation. The Liberation Promulgation is a act in which has freed all the current slaves to the government which mainly consisted of criminals and Mongol tengrists. Private slavery was not addressed in this act as it had already been banned through out the Grand Duchy. Along with the banning of Slavery comes the tightening of segregation laws between Slavic peoples and people of Altaic and other Central Asian cultures.\nToday is a day to rejoice and be glad as the liberal principles promised by the Grand Duke are finally being enacted. Pyotr Krasnov lead a small force of troops to open the gates at a small labor camp based outside of Moscow which was a surprise to many as in the past Krasnov spoke in favor of keeping the institution of slavery."
+ muscovy.4.o1:0 "Freedom For All"
+ 
+ muscovy.5.t:0 "Grand Duke Opens The Press"
+ muscovy.5.d:0 "Another glorious day in Muscovy goes on as Newspaper companies across the nation reopen their offices and radio broadcasters come back on the air as Grand Duke Ivan ends censorship within Muscovy. An institution that has been in place since long before the founding of the grand duchy or even the sacking of Moscow by the hordes, and one that has been growing more stronger and opressive since especially in recent years is over. Of course some forms of censorship still exist, however people are now free to release their own newspaper, publish their own books or even start their own radio show if they so desire. Another step towards freedom in the nation has been achieved and the Grand Duke is really showing his aspiration in giving that freedom to his people, people grow to love the Grand Duke more and more every day now, one day we will look back and rejoice at this hero who God has blessed us with."
+ muscovy.5.o1:0 "Removal of Censorship Is Progress"
+ 
+ muscovy.6.t:0 "Bolshevik Leaders Released"
+ muscovy.6.d:0 "With the recent liberal reforms coming to the Grand Duchy, the Grand Duke has decided to also appease the ordaists by releaseing the leaders of the Ordaist Party. The Ordaist Party leadership was arrested during a Anti-monarchsit purge in the late 1920s and they have been in prison since, they even lead a mass prison riot in 1933 which lead to the death of 3 prisoners.\nThe Grand Dukes change of heart on the ordaists come with their change, the ordaists have supported the Grand Dukes reforms and cheered him on since he ended slavery in the nation. The Grand Duke seeing this as an opprotunity to win the party over even more was a deal breaker for him."
+ muscovy.6.o1:0 "Interesting"
+ 
+ muscovy.7.t:0 "Aladin Meets With Grand Duke"
+ muscovy.7.d:0 "The Grand Duke has been in the final stages of his reforms and has invited Aleksei F. Aladin, leader of the Leageue of Liberal Rights to help draft an outline for the new constitution of Muscovy. They discussed many things from how the electoral system shall work to the amount of power the Prime Minister shall hold. The constitution will present the country with a proportional democracy using the popular vote, this will allow for what the people want to be represented more easily. Along with the discussion on the constitution they discussed more personal things which they did not disclose. The meeting concluded with them shaking hands and Aladin heading back to the head quarters of the League of Liberal Rights. The evolution of the nation is starting to show more than ever today, and with the signing of the new constitution being just over a week away the people grow more and more exicted and festitvies have already started taking place."
+ muscovy.7.o1:0 "Muscovy Forever"
+ 
+ muscovy.8.t:0 "A Real Horror Story"
+ muscovy.8.d:0 "Today is a rainy and dark day, but it doesn't bother anyone as today is the day the Grand Duke hands a majority of state powers to the Duma of Muscovy, people gathered from all over the nation in Moscow and in the Duma. The Grand Duke enters the main hall of the Duma, with him is royal guards and his son Crown Prince Nikita, heir to the thrown of Muscovy. They walk to the front slowly in ceremonial fashion, the people stare, journalists take pictures and the doors close behind them when they are at the front the Grand Duke turns to the crowd and bows. Aleksei Aladin, Alexander Kerensky, Georgy Lvov and Arkady Mishkin all walk forward, they bow to the Grand Duke and shake his hand, following this the Grand Duke makes a speech, similar to his one in the Moscow Royal Square almost two months ago however very different at the same time, and much more inspiring. After the Grand Duke finishes his speech a royal guardsman brings out a document and lays it on the table infront of the men. Each of the 4 politicians sign the document as well as Crown Prince Nikita, Grand Duke Ivan moves forward to sign the document.\n\nThe Grand Duke prepares to sign the document when a gun shot is heard from outside the halls doors, everyone including the Grand Duke is startled, before he could sign the document the doors swing open violently. Smoke is comes in from the doors, a royal guardsman walks out choking on his own blood as he collapes, a few men walk through the doorway. Pyotr Krasnov, Patriarch Sergius, and General Pyotr Wrangel all walk through surrounded by soldiers, they walk to the front as the soldiers stand at each row of seats and others shoot the royal guards. The three men continue walking to the front when the Grand Duke stands and asks them what they think they are doing, they continue walking to the front and stop at the table. Krasnov walks to the Grand Duke, and says to him.\n\nOld Friend, on this day you try and ruin this country with ideas of crazy liberals, well I will not have it.\n\nKrasnov pulls out his holstered gun, aims it at the head of the Grand Duke and pulls the trigger, the Grand Duke falls to the ground and to many it feels like time has slowed down. Krasnov turns to the crowd and says there will be no liberty in Moscow, everyone including the politicians run out of the room screaming.\n\nEarlier in the day, the rain was nothing but a little water but now it is a symbol of the extreme sadness and horror that came, may God watch over Muscovy."
+ muscovy.8.o1:0 "May God Help Us"
+ 
+ muscovy.9.t:0 "Leftist Leadership Flees"
+ muscovy.9.d:0 "When Krasnov couped the government he had the opprotunity to arrest or even execute prominent leftists, instead he generously let them go in what seems to show that his issue was with the Grand Duke himself. Due to him letting them go they have fleed the nation in fear of future prosecution, Kerensky, Aladin and Krestinsky were all last seen together boarding a train with their families heading to Novgorod. Grigori Sokolnikov, leader of the Ordaist Party of Muscovy was also among the many people who fled the nation, him like many Bolshevik leadership was last seen heading towards Kalmykistan where prominent Bolshevik ally of Slavic and Kalmyk descent Vladimir Lenin is based.\n\nWhile our nation mourns the death of our glorious Grand Duke Ivan IX, these traitors flee the nation in which only shows they cared about power. Is it possible these actions could show that Krasnov is actually trying to save the nation from corruption? Only time can truly tell if Krasnov is a really a curse like he currently seems or if he is a blessing sent by God."
+ muscovy.9.o1:0 "Traitors!"
+ 
  #Spirits
  SOV_ivan_ix_hog:0 "Ivan IX"
  SOV_ivan_ix_cos:0 "Ivan IX"
  SOV_ivan_ix_hoj:0 "Ivan IX"
  SOV_smotrov_milomir_georgiy_dm:0 "Smotrov Milomir Georgiy"
- SOV_pytor_krasnov_im:0 "Pytor Krasnov"
+ SOV_pytor_krasnov_im:0 "Pyotr Krasnov"
  SOV_vladimir_sidorin_fm:0 "Vladimir Sidorin"
  SOV_vladimir_kokovtsov_em:0 "Vladimir Kokovtsov"
  SOV_silin_lukyan_cm:0 "Silin Lukyan"
+ SOV_pyotr_krasnov_hog:0 "Pyotr Krasnov"
+ SOV_pyotr_krasnov_cos:0 "Pyotr Krasnov"
+ SOV_pyotr_krasnov_hoj:0 "Pyotr Krasnov"
+ SOV_aleksei_aladin_hog:0 "Aleksei F. Aladin"
+ SOV_georgy_lvov_hog:0 "Georgy Lvov"
+ SOV_nikolay_krestinsky_hog:0 "Nikolay Krestinsky"
+ SOV_fyokhlachev_panteley_hog:0 "Fyokhlachev Panteley"
+ SOV_alexander_kerensky_hoj:0 "Alexander Kerensky"
+ SOV_arseni_filippovich_hoj:0 "Y. Arseni Filippovich"
+ SOV_arseni_filippovich_dm:0 "Y. Arseni Filippovich"
+ SOV_alexander_kerensky_em:0 "Alexander Kerensky"
+ SOV_arkady_mishkin_dm:0 "Arkady Mishkin"
+ SOV_pyotr_stolypin_fm:0 "Pyotr Stolypin"
+ SOV_pyotr_stolypin_im:0 "Pyotr Stolypin"
+ 
+ 
+ SOV_state_slavery:0 "State Slavery"
+ SOV_state_slavery_desc:0 "In Muscovy, all Central Asians are described as Mongols, including the Mongol people, and in Muscovy many are enslaved."
+ 
+ SOV_mass_purges:0 "Mass Purges"
+ SOV_mass_purges_desc:0 "Our Grand Duke has been purging for a long time, no one knows why he keeps on disposing of talented generals who many thought were loyal."
+ 
+ 
+ #Flags
+ SOV_grand_duke_signs_power_to_duma:0 "Grand Duke Signs Power To Duma"
+ SOV_league_of_liberal_rights_elected:0 "League of Liberal Rights Elected"
+ SOV_national_democratic_party_elected:0 "National Democratic Party Elected"
+ SOV_peoples_liberation_party_elected:0 "People's Liberation Party Elected"
+ SOV_ryazan_crisis_kick_off:0 "Ryazan Crisis Kicked Off"
+ SOV_segregation_to_continue:0 "Segregation To Continue"
+ SOV_segregation_to_end:0 "Segregation To End"
+ SOV_a_tragedy:0 "A Tragedy"
+ SOV_conference_accepted:0 "Unity Conference Accepted"
+ SOV_conference_refused:0 "Conference Refused"
+ SOV_adopted_muscovite_nationalism:0 "Adopted Muscovite Nationalism"
+ 
+ NOV_adopted_novgorodian_nationalism:0 "Adopted Novgorodian Nationalism"
+ 
+ 
+ #focuses #FAKE
+ SOV_relief_from_ivan:0 "Relief From Ivan"
+ SOV_relief_from_ivan_desc:0 "Grand Duke Ivan has signed away a majority of his powers to the Duma of Muscovy."
+ 
+ SOV_first_duma_legislative_elections:0 "First Duma Legislative Elections"
+ SOV_first_duma_legislative_elections_desc:0 "We shall hold the first election in what will determine the make out of the duma and new Prime Minister."
+ 
+ SOV_league_of_liberal_rights:0 "League of Liberal Rights"
+ SOV_league_of_liberal_rights_desc:0 "The League of Liberal Rights has won the election."
+ 
+ SOV_a_secular_state:0 "A Secular State"
+ SOV_a_secular_state_desc:0 "It is time for the Grand Duchy of Muscovy to become a modern secular state."
+ 
+ SOV_enact_aladins_reforms:0 "Enact Aladins Reforms"
+ SOV_enact_aladins_reforms_desc:0 "We must enact Aladins reforms regarding healthcare, the military and education."
+ 
+ SOV_peoples_liberation_party:0 "Peoples Liberation Party"
+ SOV_peoples_liberation_party_desc:0 "The Peoples Liberation Party has won the election."
+ 
+ SOV_purge_republican_party_members:0 "Purge Republican Party Members"
+ SOV_purge_republican_party_members_desc:0 "We must purge the republican members of our party to secure a popular posistion in the nation."
+ 
+ SOV_the_kerensky_tax_reform:0 "The Kerensky Tax Reform"
+ SOV_the_kerensky_tax_reform_desc:0 "The Kerensky Tax Reform was a proposition to introduce a progressive tax."
+ 
+ SOV_national_democratic_party:0 "National Democratic Party"
+ SOV_national_democratic_party_desc:0 "The National Democratic Party has won the election."
+ 
+ SOV_traditional_muscovite_values:0 "Traditional Muscovite Values"
+ SOV_traditional_muscovite_values_desc:0 "We must keep and enforce our traditional values."
+ 
+ SOV_the_lobov_plan:0 "The Lobov Plan"
+ SOV_the_lobov_plan_desc:0 "The Lobov plan was a series of reforms that would enact Smithist reforms such as privatization of natural resources in Muscovy."
+ 
+ SOV_ryazan_crisis:0 "The Ryazan Crisis"
+ SOV_ryazan_crisis_desc:0 "The Ryazan Crisis has broken out, we must do what we can to take care of it."
+ 
+ SOV_continue_segregation_with_mongols:0 "Continue Segregation With Mongols"
+ SOV_continue_segregation_with_mongols_desc:0 "We must continue segregation with the Mongol peoples of Muscovy, and all other East Asians."
+ 
+ SOV_stricter_enforcement:0 "Stricter Enforcement"
+ SOV_stricter_enforcement_desc:0 "We must enforce the segregation laws in Muscovy."
+ 
+ SOV_opress_voters_rights:0 "Opress Voters Rights"
+ SOV_opress_voters_rights_desc:0 "It is time to opress the voting rights of the Mongolians and anyone who opposes the system."
+ 
+ SOV_a_new_state_in_the_east:0 "A New State In The East"
+ SOV_a_new_state_in_the_east_desc:0 "It is time to create a nation for the Mongols of Muscovy, where they can rule for themselves."
+ 
+ SOV_segregated_in_one_nation:0 "Segregated In One Nation"
+ SOV_segregated_in_one_nation_desc:0 "Why would we give up our land to be as far away from the Mongols as possible? Separate bathrooms are fine."
+ 
+ SOV_integrate_mongol_muscovites:0 "Integrate Mongol Muscovites"
+ SOV_integrate_mongol_muscovites_desc:0 "It is time to end this pety foolishness of segregation and integrate the Mongol people of Muscovy, we really should work to ending that generalization as well."
+ 
+ SOV_open_the_public:0 "Open The Public"
+ SOV_open_the_public_desc:0 "We must open the public to the Mongols."
+ 
+ SOV_allow_mongols_for_public_office:0 "Allow Mongols For Public Office"
+ SOV_allow_mongols_for_public_office_desc:0 "They are citizens of this DEMOCRACY! We must allow them to run as well."

@@ -2,6 +2,10 @@
 
 oob = "generic"
 
+add_ideas = {
+	shinto_idea
+}
+
 set_politics = {
 
 	parties = {

@@ -12,6 +12,7 @@ set_technology = {
 
 add_ideas = {
 	limited_conscription
+	atheism_idea
 }
 
 set_politics = {

@@ -1,0 +1,21 @@
+state={
+	id=780
+	name="STATE_780"
+	provinces={
+		3146 3167 6089 9065 9214 11051 
+	}
+	
+	history={
+		buildings = {
+			infrastructure = 4
+
+		}
+		owner = SOV
+		add_core_of = SOV
+
+	}
+	
+	state_category=town
+	manpower=1246384
+	buildings_max_level_factor=1.000
+}

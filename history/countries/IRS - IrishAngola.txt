@@ -1,6 +1,10 @@
 ﻿capital = 540
 
 oob = "generic"
+
+add_ideas = {
+	catholic_idea
+}
 set_politics = {
 
 	parties = {

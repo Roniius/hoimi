@@ -1352,5 +1352,52 @@ spriteTypes = {
 		name = "GFX_focus_generic_democratic_reform"
 		texturefile = "gfx/interface/goals/focus_generic_democratic_reform.dds"
 	}
+	
+	#Muscovite Tree
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_relief_from_ivan"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_relief_from_ivan.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_duma_elections_muscovy"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_duma_elections_muscovy.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_aleksei_aladin"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_aleksei_aladin.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_nikolay_krestinsky"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_nikolay_krestinsky.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_georgy_lvov"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_georgy_lvov.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_ryazan_crisis"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_ryazan_crisis.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_integrate_mongols"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_integrate_mongols.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_continue_segregation_with_mongols"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_continue_segregation_with_mongols.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_mongol_muscovites"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_mongol_muscovites.dds"
+	}
 
 }

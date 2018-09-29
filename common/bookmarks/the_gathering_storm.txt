@@ -24,10 +24,12 @@ bookmarks = {
 			history = "SOV_MONGOLII_IMPERIUM_DESC"
 			ideology = monarchism
 			ideas = {
-				
+				SOV_state_slavery
+				SOV_mass_purges
 			}
 			focuses = {
-				
+				SOV_ryazan_crisis
+				SOV_first_duma_legislative_elections
 			}	
 		}
 		

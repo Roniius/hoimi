@@ -6,7 +6,6 @@ focus_tree = {
 			add = 10
 			tag = AFG
 		}
-		default = no
 	}
   continuous_focus_position = { x = -880 y = 1 }
 	focus = {

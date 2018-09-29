@@ -3,6 +3,10 @@
 oob = "generic"
 set_research_slots = 3
 
+add_ideas = {
+	catholic_idea
+}
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

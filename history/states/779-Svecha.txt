@@ -1,0 +1,21 @@
+state={
+	id=779
+	name="STATE_779"
+	provinces={
+		112 175 3004 3066 3103 6191 6383 9050 9172 11149 11354 
+	}
+	
+	history={
+		buildings = {
+			infrastructure = 4
+
+		}
+		owner = SOV
+		add_core_of = SOV
+
+	}
+	
+	state_category=town
+	manpower=535236
+	buildings_max_level_factor=1.000
+}

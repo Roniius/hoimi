@@ -570,6 +570,24 @@ units = {
 	}
 }
 
+air_wings = {
+	219 = { 
+		### The Ooof bois
+		fighter_equipment_0 = {
+			owner = "MON" 
+			amount = 131
+		}
+	}
+	
+	219 = { 
+		### The Bomb Squad
+		tac_bomber_equipment_0 = {
+			owner = "MON" 
+			amount = 3
+		}
+	}
+	
+}
 
 instant_effect = {
 	
