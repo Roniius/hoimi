@@ -8,7 +8,7 @@ set_technology = {
 oob = "generic"
 add_ideas = {
 	limited_conscription
-	
+	atheism_idea
 }
 
 set_politics = {

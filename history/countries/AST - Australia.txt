@@ -10,6 +10,8 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+create_faction = ordaist_international_union
+
 add_ideas = {
 	limited_conscription
 	atheism_idea

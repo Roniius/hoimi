@@ -9,7 +9,7 @@ set_technology = {
 
 add_ideas = {
 	limited_conscription
-	
+	buddhism_idea
 }
 
 set_politics = {

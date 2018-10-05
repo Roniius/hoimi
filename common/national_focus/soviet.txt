@@ -24,7 +24,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_political_power = 50
 		}
 	
 	}
@@ -42,7 +42,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			SOV = {
+				country_event = { id = switzerland.2 days = 10 }
+			}
 		}
 	
 	}
@@ -71,7 +73,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_a_secular_state
-		#icon = 
+		icon = GFX_focus_SOV_a_secular_state
 		prerequisite = { focus = SOV_league_of_liberal_rights }
 		x = -2
 		y = 3
@@ -89,7 +91,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_enact_aladins_reforms
-		#icon = 
+		icon = GFX_focus_generic_democratic_reform
 		prerequisite = { focus = SOV_a_secular_state }
 		x = -2
 		y = 4
@@ -128,7 +130,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_purge_republican_party_members
-		#icon = 
+		icon = GFX_focus_generic_swing_the_sword
 		prerequisite = { focus = SOV_peoples_liberation_party }
 		x = 0
 		y = 3
@@ -146,7 +148,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_the_kerensky_tax_reform
-		#icon = 
+		icon = GFX_focus_generic_economic_control_red
 		prerequisite = { focus = SOV_purge_republican_party_members }
 		x = 0
 		y = 4
@@ -185,7 +187,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_traditional_muscovite_values
-		#icon = 
+		icon = GFX_focus_SOV_traditional_muscovite_values
 		prerequisite = { focus = SOV_national_democratic_party }
 		x = 2
 		y = 3
@@ -203,7 +205,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_the_lobov_plan
-		#icon = 
+		icon = GFX_focus_SOV_the_lobov_plan
 		prerequisite = { focus = SOV_traditional_muscovite_values }
 		x = 2
 		y = 4
@@ -563,7 +565,87 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			#give cores to new states and set_cosmetic_tag = SOV_kingdom_of_russia
+			#give cores to new states and 
+			set_cosmetic_tag = SOV_united_russia_1
+			
+			hidden_effect = {
+				create_country_leader = {
+					name = "King Ivan IX"
+					desc = "POLITICS_IVAN_IX_DESC"
+					picture = "Portrait_SOV_Ivan_IX.dds"
+					expire = "1953.3.1"
+					ideology = sub_monarchism
+					traits = {
+		
+					}
+				}
+				
+				create_country_leader = {
+					name = "King Ivan IX"
+					desc = "POLITICS_IVAN_IX_DESC"
+					picture = "Portrait_SOV_Ivan_IX.dds"
+					expire = "1953.3.1"
+					ideology = marxism
+					traits = {
+		
+					}
+				}
+				
+				create_country_leader = {
+					name = "King Ivan IX"
+					desc = "POLITICS_IVAN_IX_DESC"
+					picture = "Portrait_SOV_Ivan_IX.dds"
+					expire = "1953.3.1"
+					ideology = engelism
+					traits = {
+		
+					}
+				}
+				
+				create_country_leader = {
+					name = "King Ivan IX"
+					desc = "POLITICS_IVAN_IX_DESC"
+					picture = "Portrait_SOV_Ivan_IX.dds"
+					expire = "1953.3.1"
+					ideology = sub_liberalism
+					traits = {
+		
+					}
+				}
+				
+				create_country_leader = {
+					name = "King Ivan IX"
+					desc = "POLITICS_IVAN_IX_DESC"
+					picture = "Portrait_SOV_Ivan_IX.dds"
+					expire = "1953.3.1"
+					ideology = sub_conservatism
+					traits = {
+		
+					}
+				}
+				
+				create_country_leader = {
+					name = "King Ivan IX"
+					desc = "POLITICS_IVAN_IX_DESC"
+					picture = "Portrait_SOV_Ivan_IX.dds"
+					expire = "1953.3.1"
+					ideology = despotism
+					traits = {
+		
+					}
+				}
+				
+				create_country_leader = {
+					name = "King Ivan IX"
+					desc = "POLITICS_IVAN_IX_DESC"
+					picture = "Portrait_SOV_Ivan_IX.dds"
+					expire = "1953.3.1"
+					ideology = fascism_ideology
+					traits = {
+		
+					}
+				}
+			}
 		}
 	
 	}
@@ -1489,6 +1571,214 @@ focus_tree = {
 		x = 1
 		y = 7
 		relative_position_id = SOV_the_muscovite_economy
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	
+	}
+	
+	focus = {
+	
+		id = SOV_the_muscovite_armed_forces
+		#icon = 
+		available = {
+			OR = {
+				has_completed_focus = SOV_enact_aladins_reforms
+				has_completed_focus = SOV_the_kerensky_tax_reform
+				has_completed_focus = SOV_the_lobov_plan
+			}
+		}
+		
+		x = 31
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			set_country_flag = SOV_adopted_muscovite_nationalism
+		}
+	
+	}
+	
+	focus = {
+	
+		id = SOV_muscovite_army
+		#icon = 
+		prerequisite = { focus = SOV_the_muscovite_armed_forces }
+		x = -2
+		y = 1
+		relative_position_id = SOV_the_muscovite_armed_forces
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	
+	}
+	
+	focus = {
+	
+		id = SOV_muscovite_armor_initative
+		#icon = 
+		prerequisite = { focus = SOV_muscovite_army }
+		x = -3
+		y = 2
+		relative_position_id = SOV_the_muscovite_armed_forces
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	
+	}
+	
+	focus = {
+	
+		id = SOV_muscovite_artillery_initative
+		#icon = 
+		prerequisite = { focus = SOV_muscovite_army }
+		x = -1
+		y = 2
+		relative_position_id = SOV_the_muscovite_armed_forces
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	
+	}
+	
+	focus = {
+	
+		id = SOV_learn_new_tactics
+		#icon = 
+		prerequisite = { focus = SOV_muscovite_artillery_initative }
+		prerequisite = { focus = SOV_muscovite_armor_initative } 
+		x = -2
+		y = 3
+		relative_position_id = SOV_the_muscovite_armed_forces
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	
+	}
+	
+	focus = {
+	
+		id = SOV_muscovite_air_force
+		#icon = 
+		prerequisite = { focus = SOV_the_muscovite_armed_forces }
+		x = 2
+		y = 1
+		relative_position_id = SOV_the_muscovite_armed_forces
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	
+	}
+	
+	focus = {
+	
+		id = SOV_expand_the_air_force
+		#icon = 
+		prerequisite = { focus = SOV_muscovite_air_force }
+		x = 2
+		y = 2
+		relative_position_id = SOV_the_muscovite_armed_forces
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	
+	}
+	
+	focus = {
+	
+		id = SOV_muscovite_bomber_dominance
+		#icon = 
+		prerequisite = { focus = SOV_expand_the_air_force }
+		mutually_exclusive = { focus = SOV_muscovite_fighter_dominance }
+		x = 1
+		y = 3
+		relative_position_id = SOV_the_muscovite_armed_forces
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	
+	}
+	
+	focus = {
+	
+		id = SOV_muscovite_fighter_dominance
+		#icon = 
+		prerequisite = { focus = SOV_expand_the_air_force }
+		mutually_exclusive = { focus = SOV_muscovite_bomber_dominance }
+		x = 3
+		y = 3
+		relative_position_id = SOV_the_muscovite_armed_forces
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	
+	}
+	
+	focus = {
+	
+		id = SOV_muscovite_electronics_investments
+		#icon = 
+		prerequisite = { focus = SOV_muscovite_bomber_dominance focus = SOV_muscovite_fighter_dominance }
+		prerequisite = { focus = SOV_learn_new_tactics }
+		x = 0
+		y = 4
+		relative_position_id = SOV_the_muscovite_armed_forces
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	
+	}
+	
+	focus = {
+	
+		id = SOV_muscovite_atom_tests
+		#icon = 
+		prerequisite = { focus = SOV_muscovite_electronics_investments }
+		x = 0
+		y = 5
+		relative_position_id = SOV_the_muscovite_armed_forces
 		cost = 10
 		ai_will_do = {
 			factor = 10

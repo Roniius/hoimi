@@ -1,6 +1,11 @@
 ﻿capital = 554
 
 oob = "generic"
+
+add_ideas = {
+	shia_idea
+}
+
 set_politics = {
 
 	parties = {

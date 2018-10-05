@@ -59,6 +59,12 @@
  muscovy.9.d:0 "When Krasnov couped the government he had the opprotunity to arrest or even execute prominent leftists, instead he generously let them go in what seems to show that his issue was with the Grand Duke himself. Due to him letting them go they have fleed the nation in fear of future prosecution, Kerensky, Aladin and Krestinsky were all last seen together boarding a train with their families heading to Novgorod. Grigori Sokolnikov, leader of the Ordaist Party of Muscovy was also among the many people who fled the nation, him like many Bolshevik leadership was last seen heading towards Kalmykistan where prominent Bolshevik ally of Slavic and Kalmyk descent Vladimir Lenin is based.\n\nWhile our nation mourns the death of our glorious Grand Duke Ivan IX, these traitors flee the nation in which only shows they cared about power. Is it possible these actions could show that Krasnov is actually trying to save the nation from corruption? Only time can truly tell if Krasnov is a really a curse like he currently seems or if he is a blessing sent by God."
  muscovy.9.o1:0 "Traitors!"
  
+ muscovy.10.t:0 "First Duma Legislative Election"
+ muscovy.10.d:0 "Which Bitch You Wanna Elect?"
+ muscovy.10.o1:0 "The Bacon Muppet"
+ muscovy.10.o2:0 "The Dick Plant"
+ muscovy.10.o3:0 "The Kid Who Lives In The White House"
+ 
  #Spirits
  SOV_ivan_ix_hog:0 "Ivan IX"
  SOV_ivan_ix_cos:0 "Ivan IX"
@@ -167,3 +173,213 @@
  
  SOV_allow_mongols_for_public_office:0 "Allow Mongols For Public Office"
  SOV_allow_mongols_for_public_office_desc:0 "They are citizens of this DEMOCRACY! We must allow them to run as well."
+ 
+ SOV_russian_unity:0 "Russian Unity"
+ SOV_russian_unity_desc:0 "Russian Unity is what we must head towards, no more Muscovy, Russia must be united."
+ 
+ SOV_establish_a_national_unity_council:0 "Establish A National Unity Council"
+ SOV_establish_a_national_unity_council_desc:0 "We must establish a council to plan our unification."
+ 
+ SOV_promote_pan_russianism:0 "Promote Pan-Russianism"
+ SOV_promote_pan_russianism_desc:0 "Pan-Russianism is very large in the nation, however it is not strong enough yet."
+ 
+ SOV_offer_a_unity_conference:0 "Offer A Unity Conference"
+ SOV_offer_a_unity_conference_desc:0 "We must offer Novgorod the chance to avoid war and meet with us to discuss unification."
+ 
+ SOV_forced_integration:0 "Forced Integration"
+ SOV_forced_integration_desc:0 "We must force them to integrate into our nation."
+ 
+ SOV_unity_is_key:0 "Unity Is Key"
+ SOV_unity_is_key_desc:0 "With Novgorod accepting the conference and accepting terms for unification, we can not unite."
+ 
+ SOV_no_conference:0 "No Conference"
+ SOV_no_conference_desc:0 "They refused the conference, this means war."
+ 
+ SOV_russia_on_the_world_stage:0 "Russia On The World Stage"
+ SOV_russia_on_the_world_stage_desc:0 "We are United, with out unity being a success it is time to establish our self on the world stage and become a true super power."
+ 
+ SOV_a_diplomatic_russia:0 "A Diplomatic Russia"
+ SOV_a_diplomatic_russia_desc:0 "We must follow the ideas of Diplomacy and peace over war."
+ 
+ SOV_alliance_with_mongolia:0 "Alliance With Mongolia"
+ SOV_alliance_with_mongolia_desc:0 "Mongolia is a natural ally of Muscovy, together we can defend agains the authoritaraian Ado Turkestan."
+ 
+ SOV_a_new_alliance:0 "A New Alliance"
+ SOV_a_new_alliance_desc:0 "We must form our own alliance of nations for defense."
+ 
+ SOV_encourage_poland:0 "Encourage Poland"
+ SOV_encourage_poland_desc:0 "We must encourage Poland to join our Alliance."
+ 
+ SOV_encourge_the_golden_kingdom:0 "Encourage The Golden Kingdom"
+ SOV_encourge_the_golden_kingdom_desc:0 "We must encourage our neighbors to the east to join us, The Golden Kingdom should be our ally for once."
+ 
+ SOV_encourge_lithuania:0 "Encourage Lithuania"
+ SOV_encourge_lithuania_desc:0 "We should encourage Lithuania to put the past behind us for an alliance."
+ 
+ SOV_expand_russia:0 "Expand Russia"
+ SOV_expand_russia_desc:0 "We are Russia, it is our destiny to expand."
+ 
+ SOV_take_on_our_golden_neighbours:0 "Take On Our Golden Neighbors"
+ SOV_take_on_our_golden_neighbours_desc:0 "We shald destroy The Golden Kingdom, their time is up."
+ 
+ SOV_take_on_kalmykistan:0 "Take On Kalmykistan"
+ SOV_take_on_kalmykistan_desc:0 "Kalmykistan is a natural enemy of the Russians and only get in our way of expansion."
+ 
+ SOV_take_on_the_caspians:0 "Take On The Caspians"
+ SOV_take_on_the_caspians_desc:0 "We must take on these heretics."
+ 
+ SOV_take_on_siberia:0 "Take On Siberia"
+ SOV_take_on_siberia_desc:0 "Siberia and the Far-Eastern Republic are as good as dead."
+ 
+ SOV_take_on_karelia:0 "Take On Karelia"
+ SOV_take_on_karelia_desc:0 "We must wipe out Karelia and make them part of our great nation."
+ 
+ SOV_take_on_the_lithuanian_hegemony:0 "Take On The Lithuanian Hegemony"
+ SOV_take_on_the_lithuanian_hegemony_desc:0 "We must take over Minsk and Lithuania."
+ 
+ SOV_an_enemy_in_sweden:0 "An Enemy In Sweden"
+ SOV_an_enemy_in_sweden_desc:0 "Sweden is an enemy we must crush to make sure they do not become a rival to us."
+ 
+ SOV_showdown_with_turkestan:0 "Showdown With Turkestan"
+ SOV_showdown_with_turkestan_desc:0 "The Ado Turkestan is an enemy to us, we will crush them and end their ideologies existance."
+ 
+ SOV_a_long_awaited_fight:0 "A Long Awaited Fight"
+ SOV_a_long_awaited_fight_desc:0 "Hundreds of years ago, the Mongols took over our land, now its time to take theirs."
+ 
+ SOV_muscovy_forever:0 "Muscovy Forever"
+ SOV_muscovy_forever_desc:0 "Muscovy will forever be a land of Muscovites, not Russians."
+ 
+ SOV_oppose_russian_nationalism:0 "Oppose Russian Nationalism"
+ SOV_oppose_russian_nationalism_desc:0 "We must oppose the Russian Nationalists at all costs."
+ 
+ SOV_promote_a_muscovite_culture:0 "Promote A Muscovite Culture"
+ SOV_promote_a_muscovite_culture_desc:0 "We most promote the distinctions between our culture and Novgorodian culture."
+ 
+ SOV_an_ally_in_a_old_enemy:0 "An Ally In A Old Enemy"
+ SOV_an_ally_in_a_old_enemy_desc:0 "It is time to put aside our petty rivalry with Novgorod and join together in an alliance."
+ 
+ SOV_invite_minsk:0 "Invite Minsk"
+ SOV_invite_minsk_desc:0 "We must invite Minsk."
+ 
+ SOV_invite_the_cossacks:0 "Invite The Cossacks"
+ SOV_invite_the_cossacks_desc:0 "We must invite these horse slavs."
+ 
+ SOV_eternal_rivals:0 "Ethernal Rivals"
+ SOV_eternal_rivals_desc:0 "Novgorod will never be anything but a rival."
+ 
+ SOV_peaceful_rivals:0 "Peaceful Rivals"
+ SOV_peaceful_rivals_desc:0 "We maybe rivals but we do not need war."
+ 
+ SOV_it_must_end:0 "It Must End"
+ SOV_it_must_end_desc:0 "This rivalry must end, with blood."
+ 
+ SOV_muscovy_in_isolation:0 "Muscovy In Isolation"
+ SOV_muscovy_in_isolation_desc:0 "It is time to adopt a policy of isolation."
+ 
+ SOV_find_an_ally:0 "Find An Ally"
+ SOV_find_an_ally_desc:0 "We must seek out a friend for the defense of our nation."
+ 
+ SOV_ally_mongolia:0 "Ally Mongolia"
+ SOV_ally_mongolia_desc:0 "We should ally the Mongolians."
+ 
+ SOV_ally_turkestan:0 "Ally Turkestan"
+ SOV_ally_turkestan_desc:0 "We should ally Turkestan."
+ 
+ SOV_the_muscovite_economy:0 "The Muscovite Economy"
+ SOV_the_muscovite_economy_desc:0 "It is now time for discussions on our economy."
+ 
+ SOV_leftist_economics:0 "Leftist Economics"
+ SOV_leftist_economics_desc:0 "Leftist Econoomics is key to success."
+ 
+ SOV_revise_union_laws:0 "Revise Union Laws"
+ SOV_revise_union_laws_desc:0 "Even under the Grand Duke, we had union laws albeit terrible ones, it is now time to revise them to make them great."
+ 
+ SOV_increase_corporate_taxation:0 "Increaste Corporate Taxation"
+ SOV_increase_corporate_taxation_desc:0 "They make more money, so why shouldn't they have to pay more in taxes?"
+ 
+ SOV_public_healthcare_reforms:0 "Public Healthcare Reforms"
+ SOV_public_healthcare_reforms_desc:0 "People often lost everything they owned paying for medical bills in Muscovy, however not anymore, the government will fund healthcare for the well being of all Muscovites."
+ 
+ SOV_fiscal_conservatism:0 "Fiscal Conservatism"
+ SOV_fiscal_conservatism_desc:0 "The less spending, the better."
+ 
+ SOV_tighter_grip_on_unions:0 "Tighter Grip On Unions"
+ SOV_tighter_grip_on_unions_desc:0 "We must take a tighter grip on the unions so they don't enforce petty rights on to us."
+ 
+ SOV_ease_corporate_restrictions:0 "Ease Corporate Taxation"
+ SOV_ease_corporate_restrictions_desc:0 "We must ease taxation on the corporations, this will allow them to build friendlier relationships with the government as well as pay more to their employees."
+ 
+ SOV_lower_health_budget:0 "Lower Health Budget"
+ SOV_lower_health_budget_desc:0 "Lowering spending on our health budget will ease the economy a lot, it will make it much stronger."
+ 
+ SOV_muscovite_investment_plan:0 "Muscovite Investment Plan"
+ SOV_muscovite_investment_plan_desc:0 "The Muscovite Investment Plan was originally a economic plan drafted by the Grand Duke but now the current administration is going to adopt it."
+ 
+ SOV_revive_the_civilian_industry:0 "Revive The Civilian Industry"
+ SOV_revive_the_civilian_industry_desc:0 "While it still existed, our civilian industry was crippled focusing on making arms for the military, it is time to change that."
+ 
+ SOV_help_muscovite_consumer_companies:0 "Help Muscovite Consumer Companies"
+ SOV_help_muscovite_consumer_companies_desc:0 "It is time to help the Muscovite consumer companies with subsidies, this will increase their production in favor of us having to use less government industry to provide the people with basic needs."
+ 
+ SOV_expand_the_military_industry:0 "Expand The Military Industry"
+ SOV_expand_the_military_industry_desc:0 "Expanding out military industry will turn us into an even stronger power."
+ 
+ SOV_government_funded_arms_production:0 "Government Funded Arms Production"
+ SOV_government_funded_arms_production_desc:0 "Government funded arms production will allow us to have more arms for our army."
+ 
+ SOV_the_muscovite_armed_forces:0 "Muscovite Armed Forces"
+ SOV_the_muscovite_armed_forces_desc:0 "The Muscovite armed forces are here to defend us."
+ 
+ SOV_muscovite_army:0 "Muscovite Army"
+ SOV_muscovite_army_desc:0 "The Muscovite army will be glorious."
+ 
+ SOV_muscovite_armor_initative:0 "Muscovite Armor Initative"
+ SOV_muscovite_armor_initative_desc:0 "We must make an effort to expand the armor in our army."
+ 
+ SOV_muscovite_artillery_initative:0 "Muscovite Artillery Initative"
+ SOV_muscovite_artillery_initative_desc:0 "We must make an effort to improve our current artillery units, including modernization."
+ 
+ SOV_learn_new_tactics:0 "Learn New Tactics"
+ SOV_learn_new_tactics_desc:0 "We will test out new doctrines in order to improve our chances in a war."
+ 
+ SOV_muscovite_air_force:0 "Muscovite Air Force"
+ SOV_muscovite_air_force_desc:0 "We must begin to dominate the air."
+ 
+ SOV_expand_the_air_force:0 "Expand The Air Force"
+ SOV_expand_the_air_force_desc:0 "Expanding the air force is a key value needed to dominate the air."
+ 
+ SOV_muscovite_bomber_dominance:0 "Muscovite Bomber Dominance"
+ SOV_muscovite_bomber_dominance_desc:0 "Our air force must be dominated by bombers in order to dominate more than just the sky."
+ 
+ SOV_muscovite_fighter_dominance:0 "Muscovite Fighter Dominance"
+ SOV_muscovite_fighter_dominance_desc:0 "Fighters are required for a good and reliable air force, we should be focusing on them over bombers."
+ 
+ SOV_muscovite_electronics_investments:0 "Muscovite Electronics Investments"
+ SOV_muscovite_electronics_investments_desc:0 "Radar and computers are both things that will help us dominate during war and peace time."
+ 
+ SOV_muscovite_atom_tests:0 "Muscovite Atom Tests"
+ SOV_muscovite_atom_tests_desc:0 "If we can find success in making an Atom Bomb, we will be unbeatable."
+ 
+ #Cosmetic Tags 
+ 
+ SOV_united_russia_1_fascism:0 "Kingdom of Russia"
+ SOV_united_russia_1_fascism_DEF:0 "The Kingdom of Russia"
+ SOV_united_russia_1_communism:0 "Kingdom of Russia"
+ SOV_united_russia_1_communism_DEF:0 "The Kingdom of Russia"
+ SOV_united_russia_1_authoritarian:0 "Kingdom of Russia"
+ SOV_united_russia_1_authoritarian_DEF:0 "The Kingdom of Russia"
+ SOV_united_russia_1_monarchism:0 "Kingdom of Russia"
+ SOV_united_russia_1_monarchism_DEF:0 "The Kingdom of Russia"
+ SOV_united_russia_1_liberalism:0 "Kingdom of Russia"
+ SOV_united_russia_1_liberalism_DEF:0 "The Kingdom of Russia"
+ SOV_united_russia_1_conservatism:0 "Kingdom of Russia"
+ SOV_united_russia_1_conservatism_DEF:0 "The Kingdom of Russia"
+ SOV_united_russia_1_mod_ordaism:0 "Kingdom of Russia"
+ SOV_united_russia_1_mod_ordaism_DEF:0 "The Kingdom of Russia"
+ SOV_united_russia_1_authoritarian_ADJ:0 "Russian"
+ SOV_united_russia_1_monarchism_ADJ:0 "Russian"
+ SOV_united_russia_1_liberalism_ADJ:0 "Russian"
+ SOV_united_russia_1_conservatism_ADJ:0 "Russian"
+ SOV_united_russia_1_mod_ordaism_ADJ:0 "Russian"
+ SOV_united_russia_1_fascism_ADJ:0 "Russian"
+ SOV_united_russia_1_communism_ADJ:0 "Russian"

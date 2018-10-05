@@ -1,6 +1,11 @@
 ﻿capital = 524
 
 oob = "generic"
+
+add_ideas = {
+	tengri_idea
+}
+
 set_politics = {
 
 	parties = {

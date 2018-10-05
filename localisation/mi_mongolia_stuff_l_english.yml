@@ -10,6 +10,9 @@
  MON_ukhnaagiin_bagabandi_cm:0 "Ukhnaagiin Bagabandi"
  MON_ukhnaagiin_bagabandi_em:0 "Ukhnaagiin Bagabandi"
  
+ #Factions
+ unity_organization:0 "Unity Organization"
+ 
  #Political Parties
  MON_fascism_party:0 "MRF"
  MON_fascism_party_long:0 "The Mongolian Restoration Front"

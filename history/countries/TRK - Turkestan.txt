@@ -9,8 +9,10 @@ set_technology = {
 
 add_ideas = {
 	limited_conscription
-	
+	tengri_idea
 }
+
+create_faction = new_world_movement
 
 set_politics = {
 

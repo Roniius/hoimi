@@ -43,6 +43,11 @@ set_technology = {
 set_stability = 0.55
 set_war_support = 0.41
 
+create_faction = unity_organization
+add_to_faction = NJA
+add_to_faction = TAI
+add_to_faction = MAL
+
 add_ideas = {
 	limited_conscription
 	MON_peljidiin_genden_hog

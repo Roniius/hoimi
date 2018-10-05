@@ -2,6 +2,11 @@
 
 oob = "generic"
 
+add_ideas = {
+	buddhism_idea
+}
+
+
 set_politics = {
 
 	parties = {

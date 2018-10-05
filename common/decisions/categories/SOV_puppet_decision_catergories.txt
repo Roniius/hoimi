@@ -1,0 +1,10 @@
+ukraine_free_state = {
+
+	#icon = generic_formable_nations
+
+	#picture = GFX_decision_cat_generic_scandinavia
+
+	#allowed = {
+	#	has_dlc = "Waking the Tiger"
+	#}
+}

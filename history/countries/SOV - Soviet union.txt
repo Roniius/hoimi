@@ -2,6 +2,10 @@
 
 oob = "SOV_1936"
 
+add_ideas = {
+	orthodox_idea
+}
+
 set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.8
@@ -176,4 +180,76 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 4
 	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Alexander Kutepov"
+	picture = "Portrait_SOV_Alexander_Kutepov.dds"
+	id = 002
+	traits = { }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+	name = "Pyotr Krasnov"
+	picture = "Portrait_SOV_Pyotr_Krasnov.dds"
+	id = 004
+	traits = { }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Pyotr Wrangel"
+	picture = "Portrait_SOV_Pyotr_Wrangel.dds"
+	id = 005
+	traits = { }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Smotrov Milomir Georgiy"
+	picture = "Portrait_SOV_Smotrov_Milomir_Georgiy.dds"
+	id = 006
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 6
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Vladimir Sidorin"
+	picture = "Portrait_SOV_Vladimir_Sidorin.dds"
+	id = 007
+	traits = { }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Nikolay Kuznetsov"
+	picture = "Portrait_SOV_Nikolay_Kuznetsov.dds"
+	id = 008
+	traits = { }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
 }

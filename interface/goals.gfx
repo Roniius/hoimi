@@ -1399,5 +1399,25 @@ spriteTypes = {
 		name = "GFX_focus_SOV_mongol_muscovites"
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_mongol_muscovites.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_focus_generic_economic_control_red"
+		texturefile = "gfx/interface/goals/focus_generic_economic_control_red.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_a_secular_state"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_a_secular_state.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_the_lobov_plan"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_the_lobov_plan.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_traditional_muscovite_values"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_traditional_muscovite_values.dds"
+	}
 
 }

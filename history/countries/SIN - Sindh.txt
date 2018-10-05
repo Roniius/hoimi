@@ -1,6 +1,11 @@
 ﻿capital = 443
 
 oob = "generic"
+
+add_ideas = {
+	sunni_idea
+}
+
 set_politics = {
 
 	parties = {

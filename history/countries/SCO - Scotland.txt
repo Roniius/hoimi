@@ -9,7 +9,7 @@ puppet = SCK
 
 add_ideas = {
 	limited_conscription
-	
+	catholic_idea
 }
 
 set_politics = {
@@ -56,6 +56,17 @@ create_country_leader = {
 	picture = "Portrait_SCO_Edmond_Bruce.dds"
 	expire = "1965.1.1"
 	ideology = sub_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gordon Gillies"
+	desc = "POLITICS_GORDON_GILLIES_DESC"
+	picture = "Portrait_SCO_Gordon Gillies.dds"
+	expire = "1965.1.1"
+	ideology = sub_conservatism
 	traits = {
 		#
 	}

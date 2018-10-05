@@ -247,3 +247,64 @@ country_event = {
 		name = muscovy.9.o1
 	}
 }
+
+#Fake Election Event
+country_event = {
+	id = muscovy.10
+	title = muscovy.10.t
+	desc = muscovy.10.d
+	#picture = 
+
+	is_triggered_only = yes
+	
+	#Mrs Piggy
+	option = {
+		name = muscovy.10.o1
+		
+		create_country_leader = {
+			name = "Miss Piggy"
+			desc = "POLITICS_MISS_PIGGY_DESC"
+			picture = "Portrait_SOV_Miss_Piggy.dds"
+			expire = "1953.3.1"
+			ideology = sub_monarchism
+			traits = {
+		
+			}
+		}
+		
+	}
+	
+	#AN Eggplant
+	option = {
+		name = muscovy.10.o2
+		
+		create_country_leader = {
+			name = "A Cucking Eggplant"
+			desc = "POLITICS_EGGPLANT_DESC"
+			picture = "Portrait_SOV_Cucking_Eggplant.dds"
+			expire = "1953.3.1"
+			ideology = sub_monarchism
+			traits = {
+		
+			}
+		}
+		
+	}
+	
+	#Baron Trump
+	option = {
+		name = muscovy.10.o3
+		
+		create_country_leader = {
+			name = "Baron Trump"
+			desc = "POLITICS_BARON_TRUMP_DESC"
+			picture = "Portrait_SOV_Baron_Trump.dds"
+			expire = "1953.3.1"
+			ideology = sub_monarchism
+			traits = {
+		
+			}
+		}
+		
+	}
+}
