@@ -49,12 +49,24 @@ set_politics = {
 	elections_allowed = no
 }
 
+#William Jennings Bryan
+create_country_leader = {
+	name = "Liam J. Obrien"
+	desc = "POLITICS_LIAM_J_OBRIEN_DESC"
+	picture = "Portrait_CAN_Liam_J_Obrien.dds"
+	expire = "1965.1.1"
+	ideology = sub_liberalism
+	traits = {
+		#
+	}
+}
+
 create_country_leader = {
 	name = "Mhartain Olann"
 	desc = "POLITICS_MHARTAIN_OLANN_DESC"
 	picture = "Portrait_CAN_Mhartain_Olann.dds"
 	expire = "1965.1.1"
-	ideology = sub_liberalism
+	ideology = sub_monarchism
 	traits = {
 		#
 	}

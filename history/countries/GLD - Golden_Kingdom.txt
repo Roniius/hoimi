@@ -52,6 +52,17 @@ create_country_leader = {
 	desc = "POLITICS_BATAAR_KHAN_DESC"
 	picture = "Portrait_GLD_Bataar_Khan.dds"
 	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chigu Yaduuchuud"
+	desc = "POLITICS_CHIGU_YADUUCHUUD_DESC"
+	picture = "Portrait_GLD_Chigu_Yaduuchuud.dds"
+	expire = "1965.1.1"
 	ideology = sub_conservatism
 	traits = {
 		#

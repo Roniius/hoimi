@@ -1,0 +1,43 @@
+﻿l_english:
+ 
+ #####Cosmetic Tags
+ 
+ ##Shortened Name
+ SYR_short_base_fascism:0 "IR Damascus"
+ SYR_short_base_fascism_DEF:0 "The Islamic Republic of Damascus"
+ SYR_short_base_communism:0 "IR Damascus"
+ SYR_short_base_communism_DEF:0 "The Islamic Republic of Damascus"
+ SYR_short_base_authoritarian:0 "IR Damascus"
+ SYR_short_base_authoritarian_DEF:0 "The Islamic Republic of Damascus"
+ SYR_short_base_monarchism:0 "IR Damascus"
+ SYR_short_base_monarchism_DEF:0 "The Islamic Republic of Damascus"
+ SYR_short_base_liberalism:0 "IR Damascus"
+ SYR_short_base_liberalism_DEF:0 "The Islamic Republic of Damascus"
+ SYR_short_base_conservatism:0 "IR Damascus"
+ SYR_short_base_conservatism_DEF:0 "The Islamic Republic of Damascus"
+ SYR_short_base_mod_ordaism:0 "IR Damascus"
+ SYR_short_base_mod_ordaism_DEF:0 "The Islamic Republic of Damascus"
+ SYR_short_base_authoritarian_ADJ:0 "Damascene"
+ SYR_short_base_monarchism_ADJ:0 "Damascene"
+ SYR_short_base_liberalism_ADJ:0 "Damascene"
+ SYR_short_base_conservatism_ADJ:0 "Damascene"
+ SYR_short_base_mod_ordaism_ADJ:0 "Damascene"
+ SYR_short_base_fascism_ADJ:0 "Damascene"
+ SYR_short_base_communism_ADJ:0 "Damascene"
+ 
+ #####Parties
+ 
+ SYR_conservatism_party:0 "Workers Party"
+ SYR_conservatism_party_long:0 "Workers Party of Damascus"
+ SYR_liberalism_party:0 "National Party"
+ SYR_liberalism_party_long:0 "Damascene-Arab National Party"
+ SYR_mod_ordaism_party:0 "DLNP"
+ SYR_mod_ordaism_party_long:0 "Damascene Labour National Party"
+ SYR_communism_party:0 "IPP"
+ SYR_communism_party_long:0 "Islamic People's Party"
+ SYR_fascism_party:0 "DAPA"
+ SYR_fascism_party_long:0 "Damascene Ado Party of Arabs"
+ SYR_monarchism_party:0 "Royal Council"
+ SYR_monarchism_party_long:0 "Royal Council of Damascus"
+ SYR_authoritarian_party:0 "New Order Party"
+ SYR_authoritarian_party_long:0 "New Order Party of Damascus"

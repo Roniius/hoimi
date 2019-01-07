@@ -57,8 +57,21 @@ create_country_leader = {
 	desc = "POLITICS_WALTER_VON_TRUCHEN_DESC"
 	picture = "Portrait_AMZ_Walter_Von_Truchen.dds"
 	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Liebhard Kiefer"
+	desc = "POLITICS_LIEBHARD_KIEFER_DESC"
+	picture = "Portrait_AMZ_Liebhard_Kiefer.dds"
+	expire = "1965.1.1"
 	ideology = sub_liberalism
 	traits = {
 		#
 	}
 }
+
+

@@ -52,6 +52,10 @@ set_technology = {
 
 set_convoys = 300
 
+add_opinion_modifier = {
+    target = BEL
+    modifier = FRA_long_lasting_rivalry
+}
 
 set_politics = {
 
@@ -86,6 +90,10 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = sub_monarchism
 	traits = {
-		
+		king_of_francia
+		prince_of_paris
+		holy_roman_emperor_unofficial
+		king_of_the_central_africans
+		king_of_south_africa
 	}
 }

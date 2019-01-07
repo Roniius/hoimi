@@ -1,0 +1,64 @@
+muscovite_mongol_alliance = {
+	
+	enable = {
+	
+		NOT = { tag = MON }
+		MON = { is_in_faction = yes }
+		
+		OR = {
+		
+			AND = {
+				tag = SOV
+				SOV = {
+					has_idea = SOV_alliance_with_mongolia_idea
+				}
+			}
+		}
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "MON"
+		value = 50
+	}
+	ai_strategy = {
+		type = alliance
+		id = "MON"
+		value = 150
+	}
+}
+
+muscovite_mongol_alliance_2 = {
+	
+	enable = {
+	
+		NOT = { tag = SOV }
+		SOV = { is_in_faction = yes }
+		MON = { 
+			NOT = {
+				has_government = communism
+			}
+		}
+		
+		OR = {
+		
+			AND = {
+				tag = MON
+				MON = {
+					has_idea = SOV_alliance_with_mongolia_idea
+				}
+			}
+		}
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "SOV"
+		value = 50
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = 150
+	}
+}

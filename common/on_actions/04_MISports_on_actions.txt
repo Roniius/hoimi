@@ -1,0 +1,11 @@
+on_actions = {
+	on_startup = {
+		
+		effect = {
+			every_country = {
+				set_global_flag = no_global_chess_tourny
+			}
+		}
+		
+	}
+}

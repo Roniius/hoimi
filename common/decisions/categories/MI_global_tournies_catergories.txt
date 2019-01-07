@@ -1,0 +1,5 @@
+global_sports_tourny = {
+	allowed = {
+		always = yes
+	}
+}

@@ -54,9 +54,20 @@ set_politics = {
 #PM = Aylmer Hunter-Weston
 
 create_country_leader = {
-	name = "George V"
-	desc = "POLITICS_George_V_DESC"
-	picture = "Portrait_ENG_George_V.dds"
+	name = "King Anthony III"
+	desc = "POLITICS_ANTHONY_III_DESC"
+	picture = "Portrait_ENG_Anthony_III.dds"
+	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Aylmer Hunter-Weston"
+	desc = "POLITICS_AYLMER_HUNTER_WESTON_DESC"
+	picture = "Portrait_ENG_Aylmer_Hunter_Weston.dds"
 	expire = "1965.1.1"
 	ideology = sub_conservatism
 	traits = {

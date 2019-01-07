@@ -52,6 +52,17 @@ create_country_leader = {
 	desc = "POLITICS_KING_RUPPRECHT_DESC"
 	picture = "Portrait_BAV_King_Rupprecht.dds"
 	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Oskar von Xylander"
+	desc = "POLITICS_OSKAR_VON_XYLANDER_DESC"
+	picture = "Portrait_BAV_Oskar_von_Xylander.dds"
+	expire = "1965.1.1"
 	ideology = militaryreign
 	traits = {
 		#

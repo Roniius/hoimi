@@ -1933,6 +1933,11 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/SOV/report_event_ivan_meets_aladin.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_news_event_global_chess_tournament"
+		texturefile = "gfx/event_pictures/Global_sports/news_event_global_chess_tournament.dds"
+	}
+	
 }
 	
 	

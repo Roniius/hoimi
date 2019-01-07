@@ -28,3 +28,21 @@
  can_replace_cm:0 "Can Replace Construction Minister"
  
  can_replace_em:0 "Can Replace Economic Minister"
+ 
+ #Slavery Laws
+ slavery:0 "Slavery"
+ 
+ slavery_abolished:0 "Slavery Abolished"
+ slavery_abolished_desc:0 "Slavery is illegal in our nation."
+ 
+ slavery_in_prisons:0 "Slavery In Prisons"
+ slavery_in_prisons_desc:0 "Slavery is allowed for the crime breakers."
+ 
+ slavery_legal:0 "Slavery Legal"
+ slavery_legal_desc:0 "Slavery Is Legal"
+ 
+ disguised_slavery:0 "Disguised Slavery"
+ disguised_slavery_desc:0 "While slavery is technically illegal, our system in place allows for a system so similar to slavery its like finding a small orange and calling it something else."
+ 
+ regional_based:0 "Regional Based"
+ regional_based_desc:0 "Our country allows for regions of the nations to decide if slavery is allowed or not."

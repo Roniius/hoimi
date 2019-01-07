@@ -45,6 +45,17 @@ create_country_leader = {
 	desc = "POLITICS_PETRU_XI_DESC"
 	picture = "Portrait_WAL_Petru_XI.dds"
 	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Simon Pangratiu"
+	desc = "POLITICS_SIMON_PANGRATIU_DESC"
+	picture = "Portrait_WAL_Simon_Pangratiu.dds"
+	expire = "1965.1.1"
 	ideology = sub_conservatism
 	traits = {
 		#

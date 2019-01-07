@@ -38,9 +38,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "King Charles I"
-	desc = "POLITICS_CHARLES_I_DESC"
-	picture = "Portrait_AUS_Charles_I.dds"
+	name = "King Leopold II"
+	desc = "POLITICS_LEOPOLD_II_DESC"
+	picture = "Portrait_AUS_Leopold_II.dds"
 	expire = "1965.1.1"
 	ideology = sub_monarchism
 	traits = {

@@ -1,5 +1,5 @@
 
 SOV_united_russia_1 = {
-    color = rgb { 19 56 14 }
-    color_ui = rgb { 19 56 14 }
+    color = rgb { 48 143 36 }
+    color_ui = rgb { 48 143 36 }
 }

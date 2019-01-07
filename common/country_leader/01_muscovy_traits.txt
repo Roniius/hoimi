@@ -1,0 +1,19 @@
+leader_traits = {
+
+	grand_duke_of_muscovy = {
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	povelitel_of_muscovy = {
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

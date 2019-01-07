@@ -37,11 +37,22 @@ set_politics = {
 }
 
 create_country_leader = {
+	name = "Chaophraya P. Surentharathibodi"
+	desc = "POLITICS_CHAOPHRAYA_P_SURENTHARATHIBODI_DESC"
+	picture = "Portrait_SIA_Chaophraya_Phrasadet_Surentharathibodi.dds"
+	expire = "1965.1.1"
+	ideology = sub_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "King Rama VI"
 	desc = "POLITICS_KING_RAMA_VI_DESC"
 	picture = "Portrait_SIA_King_Rama_VI.dds"
 	expire = "1965.1.1"
-	ideology = sub_liberalism
+	ideology = sub_monarchism
 	traits = {
 		#
 	}

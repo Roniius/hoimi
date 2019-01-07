@@ -1419,5 +1419,55 @@ spriteTypes = {
 		name = "GFX_focus_SOV_traditional_muscovite_values"
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_traditional_muscovite_values.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_opress_voters"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_opress_voters.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_open_the_public"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_open_the_public.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_stricter_enforcement"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_stricter_enforcement.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_segregated_in_one_nation"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_segregated_in_one_nation.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_forced_integration"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_forced_integration.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_mongols_for_office"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_mongols_for_office.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_russian_unity"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_russian_unity.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_unity_council"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_unity_council.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_pan_russianism"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_pan_russianism.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_unity_conference"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_unity_conference.dds"
+	}
 
 }

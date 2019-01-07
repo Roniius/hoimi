@@ -18,45 +18,48 @@
  SOV_krasnov_clique_tragedy_long:0 "Krasnov Military Clique"
  SOV_tragedy_Moskvin_Gang:0 "Moskvin Gang"
  SOV_tragedy_Moskvin_Gang_long:0 "Moskvin Gang"
+ SOV_tula_military_council_march_on_krasnovs_palace:0 "Tula Council"
+ SOV_tula_military_council_march_on_krasnovs_palace_long:0 "Tula Military Council"
+ 
  
  #Bookmark
  SOV_MONGOLII_IMPERIUM_DESC:0 "Muscovy stands as it has for centuries, a symbol of Eastern European independence. During the years following the end of Mongol control, Muscovy was in a state of reconstruction and for a while it was weak, almost completely up for grabs to all outsiders but no one took the chance. After some time, Muscovy pulled itself up and began pushing back the old hordes of the former Mongol Empire. Muscovy had become one of the largest nations in Europe, nearly unstoppable in it's might."
  
  #Events
  muscovy.1.t:0 "From Muscovy, With Love\nMuscovy"
- muscovy.1.d:0 "Muscovy stands as it has for centuries, a symbol of Eastern European independence. During the years following the end of Mongol control, Muscovy was in a state of reconstruction and for a while it was weak, almost completely up for grabs to all outsiders but no one took the chance. After some time, Muscovy pulled itself up and began pushing back the old hordes of the former Mongol Empire. Muscovy had become one of the largest nations in Europe, nearly unstoppable in it's might.\n\nTimes have changed since those days: The Grand Duke seems persistent on fruitless purges: The people fear he is mad. With Novgorod to the North and Lithuania to the west, the weakened nation may find itself in a more vulnerable position then ever.. However that is only foreign problems, to say that Muscovy is clear of domestic problems would be a complete lie, in fact, Muscovy is sprawling with different factions, from the Marxist Party of Muscovy, known mostly as The Bolsheviks to the Russian Unionist Party. While most factions remain fairly peaceful, if the Grand Duke was to target them who knows what they may do?"
+ muscovy.1.d:0 "Muscovy stands as it has for centuries, a symbol of Eastern European independence. During the years following the end of Mongol control, Muscovy was in a state of reconstruction and for a while it was weak, almost completely up for grabs to all outsiders but no one took the chance. After some time, Muscovy pulled itself up and began pushing back the old hordes of the former Mongol Empire. Muscovy had become one of the largest nations in Europe, nearly unstoppable in it's might.\n\nTimes have changed since those days: The Grand Prince seems persistent on fruitless purges: The people fear he is mad. With Novgorod to the North and Lithuania to the west, the weakened nation may find itself in a more vulnerable position then ever. However that is only foreign problems, to say that Muscovy is clear of domestic problems would be a complete lie, in fact, Muscovy is sprawling with different factions, from the Marxist Party of Muscovy, known mostly as The Bolsheviks to the Russian Unionist Party. While most factions remain fairly peaceful, if the Grand Prince was to target them who knows what they may do?"
  muscovy.1.o1:0 "Muscovy Is Forever!"
  
  muscovy.2.t:0 "A New Purge"
- muscovy.2.d:0 "It was a normal day, Moscow had people in the streets walking back and forth between their jobs and their homes, to the market place, the church or the many other places in the daily lives of a Muscovite. However it all took a sharp turn when a military barrack was stormed and personal including General Taras Maslov were dragged into a military truck and were driven off. The people of course knew what this was, it was another purge by the Grand Duke, as he consolidates his power very few generals remain. However who knows how loyal they truly are? they live in fear of being purged from the military and may strike at any moment. General Pyotr Krasnov is believed by some to be the only truly loyal general to the Grand Duke left, a close friend of the grand duke who has said he will follow the Grand Duke down any path.\n\nThe people of Muscovy stand strong and while not being supportive of the purges, they have not carried out any sort of mass revolt due to never being targeted by the government. However following the purge of Maslov the streets of Moscow were gloom, as he was seen as fairly liberal compared to most other generals, while not truly liberal in any sense he was simply known to be the least harsh in punishments and treatments to the people."
+ muscovy.2.d:0 "It was a normal day, Moscow had people in the streets walking back and forth between their jobs and their homes, to the market place, the church or the many other places in the daily lives of a Muscovite. However it all took a sharp turn when a military barrack was stormed and personal including General Taras Maslov were dragged into a military truck and were driven off. The people of course knew what this was, it was another purge by the Grand Prince, as he consolidates his power very few generals remain. However who knows how loyal they truly are? they live in fear of being purged from the military and may strike at any moment. General Pyotr Krasnov is believed by some to be the only truly loyal general to the Grand Prince left, a close friend of the grand duke who has said he will follow the Grand Prince down any path.\n\nThe people of Muscovy stand strong and while not being supportive of the purges, they have not carried out any sort of mass revolt due to never being targeted by the government. However following the purge of Maslov the streets of Moscow were gloom, as he was seen as fairly liberal compared to most other generals, while not truly liberal in any sense he was simply known to be the least harsh in punishments and treatments to the people."
  muscovy.2.o1:0 "Dear God."
  
  muscovy.3.t:0 "Announcement In Moscow Royal Square"
- muscovy.3.d:0 "Earlier people in and around Moscow were gathered in the Royal Square for an announcement and people across the nation were gathered into their local town squares where radios were set up for an announcement that would change Muscovy for ever. With loyal General Krasnov beside him, the Grand Duke began a speech on his purges over the past 15 years, he goes into detail of how they were necessary for the future of the great nation. Following him speaking about his justifications for the purges, he goes onto his big announcement.\n\nThe crowd goes silent, then after a few seconds they burst into clapping and cheers as the Grand Duke had announced something no one expected, a mass liberalization of the nation. After the crowd has calmed he continues, he speaks about how he feared that many of the old generals would have attempted a coup against him as many supported the authoritaraian government but a mass single purge at once would have caused too much trouble. He ends his speech with an apology for the totalitarianism the people have suffered over the past 20 years of his reign and his predecessors, he also says he will abdicate the thrown to his son after the reforms are through. Today the Grand Duke surprised many, but he made many people happy."
+ muscovy.3.d:0 "Earlier people in and around Moscow were gathered in the Royal Square for an announcement and people across the nation were gathered into their local town squares where radios were set up for an announcement that would change Muscovy for ever. With loyal General Krasnov beside him, the Grand Prince began a speech on his purges over the past 15 years, he goes into detail of how they were necessary for the future of the great nation. Following him speaking about his justifications for the purges, he goes onto his big announcement.\n\nThe crowd goes silent, then after a few seconds they burst into clapping and cheers as the Grand Prince had announced something no one expected, a mass liberalization of the nation. After the crowd has calmed he continues, he speaks about how he feared that many of the old generals would have attempted a coup against him as many supported the authoritaraian government but a mass single purge at once would have caused too much trouble. He ends his speech with an apology for the totalitarianism the people have suffered over the past 20 years of his reign and his predecessors, he also says he will abdicate the thrown to his son after the reforms are through. Today the Grand Prince surprised many, but he made many people happy."
  muscovy.3.o1:0 "A surprise, to be sure, but a welcome one."
  
  muscovy.4.t:0 "Anti-Slave Reforms"
- muscovy.4.d:0 "Today is a glorious day for all Mongols and prisoners of the Grand Duchy of Muscovy as Grand Duke Ivan has signed the Liberation Promulgation. The Liberation Promulgation is a act in which has freed all the current slaves to the government which mainly consisted of criminals and Mongol tengrists. Private slavery was not addressed in this act as it had already been banned through out the Grand Duchy. Along with the banning of Slavery comes the tightening of segregation laws between Slavic peoples and people of Altaic and other Central Asian cultures.\nToday is a day to rejoice and be glad as the liberal principles promised by the Grand Duke are finally being enacted. Pyotr Krasnov lead a small force of troops to open the gates at a small labor camp based outside of Moscow which was a surprise to many as in the past Krasnov spoke in favor of keeping the institution of slavery."
+ muscovy.4.d:0 "Today is a glorious day for all Mongols and prisoners of the Grand Duchy of Muscovy as Grand Prince Ivan has signed the Liberation Promulgation. The Liberation Promulgation is a act in which has freed all the current slaves to the government which mainly consisted of criminals and Mongol tengrists. Private slavery was not addressed in this act as it had already been banned through out the Grand Duchy. Along with the banning of Slavery comes the tightening of segregation laws between Slavic peoples and people of Altaic and other Central Asian cultures.\nToday is a day to rejoice and be glad as the liberal principles promised by the Grand Prince are finally being enacted. Pyotr Krasnov lead a small force of troops to open the gates at a small labor camp based outside of Moscow which was a surprise to many as in the past Krasnov spoke in favor of keeping the institution of slavery."
  muscovy.4.o1:0 "Freedom For All"
  
- muscovy.5.t:0 "Grand Duke Opens The Press"
- muscovy.5.d:0 "Another glorious day in Muscovy goes on as Newspaper companies across the nation reopen their offices and radio broadcasters come back on the air as Grand Duke Ivan ends censorship within Muscovy. An institution that has been in place since long before the founding of the grand duchy or even the sacking of Moscow by the hordes, and one that has been growing more stronger and opressive since especially in recent years is over. Of course some forms of censorship still exist, however people are now free to release their own newspaper, publish their own books or even start their own radio show if they so desire. Another step towards freedom in the nation has been achieved and the Grand Duke is really showing his aspiration in giving that freedom to his people, people grow to love the Grand Duke more and more every day now, one day we will look back and rejoice at this hero who God has blessed us with."
+ muscovy.5.t:0 "Grand Prince Opens The Press"
+ muscovy.5.d:0 "Another glorious day in Muscovy goes on as Newspaper companies across the nation reopen their offices and radio broadcasters come back on the air as Grand Prince Ivan ends censorship within Muscovy. An institution that has been in place since long before the founding of the grand duchy or even the sacking of Moscow by the hordes, and one that has been growing more stronger and opressive since especially in recent years is over. Of course some forms of censorship still exist, however people are now free to release their own newspaper, publish their own books or even start their own radio show if they so desire. Another step towards freedom in the nation has been achieved and the Grand Prince is really showing his aspiration in giving that freedom to his people, people grow to love the Grand Prince more and more every day now, one day we will look back and rejoice at this hero who God has blessed us with."
  muscovy.5.o1:0 "Removal of Censorship Is Progress"
  
  muscovy.6.t:0 "Bolshevik Leaders Released"
- muscovy.6.d:0 "With the recent liberal reforms coming to the Grand Duchy, the Grand Duke has decided to also appease the ordaists by releaseing the leaders of the Ordaist Party. The Ordaist Party leadership was arrested during a Anti-monarchsit purge in the late 1920s and they have been in prison since, they even lead a mass prison riot in 1933 which lead to the death of 3 prisoners.\nThe Grand Dukes change of heart on the ordaists come with their change, the ordaists have supported the Grand Dukes reforms and cheered him on since he ended slavery in the nation. The Grand Duke seeing this as an opprotunity to win the party over even more was a deal breaker for him."
+ muscovy.6.d:0 "With the recent liberal reforms coming to the Grand Duchy, the Grand Prince has decided to also appease the ordaists by releaseing the leaders of the Ordaist Party. The Ordaist Party leadership was arrested during a Anti-monarchsit purge in the late 1920s and they have been in prison since, they even lead a mass prison riot in 1933 which lead to the death of 3 prisoners.\nThe Grand Princes change of heart on the ordaists come with their change, the ordaists have supported the Grand Princes reforms and cheered him on since he ended slavery in the nation. The Grand Prince seeing this as an opprotunity to win the party over even more was a deal breaker for him."
  muscovy.6.o1:0 "Interesting"
  
- muscovy.7.t:0 "Aladin Meets With Grand Duke"
- muscovy.7.d:0 "The Grand Duke has been in the final stages of his reforms and has invited Aleksei F. Aladin, leader of the Leageue of Liberal Rights to help draft an outline for the new constitution of Muscovy. They discussed many things from how the electoral system shall work to the amount of power the Prime Minister shall hold. The constitution will present the country with a proportional democracy using the popular vote, this will allow for what the people want to be represented more easily. Along with the discussion on the constitution they discussed more personal things which they did not disclose. The meeting concluded with them shaking hands and Aladin heading back to the head quarters of the League of Liberal Rights. The evolution of the nation is starting to show more than ever today, and with the signing of the new constitution being just over a week away the people grow more and more exicted and festitvies have already started taking place."
+ muscovy.7.t:0 "Aladin Meets With Grand Prince"
+ muscovy.7.d:0 "The Grand Prince has been in the final stages of his reforms and has invited Aleksei F. Aladin, leader of the Leageue of Liberal Rights to help draft an outline for the new constitution of Muscovy. They discussed many things from how the electoral system shall work to the amount of power the Prime Minister shall hold. The constitution will present the country with a proportional democracy using the popular vote, this will allow for what the people want to be represented more easily. Along with the discussion on the constitution they discussed more personal things which they did not disclose. The meeting concluded with them shaking hands and Aladin heading back to the head quarters of the League of Liberal Rights. The evolution of the nation is starting to show more than ever today, and with the signing of the new constitution being just over a week away the people grow more and more exicted and festitvies have already started taking place."
  muscovy.7.o1:0 "Muscovy Forever"
  
  muscovy.8.t:0 "A Real Horror Story"
- muscovy.8.d:0 "Today is a rainy and dark day, but it doesn't bother anyone as today is the day the Grand Duke hands a majority of state powers to the Duma of Muscovy, people gathered from all over the nation in Moscow and in the Duma. The Grand Duke enters the main hall of the Duma, with him is royal guards and his son Crown Prince Nikita, heir to the thrown of Muscovy. They walk to the front slowly in ceremonial fashion, the people stare, journalists take pictures and the doors close behind them when they are at the front the Grand Duke turns to the crowd and bows. Aleksei Aladin, Alexander Kerensky, Georgy Lvov and Arkady Mishkin all walk forward, they bow to the Grand Duke and shake his hand, following this the Grand Duke makes a speech, similar to his one in the Moscow Royal Square almost two months ago however very different at the same time, and much more inspiring. After the Grand Duke finishes his speech a royal guardsman brings out a document and lays it on the table infront of the men. Each of the 4 politicians sign the document as well as Crown Prince Nikita, Grand Duke Ivan moves forward to sign the document.\n\nThe Grand Duke prepares to sign the document when a gun shot is heard from outside the halls doors, everyone including the Grand Duke is startled, before he could sign the document the doors swing open violently. Smoke is comes in from the doors, a royal guardsman walks out choking on his own blood as he collapes, a few men walk through the doorway. Pyotr Krasnov, Patriarch Sergius, and General Pyotr Wrangel all walk through surrounded by soldiers, they walk to the front as the soldiers stand at each row of seats and others shoot the royal guards. The three men continue walking to the front when the Grand Duke stands and asks them what they think they are doing, they continue walking to the front and stop at the table. Krasnov walks to the Grand Duke, and says to him.\n\nOld Friend, on this day you try and ruin this country with ideas of crazy liberals, well I will not have it.\n\nKrasnov pulls out his holstered gun, aims it at the head of the Grand Duke and pulls the trigger, the Grand Duke falls to the ground and to many it feels like time has slowed down. Krasnov turns to the crowd and says there will be no liberty in Moscow, everyone including the politicians run out of the room screaming.\n\nEarlier in the day, the rain was nothing but a little water but now it is a symbol of the extreme sadness and horror that came, may God watch over Muscovy."
+ muscovy.8.d:0 "Today is a rainy and dark day, but it doesn't bother anyone as today is the day the Grand Prince hands a majority of state powers to the Duma of Muscovy, people gathered from all over the nation in Moscow and in the Duma. The Grand Prince enters the main hall of the Duma, with him is royal guards and his son Crown Prince Nikita, heir to the thrown of Muscovy. They walk to the front slowly in ceremonial fashion, the people stare, journalists take pictures and the doors close behind them when they are at the front the Grand Prince turns to the crowd and bows. Aleksei Aladin, Alexander Kerensky, Georgy Lvov and Arkady Mishkin all walk forward, they bow to the Grand Prince and shake his hand, following this the Grand Prince makes a speech, similar to his one in the Moscow Royal Square almost two months ago however very different at the same time, and much more inspiring. After the Grand Prince finishes his speech a royal guardsman brings out a document and lays it on the table infront of the men. Each of the 4 politicians sign the document as well as Crown Prince Nikita, Grand Prince Ivan moves forward to sign the document.\n\nThe Grand Prince prepares to sign the document when a gun shot is heard from outside the halls doors, everyone including the Grand Prince is startled, before he could sign the document the doors swing open violently. Smoke is comes in from the doors, a royal guardsman walks out choking on his own blood as he collapes, a few men walk through the doorway. Pyotr Krasnov, Patriarch Sergius, and General Pyotr Wrangel all walk through surrounded by soldiers, they walk to the front as the soldiers stand at each row of seats and others shoot the royal guards. The three men continue walking to the front when the Grand Prince stands and asks them what they think they are doing, they continue walking to the front and stop at the table. Krasnov walks to the Grand Prince, and says to him.\n\nOld Friend, on this day you try and ruin this country with ideas of crazy liberals, well I will not have it.\n\nKrasnov pulls out his holstered gun, aims it at the head of the Grand Prince and pulls the trigger, the Grand Prince falls to the ground and to many it feels like time has slowed down. Krasnov turns to the crowd and says there will be no liberty in Moscow, everyone including the politicians run out of the room screaming.\n\nEarlier in the day, the rain was nothing but a little water but now it is a symbol of the extreme sadness and horror that came, may God watch over Muscovy."
  muscovy.8.o1:0 "May God Help Us"
  
  muscovy.9.t:0 "Leftist Leadership Flees"
- muscovy.9.d:0 "When Krasnov couped the government he had the opprotunity to arrest or even execute prominent leftists, instead he generously let them go in what seems to show that his issue was with the Grand Duke himself. Due to him letting them go they have fleed the nation in fear of future prosecution, Kerensky, Aladin and Krestinsky were all last seen together boarding a train with their families heading to Novgorod. Grigori Sokolnikov, leader of the Ordaist Party of Muscovy was also among the many people who fled the nation, him like many Bolshevik leadership was last seen heading towards Kalmykistan where prominent Bolshevik ally of Slavic and Kalmyk descent Vladimir Lenin is based.\n\nWhile our nation mourns the death of our glorious Grand Duke Ivan IX, these traitors flee the nation in which only shows they cared about power. Is it possible these actions could show that Krasnov is actually trying to save the nation from corruption? Only time can truly tell if Krasnov is a really a curse like he currently seems or if he is a blessing sent by God."
+ muscovy.9.d:0 "When Krasnov couped the government he had the opprotunity to arrest or even execute prominent leftists, instead he generously let them go in what seems to show that his issue was with the Grand Prince himself. Due to him letting them go they have fleed the nation in fear of future prosecution, Kerensky, Aladin and Krestinsky were all last seen together boarding a train with their families heading to Novgorod. Grigori Sokolnikov, leader of the Ordaist Party of Muscovy was also among the many people who fled the nation, him like many Bolshevik leadership was last seen heading towards Kalmykistan where prominent Bolshevik ally of Slavic and Kalmyk descent Vladimir Lenin is based.\n\nWhile our nation mourns the death of our glorious Grand Prince Ivan IX, these traitors flee the nation in which only shows they cared about power. Is it possible these actions could show that Krasnov is actually trying to save the nation from corruption? Only time can truly tell if Krasnov is a really a curse like he currently seems or if he is a blessing sent by God."
  muscovy.9.o1:0 "Traitors!"
  
  muscovy.10.t:0 "First Duma Legislative Election"
@@ -64,6 +67,294 @@
  muscovy.10.o1:0 "The Bacon Muppet"
  muscovy.10.o2:0 "The Dick Plant"
  muscovy.10.o3:0 "The Kid Who Lives In The White House"
+ 
+ muscovy.11.t:0 "Enforcing Segregation"
+ muscovy.11.d:0 "OOF"
+ muscovy.11.o1:0 "..."
+ 
+ muscovy.12.t:0 "Opress Voting Rights"
+ muscovy.12.d:0 "no vote for you"
+ muscovy.12.o1:0 "oh"
+ 
+ muscovy.13.t:0 "Establishment of A New Nation"
+ muscovy.13.d:0 "Ultimate Memes"
+ muscovy.13.o1:0 "Heil The Qing"
+ 
+ muscovy.14.t:0 "Opening The Public"
+ muscovy.14.d:0 "No more segregation"
+ muscovy.14.o1:0 "Mixed Schools?"
+ 
+ muscovy.15.t:0 "Russian Unification Council"
+ muscovy.15.d:0 "Papa Putin will be proud."
+ muscovy.15.o1:0 "Hail Putin"
+ 
+ muscovy.16.t:0 "Pan-Russianism Popularity Grows"
+ muscovy.16.d:0 "Russian Nazis are big now"
+ muscovy.16.o1:0 "Russian Reich"
+ 
+ muscovy.17.t:0 "Muscovites Offer Unification Conference"
+ muscovy.17.d:0 "Wot"
+ muscovy.17.o1:0 "No fucking way"
+ 
+ muscovy.18.t:0 "Russians Want An Alliance"
+ muscovy.18.d:0 "ally big boi Rus?"
+ muscovy.18.o1:0 "Fuk the bear"
+ 
+ muscovy.19.t:0 "Aladin Reforms"
+ muscovy.19.d:0 "Haha the aladin reforms turns muscovy gay."
+ muscovy.19.o1:0 "Praise the gays."
+ 
+ muscovy.20.t:0 "Purge Republican Party Members"
+ muscovy.20.d:0 "Purge the fuckers, no republic here."
+ muscovy.20.o1:0 "GRAND DUKE FOREVER FUCK YES"
+ 
+ muscovy.21.t:0 "Kerensky Tax Reforms"
+ muscovy.21.d:0 "Time to steal from the rich and give to the greedy poorobois"
+ muscovy.21.o1:0 "Hell yeah, fuck the rich"
+ 
+ muscovy.22.t:0 "Lobov Plan"
+ muscovy.22.d:0 "I don't even know anymore."
+ muscovy.22.o1:0 "AHHH"
+ 
+ muscovy.23.t:0 "Segregation Continues"
+ muscovy.23.d:0 "Fuck off, get outta ma swamp - Slavic dude."
+ muscovy.23.o1:0 "Almost Heaven, West Sochi"
+ 
+ muscovy.24.t:0 "Segregation In One Nation"
+ muscovy.24.d:0 "UNITED NATION"
+ muscovy.24.o1:0 "OOOOOOOF"
+ 
+ muscovy.25.t:0 "Integration In Muscovy"
+ muscovy.25.d:0 "Welcome to white land"
+ muscovy.25.o1:0 "I hate my life."
+ 
+ muscovy.26.t:0 "Special Elections In Eastern Provinces"
+ muscovy.26.d:0 "STORMCLOAKS"
+ muscovy.26.o1:0 "Damn Imperials"
+ 
+ muscovy.27.t:0 "Large Rallies Against Pan-Russianism"
+ muscovy.27.d:0 "UNITE THE RUS"
+ muscovy.27.o1:0 "Not the right"
+ 
+ muscovy.28.t:0 "Muscovy Wants To Form An Alliance"
+ muscovy.28.d:0 "OOGA BOOGA"
+ muscovy.28.o1:0 "Fuck the south"
+ 
+ muscovy.29.t:0 "Muscovy Wants To Form An Alliance"
+ muscovy.29.d:0 "BUT BUT BUT BUT BTU BTU EWR NO FUCKA U"
+ muscovy.29.o1:0 "Fucking cheaters."
+ 
+ muscovy.30.t:0 "Muscovy Wants To Form An Alliance"
+ muscovy.30.d:0 "dragon eagle boys want to ally us horse bois"
+ muscovy.30.o1:0 "sure"
+ 
+ muscovy.31.t:0 "Muscovy Wishes To Join Our Alliance"
+ muscovy.31.d:0 "Lol, we have Moscow once again."
+ muscovy.31.o1:0 "ehhhh"
+ 
+ muscovy.32.t:0 "Muscovy Wishes To Join Our Mighty Pact"
+ muscovy.32.d:0 "EHHHH"
+ muscovy.32.o1:0 "ECK"
+ 
+ muscovy.33.t:0 "Corporate Taxes Enacted"
+ muscovy.33.d:0 "We take money from rich bois then secrelty give it back to them through corrupt initiative."
+ muscovy.33.o1:0 "OOF"
+ 
+ muscovy.34.t:0 "Glorious Health Care Reform"
+ muscovy.34.d:0 "Now we live longer"
+ muscovy.34.o1:0 "Why NOT FOREVER?"
+ 
+ muscovy.35.t:0 "Unions Go On Strike"
+ muscovy.35.d:0 "uh oh"
+ muscovy.35.o1:0 "Dab"
+ 
+ muscovy.36.t:0 "Corporate Leaders Meet In Moscow"
+ muscovy.36.d:0 "make them rich please"
+ muscovy.36.o1:0 "MONEY MONEY MONEY MONEY MONEY"
+ 
+ muscovy.37.t:0 "Hospitals Sold To Private Companies"
+ muscovy.37.d:0 "BIG SCARY MAN OWN HOSPITAL"
+ muscovy.37.o1:0 "Fuck this sucks."
+ 
+ muscovy.38.t:0 "Meeting With Consumer Goods Companies"
+ muscovy.38.d:0 "TOASTERS FOR ALL"
+ muscovy.38.o1:0 "Big Boi Toasters"
+ 
+ muscovy.39.t:0 "Goverment Ran Arms Factories Opened"
+ muscovy.39.d:0 "GUN FOR EVERYONE"
+ muscovy.39.o1:0 "LIBTARD REKT WITH LOJIK"
+ 
+ muscovy.40.t:0 "Mass Bolsehvik Arrest"
+ muscovy.40.d:0 "Krasnovs Rise to power was seen as a new pivitol point for Muscovy, many suspected new purges would come, they were correct. Many Ordaist Party members including some of the very few leaders who did not flee, like Lev D. Bronstein and Nikolai Krylenko are being rounded up and brought to an undisclosed location. Their arrests were made public by a speech made by General Krasnov himself for the whole nation to hear over radio, he promised no execution of the Bolsehvik leaders would come, however they will be locked away for life. The population had very little reaction to this, except for a protest in Muscovy which was put down by the military with very few casulties."
+ muscovy.40.o1:0 "An End To The Red Menace"
+ 
+ muscovy.41.t:0 "Rurik Dynasty Exiled"
+ muscovy.41.d:0 "When Krasnov shot Grand Prince Ivan, the country didn't know if we would see his heir, Crown Prince Nikita take over or if Krasnov would end the monarchy, we can see now that it was the latter. General Krasnov ordered the military round up the main members of the Rurik dynasty and have them put on planes; most of the family seems to have fled west to friendly monarchies in Europe, like Francia and Denmark. While there hasn't been a massive vocal opposition to this act, there still was a small one; the group known as the Moskvin Gang is a monarchist gang located mainly in the city of Moscow, the gang has gone on to say they only recognize Crown Prince Nikita, and claim he is Grand Prince Nikita. They are not of importance, the Moskvin Gang has small numbers and if they did ever try anything, their bases would be raided and taken down very quickly.\n\nToday is the true start of a Muscovy without a monarchy, maybe the royal family should have been murdered, but that is not important as General Krasnov has chosen to let them go and the Generals word is the word we shall follow. Muscovy has entered a new age, an age of wonder, an age of power, the Age of Krasnov!"
+ muscovy.41.o1:0 "All Hail Krasnov"
+ 
+ muscovy.42.t:0 "Aladin Supporters Purged"
+ muscovy.42.d:0 "Today a very quiet operation took place, as across the nation, hundreds of people were murdered and thousands more were arrested; General Krasnov ordered the military to take care of key supporters of Aleksei Aladin. Aladin was a main force in the liberalization of Muscovy, someone Krasnov could have executed alongside the former Grand Prince, however he did not and Aladin fled the country and that is something we must deal with. The purge came because despite him fleeing instead of staying and attempting to fight, Aladin supporters still called for Liberalization and his rise to power. Prominent supporters such as Perestoronin Damir and Aleksandr Naumov were killed while popular figure in Aladin's party, Nikolai Pokrovsky was arrested and sentenced to life in prison.\n\nThis purge marks the rule of Krasnov, it shows just how is power is growing, how he will become the strongest Muscovite leader in history and will prove those former monarchs as fools. The people may not be completely sure of General Krasnov yet but they certainly will be."
+ muscovy.42.o1:0 "Down With The Liberals"
+ 
+ muscovy.43.t:0 "Fall of The Grand Duchy"
+ muscovy.43.d:0 "Today General Krasnov walked onto a platform in the Royal Square to make a speech, a speech that he felt would move the nation. When he started he went on about how the old days of Muscovy and the monarchy are in the past but will haunt the nation forever no matter how hard the General tries to fix it, he then went on with his voice getting more and more powerful, talking about the new age; The Age of Krasnov in which he said today was the end of the Grand Duchy, the flag of the Grand Duchy was slowly lowered, Krasnov paused as the flag rose then announced the to the crowd the beginning of The State of Muscovy as he lit the old flag on fire. Krasnov then addressed the crowd to say he is no longer General Krasnov, but now Povelitel Pyotr Krasnov of The State of Muscovy. The crowd at first hesitant but slowly began to clap for their new leader hiding their concern for where he will bring the country next.\n\nFollowing the speech flags across the nation were replaced with the new flag, and portraits of the royal family confiscated and replaced with photos of the Povelitel. It really is a new age in Muscovy, a new age that will not be forgotten and will bring many changes to Muscovy."
+ muscovy.43.o1:0 "All Hail The Povelitel"
+ 
+ muscovy.44.t:0 "General Maslov Speaks Out"
+ muscovy.44.d:0 "General Taras Maslov has spoken today against the actions taken by The Povelitel recently, Maslov who was purged by the late Grand Prince and eventually set free by Krasnov has said that he favors the authoritaraianism but is strongly against the anti-monarchist stance of the new-regime. He has also gone on to say that the nation should keep an Orthodox stance, something Krasnov is not entirely in favor of. The Krasnov Reforms were quite controversial however they were enacted by the Povelitel and even if the Grand Duchy does not exist anymore, speaking out against the Povelitel is treasonous. Maslov is lucky Krasnov has not taken action against him."
+ muscovy.44.o1:0 "Let Him Be...For Now"
+ 
+ muscovy.45.t:0 "Tula Military Council"
+ muscovy.45.d:0 "Today in Tula, General Taras Maslov made an announcement declaring the formation of The Tula Military Council with General Vladimir Sidorin; this announcement came after the occupation of the city by the mens joined forces. The Tula Military Council was formed as a military force separate from the Muscovite Military, Maslov stated the reasoning for the formation of this military council is because of the very radical and insane reforms enacted by Krasnov with the final straw being the banning of the Orthodox religion from the government. The city of Tula is occupied by the generals forces and is standing strong, The Povelitel has not made any advacncements and has called for the military to stand down for now. This treasonous act is unforgivable and will be punished, they are lucky Krasnov has not sent the military to take care of them yet."
+ muscovy.45.o1:0 "TRAITORS"
+ 
+ muscovy.46.t:0 "Wrangel Joins Maslov"
+ muscovy.46.d:0 "Today is a day of very very sad news, as Pyotr Wrangel; someone thought to be loyal to The Povelitel had left Moscow late last night for Tula and arrived today taking arms with Maslov and Sidorin. This act will not be forgiven as it is clear this is a cabal growing against The Povelitel, a conspiracy to depose the hero of Muscovy. Krasnov crossing the line into Tula was crossing the line of treason. The Povelitel himself still has not ordered any action against the council but soon it will happen, these dirty monarchist religious wackjobs will soon feel the fist of The Povelitel come crashing down upon them."
+ muscovy.46.o1:0 "Hail The Povelitel"
+ 
+ muscovy.47.t:0 "Thousands Defect To Tula"
+ muscovy.47.d:0 "Horrible news reached the desk of The Povelitel today as thousands upon thousands of soldiers have head to Tula in support of the military council, it is really only a matter of time before it becomes very serious. At best they force The Povelitel to reinstate the monarchy and orthodox religion, undoing all of the great things he has done, and at worst, a civil war. May Krasnov protect us from civil war and a tyrannic monarchy, only Krasnov can save us now from this horrible treason commited. Supposdly The Povelitel, Krasnov called a meeting with some of his best and still loyal generals to talk about a strategy, thank goodness he is preparing to take control of this horrible situation caused by thieves and crooks."
+ muscovy.47.o1:0 "An Army of Traitors"
+ 
+ muscovy.48.t:0 "Tula Government Declared"
+ muscovy.48.d:0 "In opposition to the Moscow government on the Povelitel, Taras Maslov has declared from Tula a new government will reign in opposition of Moscows. Krasnov recognizes finally something has to be done and his highest advisors have come up with two key options. Either we can charge into the region under their control and kill them all for their treason, or we can try and negotiate, negotiations would be mercy given by a coward but if it is what the Povelitel feels is best then it is what must be done. Maslov has the city completed fortified and prepared for an attack, even if we launch an attack it will take a few days for reinforcements from other areas of the nation to respond but it is the best option, so we can see these horrid traitors burn on a stake. Whatever our Povelitel choses is what we must do, God bless Muscovy, and God bless Pyotr Krasnov."
+ muscovy.48.o1:0 "We Charge In"
+ muscovy.48.o2:0 "A Diplomatic Solution"
+ 
+ muscovy.49.t:0 "Wrangel Takes Power In Kursk"
+ muscovy.49.d:0 "After we began our assault on Tula, many people attempted to escape, and the battle was eventually lost by us, our reinforcements showing up to late and laying down their weapons after a realization that Krasnov is evil, although a few claimed the Tula council was evil and were ultimatly killed. However something just as bad has happened, in the South West regions centered around Kursk, former General Pyotr Wrangel has taken control in what was essentially a declaration of independence. This could be the start of something new as even Krasnovs generals have reportadly left Moscow, could this be the end of Muscovy? Are we heading into a new era? An era of war lordism? Only time can tell but there isn't much we can do now with the military being almost completely disobedient."
+ muscovy.49.o1:0 "Further Traitorous Acts"
+ muscovy.49.o2:0 "Wrangel Is The way"
+ 
+ muscovy.50.t:0 "Viktor Pokrovsky Seizes Roslavl"
+ muscovy.50.d:0 "Following Wrangels moves to consolidate his power down south, Viktor Pokrovsky a once thought loyal general has deicded to consolidate his power oin the small province of Roslavl. This treasonous act is one upong many the army has commited, and Krasnov continues to see defectors; Krasnov will eventually take back power and when he does he will punish all those who decided to betray him, all we can do is hope that Roslavl is the last province to lose."
+ muscovy.50.o1:0 "Another Lost To Darkness"
+ muscovy.50.o2:0 "Pokrovsky Is The Way"
+ 
+ muscovy.51.t:0 "Smotrov Siezes Tambov"
+ muscovy.51.d:0 "Similar to other generals, Georgiy M. Smotrov has descended down the path of Warlordism and taken control of regions centralized around Tambov. First Wrangel, then Pokrovsky and now Smotrov, these are horrendous and treasonous acts orchastrated by once thought loyal generals. However it can't be a complete surprise, our military has fallen drastically and only continues to with the number of loyal soldiers and generals falling everyday. They betray Krasnov and what he has done for the nation, and once he re-consolidates his power they will feel his might."
+ muscovy.51.o1:0 "The Darkness Grows"
+ muscovy.51.o2:0 "Smotrov Is The Way"
+ 
+ muscovy.52.t:0 "Kutepov Takes Gorki"
+ muscovy.52.d:0 "Gorki has become another province to fall to the disease of warlordism, Alexander Kutepov has betrayed the nation like many others before him and he will face his crimes. While this is very treasonous and should be treated as such we should also look at what has caused this, Krasnov may have had good ideas but he is allowing for the nation to fall apart. Krasnov is the Povelitel and we shouldn't forget about that but maybe a temporary power shift could work here. Regardless Kutepov like others shall eventually face death for these actions, a long and painful deaths maybe even at the hands of Krasnov himself."
+ muscovy.52.o1:0 "Darkness Continues To Consume"
+ muscovy.52.o2:0 "Kutepov Is The Way"
+ 
+ muscovy.53.t:0 "Kuznetsov In Svecha"
+ muscovy.53.d:0 "Svecha and its surrounding regions have been siezed by General Nikolay Kuznetsov, a man once considered the man to lead a Muscovite Navy in the event of Muscovite sea access; has betrayed the nation. While it can't be completely shocking for his betrayal as he had been some what vocal against things Krasnov had enacted, it can still be considered treasonous and should be treated as such. For Kuznetsov, unlike the other traitors or atleast more so than them will probably have more unrest to deal with, as with his power grab he has allowed for the Tashqi Mongul majority in the region have a stronger fighting chance."
+ muscovy.53.o1:0 "The Age of Darkness Continues."
+ muscovy.53.o2:0 "Kuznetsov Is The Way"
+ 
+ muscovy.54.t:0 "Inevitable In Tula"
+ muscovy.54.d:0 "Taras Maslov, a traitor to this nation who could have assisted Krasnov into bringing it into greatness has finally done what everyone thought would happen since Wrangel took control of the southern regions. Maslov has declared his independence from Moscow and Krasnov's government, declaring Tula as de facto independent of The State of Muscovy. In an age of treason it isn't surprising that one of the first traitors of the regime would continue down the path of treason and join the party of war lords. May Maslov meet a slow and painful death at the hands of his own kin in an act of treason, may he feel betrayed like Krasnov felt.\n\nIf Maslov does not feel the pain of betrayal he certainly will feel the pain of death soon enough once Krasnov and his few loyal supporters muster the strength to take back Muscovy."
+ muscovy.54.o1:0 "Darkness Everywhere"
+ muscovy.54.o2:0 "Maslov Is The Way"
+ 
+ muscovy.55.t:0 "Sidorin Takes Borisia"
+ muscovy.55.d:0 "The glorious region named after the former Grand Duke, Boris III; has fallen to the hands of warlords like other regions, this one to the hands of Vladimir Sidorin. Sidorin who at first was thought to be loyal to Krasnov, has proven that completely wrong; while Sidorin claims that it isn't a personal thing he has against Krasnov but it is to protect the future of Muscovy, it is clear that is a lie as he just opens up Muscovy to weakness and foreign involvement. Sidorin will meet a fate like the rest of the traitors, death.\n\nSidorin sits on the border with Novgorod and this could be trouble for him as the Bolsehviks are thought to be hiding in the border regions and could spring at any moment."
+ muscovy.55.o1:0 "Darkness Engulfs Us"
+ muscovy.55.o2:0 "Sidorin Is The Way"
+ 
+ muscovy.56.t:0 "Krasnovs Last Stand"
+ muscovy.56.d:0 "Today was something many saw coming but many also denied would happen, Krasnov has been overthrown. While he escaped during the bloodless coup, he no longer holds power and we can forget about him like we should as he now at best will live on a farm in the country side where he can't harm anyone else. Aleksander Romanov is the man to thank for this as he with a large band of forces marched on Moscow today and consolidated their powers. The Age of Krasnov is over, and dead; our loyalty to him is dead and we owe that loyalty to Romanov, the new hero of Moscow, the new hero of Muscovy."
+ muscovy.56.o1:0 "The Age of Romanov?"
+ 
+ muscovy.57.t:0 "Tula Demands Power"
+ muscovy.57.d:0 "The Tula Military Council in the negotiations have demanded power within the regime. They have offered to let Krasnov keep some level of power and stay as the Povelitel in exchange for them holding power power and using him as a puppet of sorts. Krasnov would join the council, making it seem more legitimate in the eyes of the people. Following joining the council, Krasnov would be required to re-instate the Orthodox religion as state religion in Muscovy."
+ muscovy.57.o1:0 "Split The Power, Join The Council"
+ muscovy.57.o2:0 "Refuse Outrageous Demands"
+ 
+ muscovy.58.t:0 "Krasnov Joins Tula Military Council"
+ muscovy.58.d:0 "Today is a historic day, as Krasnov crosses the city border of Tula to shake the hand of Taras Maslov to signify him joining the Tula Military council. Immedietly following the event, Maras ordered the men of the army to follow the command of Krasnov once again and to head back to the place they are stationed. Maslov, Krasnov and other upper council members have agreed to bring the council's meeting room too Moscow where the former Grand Duke's planned government legislative was to be situated. Long Live Krasnov, Long Live Moscovy and Long Live The Council."
+ muscovy.58.01:0 "A New Era"
+ 
+ muscovy.59.t:0 "March On Krasnov's Palace"
+ muscovy.59.d:0 "After the demands from the Tula Military Council during the deal making process, Krasnov was extremely angered and had to have some lower member of government tell Maslov instead of doing it himself. Maslov now also angered began to mobilize the troops stationed in Tula, days later Maslov had been seen outside of Moscow with an army, that was yesterday. Today they have marched into the city towards Krasnov palace and when the reached the palace the guards let down their weapons and stood aside, they entered the palace, stormed the halls and killed any guards not complying. They eventually found the locked Study of Krasnov, they blew the door open and found it empty. For nearly an hour the study was searched for a secret switch to a passage way and the finally found one, disguiesed as a book about the former Grand Dukes; Maslov pulled the switch and it lead to a dark winding staircase. Soldiers walked down to find a small room, looking like a dungeon, with chains on the wall and a whip on a hook and laying in the corner was Krasnov. The soldiers dragged Krasnov up the steps and put him on his knees infront of Maslov, Maslov pulled out his pistol and aimed it at Krasnovs head, Krasnov began to cry as the smell of urine filled the room; Maslov pulled the gun from Krasnovs head and told the guards to put him into a prison. The Humiliated Povelitel was dragged out of the palace as Maslov had the building raided of valuables to be sent to Tula.\n\nToday the regime of Krasnov has ended, and the Tula Council regime begins. A man who was worshipped, now humiliated and looked down upon like a rat. Bless The Tula Military Council."
+ muscovy.59.o1:0 "The End of A Cowerd's Rule"
+ 
+ muscovy.60.t:0 "Statue For Ivan"
+ muscovy.60.d:0 "Grand Duke Ivan The Nineth was shot and killed by former general and former Povelitel, Pyotr Krasnov. Krasnov a traitor to the nation had killed the Grand Duke when he tried to liberalize the regime, while those steps towards liberalization may have not been wise, betraying the Grand Duke and then our holy Christian Orthodox church is an unforgivable sin. Due to his sad death and Krasnov's betrayal, a statue will be built in the Moscow Center Royal square. The statue will be 12 feet tall, just over double the height of the Grand Duke himelf, and he will be holding a sword up in the air. May Ivan rest in peace."
+ muscovy.60.o1:0 "Rest In Peace"
+ 
+ muscovy.61.t:0 "Statue For Krasnov"
+ muscovy.61.d:0 "Krasnov, a hero who was willing to make a deal with people who tried to change his ideas just so he could save the lives of soldiers. Krasnov had done some questionable things but now those questionable things are not a problem and have been taken back a bit. Krasnov has become a hero for the nation and a statue in his honor is being built in the center square of Moscow, at 20 feet tall, the statue will feature Krasnov with his fist in the air and a sword in his other hand. This statue will be a symbol of the city and the nation, a symbol to what we believe in, Krasnov. It will also be a symbol to Krasnovs rule, a rule which is somewhat held onto by the Tula Military Council, however the people do not know this and will believe that he is the ultimate hero, the ultimate leader."
+ muscovy.61.o1:0 "Hail Krasnov"
+ 
+ muscovy.62.t:0 "Embassies Reopened"
+ muscovy.62.d:0 "During the events and crisis that have happened since the fall of Ivan The Nineth, many embassies were closed on order of Krasnov to subvert as much foreign activity as they could, this seemed to have not completely worked in his favor. Embassies have now been reopened to many counties around the world, however some nations have not been extended the courtesy. A New Age for foreign relations has begun, and we will see that Muscovy stays important on the world stage."
+ muscovy.62.o1:0 "Glorious"
+ 
+ muscovy.63.t:0 "Muscovy Requests An Alliance?"
+ muscovy.63.d:0 "The Muscovite State requests an alliance with out mighty nation? Shall we accept this request and join forces, this surely will only make us stronger."
+ muscovy.63.o1:0 "Yes"
+ muscovy.64.o2:0 "No"
+ 
+ muscovy.64.t:0 "Mongols Accept"
+ muscovy.64.d:0 "The Mongols have accepted our suggestion for Muscovy and Mongolia to ally with each other. We grow stronger."
+ muscovy.64.o1:0 "Glorious"
+ 
+ muscovy.65.t:0 "Mongols Deny"
+ muscovy.65.d:0 "The Mongol bastards have denied an alliance between our two natons, this is horrible."
+ muscovy.65.o1:0 "Horrible"
+ 
+ muscovy.66.t:0 "Unionists Join Government"
+ muscovy.66.d:0 "Today the Unionists were publically permitted to join the government offices today, as Krasnov invited their leader Fyokhlachev Panteley into his estate for a meeting and later announced his organization would be joining the government as an ally. The Russian Unionist Party is an ultranationalistic organization wishing to unite the Russian people into a single unitary state, they are known for radical racial ideas, rampant anti-semitism, miliarism and anti-clericalism. Inviting them is probably not the best idea for the nation, as when news first broke out as a rumor, people started to meet secretly and there even was a few border incidents where border patrol had noticed people sneaking through. This could  could lead to some bad things, but we must prepare and stand ready for anything that hits our glorious Muscovy. In time we will unite Russia, in time we will become pure."
+ muscovy.66.o1:0 "Interesting..."
+ 
+ muscovy.67.t:0 "Rebellion"
+ muscovy.67.d:0 "A Rebellion has broken out in the Northern States, Vladimir May-Mayevsky, a former military commander, outspoken Moderate Ordaist and secularist has organized an army and have revolted against the government. Their reasoning for these actions is due to the Ultranationalist Ado, Russian Unionist Party being allowed into the government. They have teamed up with an underground Tashqi Mongul movement which has joined their ranks and have sworn loyalty to May-Mayevsky, along with many ordaists. Notable ordaists who have supposdly snuck over the border from Novgorod such as Lev D. Bronstein and Grigori Sokolnikov as well as famous know moderate ordaist Nikolay Krestinsky. These men are traitors to the government, to Krasnov, and to Muscovy itself, we should hope to see them fall from our armies like all traitors shall."
+ muscovy.67.o1:0 "For Muscovy"
+ muscovy.67.o2:0 "For A New Muscovy"
+ 
+ muscovy.68.t:0 "Rebels Crushed"
+ muscovy.68.d:0 "The moderate ordaist rebels lead by Vladimir May-Mayevsky has been crushed, and remaining pathces have surrendered to the government. May-Mayevsky, Bronstein, and many more of the leadership have been caught and killed, however Kutlugh Karmov has not been caught. This is the first victory for our beautiful nation under our new Unionist leadership and it shall not be the last."
+ muscovy.68.o1:0 "Glorious"
+ 
+ muscovy.69.t:0 "Unionist Forces Crushed"
+ muscovy.69.d:0 "Today is a day of victory as our revolution has succeeded and we have crushed the Unionist Forces. Pyotr Krasnov, Fyokhlachev Panteley, and Taras Maslov have all been caught and senteneced to death why Pyotr Wrangel and some other generals have gone into hiding. Maybe in time the fled generals will be caught or will come out and offer loyalty. Regardless of what happens with the missing army generals, we have one a massive battle, however we are very disorganized and need to start a organizing and planning a government. Many prominent leaders in our ranks have different ideas of what to do, lets hope the peace is kept, for now we shall stay as a provisional government but tomorrow we form a government."
+ muscovy.69.o1:0 "VICTORY"
+ 
+ muscovy.70.t:0 "An Overthrown Maniac"
+ muscovy.70.d:0 ""
+ 
+ #Traits
+ grand_duke_of_muscovy:0 "Grand Prince of Muscovy"
+ povelitel_of_muscovy:0 "Povelitel of Muscovy"
+ 
+ 
+ #Tech Boosts
+ infantry_boost_muscovy:0 "Infantry Boost"
+ air_tech_boost_muscovy:0 "Air-Tech Boost"
+ armor_iniative_muscovy:0 "Armor Initative"
+ artillery_iniative_muscovy:0 "Artillery Initative"
+ expanding_air_force_SOV:0 "Expanding The Airforce"
+ bomber_dominance_SOV:0 "Bomber Dominance"
+ bomber_dominance_SOV2:0 "Bomber Dominance"
+ bomber_dominance_SOV3:0 "Bomber Dominance"
+ fighter_dominance_SOV:0 "Fighter Dominance"
+ fighter_dominance_SOV2:0 "Fighter Dominance"
+ electronic_investments_SOV:0 "Electronic Investments"
+ atom_tests_SOV:0 "Atomic Testing"
+ 
+ SOV_new_construction_methods_tech_bonus:0 "New Construction Methods"
+ SOV_new_mining_methods_tech_bonus:0 "New Mining Methods"
+ SOV_new_air_formations_tech_bonus:0 "New Air Formations"
+ SOV_light_air_tech_bonus:0 "Light Air Research"
+ SOV_medium_air_tech_bonus:0 "Medium Air Research"
+ SOV_heavy_air_tech_bonus:0 "Heavy Air Research"
+ SOV_studying_new_field_tactics_tech_bonus:0 "Studying New Field Tactics"
+ SOV_new_funded_armor_tech_bonus:0 "New Funded Armor"
+ SOV_studying_naval_formations_tech_bonus:0 "Studying Naval Formations"
+ SOV_funded_ship_research_tech_bonus:0 "Funded Ship Research"
+ SOV_funded_electronics_tech_bonus:0 "Funded Electronics"
+ SOV_race_for_tsar_bomba_tech_bonus:0 "Race For Tsar Bomba"
+ 
+ 
+ #Factions
+ the_alliance_of_liberty_faction:0 "Alliance of Liberty"
+ 
+ 
  
  #Spirits
  SOV_ivan_ix_hog:0 "Ivan IX"
@@ -94,11 +385,55 @@
  SOV_state_slavery_desc:0 "In Muscovy, all Central Asians are described as Mongols, including the Mongol people, and in Muscovy many are enslaved."
  
  SOV_mass_purges:0 "Mass Purges"
- SOV_mass_purges_desc:0 "Our Grand Duke has been purging for a long time, no one knows why he keeps on disposing of talented generals who many thought were loyal."
+ SOV_mass_purges_desc:0 "Our Grand Prince has been purging for a long time, no one knows why he keeps on disposing of talented generals who many thought were loyal."
+ 
+ SOV_muscovite_isolation_idea:0 "Muscovite Isolation"
+ SOV_muscovite_isolation_idea_desc:0 "Isolation has been adopted by the leading government."
+ 
+ SOV_leftist_economy_idea:0 "Leftist Economy"
+ SOV_leftist_economy_idea_desc:0 "This Leftist economy will allow for people to live safely in Muscovy."
+ 
+ SOV_traditional_values_embraced:0 "Traditional Values Embraced"
+ SOV_traditional_values_embraced_desc:0 "Traditional values have been embraced in the nation and government."
+ 
+ SOV_revised_union_laws:0 "Revised Union Laws"
+ SOV_revised_union_laws_desc:0 "It is time to revise the out dated union laws in Muscovy."
+ 
+ SOV_fiscal_conservatism_idea:0 "Fiscal Conservatism"
+ SOV_fiscal_conservatism_idea_desc:0 "Less spending will make the economy flourish."
+ 
+ SOV_krasnov_reforms_idea:0 "Krasnov Reforms"
+ SOV_krasnov_reforms_idea_desc:0 "Krasnovs Reforms were seen as semi-socialist but very socially conservative, these reforms include the tightening of segregation, the banning of all things Ordaism, and many other things."
+ 
+ SOV_krasnov_secret_police_idea:0 "Krasnov's Secret Police"
+ SOV_krasnov_secret_police_idea_desc:0 "Krasnov has established a secret police to protect him."
+ 
+ SOV_krasnovs_grip:0 "Krasnovs Grip"
+ SOV_krasnovs_grip_desc:0 "Krasnov has created a strong grip."
+ 
+ SOV_tula_military_council_influence_idea:0 "Tula Military Council Influence"
+ SOV_tula_military_council_influence_idea_desc:0 "The Tula Military Council had risked a lot to take power and restore power in the monarchs, they should not be forgotten."
+ 
+ SOV_tula_shadow_government_idea:0 "Tula Shadow Government"
+ SOV_tula_shadow_government_idea_desc:0 "The Tula Military Council is a shadow government too Povelitel Krasnov."
+ 
+ SOV_muscovite_isolation_real_idea:0 "Muscovite Isolation"
+ SOV_muscovite_isolation_real_idea_desc:0 "We must be isolated to protect our lands."
+ 
+ SOV_consumer_goods_programs_idea:0 "Consumer Goods Programs"
+ SOV_consumer_goods_programs_idea_desc:0 "The Government has enacted some programs to help make sure people are recieving their basic needs."
+ 
+ SOV_soldier_focus_idea:0 "Soldier Focus"
+ SOV_soldier_focus_idea_desc:0 "We shall focus on building projects related to the army."
+ 
+ SOV_new_construction_methods_idea:0 "New Construction Methods"
+ SOV_new_construction_methods_idea_desc:0 "We have learned and shall continue learning new methods of construction."
+ 
+ 
  
  
  #Flags
- SOV_grand_duke_signs_power_to_duma:0 "Grand Duke Signs Power To Duma"
+ SOV_grand_duke_signs_power_to_duma:0 "Grand Prince Signs Power To Duma"
  SOV_league_of_liberal_rights_elected:0 "League of Liberal Rights Elected"
  SOV_national_democratic_party_elected:0 "National Democratic Party Elected"
  SOV_peoples_liberation_party_elected:0 "People's Liberation Party Elected"
@@ -112,10 +447,34 @@
  
  NOV_adopted_novgorodian_nationalism:0 "Adopted Novgorodian Nationalism"
  
+ tula_military_council_formed:0 "Tula Military Council Formed"
+ krasnov_deposed:0 "Krasnov Deposed"
+ deal_with_krasnov:0 "A Deal With Krasnov"
+ second_army_take_over_flag:0 "Second Army Take Over"
+ 
+ 
+ SOV_muscovy_post_krasnov_tula_incident_warlord_era:0 "The War Lord era in Muscovy"
+ wrangel_warlord_post_tula_incident:0 "Wrangel Warlord Post Tula Incident"
+ pokrovsky_warlord_post_tula_incident:0 "Pokrovsky Warlord Post Tula Incident"
+ smotrov_warlord_post_tula_incident:0 "Smotrov Warlord Post Tula Incident"
+ kutepov_warlord_post_tula_incident:0 "Kutepov Warlord Post Tula Incident"
+ kuznetsov_warlord_post_tula_incident:0 "Kuznetsov Warlord Post Tula Incident"
+ maslov_warlord_post_tula_incident:0 "Maslov Warlord Post Tula Incident"
+ sidorin_warlord_post_tula_incident:0 "Sidorin Warlord Post Tula Incident"
+ romanov_warlord_post_tula_incident:0 "Romanov Warlord Post Tula Incident"
+ 
+ SOV_anti_unionist_civil_war_begin:0 "Anti-Unionist Civil War"
+ SOV_anti_unionist_forces_crushed:0 "Anti-Unionist Forces Crushed"
+ SOV_unionist_forces_crushed:0 "Unionist Forces Crushed"
+ 
+ #Opinion factors
+ SOV_heated_rivalry:0 "Heated Rivalry"
+ SOV_reopened_embassy:0 "Reopened Embassy"
+ 
  
  #focuses #FAKE
  SOV_relief_from_ivan:0 "Relief From Ivan"
- SOV_relief_from_ivan_desc:0 "Grand Duke Ivan has signed away a majority of his powers to the Duma of Muscovy."
+ SOV_relief_from_ivan_desc:0 "Grand Prince Ivan has signed away a majority of his powers to the Duma of Muscovy."
  
  SOV_first_duma_legislative_elections:0 "First Duma Legislative Elections"
  SOV_first_duma_legislative_elections_desc:0 "We shall hold the first election in what will determine the make out of the duma and new Prime Minister."
@@ -202,7 +561,7 @@
  SOV_a_diplomatic_russia_desc:0 "We must follow the ideas of Diplomacy and peace over war."
  
  SOV_alliance_with_mongolia:0 "Alliance With Mongolia"
- SOV_alliance_with_mongolia_desc:0 "Mongolia is a natural ally of Muscovy, together we can defend agains the authoritaraian Ado Turkestan."
+ SOV_alliance_with_mongolia_desc:0 "Mongolia is a natural ally of Muscovy, together we can defend agains the authoritaraian Ado Turkha."
  
  SOV_a_new_alliance:0 "A New Alliance"
  SOV_a_new_alliance_desc:0 "We must form our own alliance of nations for defense."
@@ -210,8 +569,8 @@
  SOV_encourage_poland:0 "Encourage Poland"
  SOV_encourage_poland_desc:0 "We must encourage Poland to join our Alliance."
  
- SOV_encourge_the_golden_kingdom:0 "Encourage The Golden Kingdom"
- SOV_encourge_the_golden_kingdom_desc:0 "We must encourage our neighbors to the east to join us, The Golden Kingdom should be our ally for once."
+ SOV_encourge_the_golden_kingdom:0 "Encourage The Bashkir Khanate"
+ SOV_encourge_the_golden_kingdom_desc:0 "We must encourage our neighbors to the east to join us, The Bashkir Khanate should be our ally for once."
  
  SOV_encourge_lithuania:0 "Encourage Lithuania"
  SOV_encourge_lithuania_desc:0 "We should encourage Lithuania to put the past behind us for an alliance."
@@ -219,8 +578,8 @@
  SOV_expand_russia:0 "Expand Russia"
  SOV_expand_russia_desc:0 "We are Russia, it is our destiny to expand."
  
- SOV_take_on_our_golden_neighbours:0 "Take On Our Golden Neighbors"
- SOV_take_on_our_golden_neighbours_desc:0 "We shald destroy The Golden Kingdom, their time is up."
+ SOV_take_on_our_golden_neighbours:0 "Take On Our Bashkir Neighbors"
+ SOV_take_on_our_golden_neighbours_desc:0 "We shald destroy The Bashkir Khanate, their time is up."
  
  SOV_take_on_kalmykistan:0 "Take On Kalmykistan"
  SOV_take_on_kalmykistan_desc:0 "Kalmykistan is a natural enemy of the Russians and only get in our way of expansion."
@@ -240,8 +599,8 @@
  SOV_an_enemy_in_sweden:0 "An Enemy In Sweden"
  SOV_an_enemy_in_sweden_desc:0 "Sweden is an enemy we must crush to make sure they do not become a rival to us."
  
- SOV_showdown_with_turkestan:0 "Showdown With Turkestan"
- SOV_showdown_with_turkestan_desc:0 "The Ado Turkestan is an enemy to us, we will crush them and end their ideologies existance."
+ SOV_showdown_with_turkestan:0 "Showdown With Turkha"
+ SOV_showdown_with_turkestan_desc:0 "The Ado Turkha is an enemy to us, we will crush them and end their ideologies existance."
  
  SOV_a_long_awaited_fight:0 "A Long Awaited Fight"
  SOV_a_long_awaited_fight_desc:0 "Hundreds of years ago, the Mongols took over our land, now its time to take theirs."
@@ -282,8 +641,8 @@
  SOV_ally_mongolia:0 "Ally Mongolia"
  SOV_ally_mongolia_desc:0 "We should ally the Mongolians."
  
- SOV_ally_turkestan:0 "Ally Turkestan"
- SOV_ally_turkestan_desc:0 "We should ally Turkestan."
+ SOV_ally_turkestan:0 "Ally Turkha"
+ SOV_ally_turkestan_desc:0 "We should ally Turkha."
  
  SOV_the_muscovite_economy:0 "The Muscovite Economy"
  SOV_the_muscovite_economy_desc:0 "It is now time for discussions on our economy."
@@ -292,7 +651,7 @@
  SOV_leftist_economics_desc:0 "Leftist Econoomics is key to success."
  
  SOV_revise_union_laws:0 "Revise Union Laws"
- SOV_revise_union_laws_desc:0 "Even under the Grand Duke, we had union laws albeit terrible ones, it is now time to revise them to make them great."
+ SOV_revise_union_laws_desc:0 "Even under the Grand Prince, we had union laws albeit terrible ones, it is now time to revise them to make them great."
  
  SOV_increase_corporate_taxation:0 "Increaste Corporate Taxation"
  SOV_increase_corporate_taxation_desc:0 "They make more money, so why shouldn't they have to pay more in taxes?"
@@ -313,7 +672,7 @@
  SOV_lower_health_budget_desc:0 "Lowering spending on our health budget will ease the economy a lot, it will make it much stronger."
  
  SOV_muscovite_investment_plan:0 "Muscovite Investment Plan"
- SOV_muscovite_investment_plan_desc:0 "The Muscovite Investment Plan was originally a economic plan drafted by the Grand Duke but now the current administration is going to adopt it."
+ SOV_muscovite_investment_plan_desc:0 "The Muscovite Investment Plan was originally a economic plan drafted by the Grand Prince but now the current administration is going to adopt it."
  
  SOV_revive_the_civilian_industry:0 "Revive The Civilian Industry"
  SOV_revive_the_civilian_industry_desc:0 "While it still existed, our civilian industry was crippled focusing on making arms for the military, it is time to change that."
@@ -360,6 +719,307 @@
  SOV_muscovite_atom_tests:0 "Muscovite Atom Tests"
  SOV_muscovite_atom_tests_desc:0 "If we can find success in making an Atom Bomb, we will be unbeatable."
  
+ 
+ #REAL TREE
+ 
+ SOV_a_tragedy_focus:0 "A Tragedy"
+ SOV_a_tragedy_focus_desc:0 "The Grand Prince has been killed at the hands of General Krasnov."
+ 
+ SOV_purge_remaining_bolsheviks:0 "Purge Remaining Bolsheviks"
+ SOV_purge_remaining_bolsheviks_desc:0 "A large group of Bolsheviks fled with their leadership to Novgorod however many are still in Novgorod, we must take care of them."
+ 
+ SOV_exile_the_rurik_dynasty:0 "Exile The Rurik Dynasty"
+ SOV_exile_the_rurik_dynasty_desc:0 "We must exile the dynasty which has ruled over Muscovy for a few centuries and nearly ruined it in one year."
+ 
+ SOV_purge_aladin_supporters:0 "Purge Aladin Supporters"
+ SOV_purge_aladin_supporters_desc:0 "We must arrest supporters of the man who helped nearly ruin Muscovy."
+ 
+ SOV_krasnov_reforms:0 "Krasnov Reforms"
+ SOV_krasnov_reforms_desc:0 "It is time to enact reforms, many of which are reversing some of the smaller reforms made by the former Grand Prince."
+ 
+ SOV_release_purged_generals:0 "Release Purged Generals"
+ SOV_release_purged_generals_desc:0 "Krasnov never truly supported the purges of the generals, now he lets them go free to come back to the military."
+ 
+ SOV_fall_of_the_grand_duchy:0 "Fall of The Grand Duchy"
+ SOV_fall_of_the_grand_duchy_desc:0 "The last Grand Prince had shown how dangerous a monarchy is for Muscovy, it is the end of the Grand Duchy."
+ 
+ SOV_the_krasnov_regime:0 "The Krasnov Regime"
+ SOV_the_krasnov_regime_desc:0 "The Krasnov regime will hold strong for generations and generations as the greatest government in the world."
+ 
+ SOV_inspiration_from_saxony:0 "Inspiration From Saxony"
+ SOV_inspiration_from_saxony_desc:0 "Our regime must take inspiration from the glorious Yellow Saxony."
+ 
+ SOV_krasnovs_secret_police:0 "Krasnov's Secret Police"
+ SOV_krasnovs_secret_police_desc:0 "We shall form a secret police to keep political dissidents from the public scene, among other secret things."
+ 
+ SOV_indoctrinate_muscovite_schools:0 "Indoctrinate Muscovite Schools"
+ SOV_indoctrinate_muscovite_schools_desc:0 "Schools across the nation will teach of the destructive Grand Duchy and the hero of Muscovy, General Krasnov."
+ 
+ SOV_tighter_grip_on_political_freedom:0 "Tighter Grip On Political Freedoms"
+ SOV_tighter_grip_on_political_freedom_desc:0 "We will tighten our grip on the political freedoms of the people of the nation."
+ 
+ SOV_bring_back_press_censorship:0 "Bring Back Press Censorship"
+ SOV_bring_back_press_censorship_desc:0 "We must bring back censorship, something that was not brought with the inititial Krasnov Reforms but should have."
+ 
+ SOV_enforce_conscription:0 "Enforce Conscription"
+ SOV_enforce_conscription_desc:0 "We will enforce a conscription policy to strengthen the glorious army of Muscovy."
+ 
+ SOV_the_tula_military_council:0 "The Tula Military Council"
+ SOV_the_tula_military_council_desc:0 "This council of traitors has been established, where will this lead."
+ 
+ SOV_krasnov_deposed:0 "Krasnov Deposed"
+ SOV_krasnov_deposed_desc:0 "Krasnov has been deposed by The Tula Military Council."
+ 
+ SOV_invite_nikita_to_rule:0 "Invite Nikita To Rule"
+ SOV_invite_nikita_to_rule_desc:0 "We shall bring back our monarchy under the son of our former Grand Prince."
+ 
+ SOV_establish_a_regency_council:0 "Establish A Regency Council"
+ SOV_establish_a_regency_council_desc:0 "The council will rule until we decide otherwise."
+ 
+ SOV_purge_krasnov_supporters:0 "Purge Krasnov Supporters"
+ SOV_purge_krasnov_supporters_desc:0 "We must purge the supporters of Krasnov to secure legitimacy for the new government."
+ 
+ SOV_reinstate_orthodox_state_religion:0 "Reinstate Orthodox State Religion"
+ SOV_reinstate_orthodox_state_religion_desc:0 "We must bring back the old religion and put an end to the atheist-cultish laws around Krasnov."
+ 
+ SOV_move_capital_back_to_moscow:0 "Move Capital Back To Moscow"
+ SOV_move_capital_back_to_moscow_desc:0 "Tula was our capital, but it is time to re-locate back to Moscow."
+ 
+ SOV_build_a_statue_to_ivan:0 "Build A Statue To Ivan"
+ SOV_build_a_statue_to_ivan_desc:0 "Build a statue to the King who was deposed by the evil Krasnov."
+ 
+ SOV_a_deal_achieved:0 "A Deal Achieved"
+ SOV_a_deal_achieved_desc:0 "A has been achieved with The Tula Military Council."
+ 
+ SOV_all_hail_the_povelitel:0 "All Hail The Povelitel"
+ SOV_all_hail_the_povelitel_desc:0 "We must keep the illusion of Krasnov having absolute control for the populace."
+ 
+ SOV_the_shadow_government:0 "The Shadow Government"
+ SOV_the_shadow_government_desc:0 "The Tula Military Council shall rule as a shadow government in the shadows."
+ 
+ SOV_end_state_atheism:0 "End State Atheism"
+ SOV_end_state_atheism_desc:0 "As part of the compromise between the council and Krasnov in the public eye, secularism is to be adopted in the nation."
+ 
+ SOV_reform_the_secret_police:0 "Reform The Secret Police"
+ SOV_reform_the_secret_police_desc:0 "We shall reform Krasnovs secret police to be more subordinate to the shadow government."
+ 
+ SOV_statue_to_krasnov:0 "Statue To Krasnov"
+ SOV_statue_to_krasnov_desc:0 "We shall build a statue to Krasnov to keep an illusion of his power."
+ 
+ SOV_muscovite_issues:0 "Muscovite Issues"
+ SOV_muscovite_issues_desc:0 "It is time to tackle the issues of our nation."
+ 
+ SOV_dealing_with_foreign_issues:0 "Dealing With Foreign Issues"
+ SOV_dealing_with_foreign_issues_desc:0 "We must deal with the foreign issues of our nation."
+ 
+ SOV_approach_isolation:0 "Approach Isolation"
+ SOV_approach_isolation_desc:0 "Isolation may not be a bad idea, we can focus on ourselves and build a strong defense force."
+ 
+ SOV_approach_the_mongols_focus:0 "Approach The Mongols"
+ SOV_approach_the_mongols_focus_desc:0 "We shall form a alliance with Mongolia, a strong nation in Asia."
+ 
+ SOV_muscovite_lead_alliance:0 "Muscovite Lead Alliance"
+ SOV_muscovite_lead_alliance_desc:0 "We must take charge in the world, not follow behind others."
+ 
+ SOV_aggression_in_the_caucuses:0 "Aggresion In The Caucuses"
+ SOV_aggression_in_the_caucuses_desc:0 "We will conquer the Caucuses for the start of our new empire."
+ 
+ SOV_aggression_in_the_baltic:0 "Aggresion In The Baltic"
+ SOV_aggression_in_the_baltic_desc:0 "The Baltics will be ours, Lithuania, Teutons, and the Baltic Union will all perish to us."
+ 
+ SOV_aggression_against_the_golden_horde:0 "Aggresion Against The Bashkir Khanate"
+ SOV_aggression_against_the_golden_horde_desc:0 "An enemy for centuries, they will fall to us once and for all."
+ 
+ SOV_dealing_with_the_economy:0 "Dealing With The Economy"
+ SOV_dealing_with_the_economy_desc:0 "We will make some changes to our economy."
+ 
+ SOV_a_new_civil_industry:0 "A New Civil Industry"
+ SOV_a_new_civil_industry_desc:0 "We must create an industry for the people."
+ 
+ SOV_consumer_goods_programs:0 "Consumer Goods Programs"
+ SOV_consumer_goods_programs_desc:0 "Consumer goods are something that can cause major issues if not taken care of properly."
+ 
+ SOV_a_final_civilian_focus:0 "A Final Civilian Focus"
+ SOV_a_final_civilian_focus_desc:0 "We must focus our final economic changes on the people."
+ 
+ SOV_rebuilding_military_industry:0 "Rebuilding Military Industry"
+ SOV_rebuilding_military_industry_desc:0 "It is time to rebuild our military industry which has slowly been falling apart for the past 10 years."
+ 
+ SOV_increase_arms_production:0 "Increase Arms Production"
+ SOV_increase_arms_production_desc:0 "To have a good military we must have the necessary weapons."
+ 
+ SOV_a_final_focus_on_soldiers:0 "A Final Focus on Soldiers"
+ SOV_a_final_focus_on_soldiers_desc:0 "We must focus our final economic changes on the military."
+ 
+ SOV_develop_new_construction_methods:0 "Develop New Construction Methods"
+ SOV_develop_new_construction_methods_desc:0 "If we can find new ways to build, we maybe able to do it quicker."
+ 
+ SOV_develop_new_mining_methods:0 "Develop New Mining Methods"
+ SOV_develop_new_mining_methods_desc:0 "If we can develop better methods of mining, we maybe able to find more resources or mine it more efficiantly leaving less to waste."
+ 
+ SOV_military_reform:0 "Military Reform"
+ SOV_military_reform_desc:0 "We must begind military reforms."
+ 
+ SOV_muscovite_air_force_1:0 "Muscovite Air Force"
+ SOV_muscovite_air_force_1_desc:0 "We must start Air Force reforms."
+ 
+ SOV_study_new_air_formations:0 "Study New Air Formations"
+ SOV_study_new_air_formations_desc:0 "To make our air force better we should study new formations."
+ 
+ SOV_fund_new_plane_research:0 "Fund New Place Research"
+ SOV_fund_new_plane_research_desc:0 "We must fund new place research."
+ 
+ SOV_muscovite_army_1:0 "Muscovite Army"
+ SOV_muscovite_army_1_desc:0 "We must start army reforms."
+ 
+ SOV_study_new_field_tactics:0 "Study New Field Tactics"
+ SOV_study_new_field_tactics_desc:0 "Investing time in new field tactics will allow for a stronger and smarter army."
+ 
+ SOV_fund_new_armor_research:0 "Fund New Armor Research"
+ SOV_fund_new_armor_research_desc:0 "We need to begin development of new tanks."
+ 
+ SOV_muscovite_navy_1:0 "Muscovite Navy"
+ SOV_muscovite_navy_1_desc:0 "It is time for a Muscovite navy."
+ 
+ SOV_study_naval_formations:0 "Study Naval Formations"
+ SOV_study_naval_formations_desc:0 "We must study naval formations to have a navy worth using."
+ 
+ SOV_fund_ship_research:0 "Fund Ship Research"
+ SOV_fund_ship_research_desc:0 "We must begin research on building ships."
+ 
+ SOV_fund_electronics:0 "Fund Electronics"
+ SOV_fund_electronics_desc:0 "We must begin to fund electronics as they are very badly needed in modern warfare."
+ 
+ SOV_the_tsar_bomba:0 "The Tsar Bomba"
+ SOV_the_tsar_bomba_desc:0 "The Tsar Bomba will be one of the strongest bombs ever created."
+ 
+ SOV_work_with_a_supportive_force:0 "Work With A Supportive Force"
+ SOV_work_with_a_supportive_force_desc:0 "We must work with a group willing to support Krasnovs leadership."
+ 
+ SOV_allow_unionists_in_government:0 "Allow The Unionists In Government"
+ SOV_allow_unionists_in_government_desc:0 "The Ultra-Nationalist Russian Unionist Party is the perfect force to assist us in holding onto power."
+ 
+ SOV_recovery_from_the_war:0 "Recovery From The War"
+ SOV_recovery_from_the_war_desc:0 "We have finally ended the war with the filthy Bolsehviks."
+ 
+ SOV_overthrow_the_maniac:0 "Overthrow The Maniac"
+ SOV_overthrow_the_maniac_desc:0 "It is time to overthrow the maniac, Krasnov."
+ 
+ SOV_plans_of_unity:0 "Plans of Unity"
+ SOV_plans_of_unity_desc:0 "We must draft plans to keep Russians united."
+ 
+ SOV_anti_clerical_laws:0 "Anti-Clerical Laws"
+ SOV_anti_clerical_laws_desc:0 "We will purge all of the religion from our government, we will no longer be influenced by a church."
+ 
+ SOV_panteleys_secret_police:0 "Panteley's Secret Police"
+ SOV_panteleys_secret_police_desc:0 "We shall create a special branch of the Russian Unionist Army to be a secret police that takes direct command from Panteley."
+ 
+ SOV_enact_racial_policies:0 "Enact Racial Policies"
+ SOV_enact_racial_policies_desc:0 "Racial policies to keep our glorious Slavic people safe from the central asian menace."
+ 
+ SOV_campaign_against_muscovite_nationalism:0 "Campaign Against Muscovite Nationalism"
+ SOV_campaign_against_muscovite_nationalism_desc:0 "Muscovite Nationalism must die, Russia forever."
+ 
+ SOV_work_with_corporations:0 "Work With Corporations"
+ SOV_work_with_corporations_desc:0 "It is time to work with the corporations who will help us make the economy great."
+ 
+ SOV_purge_krasnovists_from_government:0 "Purge Krasnovists From Government"
+ SOV_purge_krasnovists_from_government_desc:0 "We will arrest and execute all supporters of the mans ideology, they will not have an part in this government."
+ 
+ SOV_russian_militarism:0 "Russian Miliarism"
+ SOV_russian_militarism_desc:0 "We will adopt a Russian Military."
+ 
+ SOV_democracy_after_purification:0 "Democracy After Purification"
+ SOV_democracy_after_purification_desc:0 "We will have democracy once our lands are purified."
+ 
+ SOV_form_the_commune:0 "Form The Commune"
+ SOV_form_the_commune_desc:0 "Today marks a new day for Muscovy, a new day for Russia, a new day for the World."
+ 
+ SOV_cooperate_with_the_military:0 "Cooperate With The Military"
+ SOV_cooperate_with_the_military_desc:0 "If we are not cooperating with the military, they could become an enemy we can't afford to have."
+ 
+ SOV_integrate_the_rua:0 "Integrate The RUA"
+ SOV_integrate_the_rua_desc:0 "The Russian Unionist Army, the paramilitary wing of the Russian Unionist Party must become a new branch of the military."
+ 
+ SOV_fund_armor_research:0 "Fund Armor Research"
+ SOV_fund_armor_research_desc:0 "We must fund armor research if we are too secure our homeland."
+ 
+ SOV_protect_national_workers:0 "Protect National Workers"
+ SOV_protect_national_workers_desc:0 "We shall protect the Slavic workers of our nation, they will need it."
+ 
+ SOV_purge_ordaists_unionists:0 "Purge Ordaist Unionists"
+ SOV_purge_ordaists_unionists_desc:0 "The time has come to clean up the party."
+ 
+ SOV_a_russian_arms_industry:0 "A Russian Arms Industry"
+ SOV_a_russian_arms_industry_desc:0 "We must have a great arms industry if we are to win large scale wars."
+ 
+ SOV_strike_at_novgorod:0 "Strike At Novgorod"
+ SOV_strike_at_novgorod_desc:0 "It is time for Novgorod to die, the birth of Russia is now."
+ 
+ SOV_take_out_the_caucasus_nations:0 "Take Out The Caucuses Nations"
+ SOV_take_out_the_caucasus_nations_desc:0 "We will take them out, and add their lands to our new nation."
+ 
+ SOV_take_out_the_golden_kingdom:0 "Take Out The Bashkir Khanate"
+ SOV_take_out_the_golden_kingdom_desc:0 "We shall take out the Bashkir Khanate, a nation who owns our rightful land."
+ 
+ SOV_russian_diplomacy:0 "Russian Diplomacy"
+ SOV_russian_diplomacy_desc:0 "It is time for diplomacy in Russia."
+ 
+ SOV_alliance_with_turkestan:0 "Alliance With Turkha"
+ SOV_alliance_with_turkestan_desc:0 "We shall create an alliance with Turkha, another ultranationalist or Ado nation."
+ 
+ SOV_our_own_way:0 "Our Own Way"
+ SOV_our_own_way_desc:0 "It is us against the world."
+ 
+ SOV_build_our_sphere:0 "Build Our Sphere"
+ SOV_build_our_sphere_desc:0 "It is time to build our sphere, our reach will be limitless."
+ 
+ SOV_domestic_issues:0 "Domestic Issues"
+ SOV_domestic_issues_desc:0 "Our nation has plenty of domestic issues to take care of."
+ 
+ SOV_central_asian_problem:0 "Central Asian Problem"
+ SOV_central_asian_problem_desc:0 "The Central Asian people, more commonly referred to as Mongols are a plague in Muscovy, we must take care of this plague."
+ 
+ SOV_push_them_out:0 "Push Them Out"
+ SOV_push_them_out_desc:0 "We shall push them out into their own nation, we must find a suitable place to leave them."
+ 
+ SOV_no_way_out:0 "No Way Out"
+ SOV_no_way_out_desc:0 "This Mongol filth will have to slowly disappear."
+ 
+ SOV_the_communes_industrial_complex:0 "The Communes Industrial Complex"
+ SOV_the_communes_industrial_complex_desc:0 "We shall build a new industrial complex for the commune."
+ 
+ SOV_more_arms_production:0 "More Arms Production"
+ SOV_more_arms_production_desc:0 "We must increase the amount of weapons we are creating."
+ 
+ SOV_muscovite_civil_industry:0 "Muscovite Civil Industry"
+ SOV_muscovite_civil_industry_desc:0 "The Muscovite civil industry is something that we need to put some focus in to keep our nation strong."
+ 
+ SOV_muscovite_infrastructure_investments_1:0 "Muscovite Infrastructure Investments"
+ SOV_muscovite_infrastructure_investments_1_desc:0 "It is time to invest in some new rails and new roads in our nation for our war effort."
+ 
+ SOV_second_army_take_over:0 "Second Army Take Over"
+ SOV_second_army_take_over_desc:0 "After news got out about the massacres against the Mongol peoples of Russia, the military could not stand by."
+ 
+ SOV_revoke_anti_mongol_laws:0 "Revoke Anti-Mongol Laws"
+ SOV_revoke_anti_mongol_laws_desc:0 "The military has revoked all previous government policies on mongols regarding their dehumanization."
+ 
+ SOV_revoke_anti_clerical_laws:0 "Revoke Anti-Clerical Laws"
+ SOV_revoke_anti_clerical_laws_desc:0 "We shall allow for some church influence to return to Russia."
+ 
+ SOV_ban_the_rua:0 "Ban The RUA"
+ SOV_ban_the_rua_desc:0 "One of the main forces carrying out the massacres against the Mongol people must be purged."
+ 
+ SOV_demolish_the_royal_square:0 "Demolish The Royal Square"
+ SOV_demolish_the_royal_square_desc:0 "We will demolish the royal square, even if the royals were not the ones to carry out these horrible acts, they started a chain of events leading to it."
+ 
+ SOV_russian_isolation:0 "Russian Isolation"
+ SOV_russian_isolation_desc:0 "Russia will remain isolated."
+ 
+ 
+ 
+ 
+ 
  #Cosmetic Tags 
  
  SOV_united_russia_1_fascism:0 "Kingdom of Russia"
@@ -383,3 +1043,92 @@
  SOV_united_russia_1_mod_ordaism_ADJ:0 "Russian"
  SOV_united_russia_1_fascism_ADJ:0 "Russian"
  SOV_united_russia_1_communism_ADJ:0 "Russian"
+ 
+ SOV_russian_commune_fascism:0 "Russian Commune"
+ SOV_russian_commune_fascism_DEF:0 "The Russian Commune"
+ SOV_russian_commune_communism:0 "Russian Commune"
+ SOV_russian_commune_communism_DEF:0 "The Russian Commune"
+ SOV_russian_commune_authoritarian:0 "Russian Commune"
+ SOV_russian_commune_authoritarian_DEF:0 "The Russian Commune"
+ SOV_russian_commune_monarchism:0 "Russian Commune"
+ SOV_russian_commune_monarchism_DEF:0 "The Russian Commune"
+ SOV_russian_commune_liberalism:0 "Russian Commune"
+ SOV_russian_commune_liberalism_DEF:0 "The Russian Commune"
+ SOV_russian_commune_conservatism:0 "Russian Commune"
+ SOV_russian_commune_conservatism_DEF:0 "The Russian Commune"
+ SOV_russian_commune_mod_ordaism:0 "Russian Commune"
+ SOV_russian_commune_mod_ordaism_DEF:0 "The Russian Commune"
+ SOV_russian_commune_authoritarian_ADJ:0 "Russian"
+ SOV_russian_commune_monarchism_ADJ:0 "Russian"
+ SOV_russian_commune_liberalism_ADJ:0 "Russian"
+ SOV_russian_commune_conservatism_ADJ:0 "Russian"
+ SOV_russian_commune_mod_ordaism_ADJ:0 "Russian"
+ SOV_russian_commune_fascism_ADJ:0 "Russian"
+ SOV_russian_commune_communism_ADJ:0 "Russian"
+ 
+ SOV_krasnovs_muscovy_1_fascism:0 "State of Muscovy"
+ SOV_krasnovs_muscovy_1_fascism_DEF:0 "The State of Muscovy"
+ SOV_krasnovs_muscovy_1_communism:0 "State of Muscovy"
+ SOV_krasnovs_muscovy_1_communism_DEF:0 "The State of Muscovy"
+ SOV_krasnovs_muscovy_1_authoritarian:0 "State of Muscovy"
+ SOV_krasnovs_muscovy_1_authoritarian_DEF:0 "The State of Muscovy"
+ SOV_krasnovs_muscovy_1_monarchism:0 "State of Muscovy"
+ SOV_krasnovs_muscovy_1_monarchism_DEF:0 "The State of Muscovy"
+ SOV_krasnovs_muscovy_1_liberalism:0 "State of Muscovy"
+ SOV_krasnovs_muscovy_1_liberalism_DEF:0 "The State of Muscovy"
+ SOV_krasnovs_muscovy_1_conservatism:0 "State of Muscovy"
+ SOV_krasnovs_muscovy_1_conservatism_DEF:0 "The State of Muscovy"
+ SOV_krasnovs_muscovy_1_mod_ordaism:0 "State of Muscovy"
+ SOV_krasnovs_muscovy_1_mod_ordaism_DEF:0 "The State of Muscovy"
+ SOV_krasnovs_muscovy_1_authoritarian_ADJ:0 "Muscovite"
+ SOV_krasnovs_muscovy_1_monarchism_ADJ:0 "Muscovite"
+ SOV_krasnovs_muscovy_1_liberalism_ADJ:0 "Muscovite"
+ SOV_krasnovs_muscovy_1_conservatism_ADJ:0 "Muscovite"
+ SOV_krasnovs_muscovy_1_mod_ordaism_ADJ:0 "Muscovite"
+ SOV_krasnovs_muscovy_1_fascism_ADJ:0 "Muscovite"
+ SOV_krasnovs_muscovy_1_communism_ADJ:0 "Muscovite"
+ 
+ ###Cosmetic Tags For Others
+ BOR_uprising_against_unionists_fascism:0 "Muscovite Rebels"
+ BOR_uprising_against_unionists_fascism_DEF:0 "Muscovite Rebels"
+ BOR_uprising_against_unionists_communism:0 "Muscovite Rebels"
+ BOR_uprising_against_unionists_communism_DEF:0 "Muscovite Rebels"
+ BOR_uprising_against_unionists_authoritarian:0 "Muscovite Rebels"
+ BOR_uprising_against_unionists_authoritarian_DEF:0 "Muscovite Rebels"
+ BOR_uprising_against_unionists_monarchism:0 "Muscovite Rebels"
+ BOR_uprising_against_unionists_monarchism_DEF:0 "Muscovite Rebels"
+ BOR_uprising_against_unionists_liberalism:0 "Muscovite Rebels"
+ BOR_uprising_against_unionists_liberalism_DEF:0 "Muscovite Rebels"
+ BOR_uprising_against_unionists_conservatism:0 "Muscovite Rebels"
+ BOR_uprising_against_unionists_conservatism_DEF:0 "Muscovite Rebels"
+ BOR_uprising_against_unionists_mod_ordaism:0 "Muscovite Rebels"
+ BOR_uprising_against_unionists_mod_ordaism_DEF:0 "Muscovite Rebels"
+ BOR_uprising_against_unionists_authoritarian_ADJ:0 "Muscovite"
+ BOR_uprising_against_unionists_monarchism_ADJ:0 "Muscovite"
+ BOR_uprising_against_unionists_liberalism_ADJ:0 "Muscovite"
+ BOR_uprising_against_unionists_conservatism_ADJ:0 "Muscovite"
+ BOR_uprising_against_unionists_mod_ordaism_ADJ:0 "Muscovite"
+ BOR_uprising_against_unionists_fascism_ADJ:0 "Muscovite"
+ BOR_uprising_against_unionists_communism_ADJ:0 "Muscovite"
+ 
+ BOR_provisional_gov_fascism:0 "Muscovite Provisional Government"
+ BOR_provisional_gov_fascism_DEF:0 "The Muscovite Provisional Government"
+ BOR_provisional_gov_communism:0 "Muscovite Provisional Government"
+ BOR_provisional_gov_communism_DEF:0 "The Muscovite Provisional Government"
+ BOR_provisional_gov_authoritarian:0 "Muscovite Provisional Government"
+ BOR_provisional_gov_authoritarian_DEF:0 "The Muscovite Provisional Government"
+ BOR_provisional_gov_monarchism:0 "Muscovite Provisional Government"
+ BOR_provisional_gov_monarchism_DEF:0 "The Muscovite Provisional Government"
+ BOR_provisional_gov_liberalism:0 "Muscovite Provisional Government"
+ BOR_provisional_gov_liberalism_DEF:0 "The Muscovite Provisional Government"
+ BOR_provisional_gov_conservatism:0 "Muscovite Provisional Government"
+ BOR_provisional_gov_conservatism_DEF:0 "The Muscovite Provisional Government"
+ BOR_provisional_gov_mod_ordaism:0 "Muscovite Provisional Government"
+ BOR_provisional_gov_mod_ordaism_DEF:0 "The Muscovite Provisional Government"
+ BOR_provisional_gov_authoritarian_ADJ:0 "Muscovite"
+ BOR_provisional_gov_monarchism_ADJ:0 "Muscovite"
+ BOR_provisional_gov_liberalism_ADJ:0 "Muscovite"
+ BOR_provisional_gov_conservatism_ADJ:0 "Muscovite"
+ BOR_provisional_gov_mod_ordaism_ADJ:0 "Muscovite"
+ BOR_provisional_gov_fascism_ADJ:0 "Muscovite"
+ BOR_provisional_gov_communism_ADJ:0 "Muscovite"

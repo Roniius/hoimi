@@ -44,6 +44,7 @@ set_politics = {
 	elections_allowed = no
 }
 
+
 create_country_leader = {
 	name = "Taj al-Din al-Hasani"
 	desc = "POLITICS_TAJ_AL_DIN_AL_HASANI_DESC"

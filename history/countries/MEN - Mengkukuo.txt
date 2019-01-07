@@ -36,9 +36,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Xuantong Emperor"
-	desc = "POLITICS_XUANTONG_EMPEROR_DESC"
-	picture = "Portrait_MEN_Xuantong_Emperor.dds"
+	name = "Lew Ronii"
+	desc = "POLITICS_LEW_RONII_DESC"
+	picture = "Portrait_MEN_Lew_Ronii.dds"
 	expire = "1965.1.1"
 	ideology = sub_monarchism
 	traits = {

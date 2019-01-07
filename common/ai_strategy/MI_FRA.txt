@@ -1,0 +1,18 @@
+﻿francia_burgundy = {
+
+	enable = {
+		tag = FRA
+		
+	}
+	
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = BEL
+		value = 200
+	}
+
+}

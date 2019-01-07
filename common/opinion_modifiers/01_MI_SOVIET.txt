@@ -1,0 +1,13 @@
+opinion_modifiers = {
+
+	SOV_heated_rivalry = {
+		value = -100
+	}
+	
+	SOV_reopened_embassy = {
+		value = 50
+		months = 6
+		decay = 1
+	}
+
+}

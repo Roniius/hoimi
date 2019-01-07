@@ -48,11 +48,22 @@ set_politics = {
 }
 
 create_country_leader = {
+	name = "Eelco van Rijn"
+	desc = "POLITICS_EELCO_VAN_RIJN_DESC"
+	picture = "Portrait_BUR_Eelco_van_Rijn.dds"
+	expire = "1965.1.1"
+	ideology = sub_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Prince Diederick, Duke of Holland"
 	desc = "POLITICS_PRINCE_DIEDERICK_DESC"
 	picture = "Portrait_BUR_Prince_Diederick.dds"
 	expire = "1965.1.1"
-	ideology = sub_liberalism
+	ideology = sub_monarchism
 	traits = {
 		#
 	}

@@ -111,9 +111,7 @@
  PRC_mod_ordaism_party:0 "RTLL"
  PRC_mod_ordaism_party_long:0 "Red Turban Legacy League"
  
- #Qing
- MEN_monarchism_party:0 "Aisin Gioro"
- MEN_monarchism_party_long:0 "The House of Aisin Gioro"
+ 
  
  #Deng
  DNG_monarchism_party:0 "Deng"

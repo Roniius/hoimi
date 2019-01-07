@@ -42,6 +42,17 @@ create_country_leader = {
 	desc = "POLITICS_PIETRO_FERDANDO_I_DESC"
 	picture = "Portrait_TUS_Pietro_Fernando_I.dds"
 	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Mario Luzzatti"
+	desc = "POLITICS_MARIO_LUZZATTI_DESC"
+	picture = "Portrait_TUS_Mario_Luzzatti.dds"
+	expire = "1965.1.1"
 	ideology = sub_liberalism
 	traits = {
 		#

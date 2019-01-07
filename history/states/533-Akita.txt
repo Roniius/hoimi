@@ -9,8 +9,8 @@ state={
 	}
 
 	history={
-		owner = NJA
-		add_core_of = NJA
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
 		
 			arms_factory = 1

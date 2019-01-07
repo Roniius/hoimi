@@ -52,6 +52,17 @@ create_country_leader = {
 	desc = "POLITICS_KING_GEORG_DESC"
 	picture = "Portrait_TYR_King_Georg.dds"
 	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Marco Fichter"
+	desc = "POLITICS_MARCO_FICHTER_DESC"
+	picture = "Portrait_TYR_Marco_Fichter.dds"
+	expire = "1965.1.1"
 	ideology = sub_liberalism
 	traits = {
 		#

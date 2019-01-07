@@ -42,9 +42,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Emperor Gustav V"
-	desc = "POLITICS_GUSTAV_V_DESC"
-	picture = "Portrait_SWE_Gustav_V.dds"
+	name = "Empress-Regent Catelyn"
+	desc = "POLITICS_EMPRESS_REGENT_CATELYN_DESC"
+	picture = "Portrait_SWE_Empress_Regent_Catelyn.dds"
 	expire = "1965.1.1"
 	ideology = sub_monarchism
 	traits = {

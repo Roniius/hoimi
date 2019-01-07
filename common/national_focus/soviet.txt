@@ -43,7 +43,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			SOV = {
-				country_event = { id = switzerland.2 days = 10 }
+				country_event = { id = muscovy.10 days = 10 }
 			}
 		}
 	
@@ -60,7 +60,7 @@ focus_tree = {
 		x = -2
 		y = 2
 		relative_position_id = SOV_relief_from_ivan
-		cost = 10
+		cost = 0
 		ai_will_do = {
 			factor = 10
 		}
@@ -83,7 +83,10 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = secularism_idea
+				remove_idea = orthodox_idea
+			}
 		}
 	
 	}
@@ -101,7 +104,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			SOV = {
+				country_event = { id = muscovy.19 days = 10 }
+			}
 		}
 	
 	}
@@ -117,7 +122,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = SOV_relief_from_ivan
-		cost = 10
+		cost = 0
 		ai_will_do = {
 			factor = 10
 		}
@@ -140,7 +145,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			SOV = {
+				country_event = { id = muscovy.20 days = 10 }
+			}
 		}
 	
 	}
@@ -158,7 +165,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			SOV = {
+				country_event = { id = muscovy.21 days = 10 }
+			}
 		}
 	
 	}
@@ -174,7 +183,7 @@ focus_tree = {
 		x = 2
 		y = 2
 		relative_position_id = SOV_relief_from_ivan
-		cost = 10
+		cost = 0
 		ai_will_do = {
 			factor = 10
 		}
@@ -197,7 +206,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_ideas = SOV_traditional_values_embraced
 		}
 	
 	}
@@ -215,7 +224,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			SOV = {
+				country_event = { id = muscovy.22 days = 10 }
+			}
 		}
 	
 	}
@@ -229,12 +240,13 @@ focus_tree = {
 		}
 		x = 10
 		y = 0
-		cost = 10
+		cost = 0
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_stability = -0.5
+			add_political_power = -50
 		}
 	
 	}
@@ -255,7 +267,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			SOV = {
+				country_event = { id = muscovy.23 days = 10 }
+			}
 		}
 	
 	}
@@ -263,7 +277,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_stricter_enforcement
-		#icon = 
+		icon = GFX_focus_SOV_stricter_enforcement
 		prerequisite = { focus = SOV_continue_segregation_with_mongols }
 		x = -1
 		y = 2
@@ -273,7 +287,40 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			SOV = {
+				country_event = { id = muscovy.11 days = 10 }
+			}
+			add_stability = 0.05
+			add_political_power = -150
+			if = {
+				limit = {
+					has_government = conservatism
+				}
+				add_popularity = {
+					ideology = conservatism
+					popularity = -0.10
+				}
+			}
 			
+			if = {
+				limit = {
+					has_government = mod_ordaism
+				}
+				add_popularity = {
+					ideology = mod_ordaism
+					popularity = -0.10
+				}
+			}
+			
+			if = {
+				limit = {
+					has_government = liberalism
+				}
+				add_popularity = {
+					ideology = liberalism
+					popularity = -0.10
+				}
+			}
 		}
 	
 	}
@@ -281,7 +328,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_opress_voters_rights
-		#icon = 
+		icon = GFX_focus_SOV_opress_voters
 		prerequisite = { focus = SOV_stricter_enforcement }
 		x = -1
 		y = 3
@@ -291,6 +338,11 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			SOV = {
+				country_event = { id = muscovy.12 days = 10 }
+			}
+			add_political_power = 50
+			
 			
 		}
 	
@@ -310,7 +362,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			SOV = {
+				country_event = { id = muscovy.13 days = 10 }
+			}
 		}
 	
 	}
@@ -318,7 +372,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_segregated_in_one_nation
-		#icon = 
+		icon = GFX_focus_SOV_segregated_in_one_nation
 		prerequisite = { focus = SOV_opress_voters_rights }
 		mutually_exclusive = { focus = SOV_a_new_state_in_the_east }
 		x = 0
@@ -329,7 +383,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			SOV = {
+				country_event = { id = muscovy.24 days = 10 }
+			}
 		}
 	
 	}
@@ -345,12 +401,14 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_ryazan_crisis
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			SOV = {
+				country_event = { id = muscovy.25 days = 10 }
+			}
 		}
 	
 	}
@@ -358,7 +416,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_open_the_public
-		#icon = 
+		icon = GFX_focus_SOV_open_the_public
 		prerequisite = { focus = SOV_integrate_mongol_muscovites }
 		x = 1
 		y = 2
@@ -368,7 +426,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			SOV = {
+				country_event = { id = muscovy.14 days = 10 }
+			}
 		}
 	
 	}
@@ -376,7 +436,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_allow_mongols_for_public_office
-		#icon = 
+		icon = GFX_focus_SOV_mongols_for_office
 		prerequisite = { focus = SOV_open_the_public }
 		x = 1
 		y = 3
@@ -386,7 +446,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			SOV = {
+				country_event = { id = muscovy.26 days = 10 }
+			}
 		}
 	
 	}
@@ -394,7 +456,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_russian_unity
-		#icon = 
+		icon = GFX_focus_SOV_russian_unity
 		available = {
 			OR = {
 				has_completed_focus = SOV_enact_aladins_reforms
@@ -412,7 +474,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_political_power = 50
+			add_stability = 0.05
+			add_war_support = 0.05
 		}
 	
 	}
@@ -420,7 +484,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_establish_a_national_unity_council
-		#icon = 
+		icon = focus_SOV_unity_council
 		prerequisite = { focus = SOV_russian_unity }
 		x = 0
 		y = 1
@@ -430,7 +494,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			SOV = {
+				country_event = { id = muscovy.15 days = 10 }
+			}
 		}
 	
 	}
@@ -438,7 +504,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_promote_pan_russianism
-		#icon = 
+		icon = focus_SOV_pan_russianism
 		prerequisite = { focus = SOV_establish_a_national_unity_council }
 		x = 0
 		y = 2
@@ -448,7 +514,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			SOV = {
+				country_event = { id = muscovy.16 days = 10 }
+			}
 		}
 	
 	}
@@ -456,7 +524,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_offer_a_unity_conference
-		#icon = 
+		icon = GFX_focus_SOV_unity_conference
 		prerequisite = { focus = SOV_promote_pan_russianism }
 		mutually_exclusive = { focus = SOV_forced_integration }
 		x = -1
@@ -467,7 +535,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			NOV = {
+				country_event = { id = muscovy.17 days = 10 }
+			}
 		}
 	
 	}
@@ -475,7 +545,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_forced_integration
-		#icon = 
+		icon = GFX_focus_SOV_forced_integration
 		prerequisite = { focus = SOV_promote_pan_russianism }
 		mutually_exclusive = { focus = SOV_offer_a_unity_conference }
 		x = 1
@@ -486,7 +556,10 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			create_wargoal = {
+				type = annex_everything
+				target = NOV
+			}
 		}
 	
 	}
@@ -502,7 +575,7 @@ focus_tree = {
 		x = -2
 		y = 4
 		relative_position_id = SOV_russian_unity
-		cost = 10
+		cost = 0
 		ai_will_do = {
 			factor = 10
 		}
@@ -523,7 +596,7 @@ focus_tree = {
 		x = 0
 		y = 4
 		relative_position_id = SOV_russian_unity
-		cost = 10
+		cost = 0
 		ai_will_do = {
 			factor = 10
 		}
@@ -567,6 +640,7 @@ focus_tree = {
 		completion_reward = {
 			#give cores to new states and 
 			set_cosmetic_tag = SOV_united_russia_1
+			
 			
 			hidden_effect = {
 				create_country_leader = {
@@ -664,7 +738,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_political_power = 50
+			add_war_support = -0.05
+			add_stability = 0.10
 		}
 	
 	}
@@ -683,7 +759,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			MON = {
+				country_event = { id = muscovy.18 days = 10 }
+			}
 		}
 	
 	}
@@ -702,7 +780,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			create_faction = the_alliance_of_liberty_faction
 		}
 	
 	}
@@ -732,7 +810,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			POL = {
+				country_event = { id = muscovy.18 days = 10 }
+			}
 		}
 	
 	}
@@ -762,7 +842,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			GLD = {
+				country_event = { id = muscovy.18 days = 10 }
+			}
 		}
 	
 	}
@@ -792,7 +874,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			LIT = {
+				country_event = { id = muscovy.18 days = 10 }
+			}
 		}
 	
 	}
@@ -811,7 +895,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_political_power = 50
+			add_stability = -0.05
+			add_war_support = 0.10
 		}
 	
 	}
@@ -829,7 +915,10 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			create_wargoal = {
+				type = annex_everything
+				target = GLD
+			}
 		}
 	
 	}
@@ -847,7 +936,10 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			create_wargoal = {
+				type = annex_everything
+				target = KAL
+			}
 		}
 	
 	}
@@ -865,7 +957,10 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			create_wargoal = {
+				type = annex_everything
+				target = CAS
+			}
 		}
 	
 	}
@@ -883,7 +978,18 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			create_wargoal = {
+				type = annex_everything
+				target = SIB
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = KAM
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = EAF
+			}
 		}
 	
 	}
@@ -901,7 +1007,10 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			create_wargoal = {
+				type = annex_everything
+				target = KRL
+			}
 		}
 	
 	}
@@ -919,7 +1028,14 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			create_wargoal = {
+				type = annex_everything
+				target = LIT
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = BLR
+			}
 		}
 	
 	}
@@ -939,7 +1055,10 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			create_wargoal = {
+				type = annex_everything
+				target = SWE
+			}
 		}
 	
 	}
@@ -959,7 +1078,10 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			create_wargoal = {
+				type = annex_everything
+				target = TRK
+			}
 		}
 	
 	}
@@ -979,7 +1101,10 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			create_wargoal = {
+				type = annex_everything
+				target = MON
+			}
 		}
 	
 	}
@@ -1006,6 +1131,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			set_country_flag = SOV_adopted_muscovite_nationalism
+			
+			add_political_power = 50
+			add_stability = 0.05
+			add_war_support = 0.05
 		}
 	
 	}
@@ -1023,7 +1152,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			SOV = {
+				country_event = { id = muscovy.27 days = 10 }
+			}
 		}
 	
 	}
@@ -1041,7 +1172,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_stability = 0.05
 		}
 	
 	}
@@ -1078,7 +1209,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			NOV = {
+				country_event = { id = muscovy.28 days = 10 }
+			}
 		}
 	
 	}
@@ -1108,7 +1241,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			BLR = {
+				country_event = { id = muscovy.29 days = 10 }
+			}
 		}
 	
 	}
@@ -1138,7 +1273,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			UKR = {
+				country_event = { id = muscovy.30 days = 10 }
+			}
 		}
 	
 	}
@@ -1168,7 +1305,15 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			NOV = {
+				add_opinion_modifier = { target = SOV modifier = SOV_heated_rivalry }
+			}
 			
+			SOV = {
+				add_opinion_modifier = { target = NOV modifier = SOV_heated_rivalry }
+			}
+			
+			add_political_power = 50
 		}
 	
 	}
@@ -1198,7 +1343,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_political_power  = 50
+			add_stability = 0.05
+			add_war_support = -0.05
 		}
 	
 	}
@@ -1228,7 +1375,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_political_power  = 50
+			add_stability = -0.05
+			add_war_support = 0.05
 		}
 	
 	}
@@ -1247,7 +1396,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_ideas = SOV_muscovite_isolation_idea
 		}
 	
 	}
@@ -1261,7 +1410,7 @@ focus_tree = {
 		x = 4
 		y = 5
 		relative_position_id = SOV_muscovy_forever
-		cost = 10
+		cost = 0
 		ai_will_do = {
 			factor = 10
 		}
@@ -1285,7 +1434,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			MON = {
+				country_event = { id = muscovy.31 days = 10 }
+			}
 		}
 	
 	}
@@ -1304,7 +1455,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			TRK = {
+				country_event = { id = muscovy.32 days = 10 }
+			}
 		}
 	
 	}
@@ -1323,12 +1476,12 @@ focus_tree = {
 		
 		x = 25
 		y = 7
-		cost = 10
+		cost = 0
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
-			set_country_flag = SOV_adopted_muscovite_nationalism
+			
 		}
 	
 	}
@@ -1348,12 +1501,12 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SOV_the_muscovite_economy
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_ideas = SOV_leftist_economy_idea
 		}
 	
 	}
@@ -1371,7 +1524,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_ideas = SOV_revised_union_laws
 		}
 	
 	}
@@ -1389,7 +1542,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			SOV = {
+				country_event = { id = muscovy.33 days = 10 }
+			}
 		}
 	
 	}
@@ -1407,7 +1562,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			SOV = {
+				country_event = { id = muscovy.34 days = 10 }
+			}
 		}
 	
 	}
@@ -1432,7 +1589,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_ideas = SOV_fiscal_conservatism_idea
 		}
 	
 	}
@@ -1450,7 +1607,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			SOV = {
+				country_event = { id = muscovy.35 days = 10 }
+			}
 		}
 	
 	}
@@ -1468,7 +1627,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			SOV = {
+				country_event = { id = muscovy.36 days = 10 }
+			}
 		}
 	
 	}
@@ -1486,7 +1647,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			SOV = {
+				country_event = { id = muscovy.37 days = 10 }
+			}
 		}
 	
 	}
@@ -1499,12 +1662,12 @@ focus_tree = {
 		x = 0
 		y = 5
 		relative_position_id = SOV_the_muscovite_economy
-		cost = 10
+		cost = 0
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_political_power = 50
 		}
 	
 	}
@@ -1522,7 +1685,14 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 	
 	}
@@ -1540,7 +1710,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			SOV = {
+				country_event = { id = muscovy.38 days = 10 }
+			}
 		}
 	
 	}
@@ -1558,7 +1730,14 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 	
 	}
@@ -1576,7 +1755,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			SOV = {
+				country_event = { id = muscovy.39 days = 10 }
+			}
 		}
 	
 	}
@@ -1595,12 +1776,13 @@ focus_tree = {
 		
 		x = 31
 		y = 7
-		cost = 10
+		cost = 0
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
-			set_country_flag = SOV_adopted_muscovite_nationalism
+			army_experience = 10
+			air_experience = 10
 		}
 	
 	}
@@ -1618,7 +1800,15 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			army_experience = 25
+			add_command_power = 1
 			
+			add_tech_bonus = {
+				name = infantry_boost_muscovy
+				bonus = 0.50
+				uses = 1
+				category = infantry_weapons
+			}
 		}
 	
 	}
@@ -1636,7 +1826,12 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = armor_iniative_muscovy
+				bonus = 0.25
+				uses = 5
+				category = armor
+			}
 		}
 	
 	}
@@ -1654,7 +1849,12 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = artillery_iniative_muscovy
+				bonus = 0.45
+				uses = 3
+				category = artillery
+			}
 		}
 	
 	}
@@ -1673,7 +1873,12 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = studying_new_tactics_SOV
+				bonus = 0.50
+				uses = 1
+				category = land_doctrine
+			}
 		}
 	
 	}
@@ -1691,7 +1896,15 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			air_experience = 25
+			add_command_power = 1
 			
+			add_tech_bonus = {
+				name = air_tech_boost_muscovy
+				bonus = 0.50
+				uses = 1
+				category = air_equipment
+			}
 		}
 	
 	}
@@ -1709,7 +1922,12 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = expanding_air_force_SOV
+				bonus = 0.50
+				uses = 1
+				category = air_doctrine
+			}
 		}
 	
 	}
@@ -1728,7 +1946,26 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				name = bomber_dominance_SOV
+				bonus = 0.25
+				uses = 1
+				category = tactical_bomber
+			}
 			
+			add_tech_bonus = {
+				name = bomber_dominance_SOV2
+				bonus = 0.25
+				uses = 1
+				category = naval_bomber
+			}
+			
+			add_tech_bonus = {
+				name = bomber_dominance_SOV3
+				bonus = 0.25
+				uses = 1
+				category = cas_bomber
+			}
 		}
 	
 	}
@@ -1747,7 +1984,19 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				name = fighter_dominance_SOV
+				bonus = 0.25
+				uses = 2
+				category = light_fighter
+			}
 			
+			add_tech_bonus = {
+				name = fighter_dominance_SOV2
+				bonus = 0.25
+				uses = 2
+				category = cat_heavy_fighter
+			}
 		}
 	
 	}
@@ -1766,7 +2015,12 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = electronic_investments_SOV
+				bonus = 0.50
+				uses = 1
+				category = electronics
+			}
 		}
 	
 	}
@@ -1784,7 +2038,12 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = atom_tests_SOV
+				bonus = 0.50
+				uses = 1
+				category = nuclear
+			}
 		}
 	
 	}

@@ -183,8 +183,8 @@ IRQ = {
 	color_ui = rgb { 193  133  185 }
 }
 JAP = {
-	color = hsv { 0.05 0.3 1 }
-	color_ui = hsv { 0.05 0.25 1.2 }
+	color = rgb { 163 64 47 }
+	color_ui = rgb { 163 64 47 }
 }
 LIB = {
 	color = rgb { 152 130 191 }
@@ -835,6 +835,38 @@ MLW = {
 SIC = {
 	color = rgb { 188  135  75 }
 	color_ui = rgb { 188  135  75 }
+}
+KRK = {
+	color = rgb { 179  120  124 }
+	color_ui = rgb { 179  120  124 }
+}
+RLV = {
+	color = rgb { 82  41  2 }
+	color_ui = rgb { 82  41  2 }
+}
+TAM = {
+	color = rgb { 57  143  202 }
+	color_ui = rgb { 57  143  202 }
+}
+GOR = {
+	color = rgb { 205 32 26 } 
+	color_ui = rgb { 205 32 26 } 
+}
+SVE = {
+	color = rgb { 250 241 0 } 
+	color_ui = rgb { 250 241 0 } 
+}
+TUL = {
+	color = rgb { 127 175 158 }
+	color_ui = rgb { 127 175 158 } 
+}
+BOR = {
+	color = rgb { 134 7 27 }
+	color_ui = rgb { 134 7 27 } 
+}
+MOS = {
+	color = rgb { 168 0 44 }
+	color_ui = rgb { 168 0 44 }
 }
 D01 = {
 	color = rgb { 200 100 31 }

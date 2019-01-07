@@ -51,11 +51,22 @@ set_politics = {
 #PM Tomas Bitavlandakulle (Thomas Duff Pattullo)
 
 create_country_leader = {
+	name = "Tomas Bitavlandakulle"
+	desc = "POLITICS_TOMAS_BITAVLANDAKULLE_DESC"
+	picture = "Portrait_VLD_Tomas_Bitavlandakulle.dds"
+	expire = "1965.1.1"
+	ideology = sub_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Gustav Glücksburg"
 	desc = "POLITICS_GUSTAV_GLUCKSBURG_DESC"
 	picture = "Portrait_VLD_Gustav_Glucksburg.dds"
 	expire = "1965.1.1"
-	ideology = sub_liberalism
+	ideology = sub_monarchism
 	traits = {
 		#
 	}

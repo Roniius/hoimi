@@ -4,6 +4,7 @@ oob = "SOV_1936"
 
 add_ideas = {
 	orthodox_idea
+	slavery_legal
 }
 
 set_research_slots = 3
@@ -95,7 +96,7 @@ create_country_leader = {
 	expire = "1953.3.1"
 	ideology = sub_monarchism
 	traits = {
-		
+		grand_duke_of_muscovy
 	}
 }
 
@@ -219,7 +220,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Smotrov Milomir Georgiy"
+	name = "Georgiy Milomir Smotrov"
 	picture = "Portrait_SOV_Smotrov_Milomir_Georgiy.dds"
 	id = 006
 	traits = { }
@@ -252,4 +253,28 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 4
 	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Semyon Budyonny"
+	picture = "Portrait_SOV_Semyon_Budyonny.dds"
+	id = 0014
+	traits = { }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Grigory Kulik"
+	picture = "Portrait_SOV_Grigory_Kulik.dds"
+	id = 0015
+	traits = { }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
 }

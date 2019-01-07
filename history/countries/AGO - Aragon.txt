@@ -78,11 +78,22 @@ INS = {
 }
 
 create_country_leader = {
+	name = "Bitor Baptista"
+	desc = "POLITICS_BITOR_BAPTISTA_DESC"
+	picture = "Portrait_AGO_Bitor_Baptista.dds"
+	expire = "1965.1.1"
+	ideology = sub_conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "King Martin II"
 	desc = "POLITICS_MARTIN_II_DESC"
 	picture = "Portrait_AGO_Martin_II.dds"
 	expire = "1965.1.1"
-	ideology = sub_conservatism
+	ideology = sub_monarchism
 	traits = {
 		#
 	}

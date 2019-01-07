@@ -45,6 +45,325 @@ ideas = {
 				political_power_factor = -0.15
 				planning_speed = 0.10
 				military_leader_cost_factor = 0.25
+				max_command_power = 5
+				command_power_gain = -0.5
+			}
+		}
+		
+		SOV_muscovite_isolation_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			cancel = {
+				has_war = yes
+			}
+			
+			removal_cost = -1
+			
+			rule = {
+				can_create_factions = no
+				can_join_factions = no
+			}
+			
+			
+	
+			modifier = {
+				generate_wargoal_tension = 1.00
+				join_faction_tension = 1.00
+				#lend_lease_tension = 0.50
+				send_volunteers_tension = 0.20
+				guarantee_tension = 1.0
+				ai_badass_factor = 0.01    # Will receive 1% of the threat from others
+				ai_get_ally_desire_factor = -100
+			}
+		}
+		
+		SOV_traditional_values_embraced = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				stability_factor = 0.10
+				political_power_factor = 0.05
+				communism_drift = -0.10
+				mod_ordaism_drift = -0.05
+			}
+		}
+
+		SOV_leftist_economy_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = -0.05
+				consumer_goods_factor = -0.20
+				production_factory_max_efficiency_factor = -0.05
+				industrial_capacity_factory = -0.05
+			}
+		}
+		
+		SOV_revised_union_laws = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				stability_factor = 0.05
+				political_power_factor = -0.10
+				industrial_capacity_factory = 0.15
+			}
+		}
+		
+		SOV_fiscal_conservatism_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				stability_factor = 0.05
+				political_power_factor = 0.05
+				consumer_goods_factor = -0.10
+				production_factory_max_efficiency_factor = -0.05
+				industrial_capacity_factory = -0.05
+			}
+		}
+		
+		SOV_krasnov_reforms_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				stability_factor = 0.10
+				political_power_factor = 0.15
+				consumer_goods_factor = -0.15
+				war_support_factor = 0.15
+			}
+		}
+		
+		SOV_krasnov_secret_police_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				political_power_factor = -0.05
+				war_support_factor = 0.05
+				resistance_tick_auto = -1
+				foreign_subversive_activites = -0.15
+				enemy_partisan_effect = -0.1
+			}
+		}
+		
+		SOV_krasnovs_grip = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				political_power_factor = 0.05
+				foreign_subversive_activites = -0.15
+				enemy_partisan_effect = -0.15
+			}
+		}
+		
+		SOV_tula_military_council_influence_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				political_power_factor = -0.05
+				monarchism_drift = 0.10
+				authoritarian_drift = 0.05
+			}
+		}
+		
+		SOV_tula_shadow_government_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				political_power_factor = -0.05
+				monarchism_drift = 0.05
+				authoritarian_drift = 0.10
+			}
+		}
+		
+		SOV_muscovite_isolation_real_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			cancel = {
+				has_war = yes
+			}
+			
+			removal_cost = -1
+			
+			rule = {
+				can_create_factions = no
+				can_join_factions = no
+			}
+			
+			
+	
+			modifier = {
+				generate_wargoal_tension = 1.00
+				join_faction_tension = 1.00
+				#lend_lease_tension = 0.50
+				send_volunteers_tension = 0.20
+				guarantee_tension = 1.0
+				ai_badass_factor = 0.01    # Will receive 1% of the threat from others
+				ai_get_ally_desire_factor = -100
+			}
+		}
+		
+		SOV_consumer_goods_programs_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+					consumer_goods_factor = -0.15
+			}
+		}
+		
+		SOV_soldier_focus_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				production_speed_arms_factory_factor = 0.2
+				production_speed_bunker_factor = 0.25
+			}
+		}
+		
+		SOV_new_construction_methods_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				production_factory_max_efficiency_factor = 0.25
+				industry_repair_factor = 0.35
+			}
+		}
+		
+	}
+	
+	hidden_ideas = {
+	
+		SOV_alliance_with_mongolia_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				
 			}
 		}
 	

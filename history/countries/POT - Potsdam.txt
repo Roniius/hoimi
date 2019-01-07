@@ -53,6 +53,17 @@ create_country_leader = {
 	desc = "POLITICS_DUKE_CASIMIR_IX_DESC"
 	picture = "Portrait_POT_Casimir_IX.dds"
 	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Hermann Dietrich"
+	desc = "POLITICS_HERMANN_DIETRICH_DESC"
+	picture = "Portrait_POT_Hermann_Dietrich.dds"
+	expire = "1965.1.1"
 	ideology = sub_liberalism
 	traits = {
 		#

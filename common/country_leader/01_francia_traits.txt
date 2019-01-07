@@ -1,0 +1,43 @@
+leader_traits = {
+
+	king_of_francia = {
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	holy_roman_emperor_unofficial = {
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	prince_of_paris = {
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	king_of_the_central_africans = {
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	king_of_south_africa = {
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

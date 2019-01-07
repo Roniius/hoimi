@@ -8,6 +8,11 @@ add_ideas = {
 	catholic_idea
 }
 
+add_opinion_modifier = {
+    target = FRA
+    modifier = FRA_long_lasting_rivalry
+}
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -96,11 +101,22 @@ set_politics = {
 }
 
 create_country_leader = {
+	name = "Henri Jaspar"
+	desc = "POLITICS_HENRI_JASPAR_DESC"
+	picture = "Portrait_BEL_Henri_Jaspar.dds"
+	expire = "1965.1.1"
+	ideology = sub_liberalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
 	name = "Conrad VII"
 	desc = "POLITICS_CONRAD_VII_DESC"
 	picture = "Portrait_BEL_Conrad_VII.dds"
 	expire = "1965.1.1"
-	ideology = sub_liberalism
+	ideology = sub_monarchism
 	traits = {
 		
 	}

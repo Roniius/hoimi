@@ -52,7 +52,7 @@ set_politics = {
 
 	parties = {
 		liberalism = { 
-			popularity = 0
+			popularity = 20
 		}
 		
 		conservatism = { 
@@ -60,7 +60,7 @@ set_politics = {
 		}
 		
 		mod_ordaism = { 
-			popularity = 90
+			popularity = 65
 		}
 		
 		authoritarian = { 
@@ -72,7 +72,7 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 5
 		}
 		
 		monarchism = {

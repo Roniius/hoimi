@@ -49,11 +49,22 @@ set_politics = {
 
 
 create_country_leader = {
+	name = "Koloman Schulze"
+	desc = "POLITICS_KOLOMAN_SCHULZE_DESC"
+	picture = "Portrait_HES_Koloman_Schulze.dds"
+	expire = "1965.1.1"
+	ideology = sub_conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Grand Duke Frederick XI"
 	desc = "POLITICS_GRAND_DUKE_FREDERICK_XI_DESC"
 	picture = "Portrait_HES_Grand_Duke_Frederick_XI.dds"
 	expire = "1965.1.1"
-	ideology = sub_conservatism
+	ideology = sub_monarchism
 	traits = {
 		#
 	}

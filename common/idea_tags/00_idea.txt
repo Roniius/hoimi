@@ -18,7 +18,7 @@ idea_categories = {
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
-		#slot = slavery
+		slot = slavery
 		#slot = segregation
 		#slot = press_laws
 		

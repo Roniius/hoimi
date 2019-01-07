@@ -73,11 +73,22 @@ set_politics = {
 }
 
 create_country_leader = {
+	name = "Patrick Pearse"
+	desc = "POLITICS_PATRICK_PEARSE_DESC"
+	picture = "Portrait_IRE_Patrick_Pearse.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "High King loaichím"
 	desc = "POLITICS_HIGH_KING_IOAICHIM_DESC"
 	picture = "Portrait_IRE_HK_Ioaichim.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = sub_monarchism
 	traits = {
 		#
 	}

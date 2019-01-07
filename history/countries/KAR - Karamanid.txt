@@ -41,6 +41,17 @@ create_country_leader = {
 	desc = "POLITICS_SEVKET_II_DESC"
 	picture = "Portrait_KAR_Sevket_II.dds"
 	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Fevzi Çakmak"
+	desc = "POLITICS_FEVZI_CAKMAK_DESC"
+	picture = "Portrait_KAR_Fevzi_Cakmak.dds"
+	expire = "1965.1.1"
 	ideology = sub_liberalism
 	traits = {
 		#

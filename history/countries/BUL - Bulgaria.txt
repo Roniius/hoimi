@@ -45,6 +45,17 @@ create_country_leader = {
 	desc = "POLITICS_FERDINAND_I_DESC"
 	picture = "Portrait_BUL_Ferdinand_I.dds"
 	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Andrey Toshev"
+	desc = "POLITICS_ANDREY_TOSHEV_DESC"
+	picture = "Portrait_BUL_Andrey_Toshev.dds"
+	expire = "1965.1.1"
 	ideology = sub_liberalism
 	traits = {
 		#

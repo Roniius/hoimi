@@ -3844,6 +3844,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/SOV/SOV_mass_purges.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_SOV_krasnov_reforms_idea"
+		texturefile = "gfx/interface/ideas/SOV/SOV_krasnov_reforms.dds"
+	}
+	
 	#Mongolian NatSpirits
 	
 	spriteType = {

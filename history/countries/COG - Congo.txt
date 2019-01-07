@@ -3,7 +3,7 @@
 oob = "generic"
 
 add_ideas = {
-	reformist_idea
+	catholic_idea
 }
 
 set_politics = {

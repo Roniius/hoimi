@@ -37,11 +37,22 @@ set_politics = {
 }
 
 create_country_leader = {
+	name = "Nguyễn Văn Tâm"
+	desc = "POLITICS_NGUYEN_VAN_TAM_DESC"
+	picture = "Portrait_VIN_Nguyen_Van_Tam.dds"
+	expire = "1965.1.1"
+	ideology = sub_conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Emperor Bao Dai"
 	desc = "POLITICS_EMPEROR_BAO_DAI_DESC"
 	picture = "Portrait_VIN_Bao_Dai.dds"
 	expire = "1965.1.1"
-	ideology = sub_conservatism
+	ideology = sub_monarchism
 	traits = {
 		#
 	}

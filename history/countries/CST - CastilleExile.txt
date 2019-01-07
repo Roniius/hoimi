@@ -54,3 +54,14 @@ create_country_leader = {
 		
 	}
 }
+
+create_country_leader = {
+	name = "Antonio Goicoechea"
+	desc = "POLITICS_ANTONIO_GOICOECHEA_DESC"
+	picture = "Portrait_CST_Antonio_Goicoechea.dds"
+	expire = "1965.1.1"
+	ideology = sub_liberalism
+	traits = {
+		
+	}
+}

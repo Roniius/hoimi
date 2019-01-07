@@ -38,6 +38,17 @@ create_country_leader = {
 	desc = "POLITICS_ALEXANDER_I_DESC"
 	picture = "Portrait_SER_Alexander_I.dds"
 	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Janko Vukotić"
+	desc = "POLITICS_JANKO_VUKOTIC_DESC"
+	picture = "Portrait_SER_Janko_Vukotic.dds"
+	expire = "1965.1.1"
 	ideology = militaryreign
 	traits = {
 		#

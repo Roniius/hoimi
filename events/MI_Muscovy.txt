@@ -57,6 +57,12 @@ country_event = {
 	option = {
 		name = muscovy.4.o1
 		remove_ideas = SOV_state_slavery
+		
+		swap_ideas = {
+				add_idea = slavery_abolished
+				remove_idea = slavery_legal
+			}
+		
 	}
 }
 
@@ -215,7 +221,7 @@ country_event = {
 			}
  
 			
-			load_focus_tree = generic_focus
+			load_focus_tree = muscovite_real_focus
 			
 			set_party_name = { 
 				ideology = authoritarian 
@@ -245,6 +251,7 @@ country_event = {
 
 	option = {
 		name = muscovy.9.o1
+		
 	}
 }
 
@@ -254,57 +261,1781 @@ country_event = {
 	title = muscovy.10.t
 	desc = muscovy.10.d
 	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = muscovy.10.o1
+	}
+	
+}
+
+#Enforcing Segregation
+country_event = {
+	id = muscovy.11
+	title = muscovy.11.t
+	desc = muscovy.11.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.11.o1
+	}
+}
+
+#Oppress Voting Rights
+country_event = {
+	id = muscovy.12
+	title = muscovy.12.t
+	desc = muscovy.12.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.12.o1
+	}
+}
+
+#Establish MONGUL STATE
+country_event = {
+	id = muscovy.13
+	title = muscovy.13.t
+	desc = muscovy.13.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.13.o1
+	}
+}
+
+#Opening The Public To Central Asians
+country_event = {
+	id = muscovy.14
+	title = muscovy.14.t
+	desc = muscovy.14.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.14.o1
+	}
+}
+
+#Russian Unification Council Formed
+country_event = {
+	id = muscovy.15
+	title = muscovy.15.t
+	desc = muscovy.15.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.15.o1
+	}
+}
+
+#Pan-Russianism Sees Popularity Boom
+country_event = {
+	id = muscovy.16
+	title = muscovy.16.t
+	desc = muscovy.16.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.16.o1
+	}
+}
+
+#Offer Unification Conference 
+country_event = {
+	id = muscovy.17
+	title = muscovy.17.t
+	desc = muscovy.17.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.17.o1
+	}
+}
+
+#Russia Wants Alliance
+country_event = {
+	id = muscovy.18
+	title = muscovy.18.t
+	desc = muscovy.18.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.18.o1
+	}
+}
+
+#Aladin Reforms
+country_event = {
+	id = muscovy.19
+	title = muscovy.19.t
+	desc = muscovy.19.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.19.o1
+	}
+}
+
+#Purge Republicanboos
+country_event = {
+	id = muscovy.20
+	title = muscovy.20.t
+	desc = muscovy.20.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.20.o1
+	}
+}
+
+#Kerneksy Tax Reform
+country_event = {
+	id = muscovy.21
+	title = muscovy.21.t
+	desc = muscovy.21.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.21.o1
+	}
+}
+
+#Lobov Plan
+country_event = {
+	id = muscovy.22
+	title = muscovy.22.t
+	desc = muscovy.22.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.22.o1
+	}
+}
+
+#Segregation Continues
+country_event = {
+	id = muscovy.23
+	title = muscovy.23.t
+	desc = muscovy.23.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.23.o1
+	}
+}
+
+#Segregation In A Single Nation
+country_event = {
+	id = muscovy.24
+	title = muscovy.24.t
+	desc = muscovy.24.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.24.o1
+	}
+}
+
+#Integration
+country_event = {
+	id = muscovy.25
+	title = muscovy.25.t
+	desc = muscovy.25.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.25.o1
+	}
+}
+
+#Special election in eastern provinces
+country_event = {
+	id = muscovy.26
+	title = muscovy.26.t
+	desc = muscovy.26.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.26.o1
+	}
+}
+
+#Large Rallies For Russianism
+country_event = {
+	id = muscovy.27
+	title = muscovy.27.t
+	desc = muscovy.27.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.27.o1
+	}
+}
+
+#Alliance Offer to Novgorod FAKEI
+country_event = {
+	id = muscovy.28
+	title = muscovy.28.t
+	desc = muscovy.28.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.28.o1
+	}
+}
+
+#Alliance Offer to MINSK FAKEI
+country_event = {
+	id = muscovy.29
+	title = muscovy.29.t
+	desc = muscovy.29.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.29.o1
+	}
+}
+
+#Alliance Offer to COSSAC FAKEI
+country_event = {
+	id = muscovy.30
+	title = muscovy.30.t
+	desc = muscovy.30.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.30.o1
+	}
+}
+
+#THE SMOL RUS wants to join our alliance (MONGOL)
+country_event = {
+	id = muscovy.31
+	title = muscovy.31.t
+	desc = muscovy.31.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.31.o1
+	}
+}
+
+#THE SMOL RUS wants to join our alliance (TURKS)
+country_event = {
+	id = muscovy.32
+	title = muscovy.32.t
+	desc = muscovy.32.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.32.o1
+	}
+}
+
+#Corporate Taxation Enacted
+country_event = {
+	id = muscovy.33
+	title = muscovy.33.t
+	desc = muscovy.33.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.33.o1
+	}
+}
+
+#Health
+country_event = {
+	id = muscovy.34
+	title = muscovy.34.t
+	desc = muscovy.34.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.34.o1
+	}
+}
+
+#Unions Angered
+country_event = {
+	id = muscovy.35
+	title = muscovy.35.t
+	desc = muscovy.35.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.35.o1
+	}
+}
+
+#Corporate Leaders Meet In Moscow
+country_event = {
+	id = muscovy.36
+	title = muscovy.36.t
+	desc = muscovy.36.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.36.o1
+	}
+}
+
+#Hospitals Sold To Private Owners
+country_event = {
+	id = muscovy.37
+	title = muscovy.37.t
+	desc = muscovy.37.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.37.o1
+	}
+}
+
+#Meeting With Consumer Goods Companies
+country_event = {
+	id = muscovy.38
+	title = muscovy.38.t
+	desc = muscovy.38.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.38.o1
+	}
+}
+
+#New Arms Factories Opened
+country_event = {
+	id = muscovy.39
+	title = muscovy.39.t
+	desc = muscovy.39.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.39.o1
+	}
+}
+
+#####REAL EVENTS START HERE
+
+#Mass Bolshevik Arrests
+country_event = {
+	id = muscovy.40
+	title = muscovy.40.t
+	desc = muscovy.40.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.40.o1
+		
+		add_political_power = 50
+		add_popularity = {
+			ideology = communism
+			popularity = -0.15
+		}
+		
+	}
+}
+
+#Rurik Dynasty Exiled
+country_event = {
+	id = muscovy.41
+	title = muscovy.41.t
+	desc = muscovy.41.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.41.o1
+		
+		add_political_power = 50
+		add_popularity = {
+			ideology = monarchism
+			popularity = -0.05
+		}
+		add_stability = 0.05
+		
+	}
+}
+
+#Aladin Supporters Purged
+country_event = {
+	id = muscovy.42
+	title = muscovy.42.t
+	desc = muscovy.42.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.42.o1
+		
+		add_political_power = 25
+		add_popularity = {
+			ideology = liberalism
+			popularity = -0.15
+		}
+		add_stability = 0.05
+		
+	}
+}
+
+#Fall of The Grand Duchy
+country_event = {
+	id = muscovy.43
+	title = muscovy.43.t
+	desc = muscovy.43.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.43.o1
+		
+		set_cosmetic_tag = SOV_krasnovs_muscovy_1
+		add_stability = 0.10
+		add_country_leader_trait = povelitel_of_muscovy
+	}
+}
+
+#Taras Maslov Speaks out against Krasnov
+country_event = {
+	id = muscovy.44
+	title = muscovy.44.t
+	desc = muscovy.44.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.44.o1
+		
+		
+		
+		add_stability = -0.05
+		add_political_power = -50
+	}
+}
+
+#Maslov Forms Tula Military Council
+country_event = {
+	id = muscovy.45
+	title = muscovy.45.t
+	desc = muscovy.45.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.45.o1
+		
+		remove_unit_leader = 009
+		remove_unit_leader = 007
+		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = muscovy.46 days = 28 }
+			}
+		}
+		
+		add_stability = -0.10
+		add_political_power = -150
+	}
+}
+
+#Pyotr Wrangel Joins The Tula Military Council
+country_event = {
+	id = muscovy.46
+	title = muscovy.46.t
+	desc = muscovy.46.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.46.o1
+		
+		remove_unit_leader = 005
+		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = muscovy.47 days = 15 }
+			}
+		}
+		
+		add_war_support = -0.05
+	}
+}
+
+#Thousands defect to Tula
+country_event = {
+	id = muscovy.47
+	title = muscovy.47.t
+	desc = muscovy.47.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = muscovy.47.o1
+		
+		remove_unit_leader = 0014
+		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = muscovy.48 days = 32 }
+			}
+		}
+		add_manpower = -14711
+		add_war_support = -0.15
+		add_stability = -0.05
+		
+		remove_ideas = SOV_krasnov_secret_police_idea
+	}
+}
+
+#Maslov Declares New Government From Tula
+country_event = {
+	id = muscovy.48
+	title = muscovy.48.t
+	desc = muscovy.48.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	#Charge In
+	option = {
+		name = muscovy.48.o1
+		
+		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = muscovy.49 days = 4 }
+			}
+		}
+		add_stability = -0.05
+		add_war_support = 0.05
+		
+		hidden_effect = {
+			remove_ideas = SOV_krasnovs_grip
+		}
+	}
+	
+	#Negotiate
+	option = {
+		name = muscovy.48.o2
+		
+		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = muscovy.57 days = 10 }
+			}
+		}
+		
+		add_war_support = -0.05
+		add_stability = 0.05
+	}
+}
+
+#Wrangel Takes Power In South West
+country_event = {
+	id = muscovy.49
+	title = muscovy.49.t
+	desc = muscovy.49.d
+	#picture = 
 
 	is_triggered_only = yes
 	
-	#Mrs Piggy
+	immediate = {
+		hidden_effect = {
+		
+			set_global_flag = SOV_muscovy_post_krasnov_tula_incident_warlord_era
+			KRK = {
+				
+				set_country_flag = wrangel_warlord_post_tula_incident
+				create_country_leader = {
+					name = "Pyotr Wrangel"
+					desc = "POLITICS_PYOTR_WRANGEL_DESC"
+					picture = "Portrait_KRK_Pyotr_Wrangel.dds"
+					expire = "1953.3.1"
+					ideology = despotism
+					
+				}
+				
+				transfer_state = 220
+				transfer_state = 224
+				transfer_state = 225
+				transfer_state = 240
+				
+				add_state_core = 220
+				add_state_core = 224
+				add_state_core = 225
+				add_state_core = 240
+				
+				
+			}
+		}
+	}
+
+	#TRAITOR
 	option = {
-		name = muscovy.10.o1
+		name = muscovy.49.o1
 		
-		create_country_leader = {
-			name = "Miss Piggy"
-			desc = "POLITICS_MISS_PIGGY_DESC"
-			picture = "Portrait_SOV_Miss_Piggy.dds"
-			expire = "1953.3.1"
-			ideology = sub_monarchism
-			traits = {
 		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = muscovy.50 days = 3 }
 			}
 		}
 		
 	}
 	
-	#AN Eggplant
+	#Wrangel Is The Way
 	option = {
-		name = muscovy.10.o2
+		name = muscovy.49.o2
 		
-		create_country_leader = {
-			name = "A Cucking Eggplant"
-			desc = "POLITICS_EGGPLANT_DESC"
-			picture = "Portrait_SOV_Cucking_Eggplant.dds"
-			expire = "1953.3.1"
-			ideology = sub_monarchism
-			traits = {
+		KRK = {
+			change_tag_from = SOV
+		}
 		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = muscovy.50 days = 3 }
+			}
+		}
+	}
+}
+
+#Viktor Pokrovsky Power In Roslavl
+country_event = {
+	id = muscovy.50
+	title = muscovy.50.t
+	desc = muscovy.50.d
+	#picture = 
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			RLV = {
+				
+				set_country_flag = pokrovsky_warlord_post_tula_incident
+				
+				create_country_leader = {
+					name = "Viktor Pokrovsky"
+					desc = "POLITICS_VIKTOR_POKROVSKY_DESC"
+					picture = "Portrait_RLV_Viktor_Pokrovsky.dds"
+					expire = "1953.3.1"
+					ideology = despotism
+					
+				}
+				
+				transfer_state = 243
+				
+				add_state_core = 243
+				
+				
+			}
+		}
+	}
+
+	#TRAITOR
+	option = {
+		name = muscovy.50.o1
+		
+		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = muscovy.51 days = 3 }
 			}
 		}
 		
 	}
 	
-	#Baron Trump
+	#Pokrovsky Is The Way
 	option = {
-		name = muscovy.10.o3
+		name = muscovy.50.o2
+		
+		RLV = {
+			change_tag_from = SOV
+		}
+		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = muscovy.51 days = 3 }
+			}
+		}
+	}
+}
+
+#Smotrov Milomir Georgiy takes over Tambov
+country_event = {
+	id = muscovy.51
+	title = muscovy.51.t
+	desc = muscovy.51.d
+	#picture = 
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			TAM = {
+				
+				set_country_flag = smotrov_warlord_post_tula_incident
+				
+				create_country_leader = {
+					name = "Georgiy M. Smotrov"
+					desc = "POLITICS_GEORGIY_M_SMOTROV_DESC"
+					picture = "Portrait_TAM_Smotrov_Milomir_Georgiy.dds"
+					expire = "1953.3.1"
+					ideology = despotism
+					
+				}
+				
+				transfer_state = 257
+				transfer_state = 258
+				transfer_state = 260
+				transfer_state = 255
+				
+				add_state_core = 257
+				add_state_core = 258
+				add_state_core = 260
+				add_state_core = 255
+				
+			}
+		}
+	}
+
+	#TRAITOR
+	option = {
+		name = muscovy.51.o1
+		
+		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = muscovy.52 days = 3 }
+			}
+		}
+		
+	}
+	
+	#Georgiy Is The Way
+	option = {
+		name = muscovy.51.o2
+		
+		TAM = {
+			change_tag_from = SOV
+		}
+		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = muscovy.52 days = 3 }
+			}
+		}
+	}
+}
+
+#Alexander Kutepov takes over Gorki
+country_event = {
+	id = muscovy.52
+	title = muscovy.52.t
+	desc = muscovy.52.d
+	#picture = 
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			GOR = {
+				
+				set_country_flag = kutepov_warlord_post_tula_incident
+				
+				
+				create_country_leader = {
+					name = "Alexander Kutepov"
+					desc = "POLITICS_SMOTROV_M_GEORGIY_DESC"
+					picture = "Portrait_GOR_Alexander_Kutepov.dds"
+					expire = "1953.3.1"
+					ideology = despotism
+					
+				}
+				
+				transfer_state = 252
+				transfer_state = 256
+				
+				add_state_core = 252
+				add_state_core = 256
+				
+			}
+		}
+	}
+
+	#TRAITOR
+	option = {
+		name = muscovy.52.o1
+		
+		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = muscovy.53 days = 3 }
+			}
+		}
+		
+	}
+	
+	#Kutepov Is The Way
+	option = {
+		name = muscovy.52.o2
+		
+		GOR = {
+			change_tag_from = SOV
+		}
+		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = muscovy.53 days = 3 }
+			}
+		}
+	}
+}
+
+#Nikolay Kuznetsov takes over Svecha
+country_event = {
+	id = muscovy.53
+	title = muscovy.53.t
+	desc = muscovy.53.d
+	#picture = 
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			SVE = {
+				
+				set_country_flag = kuznetsov_warlord_post_tula_incident
+				
+				create_country_leader = {
+					name = "Nikolay Kuznetsov"
+					desc = "POLITICS_NIKOLAY_KUZNETSOV_DESC"
+					picture = "Portrait_SVE_Nikolay_Kuznetsov.dds"
+					expire = "1953.3.1"
+					ideology = despotism
+					
+				}
+				
+				transfer_state = 779
+				transfer_state = 780
+				transfer_state = 400
+				
+				add_state_core = 779
+				add_state_core = 780
+				add_state_core = 400
+				
+			}
+		}
+	}
+
+	#TRAITOR
+	option = {
+		name = muscovy.53.o1
+		
+		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = muscovy.54 days = 3 }
+			}
+		}
+		
+	}
+	
+	#Kutepov Is The Way
+	option = {
+		name = muscovy.53.o2
+		
+		SVE = {
+			change_tag_from = SOV
+		}
+		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = muscovy.54 days = 3 }
+			}
+		}
+	}
+}
+
+#Taras Maslov Mobilizes In Tula
+country_event = {
+	id = muscovy.54
+	title = muscovy.54.t
+	desc = muscovy.54.d
+	#picture = 
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			TUL = {
+				
+				set_country_flag = maslov_warlord_post_tula_incident
+				
+				create_country_leader = {
+					name = "Taras Maslov"
+					desc = "POLITICS_TARAS_MASLOV_DESC"
+					picture = "Portrait_TUL_Taras_Maslov.dds"
+					expire = "1953.3.1"
+					ideology = despotism
+					
+				}
+				
+				transfer_state = 223
+				transfer_state = 205
+				transfer_state = 254
+				transfer_state = 222
+				
+				add_state_core = 223
+				add_state_core = 205
+				add_state_core = 254
+				add_state_core = 222
+				
+			}
+		}
+	}
+
+	#TRAITOR
+	option = {
+		name = muscovy.54.o1
+		
+		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = muscovy.55 days = 3 }
+			}
+		}
+		
+	}
+	
+	#Kutepov Is The Way
+	option = {
+		name = muscovy.54.o2
+		
+		TUL = {
+			change_tag_from = SOV
+		}
+		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = muscovy.55 days = 3 }
+			}
+		}
+	}
+}
+
+#Vladimir Sidorin takes control of Borisia
+country_event = {
+	id = muscovy.55
+	title = muscovy.55.t
+	desc = muscovy.55.d
+	#picture = 
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			BOR = {
+				
+				set_country_flag = sidorin_warlord_post_tula_incident
+				
+				create_country_leader = {
+					name = "Vladimir Sidorin"
+					desc = "POLITICS_VLADIMIR_SIDORIN_DESC"
+					picture = "Portrait_BOR_Vladimir_Sidorin.dds"
+					expire = "1953.3.1"
+					ideology = despotism
+					
+				}
+				
+				transfer_state = 248
+				transfer_state = 247
+				transfer_state = 778
+				
+				add_state_core = 248
+				add_state_core = 247
+				add_state_core = 778
+				
+			}
+		}
+	}
+
+	#TRAITOR
+	option = {
+		name = muscovy.55.o1
+		
+		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = muscovy.56 days = 3 }
+			}
+		}
+		
+	}
+	
+	#Kutepov Is The Way
+	option = {
+		name = muscovy.55.o2
+		
+		BOR = {
+			change_tag_from = SOV
+		}
+		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = muscovy.56 days = 3 }
+			}
+		}
+	}
+}
+
+#Coup In Moscow
+country_event = {
+	id = muscovy.56
+	title = muscovy.56.t
+	desc = muscovy.56.d  #Will include something talking about Krasnov getting away.
+	#picture = 
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			MOS = {
+				
+				set_country_flag = romanov_warlord_post_tula_incident
+				
+				create_country_leader = {
+					name = "Aleksander Romanov"
+					desc = "POLITICS_ALEKSANDER_ROMANOV_DESC"
+					picture = "Portrait_MOS_Aleksander_Romanov.dds"
+					expire = "1953.3.1"
+					ideology = despotism
+					
+				}
+				
+				transfer_state = 253
+				transfer_state = 219
+				
+				add_state_core = 253
+				add_state_core = 219
+				
+				change_tag_from = SOV
+				
+			}
+		}
+	}
+
+	#Bye Krasnov
+	option = {
+		name = muscovy.56.o1
+		
+		
+		
+		
+	}
+}
+
+#Tula Military Council Demands Some Power
+country_event = {
+	id = muscovy.57
+	title = muscovy.57.t
+	desc = muscovy.57.d  
+	#picture = 
+
+	is_triggered_only = yes
+	
+
+	#Power shall be split
+	option = {
+		name = muscovy.57.o1
+		
+		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = muscovy.58 days = 5 }
+			}
+		}
+		
+	}
+	
+	#Refuse
+	option = {
+		name = muscovy.57.o2
+		
+		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = muscovy.59 days = 25 }
+			}
+		}
+		
+	}
+}
+
+#Krasnov Joins Tula Military Council
+country_event = {
+	id = muscovy.58
+	title = muscovy.58.t
+	desc = muscovy.58.d  
+	#picture = 
+
+	is_triggered_only = yes
+	
+
+	#Wonderful
+	option = {
+		name = muscovy.58.o1
+		
+		
+		set_country_flag = deal_with_krasnov
+		
+	}
+}
+
+#Tula Military Council Coups Krasnov
+country_event = {
+	id = muscovy.59
+	title = muscovy.59.t
+	desc = muscovy.59.d  
+	#picture = 
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			remove_ideas = SOV_krasnov_secret_police_idea
+		}
+	}
+
+	#Wonderful
+	option = {
+		name = muscovy.59.o1
 		
 		create_country_leader = {
-			name = "Baron Trump"
-			desc = "POLITICS_BARON_TRUMP_DESC"
-			picture = "Portrait_SOV_Baron_Trump.dds"
+			name = "Tula Military Council"
+			desc = "POLITICS_TULA_MILITARY_COUNCIL_DESC"
+			picture = "Portrait_SOV_Tula_Military_Council.dds"
 			expire = "1953.3.1"
-			ideology = sub_monarchism
+			ideology = despotism
+					
+		}
+		remove_unit_leader 004
+		
+		set_party_name = { 
+			ideology = authoritarian 
+			long_name = SOV_tula_military_council_march_on_krasnovs_palace_long 
+			name = SOV_tula_military_council_march_on_krasnovs_palace
+		}
+		
+		set_country_flag = krasnov_deposed
+		
+		remove_ideas = SOV_krasnovs_grip
+		
+		set_capital = 223
+	}
+}
+
+#Statue Built For Grand Duke Ivan
+country_event = {
+	id = muscovy.60
+	title = muscovy.60.t
+	desc = muscovy.60.d  
+	#picture = 
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			set_country_flag = SOV_ivan_statue_built
+		}
+	}
+
+	#Wonderful
+	option = {
+		name = muscovy.60.o1
+		add_stability = 0.05
+		
+	}
+}
+
+#Statue Built For Krasnov
+country_event = {
+	id = muscovy.61
+	title = muscovy.61.t
+	desc = muscovy.61.d  
+	#picture = 
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			set_country_flag = SOV_krasnov_statue_built
+		}
+	}
+
+	#Wonderful
+	option = {
+		name = muscovy.61.o1
+		add_stability = -0.05
+		add_war_support = 0.05
+		
+	}
+}
+
+#Embassies Reopened
+country_event = {
+	id = muscovy.62
+	title = muscovy.62.t
+	desc = muscovy.62.d  
+	#picture = 
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			set_country_flag = SOV_embassies_reopened
+		}
+	}
+
+	#Wonderful
+	option = {
+		name = muscovy.62.o1
+		
+		add_war_support = 0.05
+		every_country = {
+			if = {
+				limit = {
+					NOT = {
+						has_government = communism
+					}
+				}   
+				add_opinion_modifier = {
+					target = SOV
+					modifier = SOV_reopened_embassy
+				}
+			}
+		}
+		
+		
+	}
+}
+
+#Muscovy Join Us? (Mongols)
+country_event = {
+	id = muscovy.63
+	title = muscovy.63.t
+	desc = muscovy.63.d  
+	#picture = 
+
+	is_triggered_only = yes
+
+	#Yes
+	option = {
+		name = muscovy.63.o1
+		
+		ai_chance = {
+			factor = 90
+			
+			modifier = {
+				factor = 0
+				has_government = communism
+			}
+		}
+		
+		add_to_faction = SOV
+		
+		SOV = {
+			country_event = { id = muscovy.64 days = 5 }
+		}
+		
+	}
+	
+	#No
+	option = {
+		name = muscovy.63.o2
+		
+		ai_chance = {
+			factor = 10
+			
+			modifier = {
+				factor = 100
+				has_government = communism
+			}
+		}
+		
+		
+		SOV = {
+			country_event = { id = muscovy.65 days = 5 }
+		}
+		
+		
+	}
+}
+
+#Mongols Accept
+country_event = {
+	id = muscovy.64
+	title = muscovy.64.t
+	desc = muscovy.64.d  
+	#picture = 
+
+	is_triggered_only = yes
+
+	#Yes
+	option = {
+		name = muscovy.64.o1
+		
+		hidden_effect = {
+			add_ideas = SOV_alliance_with_mongolia_idea
+			
+			MON = {
+				add_ideas = SOV_alliance_with_mongolia_idea
+			}
+		}
+		
+	}
+}
+
+#Mongols Deny
+country_event = {
+	id = muscovy.65
+	title = muscovy.65.t
+	desc = muscovy.65.d  
+	#picture = 
+
+	is_triggered_only = yes
+
+	#ERRRRR
+	option = {
+		name = muscovy.65.o1
+		set_rule = {
+			can_create_factions = yes
+		}
+	}
+}
+
+####Ado Route/Civil War BS
+
+#Unionists Join Government
+country_event = {
+	id = muscovy.66
+	title = muscovy.66.t
+	desc = muscovy.66.d  
+	#picture = 
+
+	is_triggered_only = yes
+
+	#A New Path
+	option = {
+		name = muscovy.66.o1
+		
+		set_politics = {
+			ruling_party = fascism
+			elections_allowed = no
+		}
+		
+		create_country_leader = {
+			name = "Pyotr Krasnov"
+			desc = "POLITICS_PYOTR_KRASNOV_DESC"
+			picture = "Portrait_SOV_Pyotr_Krasnov.dds"
+			expire = "1953.3.1"
+			ideology = fascism_ideology
 			traits = {
 		
 			}
 		}
+		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = muscovy.67 days = 35 }
+			}
+		}
+		
+	}
+}
+
+#A Rise Up
+country_event = {
+	id = muscovy.67
+	title = muscovy.67.t
+	desc = muscovy.67.d  
+	#picture = 
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			BOR = {
+				
+				set_global_flag = SOV_anti_unionist_civil_war_begin
+				
+				set_cosmetic_tag = BOR_uprising_against_unionists
+				
+				create_country_leader = {
+					name = "Vladimir May-Mayevsky"
+					desc = "POLITICS_VLADIMIR_MAY_MAYEVSKY_DESC"
+					picture = "Portrait_BOR_Vladimir_May_Mayevsky.dds"
+					expire = "1953.3.1"
+					ideology = engelism
+					
+				}
+				
+				create_corps_commander = {
+					name = "Kutlugh Karmov"
+					picture = "Portrait_BOR_Kutlugh_Karmov.dds"
+					id = 0016
+					traits = { }
+					skill = 6
+					attack_skill = 4
+					defense_skill = 5
+					planning_skill = 3
+					logistics_skill = 5
+				}
+				
+				create_corps_commander = {
+					name = "Vladimir May-Mayevsky"
+					picture = "Portrait_BOR_Vladimir_May_Mayevsky.dds"
+					id = 0017
+					traits = { }
+					skill = 4
+					attack_skill = 3
+					defense_skill = 2
+					planning_skill = 5
+					logistics_skill = 5
+				}
+				
+				create_corps_commander = {
+					name = "Lev D. Bronstein"
+					picture = "Portrait_BOR_Lev_D_Bronstein.dds"
+					id = 0018
+					traits = { }
+					skill = 4
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 4
+					logistics_skill = 6
+				}
+				
+				create_corps_commander = {
+					name = "Nikolay Krestinsky"
+					picture = "Portrait_BOR_Nikolay_Krestinsky.dds"
+					id = 0019
+					traits = { }
+					skill = 3
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 3
+					logistics_skill = 2
+				}
+				
+				create_corps_commander = {
+					name = "Grigori Sokolnikov"
+					picture = "Portrait_BOR_Grigori_Sokolnikov.dds"
+					id = 0020
+					traits = { }
+					skill = 2
+					attack_skill = 1
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 1
+				}
+				
+				set_politics = {
+					ruling_party = mod_ordaism
+					elections_allowed = no
+				}
+				
+				transfer_state = 243
+				transfer_state = 248
+				transfer_state = 247
+				transfer_state = 778
+				transfer_state = 779
+				transfer_state = 780
+				transfer_state = 400
+				
+				add_state_core = 243
+				add_state_core = 248
+				add_state_core = 247
+				add_state_core = 778
+				add_state_core = 779
+				add_state_core = 780
+				add_state_core = 400
+				add_state_core = 253
+				add_state_core = 252
+				add_state_core = 256
+				add_state_core = 255
+				add_state_core = 219
+				add_state_core = 254
+				add_state_core = 257
+				add_state_core = 258
+				add_state_core = 223
+				add_state_core = 205
+				add_state_core = 224
+				add_state_core = 222
+				add_state_core = 260
+				add_state_core = 220
+				add_state_core = 225
+				add_state_core = 240
+
+				
+				declare_war_on = {
+					target = SOV
+					type = annex_everything
+				}
+				
+				load_oob = "BOR_rebellion_against_krasnov_ado_deal"
+
+				
+				
+			}
+		}
+	}
+	
+	#FOR RUSSIA
+	option = {
+		name = muscovy.67.o1
+		
+		
+		
+		
+		
+	}
+	
+	#Down With The Unionists
+	option = {
+		name = muscovy.67.o2
+		
+		BOR = {
+			change_tag_from = SOV
+		}
+		
+	}
+}
+
+#Rebels Crushed (Anti-Ado Civil War)
+country_event = {
+	id = muscovy.68
+	title = muscovy.68.t
+	desc = muscovy.68.d  
+	#picture = 
+
+	trigger = {
+		tag = SOV
+		NOT = {
+			country_exists = BOR
+		}
+		has_global_flag = SOV_anti_unionist_civil_war_begin
+	}
+
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+
+	#Glorious
+	option = {
+		name = muscovy.68.o1
+		
+		clr_global_flag = SOV_anti_unionist_civil_war_begin
+		set_country_flag = SOV_anti_unionist_forces_crushed
+		
+		hidden_effect = {
+			BOR = {
+				drop_cosmetic_tag = yes
+			}
+		}
+		
+		BOR = {
+			remove_state_core = 243
+			remove_state_core = 248
+			remove_state_core = 247
+			remove_state_core = 778
+			remove_state_core = 779
+			remove_state_core = 780
+			remove_state_core = 400
+			remove_state_core = 253
+			remove_state_core = 252
+			remove_state_core = 256
+			remove_state_core = 255
+			remove_state_core = 219
+			remove_state_core = 254
+			remove_state_core = 257
+			remove_state_core = 258
+			remove_state_core = 223
+			remove_state_core = 205
+			remove_state_core = 224
+			remove_state_core = 222
+			remove_state_core = 260
+			remove_state_core = 220
+			remove_state_core = 225
+			remove_state_core = 240
+		}
+	}
+}
+
+#Unionists Crushed (Anti-Ado Civil War)
+country_event = {
+	id = muscovy.69
+	title = muscovy.69.t
+	desc = muscovy.69.d  
+	#picture = 
+
+	trigger = {
+		tag = BOR
+		NOT = {
+			country_exists = SOV
+		}
+		has_global_flag = SOV_anti_unionist_civil_war_begin
+	}
+
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+
+	#Glorious
+	option = {
+		name = muscovy.69.o1
+		
+		clr_global_flag = SOV_anti_unionist_civil_war_begin
+		set_country_flag = SOV_unionist_forces_crushed
+		
+		hidden_effect = {
+			BOR = {
+				drop_cosmetic_tag = yes
+			}
+		}
+		
+		SOV = {
+			remove_state_core = 243
+			remove_state_core = 248
+			remove_state_core = 247
+			remove_state_core = 778
+			remove_state_core = 779
+			remove_state_core = 780
+			remove_state_core = 400
+			remove_state_core = 253
+			remove_state_core = 252
+			remove_state_core = 256
+			remove_state_core = 255
+			remove_state_core = 219
+			remove_state_core = 254
+			remove_state_core = 257
+			remove_state_core = 258
+			remove_state_core = 223
+			remove_state_core = 205
+			remove_state_core = 224
+			remove_state_core = 222
+			remove_state_core = 260
+			remove_state_core = 220
+			remove_state_core = 225
+			remove_state_core = 240
+		}
+		
+		set_cosmetic_tag = BOR_provisional_gov
+	}
+}
+
+#Overthrown
+country_event = {
+	id = muscovy.70
+	title = muscovy.70.t
+	desc = muscovy.70.d  
+	#picture = 
+
+	is_triggered_only = yes
+	
+
+	#GOODBYE
+	option = {
+		name = muscovy.70.o1
+		
+		create_country_leader = {
+			name = "Fyokhlachev Panteley"
+			desc = "POLITICS_FYOKHLACHEV_PANTELEY_DESC"
+			picture = "Portrait_SOV_Fyokhlachev_Panteley.dds"
+			expire = "1953.3.1"
+			ideology = fascism_ideology
+			traits = {
+		
+			}
+		}
+		
+		remove_unit_leader = 004
 		
 	}
 }
