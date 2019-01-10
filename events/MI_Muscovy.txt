@@ -245,7 +245,7 @@ country_event = {
 	id = muscovy.9
 	title = muscovy.9.t
 	desc = muscovy.9.d
-	#picture = 
+	picture = GFX_report_event_generic_fleeing_1
 
 	is_triggered_only = yes
 
@@ -683,7 +683,7 @@ country_event = {
 	id = muscovy.40
 	title = muscovy.40.t
 	desc = muscovy.40.d
-	#picture = 
+	picture = GFX_report_event_generic_mass_arrest_1
 
 	is_triggered_only = yes
 
@@ -704,7 +704,7 @@ country_event = {
 	id = muscovy.41
 	title = muscovy.41.t
 	desc = muscovy.41.d
-	#picture = 
+	picture = GFX_report_event_generic_fleeing_1
 
 	is_triggered_only = yes
 
@@ -726,7 +726,7 @@ country_event = {
 	id = muscovy.42
 	title = muscovy.42.t
 	desc = muscovy.42.d
-	#picture = 
+	picture = GFX_report_event_generic_purge_1
 
 	is_triggered_only = yes
 
@@ -748,7 +748,7 @@ country_event = {
 	id = muscovy.43
 	title = muscovy.43.t
 	desc = muscovy.43.d
-	#picture = 
+	picture = GFX_report_event_SOV_st_basils
 
 	is_triggered_only = yes
 
@@ -766,7 +766,7 @@ country_event = {
 	id = muscovy.44
 	title = muscovy.44.t
 	desc = muscovy.44.d
-	#picture = 
+	picture = GFX_report_event_generic_radio_1
 
 	is_triggered_only = yes
 
@@ -785,7 +785,7 @@ country_event = {
 	id = muscovy.45
 	title = muscovy.45.t
 	desc = muscovy.45.d
-	#picture = 
+	picture = GFX_report_event_soviet_tank_parade
 
 	is_triggered_only = yes
 
@@ -811,7 +811,7 @@ country_event = {
 	id = muscovy.46
 	title = muscovy.46.t
 	desc = muscovy.46.d
-	#picture = 
+	picture = GFX_report_event_SOV_pyotr_wrangel
 
 	is_triggered_only = yes
 
@@ -835,7 +835,7 @@ country_event = {
 	id = muscovy.47
 	title = muscovy.47.t
 	desc = muscovy.47.d
-	#picture = 
+	picture = GFX_report_event_lithuania_army
 
 	is_triggered_only = yes
 
@@ -905,7 +905,7 @@ country_event = {
 	id = muscovy.49
 	title = muscovy.49.t
 	desc = muscovy.49.d
-	#picture = 
+	picture = GFX_report_event_SOV_pyotr_wrangel
 
 	is_triggered_only = yes
 	
@@ -974,7 +974,7 @@ country_event = {
 	id = muscovy.50
 	title = muscovy.50.t
 	desc = muscovy.50.d
-	#picture = 
+	picture = GFX_report_event_SOV_viktor_pokrovsky
 
 	is_triggered_only = yes
 	
@@ -1036,7 +1036,7 @@ country_event = {
 	id = muscovy.51
 	title = muscovy.51.t
 	desc = muscovy.51.d
-	#picture = 
+	picture = GFX_report_event_manchukuo_army
 
 	is_triggered_only = yes
 	
@@ -1103,7 +1103,7 @@ country_event = {
 	id = muscovy.52
 	title = muscovy.52.t
 	desc = muscovy.52.d
-	#picture = 
+	picture = GFX_report_event_generic_military_1
 
 	is_triggered_only = yes
 	
@@ -1167,7 +1167,7 @@ country_event = {
 	id = muscovy.53
 	title = muscovy.53.t
 	desc = muscovy.53.d
-	#picture = 
+	picture = GFX_report_event_generic_military_2
 
 	is_triggered_only = yes
 	
@@ -1232,7 +1232,7 @@ country_event = {
 	id = muscovy.54
 	title = muscovy.54.t
 	desc = muscovy.54.d
-	#picture = 
+	picture = GFX_report_event_generic_military_3
 
 	is_triggered_only = yes
 	
@@ -1299,7 +1299,7 @@ country_event = {
 	id = muscovy.55
 	title = muscovy.55.t
 	desc = muscovy.55.d
-	#picture = 
+	picture = GFX_report_event_generic_vladimir_sidorin
 
 	is_triggered_only = yes
 	
@@ -1364,7 +1364,7 @@ country_event = {
 	id = muscovy.56
 	title = muscovy.56.t
 	desc = muscovy.56.d  #Will include something talking about Krasnov getting away.
-	#picture = 
+	picture = GFX_report_event_generic_military_1
 
 	is_triggered_only = yes
 	
@@ -1447,7 +1447,7 @@ country_event = {
 	id = muscovy.58
 	title = muscovy.58.t
 	desc = muscovy.58.d  
-	#picture = 
+	picture = GFX_report_event_SOV_krasnov
 
 	is_triggered_only = yes
 	
@@ -1467,7 +1467,7 @@ country_event = {
 	id = muscovy.59
 	title = muscovy.59.t
 	desc = muscovy.59.d  
-	#picture = 
+	picture = GFX_report_event_generic_military_1
 
 	is_triggered_only = yes
 	

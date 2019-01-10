@@ -8,8 +8,9 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "EventWindow"
-		position = { x=-282 y=-310 }	
-		size = { width = 581 height =427 }
+		position = { x=-282 y=-310 }
+		#581 427
+		size = { width = 600 height = 427 }
 		moveable = yes
 		Orientation = CENTER		
 		
@@ -24,6 +25,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "top_Window"
 			position = { x=0 y=0 }	
+			#581 121
 			size = { width = 581 height =121 }
 			moveable = yes
 			Orientation = UPPER_LEFT
@@ -55,6 +57,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "midsection"
 			position = { x=0 y=121 }	
+			#580 100
 			size = { width = 580 height = 100 }
 			moveable = yes
 			clipping = no
@@ -80,12 +83,14 @@ guiTypes = {
 		containerWindowType = {
 			name = "bottom_Window"
 			position = { x=0 y=221 }	
-			size = { width = 581 height = 206 }
+			#581 206
+			size = { width = 581 height = 195 }
 			moveable = yes
 			Orientation = UPPER_LEFT
 			
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
+
 
 			background = {
 				name = "Background"	
@@ -111,7 +116,7 @@ guiTypes = {
 
 			gridBoxType = {
 				name = "options_grid"
-				position = { x = 195 y = 15 }
+				position = { x = 205 y = 15 }
 				size = { width = 300 height = 150% }
 				slotsize = { width = 300 height = 45 }
 				max_slots_horizontal = 1

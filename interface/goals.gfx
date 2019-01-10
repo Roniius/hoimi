@@ -1469,5 +1469,35 @@ spriteTypes = {
 		name = "GFX_focus_SOV_unity_conference"
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_unity_conference.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_no_conference"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_no_conference.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_unity_is_key"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_unity_is_key.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_russia_on_the_world_stage"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_russia_on_the_world_stage.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_expand_russia"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_expand_russia.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_a_diplomatic_russia"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_a_diplomatic_russia.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_muscovy_forever"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_muscovy_forever.dds"
+	}
 
 }

@@ -316,7 +316,8 @@
  muscovy.69.o1:0 "VICTORY"
  
  muscovy.70.t:0 "An Overthrown Maniac"
- muscovy.70.d:0 ""
+ muscovy.70.d:0 "The man who plunged Muscovy to crap has now been overthrown, Pyotr Krasnov has been arrested and executed. The Russian Unitary Army, the Russian Unionist Party paramilitary marched on the Presidential palace today with the assistance of the military. Now that Muscovite nationalist, Krasnov will not hold us back from uniting the Russian people and ridding it of the Mongulian menace. All Hail Fyokhlachev Panteley, leader of Muscovy, and eventual leader of Russia, he shall bring a great world under his command."
+ muscovy.70.o1:0 "All Hail Panteley"
  
  #Traits
  grand_duke_of_muscovy:0 "Grand Prince of Muscovy"

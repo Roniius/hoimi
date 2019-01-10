@@ -1934,6 +1934,78 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_report_event_generic_fleeing_1"
+		texturefile = "gfx/event_pictures/generic/report_event_generic_fleeing_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_generic_mass_arrest_1"
+		texturefile = "gfx/event_pictures/generic/report_event_generic_mass_arrest_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_generic_burning_1"
+		texturefile = "gfx/event_pictures/generic/report_event_generic_burning_1.dds"
+	}
+	
+	#report_event_generic_military_1
+	
+	spriteType = {
+		name = "GFX_report_event_generic_military_1"
+		texturefile = "gfx/event_pictures/generic/report_event_generic_military_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_generic_military_2"
+		texturefile = "gfx/event_pictures/generic/report_event_generic_military_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_generic_military_3"
+		texturefile = "gfx/event_pictures/generic/report_event_generic_military_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_generic_purge_1"
+		texturefile = "gfx/event_pictures/generic/report_event_generic_purge_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_generic_radio_1"
+		texturefile = "gfx/event_pictures/generic/report_event_generic_radio_1.dds"
+	}
+	
+	#report_event_SOV_st_basils
+	spriteType = {
+		name = "GFX_report_event_SOV_st_basils"
+		texturefile = "gfx/event_pictures/SOV/report_event_SOV_st_basils.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_SOV_pyotr_wrangel"
+		texturefile = "gfx/event_pictures/SOV/report_event_SOV_pyotr_wrangel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_generic_vladimir_sidorin"
+		texturefile = "gfx/event_pictures/SOV/report_event_generic_vladimir_sidorin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_SOV_krasnov"
+		texturefile = "gfx/event_pictures/SOV/report_event_SOV_krasnov.dds"
+	}
+	
+	
+	
+	spriteType = {
+		name = "GFX_report_event_SOV_viktor_pokrovsky"
+		texturefile = "gfx/event_pictures/SOV/report_event_SOV_viktor_pokrovsky.dds"
+	}
+	
+	#report_event_SOV_viktor_pokrovsky
+	
+	spriteType = {
 		name = "GFX_news_event_global_chess_tournament"
 		texturefile = "gfx/event_pictures/Global_sports/news_event_global_chess_tournament.dds"
 	}

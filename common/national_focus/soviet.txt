@@ -567,7 +567,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_unity_is_key
-		#icon = 
+		icon = GFX_focus_SOV_unity_is_key
 		prerequisite = { focus = SOV_offer_a_unity_conference }
 		available = {
 			has_country_flag = SOV_conference_accepted
@@ -588,7 +588,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_no_conference
-		#icon = 
+		icon = GFX_focus_SOV_no_conference
 		prerequisite = { focus = SOV_offer_a_unity_conference }
 		available = {
 			has_country_flag = SOV_conference_refused
@@ -609,7 +609,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_russia_on_the_world_stage
-		#icon = 
+		icon = GFX_focus_SOV_russia_on_the_world_stage
 		prerequisite = { focus = SOV_forced_integration focus = SOV_unity_is_key focus = SOV_no_conference }
 		available = {
 			SOV = {
@@ -727,7 +727,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_a_diplomatic_russia
-		#icon = 
+		icon = GFX_focus_SOV_a_diplomatic_russia
 		prerequisite = { focus = SOV_russia_on_the_world_stage }
 		mutually_exclusive = { focus = SOV_expand_russia }
 		x = -4
@@ -884,7 +884,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_expand_russia
-		#icon = 
+		icon = GFX_focus_SOV_expand_russia
 		prerequisite = { focus = SOV_russia_on_the_world_stage }
 		mutually_exclusive = { focus = SOV_a_diplomatic_russia }
 		x = 3
@@ -1112,7 +1112,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_muscovy_forever
-		#icon = 
+		icon = GFX_focus_SOV_muscovy_forever
 		available = {
 			OR = {
 				has_completed_focus = SOV_enact_aladins_reforms
