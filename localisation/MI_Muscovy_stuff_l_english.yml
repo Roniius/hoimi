@@ -319,6 +319,28 @@
  muscovy.70.d:0 "The man who plunged Muscovy to crap has now been overthrown, Pyotr Krasnov has been arrested and executed. The Russian Unitary Army, the Russian Unionist Party paramilitary marched on the Presidential palace today with the assistance of the military. Now that Muscovite nationalist, Krasnov will not hold us back from uniting the Russian people and ridding it of the Mongulian menace. All Hail Fyokhlachev Panteley, leader of Muscovy, and eventual leader of Russia, he shall bring a great world under his command."
  muscovy.70.o1:0 "All Hail Panteley"
  
+ muscovy.71.t:0 "The Mokosh Proclamation"
+ muscovy.71.d:0 "During a massive political rally hosted outside of the Kremlin, Konsul Fyokhlachev Panteley brazenly announced in a grand speech his plans for Muscovy’s future, plans that has struck fear into the state’s neighbors.\n\nStating that, much like how a herd of horses will naturally find new fields to graze upon as it grows, Muscovy will seek new lands so that it may continue to develop. If that wasn’t worrying enough for the outside world, Panteley continued, saying that like how herds would subjugate and assimilate smaller herds, Muscovy will do the same and assimilate the weaker nations around it and become a new nation as a result, a nation encompassing all Russians, with Muscovy as its center and Panteley as the architect. He then ended his speech with 'Soon brothers, the land of Mother Mokosh will become one and the dream of Ivan IV will be achieved!'"
+ muscovy.71.o1:0 "Dlya Rodiny!"
+ 
+ muscovy.72.t:0 "Muscovy Starts Secularizing Government"
+ muscovy.72.d:0 "Today, Panteley enacted the first of a series of laws that will enable the National Khuchadalist government to persecute clerics. Addressing this law, Panteley justified them by saying,'While we respect traditions of our ancestors and the right of people to worship, religion has no right to be within the government, for the government is the government of all Russians, not only of one religion. This law will let us clear our government of old religious dogma and finally unite our country!'"
+ muscovy.72.o1:0 "A state for all Russians!"
+ 
+ muscovy.73.t:0 "DNS Formed"
+ muscovy.73.d:0 "Believing that the nation’s integrity and stability was still at risk, Fyokhlachev Panteley has authorized the creation of the Department of National Security, or DNS for short, in order to protect Muscovy from internal dissents and to purge it from any 'enemies of the state' that reside in her borders.\n\nCompromising of some of Panteley’s most loyal supporters, the DNS has been intentionally organized in a way where its loyalty to the party, and by extension Panteley, is ensured and will carry out our leader’s orders without question. Already they have begun to remove any individual suspected of treason against Muscovy, raiding their houses in the night and taking them away to be punished. Of course such incidents are reported as merely unexplained disappearances to the public, since it’s doubtful the common man would understand the importance of the DNS and their mission."
+ muscovy.73.o1:0 "A necessity in these chaotic times"
+ 
+ muscovy.74.t:0 ""
+ 
+ muscovy.75.t:0 "Democracy After Purification"
+ muscovy.75.d:0 "Panteley's latest policy aimed at the long term organisation of Russia is one he calls 'Democracy After Purification'. The official documents about the policy say that democracy by itself is a noble and just system, but is easily tainted by the unpure. Now that the unpure are being cleaned out wherever they are found, then there is no reason to not allow our people to forge their own destiny after the unification of Russia is completed, without deception from those who want to destroy us. The establishment of a true democracy in Russia will signal to the world that Russia has been reborn again."
+ muscovy.75.o1:0 "Oh Lord"
+ 
+ muscovy.76.t:0 "The Commune"
+ muscovy.76.d:0 "Today, Fyokhlachev Pantley has declared the end of the 'corrupt' State of Moscovy and proclaimed the birth of the Commune of Moscovy, stating that the Commune of Moscovy will protect the Slavic race from the forces of international 'cosmopolitan' oligarchy and will expand to unify all Slavs in Eurasia.  The proclamation of the Commune of Moscovy has already drawn condemnation from many Ordaist groups and nations worldwide, said groups accusing Panteley of co opting the language of socialism in service to reaction.  In response, Panteley and his supporters claim that it is the Ordaists that are the true puppets cosmopolitan oiligarchy, and that through “nation” and 'corporatism', the Commune of Moscovy will free all Slavic peoples from their parasitic enemies."
+ muscovy.76.o1:0 "A New Dawn"
+ 
  #Traits
  grand_duke_of_muscovy:0 "Grand Prince of Muscovy"
  povelitel_of_muscovy:0 "Povelitel of Muscovy"
@@ -429,6 +451,15 @@
  
  SOV_new_construction_methods_idea:0 "New Construction Methods"
  SOV_new_construction_methods_idea_desc:0 "We have learned and shall continue learning new methods of construction."
+ 
+ SOV_idea_panteleys_secret_police:0 "DNS"
+ SOV_idea_panteleys_secret_police_desc:0 "The Department of National Security, sometimes referred to as Panteley’s Secret Police is a secret police force put in place by Panteley and works under his command."
+ 
+ SOV_idea_panteleys_racial_laws:0 "The Ryazan Accords"
+ SOV_idea_panteleys_racial_laws_desc:0 "The Ryazan Accords are a set of racial laws in our glorious nation which take away rights from Mongulians, Jews, and Turks."
+ 
+ SOV_idea_corporations_deal:0 "Corporations Deal"
+ SOV_idea_corporations_deal_desc:0 "A deal with corporations to help with keeping the people supplied in return massive tax breaks and some small subsidies."
  
  
  
@@ -1066,6 +1097,28 @@
  SOV_russian_commune_mod_ordaism_ADJ:0 "Russian"
  SOV_russian_commune_fascism_ADJ:0 "Russian"
  SOV_russian_commune_communism_ADJ:0 "Russian"
+ 
+ SOV_muscovite_commune_fascism:0 "Commune of Muscovy"
+ SOV_muscovite_commune_fascism_DEF:0 "The Commune of Muscovy"
+ SOV_muscovite_commune_communism:0 "Commune of Muscovy"
+ SOV_muscovite_commune_communism_DEF:0 "The Commune of Muscovy"
+ SOV_muscovite_commune_authoritarian:0 "Commune of Muscovy"
+ SOV_muscovite_commune_authoritarian_DEF:0 "The Commune of Muscovy"
+ SOV_muscovite_commune_monarchism:0 "Commune of Muscovy"
+ SOV_muscovite_commune_monarchism_DEF:0 "The Commune of Muscovy"
+ SOV_muscovite_commune_liberalism:0 "Commune of Muscovy"
+ SOV_muscovite_commune_liberalism_DEF:0 "The Commune of Muscovy"
+ SOV_muscovite_commune_conservatism:0 "Commune of Muscovy"
+ SOV_muscovite_commune_conservatism_DEF:0 "The Commune of Muscovy"
+ SOV_muscovite_commune_mod_ordaism:0 "Commune of Muscovy"
+ SOV_muscovite_commune_mod_ordaism_DEF:0 "The Commune of Muscovy"
+ SOV_muscovite_commune_authoritarian_ADJ:0 "Muscovite"
+ SOV_muscovite_commune_monarchism_ADJ:0 "Muscovite"
+ SOV_muscovite_commune_liberalism_ADJ:0 "Muscovite"
+ SOV_muscovite_commune_conservatism_ADJ:0 "Muscovite"
+ SOV_muscovite_commune_mod_ordaism_ADJ:0 "Muscovite"
+ SOV_muscovite_commune_fascism_ADJ:0 "Muscovite"
+ SOV_muscovite_commune_communism_ADJ:0 "Muscovite"
  
  SOV_krasnovs_muscovy_1_fascism:0 "State of Muscovy"
  SOV_krasnovs_muscovy_1_fascism_DEF:0 "The State of Muscovy"

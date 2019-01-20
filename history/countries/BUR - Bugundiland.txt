@@ -59,6 +59,50 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Theodoor Roosevelt"
+	desc = "POLITICS_THEODOOR_ROOSEVELT_DESC"
+	picture = "Portrait_BUR_Theodoor_Roosevelt.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Robert-Jan Keitel"
+	desc = "POLITICS_ROBERT_JAN_KEITEL_DESC"
+	picture = "Portrait_BUR_Robert_Jan_Keitel.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Laurens J. Timmerman"
+	desc = "POLITICS_LAURENS_J_TIMMERMAN_DESC"
+	picture = "Portrait_BUR_Laurens_J_Timmerman.dds"
+	expire = "1965.1.1"
+	ideology = sub_conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Quintijn Nys"
+	desc = "POLITICS_QUINTIJN_NYS_DESC"
+	picture = "Portrait_BUR_Quintijn_Nys.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Prince Diederick, Duke of Holland"
 	desc = "POLITICS_PRINCE_DIEDERICK_DESC"
 	picture = "Portrait_BUR_Prince_Diederick.dds"

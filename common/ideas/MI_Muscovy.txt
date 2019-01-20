@@ -346,6 +346,71 @@ ideas = {
 			}
 		}
 		
+		SOV_idea_panteleys_secret_police = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				political_power_factor = -0.05
+				war_support_factor = 0.05
+				resistance_tick_auto = -1
+				foreign_subversive_activites = -0.05
+				enemy_partisan_effect = -0.20
+				fascism_drift = 0.10
+			}
+		}
+		
+		SOV_idea_panteleys_racial_laws = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				political_power_factor = 0.05
+				liberalism_drift = -0.10
+				conservatism_drift = -0.10
+				authoritarian_drift = -0.10
+				monarchism_drift = -0.10
+				communism_drift = -0.10
+				mod_ordaism_drift = -0.10
+				consumer_goods_factor = -0.15
+			}
+		}
+		
+		SOV_idea_corporations_deal = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				political_power_factor = -0.05
+				stability_factor = -0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		
 	}
 	
 	hidden_ideas = {

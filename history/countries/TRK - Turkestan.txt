@@ -1,4 +1,4 @@
-﻿capital = 586
+﻿capital = 584
 
 oob = "generic"
 
@@ -45,7 +45,7 @@ create_country_leader = {
 	desc = "POLITICS_MUSTAFA_SHOKAY_DESC"
 	picture = "Portrait_TRK_Mustafa_Shokay.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = ado_sub
 	traits = {
 		#
 	}

@@ -1,5 +1,15 @@
 
 SOV_united_russia_1 = {
-    color = rgb { 48 143 36 }
-    color_ui = rgb { 48 143 36 }
+    color = rgb { 14 139 62 }
+    color_ui = rgb { 14 139 62 }
+}
+
+BOR_uprising_against_unionists = {
+    color = rgb { 206 15 44 }
+    color_ui = rgb { 206 15 44 }
+}
+
+BOR_provisional_gov = {
+    color = rgb { 206 15 44 }
+    color_ui = rgb { 206 15 44 }
 }

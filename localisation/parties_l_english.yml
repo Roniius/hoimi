@@ -1,15 +1,15 @@
 ﻿l_english:
  communism:0 "Ordaism"
- communism_noun:0 "Ordaism"
+ communism_noun:0 "Ordaist"
  democratic:0 "Democratic"
  democratic_noun:0 "Democracy"
- fascism:0 "Ado"
- fascism_noun:0 "Ado"
+ fascism:0 "National Khuchadalism"
+ fascism_noun:0 "National Khuchadalist"
  fascism_desc:0 "Totalitarian Regime"
  communism_desc:0 "Totalitarian Regime"
  democratic_desc:0 "Democratic Regime"
  authoritarian_desc:0 "Totalitarian Regime"
- authoritarian:0 "Authoritarian"
+ authoritarian:0 "Khuchadalism"
  conservatism:0 "Conservatism"
  conservatism_desc:0 "Conservative Regime"
  mod_ordaism:0 "Moderate Ordaism"
@@ -40,6 +40,8 @@
  neutrality_desc:0 "Authoritarian Regime"
  despotism:0 "Despotic"
  despotism_desc:0 "Despotism is a form of government in which a single person rules with absolute power."
+ ado_sub:0 "Ado"
+ ado_sub_desc:0 "Ado is a National Khuchadalist ideology developed in Central Asia derived from comparing the importance of a Horse to the importance of the nation."
  oligarchism:0 "Oligarchic"
  oligarchism_desc:0 "Oligarchy is a form of government in which a group of people rule with absolute power."
  moderatism:1 "Moderatism"
@@ -118,7 +120,7 @@
  DNG_monarchism_party_long:0 "The Royal House of Deng"
  
  #New State of China
- NSC_authoritarian_party:0 "CoT"
+ NSC_authoritarian_party:0 "Council of Ten"
  NSC_authoritarian_party_long:0 "The Council of Ten of The New State of China"
  
  #Federation of Chinese States
@@ -142,9 +144,10 @@
  BEL_monarchism_party_long:0 "House of Hohenstaufen"
  
  #Cantonese Republic
- GXC_liberalism_party:0 "BFM"
- GXC_liberalism_party_long:0 "The Black Flag Movement"
- 
+ GXC_mod_ordaism_party:0 "BFM"
+ GXC_mod_ordaism_party_long:0 "The Black Flag Movement"
+ GXC_liberalism_party:0 "Rebirth Society"
+ GXC_liberalism_party_long:0 "Society for the Cleansing and Rebirth of China"
 
  #Alibamou
  ALA_liberalism_party:0 ""

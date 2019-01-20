@@ -1142,7 +1142,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_oppose_russian_nationalism
-		#icon = 
+		icon = GFX_focus_SOV_oppose_russian_nationalism
 		prerequisite = { focus = SOV_muscovy_forever }
 		x = 0
 		y = 1
@@ -1162,7 +1162,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_promote_a_muscovite_culture
-		#icon = 
+		icon = GFX_focus_SOV_promote_muscovite_culture
 		prerequisite = { focus = SOV_oppose_russian_nationalism }
 		x = 0
 		y = 2
@@ -1219,7 +1219,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_invite_minsk
-		#icon = 
+		icon = GFX_focus_generic_minsk
 		prerequisite = { focus = SOV_an_ally_in_a_old_enemy }
 		available = {
 			BLR = {
@@ -1251,7 +1251,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_invite_the_cossacks
-		#icon = 
+		icon = GFX_focus_generic_cossacks
 		prerequisite = { focus = SOV_an_ally_in_a_old_enemy }
 		available = {
 			UKR = {
@@ -1321,7 +1321,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_peaceful_rivals
-		#icon = 
+		icon = GFX_focus_SOV_peaceful_rivals
 		prerequisite = { focus = SOV_eternal_rivals }
 		mutually_exclusive = { focus = SOV_it_must_end }
 		bypass = {
@@ -1353,7 +1353,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_it_must_end
-		#icon = 
+		icon = GFX_focus_SOV_it_must_end
 		prerequisite = { focus = SOV_eternal_rivals }
 		mutually_exclusive = { focus = SOV_peaceful_rivals }
 		bypass = {
@@ -1385,7 +1385,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_muscovy_in_isolation
-		#icon = 
+		icon = GFX_focus_SOV_muscovy_in_isolation
 		prerequisite = { focus = SOV_it_must_end focus = SOV_peaceful_rivals }
 		mutually_exclusive = { focus = SOV_find_an_ally }
 		x = 2

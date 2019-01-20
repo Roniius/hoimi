@@ -2039,3 +2039,137 @@ country_event = {
 		
 	}
 }
+
+#Plans of Unity
+country_event = {
+	id = muscovy.71
+	title = muscovy.71.t
+	desc = muscovy.71.d  
+	#picture = 
+
+	is_triggered_only = yes
+	
+
+	#UNITED RUSSIA
+	option = {
+		name = muscovy.71.o1
+		
+		add_stability = 0.05
+		add_war_support = 0.10
+		
+	}
+}
+
+#Anti-Clerical Laws
+country_event = {
+	id = muscovy.72
+	title = muscovy.72.t
+	desc = muscovy.72.d  
+	#picture = 
+
+	is_triggered_only = yes
+	
+
+	#God Holds No Influence
+	option = {
+		name = muscovy.72.o1
+		
+		add_political_power = 100
+		
+		
+	}
+}
+
+#Panteley's Secret Police
+country_event = {
+	id = muscovy.73
+	title = muscovy.73.t
+	desc = muscovy.73.d  
+	#picture = 
+
+	is_triggered_only = yes
+	
+
+	#Hail Panteley
+	option = {
+		name = muscovy.72.o1
+		
+		add_war_support = 0.10
+		add_ideas = SOV_idea_panteleys_secret_police
+		
+		
+	}
+}
+
+#Racial Laws
+country_event = {
+	id = muscovy.74
+	title = muscovy.74.t
+	desc = muscovy.74.d  
+	#picture = 
+
+	is_triggered_only = yes
+	
+
+	#Hail Panteley
+	option = {
+		name = muscovy.74.o1
+		
+		add_stability = 0.05
+		add_political_power -150
+		add_ideas = SOV_idea_panteleys_racial_laws
+		
+		
+	}
+}
+
+#Democracy After Purity
+country_event = {
+	id = muscovy.75
+	title = muscovy.75.t
+	desc = muscovy.75.d  
+	#picture = 
+
+	is_triggered_only = yes
+	
+
+	#Hail Panteley
+	option = {
+		name = muscovy.75.o1
+		
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.15
+		}
+		set_country_flag = SOV_panteley_democracy_after_purity
+		
+		
+	}
+}
+
+#The Commune
+country_event = {
+	id = muscovy.76
+	title = muscovy.76.t
+	desc = muscovy.76.d  
+	#picture = 
+
+	is_triggered_only = yes
+	
+
+	#Hail Panteley
+	option = {
+		name = muscovy.76.o1
+		
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.10
+		}
+		add_stability = 0.05
+		set_country_flag = SOV_panteley_forms_commune
+		drop_cosmetic_tag = yes
+		set_cosmetic_tag = SOV_muscovite_commune
+		
+		
+	}
+}

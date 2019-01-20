@@ -1499,5 +1499,40 @@ spriteTypes = {
 		name = "GFX_focus_SOV_muscovy_forever"
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_muscovy_forever.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_promote_muscovite_culture"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_promote_muscovite_culture.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_oppose_russian_nationalism"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_oppose_russian_nationalism.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_generic_cossacks"
+		texturefile = "gfx/interface/goals/focus_generic_cossacks.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_generic_minsk"
+		texturefile = "gfx/interface/goals/focus_generic_minsk.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_it_must_end"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_it_must_end.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_muscovy_in_isolation"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_muscovy_in_isolation.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_peaceful_rivals"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_peaceful_rivals.dds"
+	}
 
 }
