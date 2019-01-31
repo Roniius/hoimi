@@ -103,6 +103,17 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Arnold Vugteveen"
+	desc = "POLITICS_ARNOLD_VUGTEVEEN_DESC"
+	picture = "Portrait_BUR_Arnold_Vugteveen.dds"
+	expire = "1965.1.1"
+	ideology = engelism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Prince Diederick, Duke of Holland"
 	desc = "POLITICS_PRINCE_DIEDERICK_DESC"
 	picture = "Portrait_BUR_Prince_Diederick.dds"

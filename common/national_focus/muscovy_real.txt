@@ -1577,7 +1577,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_ideas = SOV_idea_russian_militarism
 		}
 	
 	}
@@ -1637,6 +1637,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			army_experience = 50
 			
 		}
 	
@@ -1655,7 +1656,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			load_oob = "SOV_rua_template"
 		}
 	
 	}
@@ -1673,7 +1674,12 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = SOV_fudning_armor_research_fash
+				bonus = 0.50
+				uses = 2
+				category = armor
+			}
 		}
 	
 	}
@@ -1691,7 +1697,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_ideas = SOV_idea_national_workers_protections
 		}
 	
 	}
@@ -1709,7 +1715,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			SOV = {
+				country_event = { id = muscovy.77 days = 8 }
+			}
 		}
 	
 	}

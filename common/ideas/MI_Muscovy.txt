@@ -411,6 +411,44 @@ ideas = {
 			}
 		}
 		
+		SOV_idea_russian_militarism = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				war_support_factor = 0.05
+				fascism_drift = 0.05
+				conscription_factor = 0.5
+			}
+		}
+		
+		SOV_idea_national_workers_protections = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				production_speed_buildings_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+		
 	}
 	
 	hidden_ideas = {

@@ -222,3 +222,23 @@ country_event = {
 		}
 	}
 }
+
+#1936/04/28
+country_event = {
+	id = exact_date_trigger.120
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1936.4.27
+	}
+	
+	option = {
+		if = {
+			limit = { 
+				country_exists = YUN
+			}
+			YUN = { country_event = yunnan.1 }
+		}
+	}
+}

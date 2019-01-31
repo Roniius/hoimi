@@ -52,3 +52,70 @@ create_country_leader = {
 		#
 	}
 }
+
+create_country_leader = {
+	name = "Norberto Pinero"
+	desc = "POLITICS_NORBERTO_PINERO_DESC"
+	picture = "Portrait_AST_Norberto_Pinero.dds"
+	expire = "1965.1.1"
+	ideology = engelism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Juan Lund"
+	desc = "POLITICS_JUAN_LUND_DESC"
+	picture = "Portrait_AST_Juan_Lund.dds"
+	expire = "1965.1.1"
+	ideology = smithism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Niklas Pinto"
+	desc = "POLITICS_NIKLAS_PINTO_DESC"
+	picture = "Portrait_AST_Niklas_Pinto.dds"
+	expire = "1965.1.1"
+	ideology = sub_conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Efraim Valerio"
+	desc = "POLITICS_EFRAIM_VALERIO_DESC"
+	picture = "Portrait_AST_Efraim_Valerio.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Herse Geijer"
+	desc = "POLITICS_HERSE_GEIJER_DESC"
+	picture = "Portrait_AST_Herse_Geijer.dds"
+	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gustavo Akerström"
+	desc = "POLITICS_GUSTAVO_AKERSTROM_DESC"
+	picture = "Portrait_AST_Gustavo_Akerstrom.dds"
+	expire = "1965.1.1"
+	ideology = falangism
+	traits = {
+		#
+	}
+}
+

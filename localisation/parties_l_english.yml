@@ -12,8 +12,8 @@
  authoritarian:0 "Khuchadalism"
  conservatism:0 "Conservatism"
  conservatism_desc:0 "Conservative Regime"
- mod_ordaism:0 "Moderate Ordaism"
- mod_ordaism_desc:0 "Moderate Ordaist Regime"
+ mod_ordaism:0 "Engelism"
+ mod_ordaism_desc:0 "Engelist Regime"
  liberalism:0 "Liberalism"
  liberalism_desc:0 "Liberal Regime"
  socialism:0 "Socialism"
@@ -78,12 +78,14 @@
  #Francia
  FRA_monarchism_party:0 "Reinhart"
  FRA_monarchism_party_long:0 "House of Reinhart"
- FRA_communism_party:0 "PPoF"
+ FRA_communism_party:0 "Peasents Party"
  FRA_communism_party_long:0 "Peasent's Party of Francia"
- FRA_mod_ordaism_party:0 "FFoL"
+ FRA_mod_ordaism_party:0 "Liberation Front"
  FRA_mod_ordaism_party_long:0 "Frankish Front of Liberation"
- FRA_fascism_party:0 "FNR"
+ FRA_fascism_party:0 "National Resistance"
  FRA_fascism_party_long:0 "Frankish National Resistance"
+ FRA_authoritarian_party:0 "Resilience Party"
+ FRA_authoritarian_party_long:0 "Frankish Strength and Resilience Party "
  
  #Japan
  JAP_monarchism_party:0 "Yamato"
@@ -257,14 +259,6 @@
  CAN_communism_party_long:0 "Communist Party of Canada"
  CAN_neutrality_party:0 "CCF"
  CAN_neutrality_party_long:0 "Co-operative Commonwealth Federation"
- AST_neutrality_party:0 "ACP"
- AST_neutrality_party_long:0 "Australian Country Party"
- AST_democratic_party:0 "Labor"
- AST_democratic_party_long:0 "Australian Labor Party"
- AST_fascism_party:0 "Centre Party"
- AST_fascism_party_long:0 "Centre Party"
- AST_communism_party:0 "CPA"
- AST_communism_party_long:0 "Communist Party of Australia"
  MEX_democratic_party:0 "PAN"
  MEX_democratic_party_long:0 "Partido Acción Nacional"
  MEX_fascism_party:0 "UNS"
@@ -491,7 +485,6 @@
  SIK_communism_party:0 "CPSU"
  SIK_communism_party_long:0 "Communist Party of the Soviet Union"
  TIB_neutrality_party:0 "Retting Rinpoche"
- YUN_neutrality_party:0 "Kuomintang"
  TAN_communism_party:0 "CPSU"
  TAN_communism_party_long:0 "Communist Party of the Soviet Union"
  PAR_communism_party:0 "PRF"
@@ -562,10 +555,7 @@
  MNT_democratic_party:0 "Democracy League"
  MNT_communism_party:0 "Communist Party of Montenegro" #or KPCG
  MNT_neutrality_party:0 "Federalist Party" # Montenegrin ultra nationalists, start democtratic right wing but went full fascist collaboration in 41'
- UKR_fascism_party:0 "OUN"
- UKR_democratic_party:0 "Ukrainian National Democratic Alliance" # or UNDO
- UKR_communism_party:0 "Communist Party of Ukraine"
- UKR_neutrality_party:0 "Ukrainian Progress Party"
+ 
  GEO_fascism_party:0 "Tbilisi Council"
  GEO_democratic_party:0 "Social Democratic Party of Georgia"
  GEO_communism_party:0 "Communist Party of Georgia"
@@ -592,6 +582,4 @@
  GXC_neutrality_party:0 "New Guangxi Clique"
  GXC_communism_party:0 "CPC"
  GXC_communism_party_long:0 "Communist Party of China"
- YUN_communism_party:0 "CPC"
- YUN_communism_party_long:0 "Communist Party of China"
 

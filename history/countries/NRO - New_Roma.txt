@@ -50,6 +50,39 @@ set_politics = {
 }
 
 create_country_leader = {
+	name = "Luigi Antonini"
+	desc = "POLITICS_LUIGI_ANTONINI_DESC"
+	picture = "Portrait_NRO_Luigi_Antonini.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Bortolo Halevi"
+	desc = "POLITICS_BORTOLO_HALEVI_DESC"
+	picture = "Portrait_NRO_Bortolo_Halevi.dds"
+	expire = "1965.1.1"
+	ideology = engelism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Joseph Caputo"
+	desc = "POLITICS_JOSEPH_CAPUTO_DESC"
+	picture = "Portrait_NRO_Joseph_Caputo.dds"
+	expire = "1965.1.1"
+	ideology = sub_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Fiorello H. La Guardia"
 	desc = "POLITICS_FIORELLO_H_LA_GUARDIA_DESC"
 	picture = "Portrait_NRO_Fiorello_H_La_Guardia.dds"
@@ -59,3 +92,65 @@ create_country_leader = {
 		#
 	}
 }
+
+create_country_leader = {
+	name = "Tancredi Attanasio"
+	desc = "POLITICS_TANCREDI_ATTANASIO_DESC"
+	picture = "Portrait_NRO_Tancredi_Attanasio.dds"
+	expire = "1965.1.1"
+	ideology = militaryreign
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Royal Council"
+	desc = "POLITICS_ROYAL_COUNCIL_DESC"
+	picture = "Portrait_NRO_Royal_council.dds"
+	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ventura Cavallero"
+	desc = "POLITICS_VENTURA_CAVALLERO_DESC"
+	picture = "Portrait_NRO_Ventura_Cavallero.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+
+##Military Leaders##
+
+create_field_marshal = {
+	name = "Salvatore Iocco"
+	picture = "Portrait_NRO_Salvatore_Iocco.dds"
+	traits = { old_guard career_officer politically_connected }
+	skill = 3	
+	attack_skill = 2
+	defense_skill = 5
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Lanfranco Testo"
+	picture = "Portrait_NRO_Lanfranco_Testo.dds"
+	traits = { old_guard career_officer }
+	skill = 5	
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 6
+}
+
+
+
+

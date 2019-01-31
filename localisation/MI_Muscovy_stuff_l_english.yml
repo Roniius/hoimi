@@ -372,6 +372,8 @@
  SOV_funded_ship_research_tech_bonus:0 "Funded Ship Research"
  SOV_funded_electronics_tech_bonus:0 "Funded Electronics"
  SOV_race_for_tsar_bomba_tech_bonus:0 "Race For Tsar Bomba"
+ SOV_fudning_armor_research_fash:0 "Funding Armor Research"
+ 
  
  
  #Factions
@@ -461,6 +463,15 @@
  SOV_idea_corporations_deal:0 "Corporations Deal"
  SOV_idea_corporations_deal_desc:0 "A deal with corporations to help with keeping the people supplied in return massive tax breaks and some small subsidies."
  
+ SOV_idea_russian_militarism:0 "Russian Militarism"
+ SOV_idea_russian_militarism_desc:0 "Our state shall praise the military, weekly military parades, propaganda, and more to put the military front and center."
+ 
+ SOV_idea_national_workers_protections:0 "National Workers Protections"
+ SOV_idea_national_workers_protections_desc:0 "The workers of Russian descent will be protected, they make our clothes, our bullets, our steel, our buildings and more. They should be protected atleast a bit."
+ 
+ 
+ #Template OOB names
+ SOV_rua_template:0 "Russian Unionist Army Division"
  
  
  

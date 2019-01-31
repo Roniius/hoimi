@@ -40,3 +40,25 @@ create_country_leader = {
 		#
 	}
 }
+
+create_country_leader = {
+	name = "Gu Gongren"
+	desc = "POLITICS_GU_GONGREN_DESC"
+	picture = "Portrait_SHN_Gu_Gongren.dds"
+	expire = "1965.1.1"
+	ideology = engelism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Jiang Qing"
+	desc = "POLITICS_JIANG_QING_DESC"
+	picture = "Portrait_SHN_Jiang_Qing.dds"
+	expire = "1965.1.1"
+	ideology = sub_liberalism
+	traits = {
+		#
+	}
+}

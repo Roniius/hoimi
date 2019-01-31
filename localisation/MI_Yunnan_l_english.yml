@@ -1,0 +1,50 @@
+﻿l_english:
+ 
+ #Events
+ yunnan.1.t:0 "Buddhist Assembly Election"
+ yunnan.1.d:0 "The Buddhist Assembly election which happens every 5 years takes place today, and it comes at an interesting time as the tension between Coptics and Buddhists have gotten more intense with the King taking land rights away from the Buddhists. There are three people trying to take power in the election with the current Chairman, Yin Ling stepping down; Dai Shun is a prodigy of Yin Ling wishes to keep the status quo within the Assembly, that being an organization of people who are dedicated to protecting the Buddhist people of Yunnan through peace. The second candidate is a former member of the Yin Ling group now turned radical Hou Jie, Jie wishes to use force to take out the coptics and their monarchy for the slow degradation of Buddhist rights. The third and final major candidate in the assembly is Shen Shun, a reformer who wishes to reform the assembly into a proper political party; reforming the assembly however would most likely make it illegal if the King choses to as all political parties must recieve approval from the King or they will be deemed illegal.\n\nRegardless of the outcome of this election, there should be no major affects on our glorious Kingdom as the assembly has no true power, all power resides with King Lingxin and shall always."
+ yunnan.1.o1:0 "Dai Shun and The Status Quo"
+ yunnan.1.o2:0 "Hou Jie and Force"
+ yunnan.1.o3:0 "Shen Shun and Reforms"
+ 
+ yunnan.2.t:0 "White Triratna Formed"
+ yunnan.2.d:0 "Hou Jie, the recently elected Chairman of The Yunnan Buddhist Assembly has created the White Triratna, an anti-coptic and pro-buddhist paramilitary dedicated to protecting the Buddhists of Yunnan from Coptics. The White Triratna takes direct orders from Hou Jie and there are rumors that members of the Buddhist portion of our military have begun defecting to the White Triratna. They are a direct threat to our rule, however they have not broken any laws yet however if they do they shall be shut down. Our government must begin watching all Buddhists carefully to make sure there are no plans that can negatively affect our government and our King, such as terrorism."
+ yunnan.2.o1:0 "Watch Them Closely"
+ 
+ yunnan.3.t:0 "Tolla Statue Desecrated"
+ yunnan.3.d:0 "Bona Kebede Tolla, one of the Ethiopian refugees that fled Ethiopia when his church was banned by the King had come to Yunnan seeking shelter, after traveling for nearly 3 years they eventually settled in Yunnan. Tolla seeked audience with the King of Yunnan and his court, the King accepted and they met, after their conversation the King descided that Coptic Christianity was the way for him and his nation. Yunnan had a history of accepting western ideas, with the current King's great great grandfather reforming the Kingdom into a western styled Kingdom. The King appointed Tolla the head of conversions in Yunnan, responsible for spreading Christianity and it spread like wild fire, however peacefully. Over time Bona Kebede Tolla started to be seen as a Yunnan Coptic Folk Hero, paintings of the man hung in Coptic family homes, public buildings and churches even had paintings of him by the late 19th century.\n\nWhen the news of a statue of him in Kunming came in, it angered many Church officials in Yunnan and many believers of the Coptic faith, even King Lingxin was very angry over this act. It was the crack of dawn when the statue was discovered covered in white paint and the head decapitated on the ground covered in red paint and a white Triratna painted on the top. We must take action against the White Triratna and their sponsers in the Yunnan Buddhist Assembly, it is clear they are responsible for these acts and can not be allowed to continue operating."
+ yunnan.3.o1:0 "Punish Buddhists"
+ yunnan.3.o2:0 "Ban The White Triratna"
+ yunnan.3.o3:0 "Let It Be"
+ 
+ yunnan.4.t:0 "Hou Jie's Speech"
+ yunnan.4.d:0 "'Kebede Tolla, King Lingxin, King Wan, and other coptics have created a degenerate Yunnan, us Buddhists are forced to live in squalor while the copts live in wealth. Sure there maybe poor Copts but they are still treated much better than us Buddhists, and in our own land too, yes our land don't let the copts fool you as we were here first. Yunnan, China, Asia are lands of Asian religion, of Asian faith, not western false gods. So now I say to you the Buddhist Assembly, the White Triratna, the Buddhists of Yunnan, we must take back our land, we must cleanse it of the coptic negro infused filth and until then there will be no democracy in this assembly and there will be no peace between us and them. Rape them, kill them, torture them, we must see an end to them.'\n\nThis was a speech today made by Buddhist Assembly leader, Hou Jie, a very worrying speech as he has called for extermination of the coptic people in Yunnan, a group that makes up atleast half the population. While many Buddhists have spoken out against this as going against the Buddhist beliefs, many others have taken his words and brought them to fruition as there are already a few reported attacks by Buddhists against Coptic people. We must prepare for the worst as our nation may descend into a religious civil war, may God protect us."
+ yunnan.4.o1:0 "This Is Worrying"
+ 
+ yunnan.5.t:0 "White Triratna Coup"
+ yunnan.5.d:0 "The King is dead, today the White Triratna after a few weeks of silence have marched on the capital of Kunming towards the Kings palace, burning down coptic churches and structures as well as killing anyone who got in their way. The King knew his days were up as the smell of smoke filled the air and his capital city burned, the White Triratna forces approached the palace and the guards attempted to fight them off but to no avail as they were swiftly taken out. The forces blew the palace doors which were barricaded from the inside open, they entered in and ransacked the building, however Hou Jie ordered that no one touch the Kings bedroom. Hou Jie personally walked to the Kings bedroom where the king himself, his wife, daughter and oldest son were hiding, Hou ordered two of his soldiers to execute the family of the King and bring the King to the front of the palace. Outside the palace the King was forced to watch his families lifeless bodies be strung up from the balconies of the palace before Hou Jie had him shot and strung up with his family, then ordered the palace to be burned. The burning palace could be seen for miles as a symbol of the fallen King.\n\nHou Jie is now in control of the nation or atleast parts of it, rumors are circulating that there are parts of the Kings army organizing and preparing to revolt against Hou Jie however the truth behind those rumors is unknown. Life is about to become very dangerous for coptics in Yunnan, as they soon may very well cease to exist."
+ yunnan.5.o1:0 "Tragedy Strikes?"
+ 
+ #Custom Tool Tips
+ 
+ YUN_very_dark_path_buddhist_genocide:0 "§RThis is a dark path, a path of genocide and crimes against humanity§!"
+ 
+ 
+ #Parties
+ YUN_white_triratna_party:0 "White Triratna"
+ YUN_white_triratna_party_long:0 "White Triratna"
+ 
+ YUN_fascism_party:0 "Strength Party"
+ YUN_fascism_party_long:0 "Strength of Yunnan Party"
+ YUN_authoritarian_party:0 "Kuomintang"
+ YUN_authoritarian_party_long:0 "Kuomintang of Yunnan - Nationalist Party of Yunnan"
+ YUN_monarchism_party:0 "Kepute"
+ YUN_monarchism_party_long:0 "Royal House of Kepute"
+ YUN_conservatism_party:0 "Christian Democrats"
+ YUN_conservatism_party_long:0 "Christian Democratic Party of Yunnan"
+ YUN_liberalism_party:0 "Absolute"
+ YUN_liberalism_party_long:0 "Absolute Equality Federation Party of Yunnan"
+ YUN_mod_ordaism_party:0 "Social Democratic"
+ YUN_mod_ordaism_party_long:0 "Social Democratic Party of Yunnan"
+ YUN_communism_party:0 "Workers-Ordaist"
+ YUN_communism_party_long:0 "Workers-Ordaist Party of Yunnan"

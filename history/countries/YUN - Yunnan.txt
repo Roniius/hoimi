@@ -57,3 +57,69 @@ create_country_leader = {
 		#
 	}
 }
+
+create_country_leader = {
+	name = "Tang Jiyao"
+	desc = "POLITICS_TANG_JIYAO_DESC"
+	picture = "Portrait_YUN_Tang_Jiyao.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Lu Han"
+	desc = "POLITICS_LU_HAN_DESC"
+	picture = "Portrait_YUN_Lu_Han.dds"
+	expire = "1965.1.1"
+	ideology = sub_conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gu Pinzhen"
+	desc = "POLITICS_GU_PINZHEN_DESC"
+	picture = "Portrait_YUN_Gu_Pinzhen.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Qiao Qigang"
+	desc = "POLITICS_QIAO_QIGANG_DESC"
+	picture = "Portrait_YUN_Qiao_Qigang.dds"
+	expire = "1965.1.1"
+	ideology = sub_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chen Bingkun"
+	desc = "POLITICS_CHEN_BINGKUN_DESC"
+	picture = "Portrait_YUN_Chen_Bingkun.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Long Yun"
+	desc = "POLITICS_LONG_YUN_DESC"
+	picture = "Portrait_YUN_Long_Yun.dds"
+	expire = "1965.1.1"
+	ideology = engelism
+	traits = {
+		#
+	}
+}

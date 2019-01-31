@@ -2,3 +2,19 @@
  
  #factions
  ordaist_international_union:0 "Ordaist International Union"
+ 
+ #parties
+ AST_communism_party:0 "Mannistes"
+ AST_communism_party_long:0 "Ostcasan Ordaist Party"
+ AST_mod_ordaism_party:0 "Engelists"
+ AST_mod_ordaism_party_long:0 "Engelist League of Ostcasa"
+ AST_liberalism_party:0 "Reactionaries-P"
+ AST_liberalism_party_long:0 "Anti-Manniste Reaction League of Ostcasa - Progressive Faction"
+ AST_conservatism_party:0 "Reactionaries-N"
+ AST_conservatism_party_long:0 "Anti-Manniste Reaction League of Ostcasa - Nationalist Faction"
+ AST_authoritarian_party:0 "Tenorioans"
+ AST_authoritarian_party_long:0 "Tenorioan Party of Ostcasa"
+ AST_monarchism_party:0 "Restorationists"
+ AST_monarchism_party_long:0 "Restoration of Monarchism Party of Ostcasa"
+ AST_fascism_party:0 "National-Engelists"
+ AST_fascism_party_long:0 "National-Engelist Ostcasan Workers Party"

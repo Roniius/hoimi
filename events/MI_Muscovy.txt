@@ -59,9 +59,9 @@ country_event = {
 		remove_ideas = SOV_state_slavery
 		
 		swap_ideas = {
-				add_idea = slavery_abolished
-				remove_idea = slavery_legal
-			}
+			add_idea = slavery_abolished
+			remove_idea = slavery_legal
+		}
 		
 	}
 }
@@ -2152,6 +2152,33 @@ country_event = {
 	id = muscovy.76
 	title = muscovy.76.t
 	desc = muscovy.76.d  
+	#picture = 
+
+	is_triggered_only = yes
+	
+
+	#Hail Panteley
+	option = {
+		name = muscovy.76.o1
+		
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.10
+		}
+		add_stability = 0.05
+		set_country_flag = SOV_panteley_forms_commune
+		drop_cosmetic_tag = yes
+		set_cosmetic_tag = SOV_muscovite_commune
+		
+		
+	}
+}
+
+#Ordaists Purged From Unionist Party
+country_event = {
+	id = muscovy.77
+	title = muscovy.77.t
+	desc = muscovy.77.d  
 	#picture = 
 
 	is_triggered_only = yes
