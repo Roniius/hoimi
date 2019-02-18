@@ -151,6 +151,19 @@ create_field_marshal = {
 	logistics_skill = 6
 }
 
+create_corps_commander = { 
+	name = "Amaranto Balbo"
+	picture = "Portrait_NRO_Amaranto_Balbo.dds"
+	traits = {
+		career_officer
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+	id = 553
+}
 
 
 

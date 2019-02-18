@@ -25,6 +25,33 @@ country_event = {
 			SOV = { country_event = muscovy.1 }
 		}
 		
+		if = {
+			limit = { 
+				country_exists = AST
+			}
+			AST = { country_event = ostcasa.1 }
+		}
+		
+	}
+}
+
+#1936/02/01
+country_event = {
+	id = exact_date_trigger.32
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1936.1.31
+	}
+	
+	option = {
+		if = {
+			limit = { 
+				country_exists = AST
+			}
+			AST = { country_event = ostcasa.3 }
+		}
 	}
 }
 
@@ -63,6 +90,26 @@ country_event = {
 	}
 }
 
+#1936/02/25
+country_event = {
+	id = exact_date_trigger.56
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1936.2.24
+	}
+	
+	option = {
+		if = {
+			limit = { 
+				country_exists = AST
+			}
+			AST = { country_event = ostcasa.4 }
+		}
+	}
+}
+
 #1936/03/02
 country_event = {
 	id = exact_date_trigger.62
@@ -79,6 +126,26 @@ country_event = {
 				country_exists = SOV
 			}
 			SOV = { country_event = muscovy.3 }
+		}
+	}
+}
+
+#1936/03/03
+country_event = {
+	id = exact_date_trigger.63
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1936.3.2
+	}
+	
+	option = {
+		if = {
+			limit = { 
+				country_exists = AST
+			}
+			AST = { country_event = ostcasa.5 }
 		}
 	}
 }
@@ -103,6 +170,46 @@ country_event = {
 	}
 }
 
+#1936/03/13
+country_event = {
+	id = exact_date_trigger.73
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1936.3.12
+	}
+	
+	option = {
+		if = {
+			limit = { 
+				country_exists = AST
+			}
+			AST = { country_event = ostcasa.6 }
+		}
+	}
+}
+
+#1936/03/19
+country_event = {
+	id = exact_date_trigger.80
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1936.3.18
+	}
+	
+	option = {
+		if = {
+			limit = { 
+				country_exists = AST
+			}
+			AST = { country_event = ostcasa.7 }
+		}
+	}
+}
+
 #1936/03/21
 country_event = {
 	id = exact_date_trigger.81
@@ -123,6 +230,26 @@ country_event = {
 	}
 }
 
+#1936/03/29
+country_event = {
+	id = exact_date_trigger.90
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1936.3.28
+	}
+	
+	option = {
+		if = {
+			limit = { 
+				country_exists = AST
+			}
+			AST = { country_event = ostcasa.8 }
+		}
+	}
+}
+
 #1936/04/02
 country_event = {
 	id = exact_date_trigger.93
@@ -139,6 +266,37 @@ country_event = {
 				country_exists = SOV
 			}
 			SOV = { country_event = muscovy.6 }
+		}
+	}
+}
+
+#1936/04/04
+country_event = {
+	id = exact_date_trigger.95
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1936.4.3
+	}
+	
+	option = {
+		if = {
+			limit = { 
+				country_exists = AST
+				OR = {
+					NOT = {
+						OR = {
+							has_country_flag = AST_federalistoian_wins_8th
+							has_country_flag = AST_centralistian_wins_8th
+							has_country_flag = AST_labouritian_wins_8th
+						}
+					}
+					
+					has_country_flag = AST_committee_elections_deadlock
+				}
+			}
+			AST = { country_event = ostcasa.9 }
 		}
 	}
 }

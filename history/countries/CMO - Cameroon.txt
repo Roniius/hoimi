@@ -47,11 +47,22 @@ set_politics = {
 }
 
 create_country_leader = {
+	name = "Manie Maritz"
+	desc = "POLITICS_MANIE_MARITZ_DESC"
+	picture = "Portrait_CMO_Manie_Maritz.dds"
+	expire = "1965.1.1"
+	ideology = sub_conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Paul Maistre"
 	desc = "POLITICS_PAUL_MAISTRE_DESC"
 	picture = "Portrait_CMO_Paul_Maistre.dds"
 	expire = "1965.1.1"
-	ideology = sub_conservatism
+	ideology = sub_monarchism
 	traits = {
 		#
 	}

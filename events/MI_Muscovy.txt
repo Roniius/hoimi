@@ -140,66 +140,11 @@ country_event = {
 			}
 			
 			create_country_leader = {
-				name = "Fyokhlachev Panteley"
-				desc = "POLITICS_FYOKHLACHEV_PANTELEY_DESC"
-				picture = "Portrait_SOV_Fyokhlachev_Panteley.dds"
-				expire = "1953.3.1"
-				ideology = fascism_ideology
-				traits = {
-		
-				}
-			}
-			
-			create_country_leader = {
 				name = "Vladimir Moskvin"
 				desc = "POLITICS_VLADIMIR_MOSKIN_DESC"
 				picture = "Portrait_SOV_Vladimir_Moskvin.dds"
 				expire = "1953.3.1"
 				ideology = sub_monarchism
-				traits = {
-		
-				}
-			}
-			
-			create_country_leader = {
-				name = "Georgy Lvov"
-				desc = "POLITICS_GEORGY_LVOV_DESC"
-				picture = "Portrait_SOV_Georgy_Lvov.dds"
-				expire = "1953.3.1"
-				ideology = sub_conservatism
-				traits = {
-		
-				}
-			}
-			
-			create_country_leader = {
-				name = "Aleksei F. Aladin"
-				desc = "POLITICS_ALEKSEI_F_ALADIN_DESC"
-				picture = "Portrait_SOV_Aleksei_F_Aladin.dds"
-				expire = "1953.3.1"
-				ideology = sub_liberalism
-				traits = {
-		
-				}
-			}
-			
-			create_country_leader = {
-				name = "Nikolay Krestinsky"
-				desc = "POLITICS_NIKOLAY_KRESTINSKY_DESC"
-				picture = "Portrait_SOV_Nikolay_Krestinsky.dds"
-				expire = "1953.3.1"
-				ideology = engelism
-				traits = {
-		
-				}
-			}
-			
-			create_country_leader = {
-				name = "Grigori Sokolnikov"
-				desc = "POLITICS_GRIGORI_SOKOLNIKOV_DESC"
-				picture = "Portrait_SOV_Grigori_Sokolnikov.dds"
-				expire = "1953.3.1"
-				ideology = marxism
 				traits = {
 		
 				}
@@ -2075,6 +2020,8 @@ country_event = {
 		name = muscovy.72.o1
 		
 		add_political_power = 100
+		add_stability = -0.15
+		add_war_support = 0.05
 		
 		
 	}
@@ -2186,17 +2133,219 @@ country_event = {
 
 	#Hail Panteley
 	option = {
-		name = muscovy.76.o1
+		name = muscovy.77.o1
 		
 		add_popularity = {
 			ideology = fascism
 			popularity = 0.10
 		}
 		add_stability = 0.05
-		set_country_flag = SOV_panteley_forms_commune
-		drop_cosmetic_tag = yes
-		set_cosmetic_tag = SOV_muscovite_commune
+		set_country_flag = SOV_panteley_purges_ordaists
 		
+		
+	}
+}
+
+#RUSSIAN COMMUNE AND WAR
+country_event = {
+	id = muscovy.78
+	title = muscovy.78.t
+	desc = muscovy.78.d  
+	#picture = 
+
+	is_triggered_only = yes
+	
+
+	#Hail Panteley
+	option = {
+		name = muscovy.78.o1
+		
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.10
+		}
+		add_stability = 0.05
+		set_global_flag = SOV_panteley_declares_commune_and_war
+		add_war_support = 0.10
+		
+		
+		drop_cosmetic_tag = yes
+		set_cosmetic_tag = SOV_russian_commune
+		
+		declare_war_on = {
+			target = NOV
+			type = annex_everything
+		}
+		
+		#add_state_core for all Novgorod states
+		add_state_core = 263
+		add_state_core = 581
+		add_state_core = 397
+		add_state_core = 351
+		add_state_core = 262
+		add_state_core = 264
+		add_state_core = 244
+		add_state_core = 246
+		add_state_core = 242
+		add_state_core = 214
+		add_state_core = 208
+		add_state_core = 209
+		add_state_core = 210
+		add_state_core = 191
+		add_state_core = 195
+	}
+}
+
+#Russia Wishes To Ally Us (Mongols)
+country_event = {
+	id = muscovy.79
+	title = muscovy.79.t
+	desc = muscovy.79.d  
+	#picture = 
+
+	is_triggered_only = yes
+
+	#Yes
+	option = {
+		name = muscovy.79.o1
+		
+		ai_chance = {
+			factor = 90
+			
+			modifier = {
+				factor = 0
+				OR = {
+					has_government = communism
+					has_government = mod_ordaism
+					has_government = liberalism
+					has_government = conservatism
+				}
+			}
+		}
+		
+		add_to_faction = SOV
+		
+		SOV = {
+			country_event = { id = muscovy.80 days = 5 }
+		}
+		
+	}
+	
+	#No
+	option = {
+		name = muscovy.79.o2
+		
+		ai_chance = {
+			factor = 10
+			
+			modifier = {
+				factor = 100
+				OR = {
+					has_government = communism
+					has_government = mod_ordaism
+					has_government = liberalism
+					has_government = conservatism
+				}
+			}
+		}
+		
+		
+		SOV = {
+			country_event = { id = muscovy.81 days = 5 }
+		}
+		
+		
+	}
+}
+
+#Turkhans Accept
+country_event = {
+	id = muscovy.80
+	title = muscovy.80.t
+	desc = muscovy.80.d  
+	#picture = 
+
+	is_triggered_only = yes
+
+	#Yes
+	option = {
+		name = muscovy.80.o1
+		
+		hidden_effect = {
+			add_ideas = SOV_alliance_with_turkha_idea
+			
+			TRK = {
+				add_ideas = SOV_alliance_with_turkha_idea
+			}
+		}
+		
+	}
+}
+
+#Turkhans Decline
+country_event = {
+	id = muscovy.81
+	title = muscovy.81.t
+	desc = muscovy.81.d  
+	#picture = 
+
+	is_triggered_only = yes
+
+	#Yes
+	option = {
+		name = muscovy.81.o1
+		
+		
+		
+	}
+}
+
+#The Second Coup
+country_event = {
+	id = muscovy.82
+	title = muscovy.82.t
+	desc = muscovy.82.d  
+	#picture = 
+
+	trigger = {
+		country_exists = SOV
+		#has_country_flag = kuznetsov_warlord_post_tula_incident
+		#has_global_flag = SOV_muscovy_post_krasnov_tula_incident_warlord_era
+		has_idea = SOV_idea_extermination
+	}
+
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 150
+	}
+	
+
+	#Saviours
+	option = {
+		name = muscovy.82.o1
+		
+		set_politics = {
+			ruling_party = authoritarian
+			elections_allowed = no
+		}
+		
+		create_country_leader = {
+			name = "Semyon Budyonny"
+			desc = "POLITICS_SEMYON_BUDYONNY_DESC"
+			picture = "Portrait_SOV_Semyon_Budyonny.dds"
+			expire = "1953.3.1"
+			ideology = militaryreign
+			traits = {
+		
+			}
+		}
+		
+		set_country_flag = second_coup_budyonny_takes_power
+		
+		drop_cosmetic_tag = yes
+			
+		set_cosmetic_tag = SOV_russian_national_union
 		
 	}
 }

@@ -1,0 +1,75 @@
+russian_commune_tashqi_monguls = {
+
+	establish_dns_state_for_tashqi_monguls_in_ilkhanate_lands = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = SOV
+		}
+
+		available = {
+			is_subject = no
+			owns_state = 233
+			has_completed_focus = SOV_push_them_out
+		}
+
+		visible = {
+			original_tag = SOV
+			SOV = {
+				has_completed_focus = SOV_push_them_out
+				AND = {
+					OR = {
+				
+						controls_state = 233
+						owns_state = 233
+					}
+				}
+			}
+		}
+
+		complete_effect = {
+			ILK = {
+				
+				set_cosmetic_tag = ILK_SOV_russian_commune_tashqi_mongul_dns_ilkhanate
+				set_state_owner = 233
+				
+
+			}
+			
+			233 = { add_core_of = DEN }
+			
+			SOV = {
+				#country_event = england_puppet.1
+				puppet = ILK
+			}
+			
+			ILK = {
+				set_politics = {
+					ruling_party = fascism
+					elections_allowed = no
+				}
+				create_country_leader = {
+					name = "DNS Council"
+					desc = "POLITICS_DNS_COUNCIL_TASHQI_MONGUL_DESC"
+					picture = "Portrait_ILK_DNS_Council.dds"
+					expire = "1965.1.1"
+					ideology = ado_sub
+					traits = {
+		
+					}
+				}
+			}
+			
+		}
+
+		ai_will_do = {
+			factor = 50
+			modifier = {
+				factor = 10
+				is_historical_focus_on = yes
+			}
+		}
+	}
+
+}

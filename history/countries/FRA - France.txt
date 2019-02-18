@@ -84,6 +84,51 @@ set_politics = {
 }
 
 create_country_leader = {
+	name = "Adolar Bourbon"
+	desc = "POLITICS_ADOLAR_BOURBON_DESC"
+	picture = "Portrait_FRA_Adolar_Bourbon.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	
+}
+
+create_country_leader = {
+	name = "Abel Hermant"
+	desc = "POLITICS_ABEL_HERMANT_DESC"
+	picture = "Portrait_FRA_Abel_Hermant.dds"
+	expire = "1965.1.1"
+	ideology = engelism
+	
+}
+
+create_country_leader = {
+	name = "Louis Marin"
+	desc = "POLITICS_LOUIS_MARIN_DESC"
+	picture = "Portrait_FRA_Louis_Marin.dds"
+	expire = "1965.1.1"
+	ideology = sub_liberalism
+	
+}
+
+create_country_leader = {
+	name = "Bodo Snaider"
+	desc = "POLITICS_BODO_SNAIDER_DESC"
+	picture = "Portrait_FRA_Bodo_Snaider.dds"
+	expire = "1965.1.1"
+	ideology = sub_conservatism
+	
+}
+
+create_country_leader = {
+	name = "Wigand Fritz"
+	desc = "POLITICS_WIGAND_FRITZ_DESC"
+	picture = "Portrait_FRA_Wigand_Fritz.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	
+}
+
+create_country_leader = {
 	name = "King Warmann II"
 	desc = "POLITICS_WARMANN_II_DESC"
 	picture = "Portrait_FRA_Warmann_II.dds"
@@ -97,3 +142,13 @@ create_country_leader = {
 		king_of_south_africa
 	}
 }
+
+create_country_leader = {
+	name = "Ryman Hatsledorf"
+	desc = "POLITICS_RYMAN_HATSLEDORF_DESC"
+	picture = "Portrait_FRA_Ryman_Hatsledorf.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	
+}
+

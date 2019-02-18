@@ -13,3 +13,8 @@ BOR_provisional_gov = {
     color = rgb { 206 15 44 }
     color_ui = rgb { 206 15 44 }
 }
+
+SOV_russian_commune = {
+    color = rgb { 24 181 0 }
+    color_ui = rgb { 24 181 0 }
+}

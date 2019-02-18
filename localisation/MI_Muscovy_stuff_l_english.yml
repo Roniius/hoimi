@@ -331,7 +331,9 @@
  muscovy.73.d:0 "Believing that the nation’s integrity and stability was still at risk, Fyokhlachev Panteley has authorized the creation of the Department of National Security, or DNS for short, in order to protect Muscovy from internal dissents and to purge it from any 'enemies of the state' that reside in her borders.\n\nCompromising of some of Panteley’s most loyal supporters, the DNS has been intentionally organized in a way where its loyalty to the party, and by extension Panteley, is ensured and will carry out our leader’s orders without question. Already they have begun to remove any individual suspected of treason against Muscovy, raiding their houses in the night and taking them away to be punished. Of course such incidents are reported as merely unexplained disappearances to the public, since it’s doubtful the common man would understand the importance of the DNS and their mission."
  muscovy.73.o1:0 "A necessity in these chaotic times"
  
- muscovy.74.t:0 ""
+ muscovy.74.t:0 "The Ryazan Accords"
+ muscovy.74.d:0 "With the Konsul’s power over the nation now absolute, he can now begin implementing his ideals onto the nation and work towards the goal of creating a pure and united Russia. His first step towards this goal would be the creation of a series of controversial laws collectively known as the “Ryazan Accords”. Ryazan Accords consist of laws and edicts limiting the rights of minorities that reside within Muscovy’s borders, namely the Jewish and Mongolian populations. The Accords prohibit them to run for public office, intermarrying with “True” Slavs, and even limiting their ability to travel through the nation. The most controversial law implemented however would be making it illegal for minorities to own and run their own businesses, shocking even the moderate ministers within the government. Already news has broken out about the DNS raiding the homes and businesses of minorities and arresting them while also seizing their assets for the “benefit of the state”. While the Konsul is optimistic and believes that the Accords is the first step of creating a pure Slavic state, we are now at risk of tipping the boat over as a new wave of unrest rears its head, we must tread carefully."
+ muscovy.74.o1:0 "Soon Muscovy will be cleansed"
  
  muscovy.75.t:0 "Democracy After Purification"
  muscovy.75.d:0 "Panteley's latest policy aimed at the long term organisation of Russia is one he calls 'Democracy After Purification'. The official documents about the policy say that democracy by itself is a noble and just system, but is easily tainted by the unpure. Now that the unpure are being cleaned out wherever they are found, then there is no reason to not allow our people to forge their own destiny after the unification of Russia is completed, without deception from those who want to destroy us. The establishment of a true democracy in Russia will signal to the world that Russia has been reborn again."
@@ -340,6 +342,24 @@
  muscovy.76.t:0 "The Commune"
  muscovy.76.d:0 "Today, Fyokhlachev Pantley has declared the end of the 'corrupt' State of Moscovy and proclaimed the birth of the Commune of Moscovy, stating that the Commune of Moscovy will protect the Slavic race from the forces of international 'cosmopolitan' oligarchy and will expand to unify all Slavs in Eurasia.  The proclamation of the Commune of Moscovy has already drawn condemnation from many Ordaist groups and nations worldwide, said groups accusing Panteley of co opting the language of socialism in service to reaction.  In response, Panteley and his supporters claim that it is the Ordaists that are the true puppets cosmopolitan oiligarchy, and that through “nation” and 'corporatism', the Commune of Moscovy will free all Slavic peoples from their parasitic enemies."
  muscovy.76.o1:0 "A New Dawn"
+ 
+ muscovy.77.t:0 "The Bloodletting"
+ muscovy.77.d:0 "Until now, the Russian Unionist Ado Party had a considerable ideological diversity within itself. Swayed by Panteley's appeals to Ordaist aesthetics, many of the more nationalistic leaning Ordaists joined the party, hoping that Panteley would implement Ordaist measures. These people were tolerated until now because they did not pose a significant threat and their presence helped to make the party seem more mainstream.\n\nThis however ends now. The Ordaists are starting to become a problem, questioning the corporatist rhetoric and being a nuisance in general. The DNS has been collecting the names of the party member who have Ordaist tendencies and those who are against Panteley. Today, in broad daylight, mass arrests of the Ordaist party members took place. Some went quietly, while others tried to resist arrest, there was one case of gunfire breaking out because of an arrest attempt. However, Panteley's faction was victorious. The dissident party members were in prison or dead with a very small minority either hiding or having escaped the country. Now Panteley has no chance of a fifth column trying to depose him."
+ muscovy.77.o1:0 "Our Ends Justify Our Means"
+ 
+ muscovy.78.t:0 "Commune of Muscovy claims Russia"
+ muscovy.78.d:0 "Today, Fyokhlachev Panteley has claimed dominion over all of Russia by the Muscovy government. In a bombastic and emotional speech, Panteley described this move as 'Finally, we shall realize the full potential of the Russian people, and destroy the vermin, the filth, the ones that have kept us separated and weak! We will achieve glory!' Simultaneously, the government presented a declaration of war to the Novgorod regime, effective immediately. The troops of the newly declared Commune of Russia has been reported crossing the Novgorod border and engaging in small skirmishes. While the international response has been generally negative, especially from Ordaist countries decrying the tainting of the word 'Commune', internally the population is looking to the goal of an united Russia with hope."
+ muscovy.78.o1:0 "We will finally show our power!"
+ 
+ muscovy.79.t:0 ""
+ 
+ muscovy.80.t:0 ""
+ 
+ muscovy.81.t:0 ""
+ 
+ muscovy.82.t:0 "Second Coup"
+ muscovy.82.d:0 "Russian citizens woke up today to gunfire in Moscow and soldiers patrolling the streets. Gunfire has erupted between Pantley loyalists and elements of the army working against him, but the tide is turning in the favor of anti-Pantley forces.  The presidential palace has been seized and the army is ridding the area of loyalists.  Pantley himself has been placed under arrest and is waiting to stand trial along with his closest associates for 'crimes against the peoples of Russia'.  The leader of this coup, Semyon Budyonny announced that Pantley's reign of terror and their 'barbaric slaughter' of the Tashqi Monguls and other minorities that has 'blackened the history of the Slavic people' has come to an end, and has declared the dissolution of the Commune.   He has also declared the end of anti-clerical laws and the Ryazan Accords, and plans to withdraw from international affairs in order to reorganize the country and clense it of Pantley's loyalists."
+ muscovy.82.o1:0 "Our Saviours?"
  
  #Traits
  grand_duke_of_muscovy:0 "Grand Prince of Muscovy"
@@ -378,6 +398,7 @@
  
  #Factions
  the_alliance_of_liberty_faction:0 "Alliance of Liberty"
+ russian_unitary_pact:0 "Russian Unitary Pact"
  
  
  
@@ -469,6 +490,15 @@
  SOV_idea_national_workers_protections:0 "National Workers Protections"
  SOV_idea_national_workers_protections_desc:0 "The workers of Russian descent will be protected, they make our clothes, our bullets, our steel, our buildings and more. They should be protected atleast a bit."
  
+ SOV_idea_russian_arms_industry:0 "Russian Arms Industry"
+ SOV_idea_russian_arms_industry_desc:0 "We are developing a weapons industry for our strength."
+ 
+ SOV_ideas_sphere_building:0 "Sphere Building"
+ SOV_ideas_sphere_building_desc:0 "We shall expand our influence."
+ 
+ SOV_idea_extermination:0 "Extermination"
+ SOV_idea_extermination_desc:0 "..."
+ 
  
  #Template OOB names
  SOV_rua_template:0 "Russian Unionist Army Division"
@@ -509,6 +539,8 @@
  SOV_anti_unionist_civil_war_begin:0 "Anti-Unionist Civil War"
  SOV_anti_unionist_forces_crushed:0 "Anti-Unionist Forces Crushed"
  SOV_unionist_forces_crushed:0 "Unionist Forces Crushed"
+ 
+ second_coup_budyonny_takes_power:0 "Budyonny Has Taken Power"
  
  #Opinion factors
  SOV_heated_rivalry:0 "Heated Rivalry"
@@ -1050,7 +1082,7 @@
  SOV_revoke_anti_clerical_laws:0 "Revoke Anti-Clerical Laws"
  SOV_revoke_anti_clerical_laws_desc:0 "We shall allow for some church influence to return to Russia."
  
- SOV_ban_the_rua:0 "Ban The RUA"
+ SOV_ban_the_rua:0 "Ban The RUA and DNS"
  SOV_ban_the_rua_desc:0 "One of the main forces carrying out the massacres against the Mongol people must be purged."
  
  SOV_demolish_the_royal_square:0 "Demolish The Royal Square"
@@ -1197,3 +1229,47 @@
  BOR_provisional_gov_mod_ordaism_ADJ:0 "Muscovite"
  BOR_provisional_gov_fascism_ADJ:0 "Muscovite"
  BOR_provisional_gov_communism_ADJ:0 "Muscovite"
+ 
+ SOV_russian_national_union_fascism:0 "Russian National Union"
+ SOV_russian_national_union_fascism_DEF:0 "The Russian National Union"
+ SOV_russian_national_union_communism:0 "Russian National Union"
+ SOV_russian_national_union_communism_DEF:0 "The Russian National Union"
+ SOV_russian_national_union_authoritarian:0 "Russian National Union"
+ SOV_russian_national_union_authoritarian_DEF:0 "The Russian National Union"
+ SOV_russian_national_union_monarchism:0 "Russian National Union"
+ SOV_russian_national_union_monarchism_DEF:0 "The Russian National Union"
+ SOV_russian_national_union_liberalism:0 "Russian National Union"
+ SOV_russian_national_union_liberalism_DEF:0 "The Russian National Union"
+ SOV_russian_national_union_conservatism:0 "Russian National Union"
+ SOV_russian_national_union_conservatism_DEF:0 "The Russian National Union"
+ SOV_russian_national_union_mod_ordaism:0 "Russian National Union"
+ SOV_russian_national_union_mod_ordaism_DEF:0 "The Russian National Union"
+ SOV_russian_national_union_authoritarian_ADJ:0 "Russian"
+ SOV_russian_national_union_monarchism_ADJ:0 "Russian"
+ SOV_russian_national_union_liberalism_ADJ:0 "Russian"
+ SOV_russian_national_union_conservatism_ADJ:0 "Russian"
+ SOV_russian_national_union_mod_ordaism_ADJ:0 "Russian"
+ SOV_russian_national_union_fascism_ADJ:0 "Russian"
+ SOV_russian_national_union_communism_ADJ:0 "Russian"
+ 
+ ILK_SOV_russian_commune_tashqi_mongul_dns_ilkhanate_fascism:0 "DEF:0 "DNS State of Tashqi Mongul""
+ ILK_SOV_russian_commune_tashqi_mongul_dns_ilkhanate_fascism_DEF:0 "The DEF:0 "DNS State of Tashqi Mongul""
+ ILK_SOV_russian_commune_tashqi_mongul_dns_ilkhanate_communism:0 "DEF:0 "DNS State of Tashqi Mongul""
+ ILK_SOV_russian_commune_tashqi_mongul_dns_ilkhanate_communism_DEF:0 "The DEF:0 "DNS State of Tashqi Mongul""
+ ILK_SOV_russian_commune_tashqi_mongul_dns_ilkhanate_authoritarian:0 "DEF:0 "DNS State of Tashqi Mongul""
+ ILK_SOV_russian_commune_tashqi_mongul_dns_ilkhanate_authoritarian_DEF:0 "The DEF:0 "DNS State of Tashqi Mongul""
+ ILK_SOV_russian_commune_tashqi_mongul_dns_ilkhanate_monarchism:0 "DEF:0 "DNS State of Tashqi Mongul""
+ ILK_SOV_russian_commune_tashqi_mongul_dns_ilkhanate_monarchism_DEF:0 "The DEF:0 "DNS State of Tashqi Mongul""
+ ILK_SOV_russian_commune_tashqi_mongul_dns_ilkhanate_liberalism:0 "DEF:0 "DNS State of Tashqi Mongul""
+ ILK_SOV_russian_commune_tashqi_mongul_dns_ilkhanate_liberalism_DEF:0 "The DEF:0 "DNS State of Tashqi Mongul""
+ ILK_SOV_russian_commune_tashqi_mongul_dns_ilkhanate_conservatism:0 "DEF:0 "DNS State of Tashqi Mongul""
+ ILK_SOV_russian_commune_tashqi_mongul_dns_ilkhanate_conservatism_DEF:0 "The DEF:0 "DNS State of Tashqi Mongul""
+ ILK_SOV_russian_commune_tashqi_mongul_dns_ilkhanate_mod_ordaism:0 "DEF:0 "DNS State of Tashqi Mongul""
+ ILK_SOV_russian_commune_tashqi_mongul_dns_ilkhanate_mod_ordaism_DEF:0 "The DEF:0 "DNS State of Tashqi Mongul""
+ ILK_SOV_russian_commune_tashqi_mongul_dns_ilkhanate_authoritarian_ADJ:0 "DNS-Tashqi Mongul"
+ ILK_SOV_russian_commune_tashqi_mongul_dns_ilkhanate_monarchism_ADJ:0 "DNS-Tashqi Mongul"
+ ILK_SOV_russian_commune_tashqi_mongul_dns_ilkhanate_liberalism_ADJ:0 "DNS-Tashqi Mongul"
+ ILK_SOV_russian_commune_tashqi_mongul_dns_ilkhanate_conservatism_ADJ:0 "DNS-Tashqi Mongul"
+ ILK_SOV_russian_commune_tashqi_mongul_dns_ilkhanate_mod_ordaism_ADJ:0 "DNS-Tashqi Mongul"
+ ILK_SOV_russian_commune_tashqi_mongul_dns_ilkhanate_fascism_ADJ:0 "DNS-Tashqi Mongul"
+ ILK_SOV_russian_commune_tashqi_mongul_dns_ilkhanate_communism_ADJ:0 "DNS-Tashqi Mongul"

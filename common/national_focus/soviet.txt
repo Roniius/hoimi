@@ -820,7 +820,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_encourge_the_golden_kingdom
-		#icon = 
+		icon = GFX_focus_generic_bashkiri
 		prerequisite = { focus = SOV_a_new_alliance }
 		available = {
 			GLD = {
@@ -905,7 +905,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_take_on_our_golden_neighbours
-		#icon = 
+		icon = GFX_focus_generic_bashkiri
 		prerequisite = { focus = SOV_expand_russia }
 		x = 2
 		y = 7
@@ -926,7 +926,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_take_on_kalmykistan
-		#icon = 
+		icon = GFX_focus_generic_kalmyk
 		prerequisite = { focus = SOV_take_on_our_golden_neighbours }
 		x = 2
 		y = 8
@@ -947,7 +947,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_take_on_the_caspians
-		#icon = 
+		icon = GFX_focus_generic_caspian
 		prerequisite = { focus = SOV_take_on_kalmykistan }
 		x = 2
 		y = 9
@@ -968,7 +968,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_take_on_siberia
-		#icon = 
+		icon = GFX_focus_generic_siberia_group
 		prerequisite = { focus = SOV_expand_russia }
 		x = 4
 		y = 7
@@ -997,7 +997,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_take_on_karelia
-		#icon = 
+		icon = GFX_focus_generic_karelia
 		prerequisite = { focus = SOV_take_on_siberia }
 		x = 4
 		y = 8
@@ -1018,7 +1018,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_take_on_the_lithuanian_hegemony
-		#icon = 
+		icon = GFX_focus_generic_lithuania_hegemony
 		prerequisite = { focus = SOV_take_on_karelia }
 		x = 4
 		y = 9
@@ -1043,7 +1043,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_an_enemy_in_sweden
-		#icon = 
+		icon = GFX_focus_generic_swedish_option
 		prerequisite = { focus = SOV_take_on_the_caspians }
 		prerequisite = { focus = SOV_take_on_the_lithuanian_hegemony }
 		mutually_exclusive = { focus = SOV_showdown_with_turkestan focus = SOV_a_long_awaited_fight }
@@ -1066,7 +1066,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_showdown_with_turkestan
-		#icon = 
+		icon = GFX_focus_generic_turkhan_option 
 		prerequisite = { focus = SOV_take_on_the_caspians }
 		prerequisite = { focus = SOV_take_on_the_lithuanian_hegemony }
 		mutually_exclusive = { focus = SOV_an_enemy_in_sweden focus = SOV_a_long_awaited_fight }
@@ -1089,7 +1089,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_a_long_awaited_fight
-		#icon = 
+		icon = GFX_focus_generic_mongolian_option
 		prerequisite = { focus = SOV_take_on_the_caspians }
 		prerequisite = { focus = SOV_take_on_the_lithuanian_hegemony }
 		mutually_exclusive = { focus = SOV_an_enemy_in_sweden focus = SOV_showdown_with_turkestan }
@@ -1444,7 +1444,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_ally_turkestan
-		#icon = 
+		icon = GFX_focus_generic_turkha
 		prerequisite = { focus = SOV_find_an_ally }
 		mutually_exclusive = { focus = SOV_ally_mongolia }
 		x = 5
@@ -1465,7 +1465,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_the_muscovite_economy
-		#icon = 
+		icon = GFX_focus_SOV_muscovite_economy
 		available = {
 			OR = {
 				has_completed_focus = SOV_enact_aladins_reforms
@@ -1765,7 +1765,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_the_muscovite_armed_forces
-		#icon = 
+		icon = GFX_focus_SOV_muscovite_armed_forces
 		available = {
 			OR = {
 				has_completed_focus = SOV_enact_aladins_reforms
@@ -1790,7 +1790,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_muscovite_army
-		#icon = 
+		icon = GFX_focus_SOV_russian_army
 		prerequisite = { focus = SOV_the_muscovite_armed_forces }
 		x = -2
 		y = 1

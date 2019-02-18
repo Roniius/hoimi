@@ -2,3 +2,19 @@
  
  #factions
  new_world_movement:0 "New World Movement"
+ 
+ #Parties
+ TRK_communism_party:0 "Ordaists"
+ TRK_communism_party_long:0 "Ordaist Front of Turkha"
+ TRK_mod_ordaism_party:0 "New Republicans"
+ TRK_mod_ordaism_party_long:0 "Turkha New Republican Party"
+ TRK_liberalism_party:0 "Old Republicans"
+ TRK_liberalism_party_long:0 "Turkha Old Republican Party"
+ TRK_conservatism_party:0 "Islamists"
+ TRK_conservatism_party_long:0 "Party of Islam And Unity of Turkha"
+ TRK_authoritarian_party:0 "Altin Clique"
+ TRK_authoritarian_party_long:0 "Omer Altin Military Clique"
+ TRK_monarchism_party:0 "Royalists"
+ TRK_monarchism_party_long:0 "Royalist Party of Turkha"
+ TRK_fascism_party:0 "Ados"
+ TRK_fascism_party_long:0 "Turkan Ado Party"

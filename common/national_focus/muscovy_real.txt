@@ -187,7 +187,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_fall_of_the_grand_duchy
-		#icon = 
+		icon = GFX_focus_SOV_fall_of_grand_duchy
 		x = 0
 		y = 3
 		relative_position_id = SOV_a_tragedy_focus
@@ -208,7 +208,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_the_krasnov_regime
-		#icon = 
+		icon = GFX_focus_SOV_krasnov_regime
 		x = -5
 		y = 4
 		relative_position_id = SOV_a_tragedy_focus
@@ -345,7 +345,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_enforce_conscription
-		#icon = 
+		icon = GFX_focus_SOV_enforcing_conscription
 		x = -4
 		y = 7
 		relative_position_id = SOV_a_tragedy_focus
@@ -841,7 +841,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_aggression_against_the_golden_horde
-		#icon = 
+		icon = GFX_focus_generic_bashkiri
 		x = -9
 		y = 18
 		relative_position_id = SOV_a_tragedy_focus
@@ -1345,7 +1345,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_work_with_a_supportive_force
-		#icon = 
+		icon = GFX_focus_SOV_supportive_force
 		x = 9
 		y = 4
 		relative_position_id = SOV_a_tragedy_focus
@@ -1735,7 +1735,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_ideas = SOV_idea_russian_arms_industry
 		}
 	
 	}
@@ -1754,7 +1754,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			set_cosmetic_tag = SOV_russian_commune
+			SOV = {
+				country_event = { id = muscovy.78 days = 8 }
+			}
 		}
 	
 	}
@@ -1765,13 +1767,44 @@ focus_tree = {
 		#icon = 
 		x = 8
 		y = 17
+		
 		relative_position_id = SOV_a_tragedy_focus
+		available = {
+			NOT = {
+				has_war_with = NOV
+			}
+		}
 		prerequisite = { focus = SOV_strike_at_novgorod }
 		cost = 10
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
+			declare_war_on = {
+				target = KAL
+				type = annex_everything
+			}
+		
+			declare_war_on = {
+				target = CAS
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ILK
+				type = annex_everything
+			}
+			hidden_effect = {
+				add_state_claim = 235
+				add_state_claim = 237
+				add_state_claim = 238
+				add_state_claim = 245
+				add_state_claim = 265
+				add_state_claim = 217
+				add_state_claim = 218
+				add_state_claim = 234
+				add_state_claim = 236
+				add_state_claim = 233
+			}
 		}
 	
 	}
@@ -1779,16 +1812,52 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_take_out_the_golden_kingdom
-		#icon = 
+		icon = GFX_focus_generic_bashkiri
 		x = 8
 		y = 18
+		
 		relative_position_id = SOV_a_tragedy_focus
+		available = {
+			NOT = {
+				OR = {
+					has_war_with = CAS
+					has_war_with = KAL
+					has_war_with = ILK
+				}
+			}
+		}
 		prerequisite = { focus = SOV_take_out_the_caucasus_nations }
 		cost = 10
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
+			declare_war_on = {
+				target = GLD
+				type = annex_everything
+			}
+			
+			hidden_effect = {
+				add_state_claim = 652
+				add_state_claim = 406
+				add_state_claim = 407
+				add_state_claim = 239
+				add_state_claim = 250
+				add_state_claim = 251
+				add_state_claim = 249
+				add_state_claim = 399
+				add_state_claim = 651
+				add_state_claim = 573
+				add_state_claim = 398
+				add_state_claim = 653
+				add_state_claim = 572
+				add_state_claim = 583
+				add_state_claim = 590
+				add_state_claim = 765
+				add_state_claim = 588
+				add_state_claim = 401
+				add_state_claim = 582
+			}
 		}
 	
 	}
@@ -1824,6 +1893,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			add_political_power = 50
 		}
 	
 	}
@@ -1831,7 +1901,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_alliance_with_turkestan
-		#icon = 
+		icon = GFX_focus_generic_turkha
 		x = 7
 		y = 20
 		relative_position_id = SOV_a_tragedy_focus
@@ -1847,6 +1917,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			TRK = {
+				country_event = { id = muscovy.79 days = 8 }
+			}
 		}
 	
 	}
@@ -1870,6 +1943,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			create_faction = russian_unitary_pact
 		}
 	
 	}
@@ -1892,6 +1966,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			add_ideas = SOV_ideas_sphere_building
 		}
 	
 	}
@@ -1908,11 +1983,18 @@ focus_tree = {
 		available = {
 			has_completed_focus = SOV_strike_at_novgorod
 		}
-		cost = 10
+		cost = 3
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+			add_war_support = 0.05
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.10
+			}
 		}
 	
 	}
@@ -1930,6 +2012,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			add_political_power = 50
+			add_stability = -0.10
+			add_war_support = 0.05
 		}
 	
 	}
@@ -1948,6 +2033,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			unlock_decision_category_tooltip = russian_commune_tashqi_monguls
+			add_stability = 0.15
+			
 		}
 	
 	}
@@ -1966,6 +2054,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			add_ideas = SOV_idea_extermination
 		}
 	
 	}
@@ -1983,6 +2072,23 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	
 	}
@@ -2000,6 +2106,14 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 	
 	}
@@ -2017,6 +2131,14 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 	
 	}
@@ -2030,11 +2152,46 @@ focus_tree = {
 		relative_position_id = SOV_a_tragedy_focus
 		prerequisite = { focus = SOV_more_arms_production }
 		prerequisite = { focus = SOV_muscovite_civil_industry }
-		cost = 10
+		cost = 15
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	
 	}
@@ -2051,7 +2208,10 @@ focus_tree = {
 		available = {
 			has_country_flag = second_army_take_over_flag
 		}
-		cost = 10
+		bypass = {
+			has_country_flag = second_coup_budyonny_takes_power
+		}
+		cost = 0
 		ai_will_do = {
 			factor = 10
 		}
@@ -2073,6 +2233,14 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			remove_ideas = SOV_idea_extermination
+			remove_ideas = SOV_idea_panteleys_racial_laws
+			add_stability = 0.15
+			add_political_power = 150
+			add_popularity = {
+				ideology = authoritarian
+				popularity = 0.10
+			}
 		}
 	
 	}
@@ -2090,6 +2258,11 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			add_stability = 0.10
+			add_popularity = {
+				ideology = authoritarian
+				popularity = 0.10
+			}
 		}
 	
 	}
@@ -2107,6 +2280,17 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			delete_unit_template_and_units = {
+				division_template = "SOV_rua_template"
+			}
+			
+			add_war_support = 0.15
+			remove_ideas = SOV_idea_panteleys_secret_police
+			add_political_power = 50
+			add_popularity = {
+				ideology = authoritarian
+				popularity = 0.05
+			}
 		}
 	
 	}
@@ -2125,6 +2309,15 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			add_popularity = {
+				ideology = authoritarian
+				popularity = 0.15
+			}
+			
+			add_political_power = 50
+			add_stability = 0.05
+			
+			
 		}
 	
 	}
@@ -2142,6 +2335,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			add_ideas = SOV_muscovite_isolation_idea
 		}
 	
 	}

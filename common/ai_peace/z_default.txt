@@ -116,6 +116,84 @@ default_peace = {
 			#}
 		}
 		
+		# Russian Commune Annexes Novgorod
+		modifier = {
+			factor = 15
+			tag = SOV
+			NOV = { is_in_peace_conference = yes }
+			has_global_flag = SOV_panteley_declares_commune_and_war
+			
+			#FROM = {
+			#	OR = {
+			#		region = 186 #North-East
+			#		region = 120 #Mid-West
+			#		region = 185 #NorthWest
+			#	}
+			#}
+		}
+		
+		# Russian Commune Annexes Kalmyks
+		modifier = {
+			factor = 15
+			tag = SOV
+			KAL = { is_in_peace_conference = yes }
+			has_global_flag = SOV_panteley_declares_commune_and_war
+			
+			FROM = {
+				OR = {
+					region = 137 #North-East
+					region = 135 #Mid-West
+				}
+			}
+		}
+		
+		# Russian Commune Annexes Caspia
+		modifier = {
+			factor = 15
+			tag = SOV
+			"CAS" = { is_in_peace_conference = yes }
+			has_global_flag = SOV_panteley_declares_commune_and_war
+			
+			FROM = {
+				
+				region = 135 #Mid-West
+				
+			}
+		}
+		
+		# Russian Commune Annexes Ilkhanate
+		modifier = {
+			factor = 15
+			tag = SOV
+			ILK = { is_in_peace_conference = yes }
+			has_global_flag = SOV_panteley_declares_commune_and_war
+			
+			FROM = {
+				
+				region = 134 #Mid-West
+				
+			}
+		}
+		
+		# Russian Commune Annexes Golden Horde
+		modifier = {
+			factor = 15
+			tag = SOV
+			GLD = { is_in_peace_conference = yes }
+			has_global_flag = SOV_panteley_declares_commune_and_war
+			
+			FROM = {
+				OR = {
+					region = 137
+					region = 138
+					region = 40
+					region = 138
+					region = 14
+					region = 151
+				}
+			}
+		}
+		
 		modifier = {
 			factor = 0
 			NOT = {

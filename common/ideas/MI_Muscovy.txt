@@ -449,11 +449,7 @@ ideas = {
 			}
 		}
 		
-	}
-	
-	hidden_ideas = {
-	
-		SOV_alliance_with_mongolia_idea = {
+		SOV_idea_russian_arms_industry = {
 			
 			allowed = {
 				always = no
@@ -466,8 +462,96 @@ ideas = {
 			removal_cost = -1
 						
 			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				production_speed_buildings_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+		
+		SOV_ideas_sphere_building = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				justify_war_goal_time = -0.50
+			}
+		}
+		
+		SOV_idea_extermination = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				MONTHLY_POPULATION = -0.15
+				political_power_gain = -0.5
+				war_support_factor = 0.15
+				stability_factor = -0.05
+			}
+		}
+		
+	}
+	
+	hidden_ideas = {
+	
+		SOV_alliance_with_mongolia_idea = {
+			
+			allowed = {
+				always = no
 				
 			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				
+			}
+		}
+		
+		SOV_alliance_with_turkha_idea = {
+			
+			allowed = {
+				always = no
+				NOT ={
+					OR = {
+						has_government = communism
+						has_government = liberalism
+						has_government = mod_ordaism
+						has_government = conservatism
+					}
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				
+			}
+			
+			cancel_if_invalid = yes
 		}
 	
 	}

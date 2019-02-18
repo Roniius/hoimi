@@ -1534,5 +1534,104 @@ spriteTypes = {
 		name = "GFX_focus_SOV_peaceful_rivals"
 		texturefile = "gfx/interface/goals/SOV/focus_SOV_peaceful_rivals.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_supportive_force"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_supportive_force.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_krasnov_regime"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_krasnov_regime.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_muscovite_armed_forces"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_muscovite_armed_forces.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_russian_army"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_russian_army.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_fall_of_grand_duchy"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_fall_of_grand_duchy.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_enforcing_conscription"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_enforcing_conscription.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_SOV_muscovite_economy"
+		texturefile = "gfx/interface/goals/SOV/focus_SOV_muscovite_economy.dds"
+	}
+	
+	#Ostcasa
+	
+	SpriteType = { 
+		name = "GFX_focus_AST_8th_party_conference"
+		texturefile = "gfx/interface/goals/AST/focus_AST_8th_party_conference.dds"
+	}
+	
+	#Generic
 
+	SpriteType = { 
+		name = "GFX_focus_generic_swedish_option"
+		texturefile = "gfx/interface/goals/focus_generic_swedish_option.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_generic_turkhan_option"
+		texturefile = "gfx/interface/goals/focus_generic_turkhan_option.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_generic_mongolian_option"
+		texturefile = "gfx/interface/goals/focus_generic_mongolian_option.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_generic_bashkiri"
+		texturefile = "gfx/interface/goals/focus_generic_bashkiri.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_generic_sweden"
+		texturefile = "gfx/interface/goals/focus_generic_sweden.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_generic_turkha"
+		texturefile = "gfx/interface/goals/focus_generic_turkha.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_generic_kalmyk"
+		texturefile = "gfx/interface/goals/focus_generic_kalmyk.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_generic_caspian"
+		texturefile = "gfx/interface/goals/focus_generic_caspian.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_generic_siberia_group"
+		texturefile = "gfx/interface/goals/focus_generic_siberia_group.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_generic_karelia"
+		texturefile = "gfx/interface/goals/focus_generic_karelia.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_generic_lithuania_hegemony"
+		texturefile = "gfx/interface/goals/focus_generic_lithuania_hegemony.dds"
+	}
+	
 }

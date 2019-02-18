@@ -13,7 +13,7 @@ set_politics = {
 
 	parties = {
 		monarchism = { 
-			popularity = 20
+			popularity = 35
 			banned = yes
 		}
 
@@ -23,23 +23,40 @@ set_politics = {
 		}
 		
 		authoritarian = {
-			popularity = 50
+			popularity = 20
+			#banned = no #default is no
+		}
+		
+		authoritarian = {
+			popularity = 15
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = authoritarian
+	ruling_party = monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
+	name = "Kim Bo-hyon"
+	desc = "POLITICS_KIM_BO_HYON_DESC"
+	picture = "Portrait_KOR_Kim_Bo_hyon.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+
+create_country_leader = {
 	name = "Emperor Uimin"
 	desc = "POLITICS_EMPEROR_UIMIN_DESC"
 	picture = "Portrait_KOR_Uimin.dds"
 	expire = "1965.1.1"
-	ideology = militaryreign
+	ideology = sub_monarchism
 	traits = {
 		#
 	}

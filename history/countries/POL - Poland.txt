@@ -61,11 +61,77 @@ set_politics = {
 }
 
 create_country_leader = {
+	name = "Józef Piłsudski"
+	desc = "POLITICS_JOZEF_PILSUDSKI_DESC"
+	picture = "Portrait_POL_Jozef_Pilsudski.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Rozalia Luksenburg"
+	desc = "POLITICS_ROZALIA_LUKSENBURG_DESC"
+	picture = "Portrait_POL_Rozalia_Luksenburg.dds"
+	expire = "1965.1.1"
+	ideology = engelism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Władysław Wróblewski"
 	desc = "POLITICS_WLADYSLAW_WROBLEWSKI_DESC"
 	picture = "Portrait_POL_Wladyslaw_Wroblewski.dds"
 	expire = "1965.1.1"
 	ideology = sub_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Bolesław Piasecki"
+	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
+	picture = "Portrait_POL_Boleslaw_Piasecki.dds"
+	expire = "1965.1.1"
+	ideology = sub_conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Tadeusz Rozwadowski"
+	desc = "POLITICS_TADEUSZ_ROZWADOWSKI_DESC"
+	picture = "Portrait_POL_Tadeusz_Rozwadowski.dds"
+	expire = "1965.1.1"
+	ideology = militaryreign
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Joachim Bartoszewicz"
+	desc = "POLITICS_JOACHIM_BARTOSZEWICZ_DESC"
+	picture = "Portrait_POL_Joachim_Bartoszewicz.dds"
+	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Stanisław Thugutt"
+	desc = "POLITICS_STANISLAW_THUGUTT_DESC"
+	picture = "Portrait_POL_Stanislaw_Thugutt.dds"
+	expire = "1965.1.1"
+	ideology = falangism
 	traits = {
 		#
 	}

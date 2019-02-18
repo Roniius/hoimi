@@ -3849,6 +3849,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/SOV/SOV_krasnov_reforms.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_SOV_idea_panteleys_secret_police"
+		texturefile = "gfx/interface/ideas/SOV/SOV_dep_national_security.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_muscovite_isolation_real_idea"
+		texturefile = "gfx/interface/ideas/SOV/SOV_muscovite_state_isolation.dds"
+	}
+	
 	#Mongolian NatSpirits
 	
 	spriteType = {

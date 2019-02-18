@@ -1,0 +1,158 @@
+focus_tree = {
+	id = ostcasa_tree
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 15
+			tag = AST
+		}
+	}
+	
+	focus = {
+	
+		id = AST_8th_party_committee_election
+		icon = GFX_focus_AST_8th_party_conference
+		x = 10
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			NOT = {
+				has_country_flag = AST_triumvirate_takes_over
+			}
+		}
+		cancel = {
+			has_country_flag = AST_triumvirate_takes_over
+		}
+		select_effect = {
+			country_event = { id = ostcasa.10 days = 5 }
+			country_event = { id = ostcasa.11 days = 13 }
+			country_event = { id = ostcasa.12 days = 20 }
+			country_event = { id = ostcasa.13 days = 28 }
+			set_country_flag = AST_8th_party_committee_election_started
+			set_variable = {
+				var = federalistoian_vote
+				value = 0
+			}
+			
+			set_variable = {
+				var = centralistian_vote
+				value = 0
+			}
+			
+			set_variable = {
+				var = labouritian_vote
+				value = 0
+			}
+		}
+		#relative_position_id = AST_8th_party_committee_election
+		completion_reward = {
+			add_political_power = 50
+			
+			if = {
+				limit = {
+					check_variable = {
+						var = federalistoian_vote
+						value = 3
+						compare = greater_than_or_equals
+					}
+					
+				}
+				
+				set_country_flag = AST_federalistoian_wins_8th
+				
+				AST = { country_event = ostcasa.14 }
+				
+			}
+			
+			if = {
+				limit = {
+					check_variable = {
+						var = centralistian_vote
+						value = 3
+						compare = greater_than_or_equals
+					}
+				}
+				
+				set_country_flag = AST_centralistian_wins_8th
+				
+				AST = { country_event = ostcasa.15 }
+			}
+			
+			if = {
+				limit = {
+					check_variable = {
+						var = labouritian_vote
+						value = 3
+						compare = greater_than_or_equals
+					}
+				}
+				
+				set_country_flag = AST_labouritian_wins_8th
+				
+				AST = { country_event = ostcasa.16 }
+				
+			}
+			
+			if = {
+				limit = {
+					check_variable = {
+						var = labouritian_vote
+						value = 3
+						compare = less_than
+					}
+					
+					check_variable = {
+						var = federalistoian_vote
+						value = 3
+						compare = less_than
+					}
+					
+					check_variable = {
+						var = centralistian_vote
+						value = 3
+						compare = less_than
+					}
+				}
+				
+				set_country_flag = AST_committee_elections_deadlock
+				
+				#AST = { country_event = ostcasa.17 }
+			}
+			
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_federalistoians
+		#icon = 
+		x = -5
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = {
+			focus = AST_8th_party_committee_election
+		}
+		available = {
+			NOT = {
+				has_country_flag = AST_isac_longo_general_secretary
+			}
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {
+			
+			
+		}
+	
+	}
+	
+}

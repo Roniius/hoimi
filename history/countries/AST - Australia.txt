@@ -2,7 +2,7 @@
 
 oob = "generic"
 set_stability = 0.55
-set_war_support = 0.3
+set_war_support = 0.30
 
 
 # Starting tech

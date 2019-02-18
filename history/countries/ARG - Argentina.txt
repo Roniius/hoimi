@@ -59,3 +59,15 @@ create_country_leader = {
 		#
 	}
 }
+
+create_field_marshal = {
+	name = "Wilfrid Laurier Jr."
+	picture = "Portrait_ARG_Wilfrid_Laurier_Jr.dds"
+	id = 004
+	traits = { }
+	skill = 5
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 5
+	logistics_skill = 5
+}

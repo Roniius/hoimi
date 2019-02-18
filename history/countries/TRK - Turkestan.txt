@@ -39,6 +39,71 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_country_leader = {
+	name = "Bastug Sengul"
+	desc = "POLITICS_BASTUG_SENGUL_DESC"
+	picture = "Portrait_TRK_Bastug_Sengul.dds"
+	expire = "1965.1.1"
+	ideology = anarchist_communism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Magzhan Kizil"
+	desc = "POLITICS_MAGZHAN_KIZIL_DESC"
+	picture = "Portrait_TRK_Magzhan_Kizil.dds"
+	expire = "1965.1.1"
+	ideology = engelism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ardavan Birol"
+	desc = "POLITICS_ARDAVAN_BIROL_DESC"
+	picture = "Portrait_TRK_Ardavan_Birol.dds"
+	expire = "1965.1.1"
+	ideology = sub_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Alptug Yuce"
+	desc = "POLITICS_ALPTUG_YUCE_DESC"
+	picture = "Portrait_TRK_Alptug_Yuce.dds"
+	expire = "1965.1.1"
+	ideology = sub_conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Omer Altin"
+	desc = "POLITICS_OMER_ALTIN_DESC"
+	picture = "Portrait_TRK_Omer_Altin.dds"
+	expire = "1965.1.1"
+	ideology = militaryreign
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Akcakoca Yetis"
+	desc = "POLITICS_AKCAKOCA_YETIS_DESC"
+	picture = "Portrait_TRK_Akcakoca_Yetis.dds"
+	expire = "1965.1.1"
+	ideology = sub_monarchism
+	traits = {
+		#
+	}
+}
 
 create_country_leader = {
 	name = "Mustafa Shokay"
@@ -50,3 +115,4 @@ create_country_leader = {
 		#
 	}
 }
+

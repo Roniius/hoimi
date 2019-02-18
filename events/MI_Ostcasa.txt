@@ -1,0 +1,461 @@
+﻿add_namespace = ostcasa
+
+#Opening Event for Muscovy
+country_event = {
+	id = ostcasa.1
+	title = ostcasa.1.t
+	desc = ostcasa.1.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = ostcasa.1.o1
+		AST = { country_event = ostcasa.2 }
+	}
+}
+
+#Opening Event Pt. 2
+country_event = {
+	id = ostcasa.2
+	title = ostcasa.2.t
+	desc = ostcasa.2.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = ostcasa.2.o1
+		
+	}
+}
+
+#Almerique Filipeson Arrested For Corruption #Feb. 1st, 1936
+country_event = {
+	id = ostcasa.3
+	title = ostcasa.3.t
+	desc = ostcasa.3.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = ostcasa.3.o1
+		
+		add_stability = -0.05
+		add_war_support = -0.05
+	}
+}
+
+#Almerique Filipeson Trials Come To Swift End #Feb. 25th, 1936
+country_event = {
+	id = ostcasa.4
+	title = ostcasa.4.t
+	desc = ostcasa.4.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = ostcasa.4.o1
+		add_stability = -0.03
+	}
+}
+
+#Roldan Grows Sick #March 3rd, 1936
+country_event = {
+	id = ostcasa.5
+	title = ostcasa.5.t
+	desc = ostcasa.5.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = ostcasa.5.o1
+		add_stability = -0.03
+	}
+}
+
+#Roldan Pushes Out The President #March 13th, 1936
+country_event = {
+	id = ostcasa.6
+	title = ostcasa.6.t
+	desc = ostcasa.6.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = ostcasa.6.o1
+		add_stability = -0.05
+	}
+}
+
+#Roldan Suffers Heart Attack #March 19th, 1936
+country_event = {
+	id = ostcasa.7
+	title = ostcasa.7.t
+	desc = ostcasa.7.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = ostcasa.7.o1
+		add_stability = -0.03
+		
+		create_country_leader = {
+			name = "National Committee"
+			desc = "POLITICS_ORDAIST_PARTY_COMMITTEE_DESC"
+			picture = "Portrait_AST_Ordaist_Party_Committee.dds"
+			expire = "1965.1.1"
+			ideology = leninism
+			traits = {
+				#
+			}
+		}
+		
+	}
+}
+
+#Roldan Passes Away :( #March 29th, 1936
+country_event = {
+	id = ostcasa.8
+	title = ostcasa.8.t
+	desc = ostcasa.8.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = ostcasa.8.o1
+		add_stability = -0.15
+		
+		
+		
+	}
+}
+
+#Triumvirate Takes Power #April 14th, 1936
+country_event = {
+	id = ostcasa.9
+	title = ostcasa.9.t
+	desc = ostcasa.9.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = ostcasa.9.o1
+		
+		create_country_leader = {
+			name = "The Triumvirate"
+			desc = "POLITICS_THE_TRIUMVIRATE_DESC"
+			picture = "Portrait_AST_Triumvirate.dds"
+			expire = "1965.1.1"
+			ideology = leninism
+			traits = {
+				#
+			}
+		}
+		
+		add_stability = 0.04
+		
+		set_country_flag = AST_triumvirate_takes_over
+	}
+}
+
+###Individual Take Over Events for 3 factions need to be done Plus Committe Election Events the latter coming first
+
+###8th National Committe Election Events###
+
+#Foreign Policy Decisions
+country_event = {
+	id = ostcasa.10
+	title = ostcasa.10.t
+	desc = ostcasa.10.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	#Peacefull But Cooperate With Friendly Hopefully Ordaism Nations/Federationists/Longo
+	option = {
+		name = ostcasa.10.o1
+		
+		
+		set_country_flag = federalistoian_foreign_policy
+		
+		add_to_variable = {
+			var = federalistoian_vote
+			value = 1
+		}
+		
+	}
+	
+	#slightly Aggressive Foreign Policy + Ordaism In one Country/Centralistian/Cardenas
+	option = {
+		name = ostcasa.10.o2
+		
+		
+		set_country_flag = centralistian_foreign_policy
+		
+		add_to_variable = {
+			var = centralistian_vote
+			value = 1
+		}
+		
+	}
+	
+	#Slightly Aggressive Foreign policy + Global revolution/Labouritian/Hedburg
+	option = {
+		name = ostcasa.10.o3
+		
+		
+		set_country_flag = labouritian_foreign_policy
+		
+		add_to_variable = {
+			var = labouritian_vote
+			value = 1
+		}
+		
+	}
+}
+
+#Native Liberation Movements Policy Decisions
+country_event = {
+	id = ostcasa.11
+	title = ostcasa.11.t
+	desc = ostcasa.11.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	#Leave It To States but allow for segregation
+	option = {
+		name = ostcasa.11.o1
+		
+		
+		set_country_flag = federalistoian_native_policy
+		
+		add_to_variable = {
+			var = federalistoian_vote
+			value = 1
+		}
+		
+	}
+	
+	#They Are Not Part of us
+	option = {
+		name = ostcasa.11.o2
+		
+		
+		set_country_flag = centralistian_native_policy
+		
+		add_to_variable = {
+			var = centralistian_vote
+			value = 1
+		}
+		
+	}
+	
+	#Complete Equality
+	option = {
+		name = ostcasa.11.o3
+		
+		
+		set_country_flag = labouritian_native_policy
+		
+		add_to_variable = {
+			var = labouritian_vote
+			value = 1
+		}
+		
+	}
+}
+
+#Police Act
+country_event = {
+	id = ostcasa.12
+	title = ostcasa.12.t
+	desc = ostcasa.12.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	#Decentralized Police Force
+	option = {
+		name = ostcasa.12.o1
+		
+		
+		set_country_flag = federalistoian_police_policy
+		
+		add_to_variable = {
+			var = federalistoian_vote
+			value = 1
+		}
+		
+	}
+	
+	#National Subservient Police Force
+	option = {
+		name = ostcasa.12.o2
+		
+		
+		set_country_flag = centralistian_police_policy
+		
+		add_to_variable = {
+			var = centralistian_vote
+			value = 1
+		}
+		
+	}
+	
+	#Replace Police Force with Local People's watches
+	option = {
+		name = ostcasa.12.o3
+		
+		
+		set_country_flag = labouritian_police_policy
+		
+		add_to_variable = {
+			var = labouritian_vote
+			value = 1
+		}
+		
+	}
+}
+
+#Values of Democracy
+country_event = {
+	id = ostcasa.13
+	title = ostcasa.13.t
+	desc = ostcasa.13.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	#Regional Democracy
+	option = {
+		name = ostcasa.13.o1
+		
+		
+		set_country_flag = federalistoian_democracy_policy
+		
+		add_to_variable = {
+			var = federalistoian_vote
+			value = 1
+		}
+		
+	}
+	
+	#Centralized Democracy
+	option = {
+		name = ostcasa.13.o2
+		
+		
+		set_country_flag = centralistian_democracy_policy
+		
+		add_to_variable = {
+			var = centralistian_vote
+			value = 1
+		}
+		
+	}
+	
+	#Further Democratic Reforms with protections on Ordaism
+	option = {
+		name = ostcasa.13.o3
+		
+		
+		set_country_flag = labouritian_democracy_policy
+		
+		add_to_variable = {
+			var = labouritian_vote
+			value = 1
+		}
+		
+	}
+}
+
+###Committee Election Victory Events###
+
+#Federationist Victory
+country_event = {
+	id = ostcasa.14
+	title = ostcasa.14.t
+	desc = ostcasa.14.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = ostcasa.14.o1
+		
+		set_party_name = { 
+			ideology = communism 
+			long_name = AST_ordaist_party_federationist_faction_long
+			name = AST_ordaist_party_federationist_faction
+		}
+		
+	}
+}
+
+#Centralistian Victory
+country_event = {
+	id = ostcasa.15
+	title = ostcasa.15.t
+	desc = ostcasa.15.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = ostcasa.15.o1
+		
+		set_party_name = { 
+			ideology = communism 
+			long_name = AST_ordaist_party_centralistian_faction_long
+			name = AST_ordaist_party_centralistian_faction
+		}
+		
+	}
+}
+
+#Labouritian Victory
+country_event = {
+	id = ostcasa.16
+	title = ostcasa.16.t
+	desc = ostcasa.16.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = ostcasa.16.o1
+		
+		set_party_name = { 
+			ideology = communism 
+			long_name = AST_ordaist_party_labouritian_faction_long
+			name = AST_ordaist_party_labouritian_faction
+		}
+		
+	}
+}
+
+#Political deadlock
+country_event = {
+	id = ostcasa.17
+	title = ostcasa.17.t
+	desc = ostcasa.17.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = ostcasa.17.o1
+		
+		add_stability = -0.10
+		
+	}
+}

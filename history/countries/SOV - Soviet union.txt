@@ -101,9 +101,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "G.P. Ivan IX"
-	desc = "POLITICS_IVAN_IX_DESC"
-	picture = "Portrait_SOV_Ivan_IX.dds"
+	name = "Grigori Sokolnikov"
+	desc = "POLITICS_GRIGORI_SOKOLNIKOV_DESC"
+	picture = "Portrait_SOV_Grigori_Sokolnikov.dds"
 	expire = "1953.3.1"
 	ideology = marxism
 	traits = {
@@ -112,9 +112,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "G.P. Ivan IX"
-	desc = "POLITICS_IVAN_IX_DESC"
-	picture = "Portrait_SOV_Ivan_IX.dds"
+	name = "Nikolay Krestinsky"
+	desc = "POLITICS_NIKOLAY_KRESTINSKY_DESC"
+	picture = "Portrait_SOV_Nikolay_Krestinsky.dds"
 	expire = "1953.3.1"
 	ideology = engelism
 	traits = {
@@ -123,9 +123,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "G.P. Ivan IX"
-	desc = "POLITICS_IVAN_IX_DESC"
-	picture = "Portrait_SOV_Ivan_IX.dds"
+	name = "Aleksei F. Aladin"
+	desc = "POLITICS_ALEKSEI_F_ALADIN_DESC"
+	picture = "Portrait_SOV_Aleksei_F_Aladin.dds"
 	expire = "1953.3.1"
 	ideology = sub_liberalism
 	traits = {
@@ -134,9 +134,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "G.P. Ivan IX"
-	desc = "POLITICS_IVAN_IX_DESC"
-	picture = "Portrait_SOV_Ivan_IX.dds"
+	name = "Georgy Lvov"
+	desc = "POLITICS_GEORGY_LVOV_DESC"
+	picture = "Portrait_SOV_Georgy_Lvov.dds"
 	expire = "1953.3.1"
 	ideology = sub_conservatism
 	traits = {
@@ -145,9 +145,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "G.P. Ivan IX"
-	desc = "POLITICS_IVAN_IX_DESC"
-	picture = "Portrait_SOV_Ivan_IX.dds"
+	name = "Alexander Kutepov"
+	desc = "POLITICS_ALEXANDER_KUTEPOV_DESC"
+	picture = "Portrait_SOV_Alexander_Kutepov.dds"
 	expire = "1953.3.1"
 	ideology = despotism
 	traits = {
@@ -156,9 +156,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "G.P. Ivan IX"
-	desc = "POLITICS_IVAN_IX_DESC"
-	picture = "Portrait_SOV_Ivan_IX.dds"
+	name = "Fyokhlachev Panteley"
+	desc = "POLITICS_FYOKHLACHEV_PANTELEY_DESC"
+	picture = "Portrait_SOV_Fyokhlachev_Panteley.dds"
 	expire = "1953.3.1"
 	ideology = fascism_ideology
 	traits = {

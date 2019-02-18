@@ -30,6 +30,7 @@ bookmarks = {
 			focuses = {
 				SOV_ryazan_crisis
 				SOV_first_duma_legislative_elections
+				SOV_russian_unity
 			}	
 		}
 		

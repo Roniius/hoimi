@@ -126,9 +126,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Batzorig Khan"
-	desc = "POLITICS_BATZORIG_KHAN_DESC"
-	picture = "Portrait_MON_Batzorig_Khan.dds"
+	name = "Peljidiin Genden"
+	desc = "POLITICS_PELJIDIIN_GENDEN_DESC"
+	picture = "Portrait_MON_Peljidiin_Genden.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -137,9 +137,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Batzorig Khan"
-	desc = "POLITICS_BATZORIG_KHAN_DESC"
-	picture = "Portrait_MON_Batzorig_Khan.dds"
+	name = "Tserendondovyn Navaanneren"
+	desc = "POLITICS_TSERENDONDOVYN_NAVAANNEREN_DESC"
+	picture = "Portrait_MON_Tserendondovyn_Navaanneren.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -148,9 +148,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Batzorig Khan"
-	desc = "POLITICS_BATZORIG_KHAN_DESC"
-	picture = "Portrait_MON_Batzorig_Khan.dds"
+	name = "Demchugdongrub"
+	desc = "POLITICS_DEMCHUGDONGRUB_DESC"
+	picture = "Portrait_MON_Demchugdongrub.dds"
 	expire = "1965.1.1"
 	ideology = sub_conservatism
 	traits = {
@@ -159,9 +159,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Batzorig Khan"
-	desc = "POLITICS_BATZORIG_KHAN_DESC"
-	picture = "Portrait_MON_Batzorig_Khan.dds"
+	name = "Aisin Gioro Pu-yi"
+	desc = "POLITICS_AISIN_GIORO_PU_YI_DESC"
+	picture = "Portrait_MON_Aisin_Gioro_Pu_yi.dds"
 	expire = "1965.1.1"
 	ideology = sub_liberalism
 	traits = {
@@ -170,9 +170,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Batzorig Khan"
-	desc = "POLITICS_BATZORIG_KHAN_DESC"
-	picture = "Portrait_MON_Batzorig_Khan.dds"
+	name = "Jambyn Lkhümbe"
+	desc = "POLITICS_JAMBYN_LKHUMBE_DESC"
+	picture = "Portrait_MON_Jambyn_Lkhumbe.dds"
 	expire = "1965.1.1"
 	ideology = engelism
 	traits = {
@@ -181,9 +181,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Batzorig Khan"
-	desc = "POLITICS_BATZORIG_KHAN_DESC"
-	picture = "Portrait_MON_Batzorig_Khan.dds"
+	name = "Dogsomyn Bodoo"
+	desc = "POLITICS_DOGSOMYN_BODOO_DESC"
+	picture = "Portrait_MON_Dogsomyn_Bodoo.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
