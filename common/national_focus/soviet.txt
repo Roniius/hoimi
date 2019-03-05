@@ -1489,7 +1489,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_leftist_economics
-		#icon = 
+		icon = GFX_focus_generic_economic_control_red
 		prerequisite = { focus = SOV_the_muscovite_economy }
 		mutually_exclusive = { focus = SOV_fiscal_conservatism }
 		available = {
@@ -1514,7 +1514,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_revise_union_laws
-		#icon = 
+		icon = GFX_focus_SOV_revise_union_laws
 		prerequisite = { focus = SOV_leftist_economics }
 		x = -1
 		y = 2
@@ -1552,7 +1552,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_public_healthcare_reforms
-		#icon = 
+		icon = GFX_focus_SOV_public_healthcare
 		prerequisite = { focus = SOV_increase_corporate_taxation }
 		x = -1
 		y = 4
@@ -1597,7 +1597,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_tighter_grip_on_unions
-		#icon = 
+		icon = GFX_focus_SOV_tighter_grip_on_unions
 		prerequisite = { focus = SOV_fiscal_conservatism }
 		x = 1
 		y = 2
@@ -1745,7 +1745,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_government_funded_arms_production
-		#icon = 
+		icon = GFX_focus_SOV_arms_production
 		prerequisite = { focus = SOV_expand_the_military_industry }
 		x = 1
 		y = 7

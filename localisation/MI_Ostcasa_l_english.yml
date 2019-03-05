@@ -103,6 +103,15 @@
  ostcasa.17.d:0 "The election for the 8th Ordaist Party National Committee has seen the same poor results as the elections for the 7th, a deadlock with no faction gaining a majority. This leaves no faction with enough influence in the National Committee to get their policies through, in the event of there being no General Secretary it is unlikely the National Committee will be able to come together to vote on and elect a new one. This could be very worrying as groups of people may attempt to sieze power through unfair means, rumours are that there are already private discussions for deals and alliances to be made between party members. All we can do is hope the nation countinues down the right path."
  ostcasa.17.o1:0 "Oh No"
  
+ #Pop Culture Events
+ 
+ ostcasa_pop.1.t:0 "Worker Man Issue #1"
+ ostcasa_pop.1.d:0 "In late 1935 Ostcasan General Secretary Gorm Roldán created the Ostcasan Board of Comics after some comics from foreign nations made its way to the youth. Now the OBC has released their first comic, this comic is about a man with super strength and the ability to fly and he is named worker man, it has immedietly gained popularity among the youth. Worker Man, also known to people who know him as Carlos Sköld is a worker in a Pre-Revolutionary Ostcasa where he fights criminals such as bosses and landlords, Worker Man wears red coloured military clothing and a yellow mask to cover his face. While many were expecting comics about detectives and monsters like the foreign comics, the Worker Man hero was a nice surprise that has become popular fast with many people recieveing the comic free with the newspaper for their children to read.\n\n The Ostcasan government attempted to reach out to foreign nations to allow for the comic to be given out however most nations even fellow Ordaist nations have turned it down. However this does not mean the government will not try in the future, and many children are excited for the next issue of the Worker Man story."
+ ostcasa_pop.1.o1:0 "Fun!"
+ 
+ ostcasa_pop.2.t:0 "Worker Man Issue #2"
+ ostcasa_pop.2.d:0 "With the mass success of the first issue of Worker Man, the OBC started to work on the next issue of Worker Man. Worker Man Issue #2 covers him taking out a boss also featured in the first issue called Kyah Jacbobsson after he kidnaps the father of Carlos Sköld, Elvin Sköld who makes his first appearance. Worker Man must fight his way through Jacbobssons factory where he must fight through many of Jacbobssons thugs, when Worker Man finally reaches the office of Kyah Jacbobsson he manages to save his father. Issue #2 like the first has been very very popular and the OBC has begun creating more issues including small short stories of taking out the bad people of the world."
+ ostcasa_pop.2.o1:0 "More Fun!"
  
  #Focuses
  

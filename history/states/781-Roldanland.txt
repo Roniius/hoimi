@@ -1,0 +1,23 @@
+
+state={
+	id=781
+	name="STATE_781"
+
+	history={
+		owner = AST
+		buildings = {
+			infrastructure = 5
+			air_base = 1
+
+		}
+		add_core_of = AST
+
+	}
+
+	provinces={
+		2205 2219 5211 5225 7567 8186 8206 8220 10925 12910 13169 13170 13171 
+	}
+	manpower=424125
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -265,7 +265,6 @@ guiTypes = {
 			
 		}
 		
-		
 		## facebook etc.
 		ButtonType = {
 			name = "homepage_button"

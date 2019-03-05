@@ -50,10 +50,9 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 1
 
 			has_war = no
-			has_government = democratic
 		}		
 	}	
 }
@@ -63,10 +62,9 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 1
 
 			has_war = no
-			has_government = democratic
 		}		
 	}	
 }
@@ -76,10 +74,9 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 1
 
 			has_war = no
-			has_government = fascism
 		}		
 	}	
 }
@@ -89,10 +86,9 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 1
 
 			has_war = no
-			has_government = fascism
 		}		
 	}	
 }
@@ -128,10 +124,9 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 1
 
 			has_war = yes
-			has_government = fascism
 		}		
 	}	
 }
@@ -141,10 +136,9 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 1
 
 			has_war = yes
-			has_government = fascism
 		}		
 	}	
 }
@@ -154,10 +148,9 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 1
 
 			has_war = yes
-			has_government = fascism
 		}		
 	}	
 }
@@ -167,10 +160,9 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 1
 
 			has_war = yes
-			has_government = fascism
 		}		
 	}	
 }
@@ -180,10 +172,9 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 1
 
 			has_war = yes
-			has_government = democratic
 		}		
 	}	
 }
@@ -193,10 +184,9 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 1
 
 			has_war = yes
-			has_government = democratic
 		}		
 	}	
 }
@@ -206,10 +196,9 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 1
 
 			has_war = no
-			has_government = communism
 		}		
 	}	
 }
@@ -219,10 +208,9 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 1
 
 			has_war = no
-			has_government = communism
 		}		
 	}	
 }
@@ -232,10 +220,9 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 1
 
 			has_war = no
-			has_government = communism
 		}		
 	}	
 }
@@ -246,10 +233,9 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 1
 
 			has_war = yes
-			has_government = communism
 		}		
 	}	
 }
@@ -259,10 +245,9 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 1
 
 			has_war = yes
-			has_government = communism
 		}		
 	}	
 }
@@ -272,10 +257,9 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 1
 
 			has_war = yes
-			has_government = communism
 		}		
 	}	
 }

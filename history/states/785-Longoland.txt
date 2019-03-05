@@ -1,0 +1,19 @@
+state={
+	id=785
+	name="STATE_785"
+	provinces={
+		5183 5197 8165 10927 
+	}
+	history={
+		owner = AST
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = AST
+
+	}
+	state_category = city
+	manpower=1235512
+	buildings_max_level_factor=1.000
+}

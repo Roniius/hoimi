@@ -179,7 +179,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-	#Peacefull But Cooperate With Friendly Hopefully Ordaism Nations/Federationists/Longo
+	#Peacefull But Cooperate With Friendly Hopefully Ordaism Nations/Federalistoians/Longo
 	option = {
 		name = ostcasa.10.o1
 		
@@ -380,7 +380,7 @@ country_event = {
 
 ###Committee Election Victory Events###
 
-#Federationist Victory
+#Federalistoian Victory
 country_event = {
 	id = ostcasa.14
 	title = ostcasa.14.t
@@ -456,6 +456,57 @@ country_event = {
 		name = ostcasa.17.o1
 		
 		add_stability = -0.10
+		
+	}
+}
+
+#Federalistoians Elect Longo as General Secretary
+country_event = {
+	id = ostcasa.18
+	title = ostcasa.18.t
+	desc = ostcasa.18.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = ostcasa.18.o1
+		
+		add_political_power = 50
+		
+	}
+}
+
+#Centralistians Elect Cardenas as General Secretary
+country_event = {
+	id = ostcasa.19
+	title = ostcasa.19.t
+	desc = ostcasa.19.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = ostcasa.19.o1
+		
+		add_political_power = 50
+		
+	}
+}
+
+#Labouritians Elect Hedburg as General Secretary
+country_event = {
+	id = ostcasa.20
+	title = ostcasa.20.t
+	desc = ostcasa.20.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = ostcasa.20.o1
+		
+		add_political_power = 50
 		
 	}
 }

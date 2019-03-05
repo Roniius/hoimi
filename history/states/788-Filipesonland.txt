@@ -1,0 +1,19 @@
+state={
+	id=788
+	name="STATE_788"
+	provinces={
+		2201 8152 8155 12904 12993 
+	}
+	manpower=1411241
+	history={
+		owner = AST
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = AST
+
+	}
+	state_category = city
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,38 @@
+﻿add_namespace = revolt_war
+
+#Maori Joining Ostcasa enemy
+#country_event = {
+#	id = revolt_war.1
+#	title = revolt_war.1.t
+#	desc = revolt_war.1.d  
+#	#picture = 
+#
+#	trigger = {
+#		controls_state = 284
+#		#has_global_flag = AST_maori_are_angry
+#		#TAG = {
+#		#	NOT = {
+#		#		exists = yes
+#		#	}
+#		#}
+#		AST = {
+#			owns_state = 284
+#		}
+#	}
+#
+#	fire_only_once = yes
+#	
+#	mean_time_to_happen = {
+#		days = 15
+#	}
+#	
+#
+#	#Oh No
+#	option = {
+#		name = revolt_war.1.o1
+#		
+#		
+#		
+#		
+#	}
+#}

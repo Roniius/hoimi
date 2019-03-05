@@ -1,0 +1,23 @@
+
+state={
+	id=784
+	name="STATE_784"
+
+	history={
+		owner = AST
+		buildings = {
+			infrastructure = 5
+			air_base = 1
+
+		}
+		add_core_of = AST
+
+	}
+
+	provinces={
+		1501 1514 1644 2139 2166 2187 4505 4520 4648 5206 7481 7506 7525 7538 7566 8230 10336 10338 10350 10365 10378 10936 10955 12354 12367 12382 12936 12957 
+	}
+	manpower=1352363
+	buildings_max_level_factor=1.000
+	state_category=city
+}

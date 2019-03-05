@@ -142,15 +142,117 @@ focus_tree = {
 			focus = AST_8th_party_committee_election
 		}
 		available = {
-			NOT = {
-				has_country_flag = AST_isac_longo_general_secretary
-			}
+			
+			has_country_flag = AST_isac_longo_general_secretary
+			
 		}
 		
 		relative_position_id = AST_8th_party_committee_election
 		completion_reward = {
 			
 			
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_the_state_law_reform
+		#icon = 
+		x = -6
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = {
+			focus = AST_federalistoians
+		}
+	
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {
+			
+			
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_local_police_forces
+		#icon = 
+		prerequisite = {
+			focus = AST_the_state_law_reform
+		}
+		x = -6
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {	
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_enact_local_electoral_reform
+		#icon = 
+		prerequisite = {
+			focus = AST_federalistoians
+		}
+		x = -4
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {	
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_power_to_state_presidents
+		#icon = 
+		prerequisite = {
+			focus = AST_enact_local_electoral_reform
+		}
+		x = -4
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {	
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_federalistoi_law
+		#icon = 
+		prerequisite = { focus = AST_power_to_state_presidents }
+		prerequisite = { focus = AST_local_police_forces }
+		x = -5
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {	
 		}
 	
 	}

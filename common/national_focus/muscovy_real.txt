@@ -10,7 +10,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_a_tragedy_focus
-		#icon = 
+		icon = GFX_focus_SOV_a_tragedy
 		available = {
 			has_country_flag = SOV_a_tragedy
 		}
@@ -304,7 +304,7 @@ focus_tree = {
 	focus = {
 	
 		id = SOV_tighter_grip_on_political_freedom
-		#icon = 
+		icon = GFX_focus_SOV_tighter_grip_politics
 		x = -4
 		y = 5
 		relative_position_id = SOV_a_tragedy_focus

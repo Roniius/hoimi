@@ -298,6 +298,30 @@ country_event = {
 			}
 			AST = { country_event = ostcasa.9 }
 		}
+		
+		if = {
+			limit = { 
+				country_exists = AST
+				has_country_flag = AST_federalistoian_wins_8th
+			}
+			AST = { country_event = ostcasa.18 }
+		}
+		
+		if = {
+			limit = { 
+				country_exists = AST
+				has_country_flag = AST_centralistian_wins_8th
+			}
+			AST = { country_event = ostcasa.19 }
+		}
+		
+		if = {
+			limit = { 
+				country_exists = AST
+				has_country_flag = AST_labouritian_wins_8th
+			}
+			AST = { country_event = ostcasa.20 }
+		}
 	}
 }
 

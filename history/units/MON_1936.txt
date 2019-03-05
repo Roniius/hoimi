@@ -372,40 +372,40 @@ units = {
 	
 	#NAVY
 
-	navy = {				
-		name = "Capital Fleet"			
-		base = 957
-		location = 957 # Scapa Flow
-		
-		ship = { name = "KLNS Lekochiiiel" definition = battleship equipment = { battleship_1 = { amount = 1 owner = MON  } } }
-		ship = { name = "KLNS Ögedei" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = MON  } } }	
-		ship = { name = "KLNS Wilkfrenietuban" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = MON } } }					
-		ship = { name = "KLNS Ulaanbaatar" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = MON } } }				
-		ship = { name = "KLNS Güyük" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MON  } } }
-		ship = { name = "KLNS Möngke" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MON } } }
-		ship = { name = "KLNS Kublai" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MON  } } }
-		ship = { name = "KLNS Deciimutari" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MON  } } }
-		ship = { name = "KLNS Khüchingiin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON } } }			
-		ship = { name = "KLNS Mongol uls" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON } } }	
-		### 6th Destroyer Flotilla
-		ship = { name = "KLNS Tedubilid" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON  } } }
-		# Destroyer Division 11
-		ship = { name = "KLNS Baigali nuur" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON } } }	
-		ship = { name = "KLNS Khorgo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON } } }	
-		ship = { name = "KLNS Ükhel" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON } } }	
-		ship = { name = "KLNS Manjuur" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON } } }	
-		# Destroyer Division 12
-		ship = { name = "KLNS Ild" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON } } }	
-		ship = { name = "KLNS Borjigin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON } } }	
-		ship = { name = "KLNS Yalalt" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON } } }	
-		ship = { name = "KLNS Süirekh" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON } } }		
-		# Destroyer Division 15
-		ship = { name = "KLNS Foks Gordon" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MON } } }						# to RCN as Qu'Appelle, 1943	
-		ship = { name = "KLNS Uur khilen" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MON } } }	
-		ship = { name = "KLNS Aidas" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MON } } }	
-		ship = { name = "KLNS Tögsgöl" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MON } } }						# to RCN as Saskatchewan, 1943	
-
-	}
+	#navy = {				
+	#	name = "Capital Fleet"			
+	#	base = 957
+	#	location = 957 # Scapa Flow
+	#	
+	#	ship = { name = "KLNS Lekochiiiel" definition = battleship equipment = { battleship_1 = { amount = 1 owner = MON  } } }
+	#	ship = { name = "KLNS Ögedei" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = MON  } } }	
+	#	ship = { name = "KLNS Wilkfrenietuban" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = MON } } }					
+	#	ship = { name = "KLNS Ulaanbaatar" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = MON } } }				
+	#	ship = { name = "KLNS Güyük" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MON  } } }
+	#	ship = { name = "KLNS Möngke" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MON } } }
+	#	ship = { name = "KLNS Kublai" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MON  } } }
+	#	ship = { name = "KLNS Deciimutari" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MON  } } }
+	#	ship = { name = "KLNS Khüchingiin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON } } }			
+	#	ship = { name = "KLNS Mongol uls" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON } } }	
+	#	### 6th Destroyer Flotilla
+	#	ship = { name = "KLNS Tedubilid" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON  } } }
+	#	# Destroyer Division 11
+	#	ship = { name = "KLNS Baigali nuur" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON } } }	
+	#	ship = { name = "KLNS Khorgo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON } } }	
+	#	ship = { name = "KLNS Ükhel" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON } } }	
+	#	ship = { name = "KLNS Manjuur" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON } } }	
+	#	# Destroyer Division 12
+	#	ship = { name = "KLNS Ild" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON } } }	
+	#	ship = { name = "KLNS Borjigin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON } } }	
+	#	ship = { name = "KLNS Yalalt" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON } } }	
+	#	ship = { name = "KLNS Süirekh" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MON } } }		
+	#	# Destroyer Division 15
+	#	ship = { name = "KLNS Foks Gordon" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MON } } }						# to RCN as Qu'Appelle, 1943	
+	#	ship = { name = "KLNS Uur khilen" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MON } } }	
+	#	ship = { name = "KLNS Aidas" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MON } } }	
+	#	ship = { name = "KLNS Tögsgöl" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MON } } }						# to RCN as Saskatchewan, 1943	
+	#
+	#}
 }
 
 
