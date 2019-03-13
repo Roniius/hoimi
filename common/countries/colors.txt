@@ -115,8 +115,8 @@ HUN = {
 	color_ui = rgb { 255 164 127 }
 }
 AFG = {
-	color = rgb { 99  153  138 }
-	color_ui = rgb { 99  153  138 }
+	color = rgb { 135  113  182 }
+	color_ui = rgb { 135  113  182 }
 }
 ARG = {
 	color = rgb { 145 157 236 }
@@ -239,8 +239,8 @@ SIK = {
 	color_ui = rgb { 222 247 198 }
 }
 TIB = {
-	color = rgb { 80 115 45}
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 244 225 9 }
+	color_ui = rgb { 244 225 9 }
 }
 URG = {
 	color = rgb { 171 190 152 }
@@ -485,8 +485,8 @@ KAM = {
 	color_ui = rgb { 170  102  120 }
 }
 EAF = {
-	color = rgb { 255  255  86 }
-	color_ui = rgb { 255  255  86 }
+	color = rgb { 23 82 244 }
+	color_ui = rgb { 23 82 244 }
 }
 SIB = {
 	color = rgb { 186  255  186 }
@@ -867,6 +867,30 @@ BOR = {
 MOS = {
 	color = rgb { 168 0 44 }
 	color_ui = rgb { 168 0 44 }
+}
+KHA = {
+	color = rgb { 116  163  124 }
+	color_ui = rgb { 116  163  124 }
+}
+MAR = {
+	color = rgb { 255  150  0 }
+	color_ui = rgb { 255  150  0 }
+}
+SAM = {
+	color = rgb { 175  234  175 }
+	color_ui = rgb { 175  234  175 }
+}
+BHA = {
+	color = rgb { 192  192  192 }
+	color_ui = rgb { 192  192  192 }
+}
+GND = {
+	color = rgb { 0  212  170 }
+	color_ui = rgb { 0  212  170 }
+}
+JIA = {
+	color = rgb { 0  48  121 }
+	color_ui = rgb { 0  48  121 }
 }
 D01 = {
 	color = rgb { 200 100 31 }

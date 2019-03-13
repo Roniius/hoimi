@@ -7,10 +7,10 @@ state={
 	}
 
 	history={
-		owner = ODI
-		add_core_of = ODI
+		owner = MAR
+		add_core_of = MAR
 		victory_points = {
-			8087 1 
+			8087 30 
 		}
 		buildings = {
 			infrastructure = 3

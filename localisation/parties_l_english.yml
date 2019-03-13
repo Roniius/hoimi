@@ -58,6 +58,10 @@
  smithism_desc:0 "An economic and political system in which a country's trade and industry are controlled by private owners for profit, rather than by the state."
  chongxism:0 "Chongxism"
  chongxism_desc:0 "Chongxism is a ideology based around the writings of Bai Chongxi. The ideology lays out his view of how the nation should be ran, with a mixed economy, strict traditional values."
+ authoritarian_engelism:0 "Authoritarian Engelism"
+ authoritarian_engelism_desc:0 "Authoritarian Engelism is a form of Engelism that believes in a strong government."
+ disciplined_engelism:0 "Disciplined Engelism"
+ disciplined_engelism_desc:0 "Disciplined Engelism is a form of Engelism developed in mid 19th Century China in which a disciplined army usually of martial artists who look over the people who practice the ideas of Engelism. While in some ways it is authoritarian, the leader of the army is elected by the people and can be anyone including common folk; however, usually always a martial artist is elected. Mostly seen in Jiangsu under the Coastal Army where many people go to learn forms of Kung-Fu."
  
  #Hanseatic League
  HAN_communism_party:0 "OPoTHL"

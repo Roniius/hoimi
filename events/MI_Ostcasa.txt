@@ -473,6 +473,7 @@ country_event = {
 		name = ostcasa.18.o1
 		
 		add_political_power = 50
+		set_country_flag = AST_isac_longo_general_secretary
 		
 	}
 }
@@ -491,6 +492,8 @@ country_event = {
 		
 		add_political_power = 50
 		
+		set_country_flag = AST_loke_cardenas_general_secretary
+		
 	}
 }
 
@@ -508,5 +511,6 @@ country_event = {
 		
 		add_political_power = 50
 		
+		set_country_flag = AST_fiona_hedburg_general_secretary
 	}
 }

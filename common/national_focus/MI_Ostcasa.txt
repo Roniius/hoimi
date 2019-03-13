@@ -10,6 +10,8 @@ focus_tree = {
 		}
 	}
 	
+	continuous_focus_position = { x = 150 y = 2500	}
+	
 	focus = {
 	
 		id = AST_8th_party_committee_election
@@ -121,7 +123,7 @@ focus_tree = {
 				
 				set_country_flag = AST_committee_elections_deadlock
 				
-				#AST = { country_event = ostcasa.17 }
+				AST = { country_event = ostcasa.17 }
 			}
 			
 		}
@@ -159,7 +161,7 @@ focus_tree = {
 	
 		id = AST_the_state_law_reform
 		#icon = 
-		x = -6
+		x = -7
 		y = 2
 		cost = 5
 		ai_will_do = {
@@ -185,7 +187,7 @@ focus_tree = {
 		prerequisite = {
 			focus = AST_the_state_law_reform
 		}
-		x = -6
+		x = -7
 		y = 3
 		cost = 5
 		ai_will_do = {
@@ -205,7 +207,7 @@ focus_tree = {
 		prerequisite = {
 			focus = AST_federalistoians
 		}
-		x = -4
+		x = -3
 		y = 2
 		cost = 5
 		ai_will_do = {
@@ -225,7 +227,7 @@ focus_tree = {
 		prerequisite = {
 			focus = AST_enact_local_electoral_reform
 		}
-		x = -4
+		x = -3
 		y = 3
 		cost = 5
 		ai_will_do = {
@@ -253,6 +255,480 @@ focus_tree = {
 		
 		relative_position_id = AST_8th_party_committee_election
 		completion_reward = {	
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_state_army_reforms
+		#icon = 
+		prerequisite = { focus = AST_federalistoi_law }
+		bypass = {
+			has_country_flag = AST_longo_shot
+		}
+		cancel = {
+			has_country_flag = AST_longo_shot
+		}
+		x = -5
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {	
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_the_relations_recognition_act
+		#icon = 
+		prerequisite = { focus = AST_state_army_reforms }
+		bypass = {
+			has_country_flag = AST_longo_shot
+		}
+		cancel = {
+			has_country_flag = AST_longo_shot
+		}
+		x = -7
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {	
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_the_religious_release_act
+		#icon = 
+		prerequisite = { focus = AST_state_army_reforms }
+		bypass = {
+			has_country_flag = AST_longo_shot
+		}
+		cancel = {
+			has_country_flag = AST_longo_shot
+		}
+		x = -3
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {	
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_the_feminine_vote
+		#icon = 
+		prerequisite = { focus = AST_the_relations_recognition_act }
+		prerequisite = { focus = AST_the_religious_release_act }
+		bypass = {
+			has_country_flag = AST_longo_shot
+		}
+		cancel = {
+			has_country_flag = AST_longo_shot
+		}
+		x = -5
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {	
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_dont_overstep_for_personal_conviction
+		#icon = 
+		prerequisite = { focus = AST_the_feminine_vote }
+		mutually_exclusive = { focus = AST_enforce_the_dark_state_plan }
+		bypass = {
+			has_country_flag = AST_longo_shot
+		}
+		cancel = {
+			has_country_flag = AST_longo_shot
+		}
+		x = -7
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {	
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_enforce_the_dark_state_plan
+		#icon = 
+		prerequisite = { focus = AST_the_feminine_vote }
+		mutually_exclusive = { focus = AST_dont_overstep_for_personal_conviction }
+		bypass = {
+			has_country_flag = AST_longo_shot
+		}
+		cancel = {
+			has_country_flag = AST_longo_shot
+		}
+		x = -3
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {	
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_state_funeral
+		#icon = 
+		prerequisite = { focus = AST_dont_overstep_for_personal_conviction focus = AST_enforce_the_dark_state_plan }
+		available = {
+			has_country_flag = AST_longo_shot
+		}
+		x = -5
+		y = 9
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {	
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_nicosson
+		#icon = 
+		prerequisite = { focus = AST_state_funeral }
+		available = {
+			has_country_flag = AST_nicosson_elected
+		}
+		x = -7
+		y = 10
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {	
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_franco
+		#icon = 
+		prerequisite = { focus = AST_state_funeral }
+		available = {
+			has_country_flag = AST_franco_elected
+		}
+		x = -3
+		y = 10
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {	
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_emergency_powers_act
+		#icon = 
+		prerequisite = { focus = AST_nicosson }
+		x = -9
+		y = 11
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {	
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_centralistian_arrests
+		#icon = 
+		prerequisite = { focus = AST_nicosson focus = AST_franco }
+		x = -5
+		y = 11
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {	
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_repeal_the_segregation
+		#icon = 
+		prerequisite = { focus = AST_centralistian_arrests }
+		x = -5
+		y = 12
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {	
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_nicosson_release_act
+		#icon = 
+		prerequisite = { focus = AST_emergency_powers_act }
+		x = -10
+		y = 12
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {	
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_cardenas_trials
+		#icon = 
+		prerequisite = { focus = AST_emergency_powers_act }
+		prerequisite = { focus = AST_centralistian_arrests }
+		x = -8
+		y = 12
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {	
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_native_reconciliation
+		#icon = 
+		prerequisite = { focus = AST_cardenas_trials }
+		prerequisite = { focus = AST_nicosson_release_act }
+		x = -9
+		y = 13
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {	
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_this_is_the_end
+		#icon = 
+		prerequisite = { focus = AST_native_reconciliation }
+		x = -9
+		y = 14
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {	
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_undo_relations_recognition_act
+		#icon = 
+		prerequisite = { focus = AST_franco }
+		x = -2
+		y = 11
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {	
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_cult_of_franco
+		#icon = 
+		prerequisite = { focus = AST_undo_relations_recognition_act }
+		x = -2
+		y = 12
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {	
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_franco_secret_police
+		#icon = 
+		prerequisite = { focus = AST_cult_of_franco }
+		x = -2
+		y = 13
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {	
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_safeguard_the_shores
+		#icon = 
+		prerequisite = { focus = AST_franco_secret_police }
+		x = -3
+		y = 14
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {	
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_fortify_the_nation
+		#icon = 
+		prerequisite = { focus = AST_franco_secret_police }
+		x = -1
+		y = 14
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {	
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_hurrae_for_ostcasa
+		#icon = 
+		prerequisite = { focus = AST_fortify_the_nation }
+		prerequisite = { focus = AST_safeguard_the_shores }
+		x = -2
+		y = 15
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {	
+		}
+	
+	}
+	
+	focus = {
+	
+		id = AST_centralistians
+		#icon = 
+		x = 3
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = {
+			focus = AST_8th_party_committee_election
+		}
+		available = {
+			
+			has_country_flag = AST_loke_cardenas_general_secretary
+			
+		}
+		
+		relative_position_id = AST_8th_party_committee_election
+		completion_reward = {
+			
+			
 		}
 	
 	}

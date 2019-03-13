@@ -68,6 +68,14 @@ ideologies = {
 			
 			engelism = {
 			}
+
+			authoritarian_engelism = {
+			}
+
+			disciplined_engelism = {
+			}
+
+
 		}
 		
 		dynamic_faction_names = {

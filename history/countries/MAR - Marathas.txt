@@ -1,0 +1,56 @@
+﻿capital = 427
+
+oob = "generic"
+
+add_ideas = {
+	hindu_idea
+}
+
+set_politics = {
+
+	parties = {
+		liberalism = { 
+			popularity = 15
+		}
+		
+		conservatism = { 
+			popularity = 15
+		}
+		
+		mod_ordaism = { 
+			popularity = 60
+		}
+		
+		authoritarian = { 
+			popularity = 10
+		}
+		
+		communism = { 
+			popularity = 0
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		monarchism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = mod_ordaism
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Ganesh D. Savarkar"
+	desc = "POLITICS_GANESH_D_SAVARKAR_DESC"
+	picture = "Portrait_MAR_Ganesh_D_Savarkar.dds"
+	expire = "1965.1.1"
+	ideology = engelism
+	traits = {
+		
+	}
+}

@@ -121,3 +121,6 @@
  #Flags
  AST_isac_longo_general_secretary:0 "Isac Longo Is General Secretary"
  AST_triumvirate_takes_over:0 "Triumvirate Has Taken Over"
+ AST_longo_shot:0 "Longo Has Been Killed"
+ AST_franco_elected:0 "Franco Elected"
+ AST_nicosson_elected:0 "Nicosson Elected"
