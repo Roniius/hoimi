@@ -802,4 +802,8 @@
  STATE_801:0 "Shinzerleg"
  STATE_802:0 "Upper Mordovia"
  STATE_803:0 "Silesian Strip"
+ STATE_804:0 "Moldovia"
+ STATE_805:0 "Black Sea Coast"
+ STATE_806:0 "North Laos"
+ STATE_807:0 "West Kamboj"
  

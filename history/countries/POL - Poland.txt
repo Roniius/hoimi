@@ -1,8 +1,6 @@
-﻿capital = 10
+﻿capital = 78
 
 oob = "generic"
-puppet = NKL
-
 set_research_slots = 3
 
 add_ideas = {
@@ -19,30 +17,60 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-		social_liberal = { 
-			popularity = 32
+		fangism = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		liberationism = { 
+			popularity = 0
+			banned = no
+		}
+		
+		solidarism = { 
+			popularity = 0
+			banned = no
 		}
 
+		socialism = {
+			popularity = 16
+			banned = yes
+		}
+		
+		social_liberal = { 
+			popularity = 15
+			banned = yes
+		}
+		
+		market_liberal = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		paternalism = {
+			popularity = 67
+			#banned = no #default is no
+		}
+		
+		authoritarian_democrat = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		autocratic_despotism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
 		national_autocracy = {
-			popularity = 20
-		}
-		
-		fangism = {
-			popularity = 10
-		}
-		
-		solidarism = {
-			popularity = 4
-		}
-		
-		paternalism = { 
-			popularity = 34
+			popularity = 2
+			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = social_liberal
-	last_election = "1935.9.8"
-	election_frequency = 36
+	ruling_party = paternalism
+	last_election = "1936.1.1"
+	election_frequency = 48
 	elections_allowed = no
 }
 
@@ -51,7 +79,7 @@ create_country_leader = {
 	desc = "POLITICS_JOZEF_PILSUDSKI_DESC"
 	picture = "Portrait_POL_Jozef_Pilsudski.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = liberationism_subtype
 	traits = {
 		#
 	}
@@ -95,7 +123,7 @@ create_country_leader = {
 	desc = "POLITICS_TADEUSZ_ROZWADOWSKI_DESC"
 	picture = "Portrait_POL_Tadeusz_Rozwadowski.dds"
 	expire = "1965.1.1"
-	ideology = militaryreign
+	ideology = autocratic_despotism_subtype
 	traits = {
 		#
 	}
@@ -106,7 +134,7 @@ create_country_leader = {
 	desc = "POLITICS_JOACHIM_BARTOSZEWICZ_DESC"
 	picture = "Portrait_POL_Joachim_Bartoszewicz.dds"
 	expire = "1965.1.1"
-	ideology = sub_autocratic_despotism
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}
@@ -117,7 +145,7 @@ create_country_leader = {
 	desc = "POLITICS_STANISLAW_THUGUTT_DESC"
 	picture = "Portrait_POL_Stanislaw_Thugutt.dds"
 	expire = "1965.1.1"
-	ideology = falangism
+	ideology = national_autocracy_subtype
 	traits = {
 		#
 	}

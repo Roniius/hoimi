@@ -12,17 +12,12 @@ state=
 		victory_points = {
 			3583 5
 		}
-		owner = CZE
+		owner = GAL
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
 		}
-		add_core_of = CZE
-
-		1938.9.30 = {
-			owner = GER
-			controller = GER
-		}
+		add_core_of = GAL
 	}
 	provinces= {
 		421 3414 3583 6485

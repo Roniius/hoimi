@@ -6,7 +6,6 @@ state={
 	state_category = city
 	
 	history={
-		owner = POL
 		victory_points = {
 			11479 3
 		}
@@ -18,11 +17,9 @@ state={
 			industrial_complex = 3
 			air_base = 5
 		}
-		add_core_of = POL
-		add_core_of = UKR
 	}
 
 	provinces={
-		438 491 536 3483 3562 9454 9468 9558 11427 11479 
+		438 491 536 3483 3562 9454 9558 11427 11479 
 	}
 }

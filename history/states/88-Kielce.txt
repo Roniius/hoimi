@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = POL
+		owner = GAL
 		victory_points = {
 			9427 20 
 		}
@@ -21,12 +21,12 @@ state={
 			air_base = 4
 
 		}
-		add_core_of = POL
+		add_core_of = GAL
 
 	}
 
 	provinces={
-		417 442 466 3410 3434 6499 6522 9412 9427 9494 11398 11413 11507 13205 
+		417 442 466 3410 3434 6499 6522 9412 9427 9468 9494 11398 11413 11507 13205 
 	}
 	manpower=3692800
 	buildings_max_level_factor=1.000

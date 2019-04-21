@@ -928,6 +928,10 @@ LEC = {
 	color = rgb { 50  92  209 }
 	color_ui = rgb { 50  92  209 }
 }
+GAL = {
+	color = rgb { 225  209  41 }
+	color_ui = rgb { 225  209  41 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
