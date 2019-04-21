@@ -16,36 +16,36 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		conservatism = { 
+		paternalism = { 
 			popularity = 40
 		}
 		
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 0
 		}
 		
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 9
 		}
 		
-		fascism = { 
+		national_autocracy = { 
 			popularity = 0
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 0
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 31
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 20
 		}
 	}
 	
-	ruling_party = conservatism
+	ruling_party = paternalism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -58,7 +58,7 @@ create_country_leader = {
 	desc = "POLITICS_ANTHONY_III_DESC"
 	picture = "Portrait_ENG_Anthony_III.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		#
 	}
@@ -69,7 +69,7 @@ create_country_leader = {
 	desc = "POLITICS_AYLMER_HUNTER_WESTON_DESC"
 	picture = "Portrait_ENG_Aylmer_Hunter_Weston.dds"
 	expire = "1965.1.1"
-	ideology = sub_conservatism
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}

@@ -2,18 +2,20 @@
 state={
 	id=394
 	name="STATE_394"
+	manpower = 2939004
+	state_category = city
+	
 	resources={
-		steel=53.000
+		steel=53 # was: 84
 	}
 
 	history={
-		owner = CAN
+		owner = USA
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
-
 		}
-		add_core_of = CAN
+		add_core_of = USA
 		victory_points = {
 			12357 5 
 		}
@@ -21,9 +23,6 @@ state={
 	}
 
 	provinces={
-		703 709 751 926 1527 1560 1760 1849 3699 4029 4166 4590 4738 4834 4854 5205 6737 7776 7829 9450 9657 9678 10339 10341 10393 10526 10599 11589 12312 12357 12365 12368 12456 
+		703 926 1560 1760 1849 3699 4029 4166 4738 4834 7776 7829 9657 9678 10341 10526 12357 12456 
 	}
-	manpower=2939004
-	buildings_max_level_factor=1.000
-	state_category=city
 }

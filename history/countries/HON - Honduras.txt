@@ -11,36 +11,36 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		conservatism = { 
+		paternalism = { 
 			popularity = 0
 		}
 		
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 0
 		}
 		
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 0
 		}
 		
-		fascism = { 
+		national_autocracy = { 
 			popularity = 87
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 13
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 0
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 0
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = national_autocracy
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -52,7 +52,7 @@ create_country_leader = {
 	desc = "POLITICS_ISAAC_NUNES_DESC"
 	picture = "Portrait_HON_Isaac_Nunes.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = national_autocracy_ideology
 	traits = {
 		#
 	}

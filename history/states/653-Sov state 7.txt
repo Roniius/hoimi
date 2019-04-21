@@ -7,8 +7,11 @@ state={
 	state_category = city
 
 	history={
-		owner = GLD
-		add_core_of = GLD
+		owner = SIB
+		add_core_of = SIB
+		victory_points = {
+			1821 5
+		}
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
@@ -16,6 +19,7 @@ state={
 			air_base = 1
 
 		}
+		
 	}
 
 	provinces={

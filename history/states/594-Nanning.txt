@@ -2,31 +2,29 @@
 state={
 	id=594
 	name="STATE_594"
+	manpower = 6550000
+	state_category = town
 	resources={
-		tungsten=11.000
-		steel=8.000
-		chromium=3.000
+		tungsten=11 # was: 14
+		steel = 8 # was: 10
+		chromium = 3 # was: 4
 	}
 
 	history={
-		owner = GXC
-		add_core_of = GXC
+		owner = XIW
+		add_core_of = XIW
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-
 		}
-		victory_points = {
+		victory_points = { 
 			7137 10 
 		}
-		
 
+		
 	}
 
 	provinces={
-		1018 1469 1597 4023 4028 4077 4121 4152 4177 4656 7044 7137 7168 7192 7650 10004 10050 10105 11926 11983 12023 
+		1018 4023 4121 4177 7044 7137 7192 10004 10050 10105 11926 11983 12023 
 	}
-	manpower=6550000
-	buildings_max_level_factor=1.000
-	state_category=town
 }

@@ -2,18 +2,16 @@ bookmarks = {
 	bookmark = {
 		name = "MONGOLII_IMPERIUM_NAME"
 		desc = "MONGOLII_IMPERIUM_DESC"
-		date = 1936.1.1.12
+		date = 1932.1.1.12
 		picture = "GFX_select_date_1936"
 		default_country = "MON"
 		default = yes
 		
 		"MON"={
 			history = "MON_MONGOLII_IMPERIUM_DESC"
-			ideology = monarchism
+			ideology = autocratic_despotism
 			ideas = {
-				MON_a_thirst_for_democracy
-				MON_failing_economy
-				MON_unrestrained_corruption
+				
 			}
 			focuses = {
 				
@@ -22,21 +20,18 @@ bookmarks = {
 
 		"SOV"={
 			history = "SOV_MONGOLII_IMPERIUM_DESC"
-			ideology = monarchism
+			ideology = autocratic_despotism
 			ideas = {
-				SOV_state_slavery
-				SOV_mass_purges
+				
 			}
 			focuses = {
-				SOV_ryazan_crisis
-				SOV_first_duma_legislative_elections
-				SOV_russian_unity
+				
 			}	
 		}
 		
 		"NRO"={
 			history = "NRO_MONGOLII_IMPERIUM_DESC"
-			ideology = fascism
+			ideology = national_autocracy
 			ideas = {
 				
 			}
@@ -48,7 +43,7 @@ bookmarks = {
 		
 		"FRA"={
 			history = "FRA_MONGOLII_IMPERIUM_DESC"
-			ideology = monarchism
+			ideology = autocratic_despotism
 			ideas = {
 				
 			}
@@ -59,7 +54,7 @@ bookmarks = {
 		
 		"AST"={
 			history = "AST_MONGOLII_IMPERIUM_DESC"
-			ideology = communism
+			ideology = fangism
 			ideas = {
 				
 			}
@@ -70,7 +65,7 @@ bookmarks = {
 		
 		"POL"={
 			history = "POL_MONGOLII_IMPERIUM_DESC"
-			ideology = liberalism
+			ideology = social_liberal
 			ideas = {
 				
 			}
@@ -81,7 +76,7 @@ bookmarks = {
 		
 		"TRK"={
 			history = "TRK_MONGOLII_IMPERIUM_DESC"
-			ideology = fascism
+			ideology = national_autocracy
 			ideas = {
 				
 			}

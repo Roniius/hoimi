@@ -5,9 +5,9 @@ state={
 	
 	state_category = small_island
 	
-	history = {
-		owner = OMA
-		add_core_of = OMA
+	history=
+	{
+		owner = ENG
 		buildings = {
 			infrastructure = 3
 			2188 = {

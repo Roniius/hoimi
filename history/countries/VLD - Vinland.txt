@@ -13,36 +13,36 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		liberalism = { 
+		social_liberal = { 
 			popularity = 40
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 0
 		}
 		
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 0
 		}
 		
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 0
 		}
 		
-		fascism = { 
+		national_autocracy = { 
 			popularity = 5
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 15
 		}
 		
-		conservatism = { 
+		paternalism = { 
 			popularity = 40
 		}
 	}
 	
-	ruling_party = liberalism
+	ruling_party = social_liberal
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -55,7 +55,7 @@ create_country_leader = {
 	desc = "POLITICS_TOMAS_BITAVLANDAKULLE_DESC"
 	picture = "Portrait_VLD_Tomas_Bitavlandakulle.dds"
 	expire = "1965.1.1"
-	ideology = sub_liberalism
+	ideology = social_liberal_subtype
 	traits = {
 		#
 	}
@@ -66,7 +66,7 @@ create_country_leader = {
 	desc = "POLITICS_GUSTAV_GLUCKSBURG_DESC"
 	picture = "Portrait_VLD_Gustav_Glucksburg.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		#
 	}

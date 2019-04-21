@@ -2,21 +2,20 @@
 state={
 	id=494
 	name="STATE_494"
+	manpower = 735826
+	
+	state_category = rural
+	
 
 	history={
-		owner = AMZ
-		add_core_of = AMZ
+		owner = PRU
 		buildings = {
 			infrastructure = 3
-
 		}
-
+		add_core_of = PRU
 	}
 
 	provinces={
-		5166 5216 8160 8191 10940 10960 
+		2212 2226 5166 8160 8191 10940 
 	}
-	manpower=735826
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

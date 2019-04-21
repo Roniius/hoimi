@@ -1,26 +1,24 @@
 
 state={
 	id=611
-	name="STATE_611"
+	name="STATE_611" # South Chahar
+	manpower = 1470000
+	
+	state_category = pastoral
 
 	history={
+		owner = MON
+		add_core_of = MON
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-
 		}
 		victory_points = {
-			11752 3 
+			11752 3
 		}
-		owner = SHX
-		add_core_of = SHX
-
 	}
 
 	provinces={
-		828 881 952 1137 1489 1590 3955 4612 6904 6969 7545 9768 9776 9843 10331 10397 11822 
+		828 952 1489 1590 4495 4612 6904 7545 7674 9776 10397 11752 
 	}
-	manpower=1470000
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

@@ -2,13 +2,16 @@
 state={
 	id=272
 	name="STATE_272"
+	manpower = 1638000
 	resources={
-		steel=3.000
+		steel=3 # was: 4
 	}
+	
+	state_category = pastoral
 
 	history={
-		owner = SCK
-		add_core_of = SCK
+		owner = FRA
+		add_core_of = SEN
 		victory_points = {
 			4948 5 
 		}
@@ -17,17 +20,11 @@ state={
 			air_base = 4
 			4948 = {
 				naval_base = 3
-
 			}
-
 		}
-
 	}
 
 	provinces={
-		4948 7972 8015 12710 
+		2100 4948 7972 8015 12710 12834 
 	}
-	manpower=1638000
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

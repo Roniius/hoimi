@@ -13,24 +13,24 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		liberalism = { 
+		social_liberal = { 
 			popularity = 25
 		}
-		conservatism = { 
+		paternalism = { 
 			popularity = 25
 		}
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 25
 		}
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 13
 		}
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 12
 		}
 	}
 	
-	ruling_party = conservatism
+	ruling_party = paternalism
 	last_election = "1932.4.2"
 	election_frequency = 48
 	elections_allowed = no
@@ -41,7 +41,7 @@ create_country_leader = {
 	desc = "POLITICS_NGUYEN_VAN_TAM_DESC"
 	picture = "Portrait_VIN_Nguyen_Van_Tam.dds"
 	expire = "1965.1.1"
-	ideology = sub_conservatism
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}
@@ -52,7 +52,7 @@ create_country_leader = {
 	desc = "POLITICS_EMPEROR_BAO_DAI_DESC"
 	picture = "Portrait_VIN_Bao_Dai.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		#
 	}

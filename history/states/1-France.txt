@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = AGO
+		owner = FRA
 		victory_points = { 3838 1 }
 		buildings = {
 			infrastructure = 4
@@ -17,7 +17,7 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = AGO
+		add_core_of = FRA
 	}
 
 	provinces={

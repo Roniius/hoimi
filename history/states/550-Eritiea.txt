@@ -1,25 +1,27 @@
-
-state={
+state=
+{
 	id=550
 	name="STATE_550"
-
-	history={
-		
-		owner = RET
-		add_core_of = RET
+	manpower = 600600
+	
+	state_category = rural
+	
+	history=
+	{
+		owner = ITA
+		add_core_of = ERI
+		victory_points = {
+			12766 1
+		}
 		buildings = {
 			infrastructure = 4
 			air_base = 3
-			
-
+			12766 = {
+				naval_base = 3
+			}
 		}
-
 	}
-
 	provinces={
-		5010 5041 7980 8036 8043 12714 12757 12812 
+		5017 5047 5091 8043 12723 12766
 	}
-	manpower=600600
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

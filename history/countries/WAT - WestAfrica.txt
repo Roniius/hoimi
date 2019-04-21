@@ -19,36 +19,36 @@ set_convoys = 300
 set_politics = {
 
 	parties = {
-		liberalism = { 
+		social_liberal = { 
 			popularity = 20
 		}
 		
-		conservatism = { 
+		paternalism = { 
 			popularity = 0
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 65
 		}
 		
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 5
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 5
 		}
 
-		fascism = {
+		national_autocracy = {
 			popularity = 5
 		}
 		
-		monarchism = {
+		autocratic_despotism = {
 			popularity = 0
 		}
 	}
 	
-	ruling_party = authoritarian
+	ruling_party = authoritarian_democrat
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no

@@ -7,12 +7,15 @@ state={
 	state_category = rural
 
 	history={
-		owner = CAS
-		add_core_of = CAS
+		owner = GLD
+		victory_points = {
+			9753 3 
+		}
 		buildings = {
 			infrastructure = 3
 			air_base = 1
 		}
+		add_core_of = GLD
 	}
 
 	provinces={

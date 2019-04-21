@@ -15,21 +15,21 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		liberalism = { 
+		social_liberal = { 
 			popularity = 10
 		}
-		conservatism = { 
+		paternalism = { 
 			popularity = 39
 		}
-		fascism = { 
+		national_autocracy = { 
 			popularity = 20
 		}
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 35
 		}
 	}
 	
-	ruling_party = conservatism
+	ruling_party = paternalism
 	last_election = "1932.4.2"
 	election_frequency = 48
 	elections_allowed = no
@@ -40,7 +40,7 @@ create_country_leader = {
 	desc = "POLITICS_LIN_SEN_DESC"
 	picture = "Portrait_CHI_Lin_Sen.dds"
 	expire = "1965.1.1"
-	ideology = sub_conservatism
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}

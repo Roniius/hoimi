@@ -34,24 +34,24 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		conservatism = { 
+		paternalism = { 
 			popularity = 10 #shared between all parties, should add to 100
 		}
 
-		authoritarian = {
+		authoritarian_democrat = {
 			popularity = 10
 		}
 		
-		fascism = {
+		national_autocracy = {
 			popularity = 15
 		}
 		
-		monarchism = {
+		autocratic_despotism = {
 			popularity = 65
 		}
 	}
 	
-	ruling_party = monarchism
+	ruling_party = autocratic_despotism
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -62,7 +62,7 @@ create_country_leader = {
 	desc = "POLITICS_IVAN_IX_DESC"
 	picture = "Portrait_SOV_Ivan_IX.dds"
 	expire = "1953.3.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		grand_duke_of_muscovy
 	}
@@ -84,7 +84,7 @@ create_country_leader = {
 	desc = "POLITICS_NIKOLAY_KRESTINSKY_DESC"
 	picture = "Portrait_SOV_Nikolay_Krestinsky.dds"
 	expire = "1953.3.1"
-	ideology = engelism
+	ideology = solidarism_subtype
 	traits = {
 		
 	}
@@ -95,7 +95,7 @@ create_country_leader = {
 	desc = "POLITICS_ALEKSEI_F_ALADIN_DESC"
 	picture = "Portrait_SOV_Aleksei_F_Aladin.dds"
 	expire = "1953.3.1"
-	ideology = sub_liberalism
+	ideology = social_liberal_subtype
 	traits = {
 		
 	}
@@ -106,7 +106,7 @@ create_country_leader = {
 	desc = "POLITICS_GEORGY_LVOV_DESC"
 	picture = "Portrait_SOV_Georgy_Lvov.dds"
 	expire = "1953.3.1"
-	ideology = sub_conservatism
+	ideology = paternalism_subtype
 	traits = {
 		
 	}
@@ -128,7 +128,7 @@ create_country_leader = {
 	desc = "POLITICS_FYOKHLACHEV_PANTELEY_DESC"
 	picture = "Portrait_SOV_Fyokhlachev_Panteley.dds"
 	expire = "1953.3.1"
-	ideology = fascism_ideology
+	ideology = national_autocracy_ideology
 	traits = {
 		
 	}

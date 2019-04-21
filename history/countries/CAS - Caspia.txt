@@ -11,36 +11,36 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		conservatism = { 
+		paternalism = { 
 			popularity = 0
 		}
 		
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 0
 		}
 		
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 95
 		}
 		
-		fascism = { 
+		national_autocracy = { 
 			popularity = 0
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 0
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 0
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 5
 		}
 	}
 	
-	ruling_party = monarchism
+	ruling_party = autocratic_despotism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -52,7 +52,7 @@ create_country_leader = {
 	desc = "POLITICS_ATOM_UYANIK_DESC"
 	picture = "Portrait_CAS_Atom_Uyanik.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		#
 	}

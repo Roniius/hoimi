@@ -6,9 +6,9 @@ state= {
 	state_category = town
 
 	history= {
-		owner = SCU
-		add_core_of = SCU
+		owner = ENG
 		victory_points = { 540 10 }
+		victory_points = { 6526 1 }
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 1
@@ -20,6 +20,7 @@ state= {
 			}
 
 		}
+		add_core_of = ENG
 	}
 
 	provinces= {

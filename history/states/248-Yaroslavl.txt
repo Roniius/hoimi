@@ -2,26 +2,24 @@
 state={
 	id=248
 	name="STATE_248"
+	manpower = 1664541
+	
+	state_category = large_town
 
 	history={
-		owner = SOV
-		add_core_of = SOV
-		victory_points = { 
-			121 25 
+		owner = MRD
+		victory_points = {
+			121 5 
 		}
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
 			air_base = 1
-
 		}
-
+		add_core_of = MRD
 	}
 
 	provinces={
-		2 23 62 97 121 129 135 143 164 196 231 252 3035 3056 3077 3091 3116 3124 3135 3190 3220 6056 6077 6101 6112 6113 6119 6143 6158 6167 6180 6356 9043 9122 9133 9136 9188 9200 9345 11027 11035 11039 11075 11099 11166 11180 11205 13128 13129 
+		2 62 97 121 164 231 252 3077 3116 3190 3220 6056 6101 6143 6167 6356 9122 9188 9345 11039 11099 11166 11205 13128 
 	}
-	manpower=1664541
-	buildings_max_level_factor=1.000
-	state_category=large_town
 }

@@ -8,13 +8,21 @@ state={
 	state_category = town
 
 	history={
-		owner = PRS
+		victory_points = {
+			9388 1
+		}
+		owner = GER
 		buildings = {
 			infrastructure = 6
+			fuel_silo = 1
 		}
-		add_core_of = PRS
+		add_core_of = GER
 
-		
+		1939.1.1 = {
+			buildings = {
+				air_base = 8
+			}
+		}
 	}
 
 	provinces={

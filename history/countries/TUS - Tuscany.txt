@@ -14,24 +14,24 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		conservatism = { 
+		paternalism = { 
 			popularity = 26
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 10
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 39
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 25
 		}
 	}
 	
-	ruling_party = liberalism
+	ruling_party = social_liberal
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -42,7 +42,7 @@ create_country_leader = {
 	desc = "POLITICS_PIETRO_FERDANDO_I_DESC"
 	picture = "Portrait_TUS_Pietro_Fernando_I.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		#
 	}
@@ -53,7 +53,7 @@ create_country_leader = {
 	desc = "POLITICS_MARIO_LUZZATTI_DESC"
 	picture = "Portrait_TUS_Mario_Luzzatti.dds"
 	expire = "1965.1.1"
-	ideology = sub_liberalism
+	ideology = social_liberal_subtype
 	traits = {
 		#
 	}

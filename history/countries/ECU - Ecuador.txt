@@ -13,36 +13,36 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		conservatism = { 
+		paternalism = { 
 			popularity = 30
 		}
 		
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 0
 		}
 		
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 0
 		}
 		
-		fascism = { 
+		national_autocracy = { 
 			popularity = 0
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 0
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 50
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 20
 		}
 	}
 	
-	ruling_party = liberalism
+	ruling_party = social_liberal
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -54,7 +54,7 @@ create_country_leader = {
 	desc = "POLITICS_BERAUT_VIDAL_DESC"
 	picture = "Portrait_ECU_Beraut_Vidal.dds"
 	expire = "1965.1.1"
-	ideology = sub_liberalism
+	ideology = social_liberal_subtype
 	traits = {
 		#
 	}

@@ -19,28 +19,28 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-		liberalism = { 
+		social_liberal = { 
 			popularity = 32
 		}
 
-		fascism = {
+		national_autocracy = {
 			popularity = 20
 		}
 		
-		communism = {
+		fangism = {
 			popularity = 10
 		}
 		
-		mod_ordaism = {
+		solidarism = {
 			popularity = 4
 		}
 		
-		conservatism = { 
+		paternalism = { 
 			popularity = 34
 		}
 	}
 	
-	ruling_party = liberalism
+	ruling_party = social_liberal
 	last_election = "1935.9.8"
 	election_frequency = 36
 	elections_allowed = no
@@ -62,7 +62,7 @@ create_country_leader = {
 	desc = "POLITICS_ROZALIA_LUKSENBURG_DESC"
 	picture = "Portrait_POL_Rozalia_Luksenburg.dds"
 	expire = "1965.1.1"
-	ideology = engelism
+	ideology = solidarism_subtype
 	traits = {
 		#
 	}
@@ -73,7 +73,7 @@ create_country_leader = {
 	desc = "POLITICS_WLADYSLAW_WROBLEWSKI_DESC"
 	picture = "Portrait_POL_Wladyslaw_Wroblewski.dds"
 	expire = "1965.1.1"
-	ideology = sub_liberalism
+	ideology = social_liberal_subtype
 	traits = {
 		#
 	}
@@ -84,7 +84,7 @@ create_country_leader = {
 	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
 	picture = "Portrait_POL_Boleslaw_Piasecki.dds"
 	expire = "1965.1.1"
-	ideology = sub_conservatism
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}
@@ -106,7 +106,7 @@ create_country_leader = {
 	desc = "POLITICS_JOACHIM_BARTOSZEWICZ_DESC"
 	picture = "Portrait_POL_Joachim_Bartoszewicz.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		#
 	}

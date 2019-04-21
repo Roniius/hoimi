@@ -106,9 +106,9 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = fascism
-					has_government = authoritarian
-					has_government = monarchism
+					has_government = national_autocracy
+					has_government = authoritarian_democrat
+					has_government = autocratic_despotism
 				}
 			}
 
@@ -118,9 +118,9 @@ ideas = {
 
 			
 			modifier = {
-				fascism_drift = 0.1
-				authoritarian_drift = 0.1
-				monarchism_drift = 0.1
+				national_autocracy_drift = 0.1
+				authoritarian_democrat_drift = 0.1
+				autocratic_despotism_drift = 0.1
 			}
 		}
 
@@ -132,8 +132,8 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = communism
-					has_government = mod_ordaism
+					has_government = fangism
+					has_government = solidarism
 				}
 			}
 
@@ -143,8 +143,8 @@ ideas = {
 			
 			modifier = {
 				#justify_war_goal_time = -0.25
-				communism_drift = 0.1
-				mod_ordaism_drift = 0.1
+				fangism_drift = 0.1
+				solidarism_drift = 0.1
 			}
 		}
 
@@ -155,16 +155,16 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = national_autocracy
 			}
 
 			removal_cost = -1
 
-			picture = generic_fascism_drift_bonus
+			picture = generic_national_autocracy_drift_bonus
 			
 			modifier = {
-				fascism_drift = 0.1
-				fascism_acceptance = 85
+				national_autocracy_drift = 0.1
+				national_autocracy_acceptance = 85
 			}
 		}
 		
@@ -176,16 +176,16 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = fangism
 			}
 
 			removal_cost = -1
 
-			picture = generic_communism_drift_bonus
+			picture = generic_fangism_drift_bonus
 			
 			modifier = {
-				communism_drift = 0.1
-				communism_acceptance = 85
+				fangism_drift = 0.1
+				fangism_acceptance = 85
 			}
 		}
 		democratic_influence = {
@@ -197,9 +197,9 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = liberalism
-					has_government = conservatism
-					has_government = mod_ordaism
+					has_government = social_liberal
+					has_government = paternalism
+					has_government = solidarism
 				}
 			}
 
@@ -208,12 +208,12 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			
 			modifier = {
-				liberalism_drift = 0.1
-				conservatism_drift = 0.1
-				mod_ordaism_drift = 0.1
-				liberalism_acceptance = 85
-				conservatism_acceptance = 85
-				mod_ordaism_acceptance = 85
+				social_liberal_drift = 0.1
+				paternalism_drift = 0.1
+				solidarism_drift = 0.1
+				social_liberal_acceptance = 85
+				paternalism_acceptance = 85
+				solidarism_acceptance = 85
 			}
 		}
 		
@@ -226,16 +226,16 @@ ideas = {
 				OR = {
 					AND = {
 						tag = GER
-						has_government = fascism
+						has_government = national_autocracy
 						SOV = {
-							has_government = communism
+							has_government = fangism
 						}
 					}
 					AND = {
 						tag = SOV
-						has_government = communism
+						has_government = fangism
 						GER = {
-							has_government = fascism
+							has_government = national_autocracy
 						}
 					}
 				}
@@ -244,8 +244,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				communism_acceptance = 100
-				fascism_acceptance = 100
+				fangism_acceptance = 100
+				national_autocracy_acceptance = 100
 			}
 		}
 		
@@ -257,15 +257,15 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = fangism
 			}
 
 			removal_cost = -1
 
-			picture = generic_communism_drift_bonus
+			picture = generic_fangism_drift_bonus
 			
 			modifier = {
-				communism_drift = 0.1
+				fangism_drift = 0.1
 			}
 		}
 		
@@ -298,7 +298,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = fangism
 			}
 		
 			removal_cost = -1
@@ -306,8 +306,8 @@ ideas = {
 			picture = generic_pp_unity_bonus
 
 			modifier = {
-				liberalism_drift = -0.02
-				conservatism_drift = -0.02
+				social_liberal_drift = -0.02
+				paternalism_drift = -0.02
 			}
 		}
 	
@@ -320,9 +320,9 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = liberalism
-					has_government = conservatism
-					has_government = mod_ordaism
+					has_government = social_liberal
+					has_government = paternalism
+					has_government = solidarism
 				}
 			}
 			
@@ -343,7 +343,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = national_autocracy
 			}
 			
 			removal_cost = -1
@@ -365,8 +365,8 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = communism
-					has_government = fascism
+					has_government = fangism
+					has_government = national_autocracy
 				}
 			}
 			
@@ -388,8 +388,8 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = communism
-					has_government = fascism
+					has_government = fangism
+					has_government = national_autocracy
 				}
 			}
 			
@@ -411,8 +411,8 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = communism
-					has_government = fascism
+					has_government = fangism
+					has_government = national_autocracy
 				}
 			}
 			
@@ -459,7 +459,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = fangism
 			}
 			
 			removal_cost = -1
@@ -595,7 +595,7 @@ ideas = {
 			}			
 		}
 
-		communism_banned = {
+		fangism_banned = {
 			picture = anti_soviet_pact
 			allowed = {
 				always = no
@@ -603,18 +603,18 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = communism
+					has_government = fangism
 				}
 			}
 
 			modifier = {
-				communism_drift = -0.05
+				fangism_drift = -0.05
 			}
 		}
 
-		fascism_banned = {
+		national_autocracy_banned = {
 
-			picture = generic_fascism_banned
+			picture = generic_national_autocracy_banned
 
 			allowed = {
 				always = no
@@ -622,12 +622,12 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = fascism
+					has_government = national_autocracy
 				}
 			}
 
 			modifier = {
-				fascism_drift = -0.05
+				national_autocracy_drift = -0.05
 			}
 		}
 

@@ -7,17 +7,18 @@ state={
 	state_category = wasteland
 
 	history={
+		owner = SIB
+		add_core_of = SIB
+		victory_points = {
+			10641 1
+		}
 		buildings = {
 			infrastructure = 2
 			air_base = 1
 		}
-
-		owner = EAF
-		add_core_of = EAF
-
 	}
 
 	provinces={
-		1748 1795 1852 1878 4726 4752 4798 4821 4855 7746 7765 7817 7844 7889 10589 10608 10641 10667 10701 10714 12565 12611 12623 12694 
+		1795 1852 1878 4726 4798 4821 7746 7765 7817 10589 10641 10701 10714 12611 12623 
 	}
 }

@@ -14,22 +14,22 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		communism = { 
+		fangism = { 
 			popularity = 20
 		}
 
-		liberalism = {
+		social_liberal = {
 			popularity = 30
 			banned = yes
 		}
 		
-		monarchism = {
+		autocratic_despotism = {
 			popularity = 50
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = monarchism
+	ruling_party = autocratic_despotism
 	last_election = "1935.2.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -40,7 +40,7 @@ create_country_leader = {
 	desc = "POLITICS_GUNTOMOR_KHAN_DESC"
 	picture = "Portrait_NJA_Guntomor_Khan.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		#
 	}

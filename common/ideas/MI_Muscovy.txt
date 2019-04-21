@@ -9,7 +9,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = communism
+					has_government = fangism
 				}
 			}
 			
@@ -33,7 +33,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = communism
+					has_government = fangism
 				}
 			}
 			
@@ -88,7 +88,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = communism
+					has_government = fangism
 				}
 			}
 			
@@ -97,8 +97,8 @@ ideas = {
 			modifier = {
 				stability_factor = 0.10
 				political_power_factor = 0.05
-				communism_drift = -0.10
-				mod_ordaism_drift = -0.05
+				fangism_drift = -0.10
+				solidarism_drift = -0.05
 			}
 		}
 
@@ -110,7 +110,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = communism
+					has_government = fangism
 				}
 			}
 			
@@ -144,7 +144,7 @@ ideas = {
 			}
 		}
 		
-		SOV_fiscal_conservatism_idea = {
+		SOV_fiscal_paternalism_idea = {
 			
 			allowed = {
 				always = no
@@ -239,8 +239,8 @@ ideas = {
 						
 			modifier = {
 				political_power_factor = -0.05
-				monarchism_drift = 0.10
-				authoritarian_drift = 0.05
+				autocratic_despotism_drift = 0.10
+				authoritarian_democrat_drift = 0.05
 			}
 		}
 		
@@ -258,8 +258,8 @@ ideas = {
 						
 			modifier = {
 				political_power_factor = -0.05
-				monarchism_drift = 0.05
-				authoritarian_drift = 0.10
+				autocratic_despotism_drift = 0.05
+				authoritarian_democrat_drift = 0.10
 			}
 		}
 		
@@ -364,7 +364,7 @@ ideas = {
 				resistance_tick_auto = -1
 				foreign_subversive_activites = -0.05
 				enemy_partisan_effect = -0.20
-				fascism_drift = 0.10
+				national_autocracy_drift = 0.10
 			}
 		}
 		
@@ -382,12 +382,12 @@ ideas = {
 						
 			modifier = {
 				political_power_factor = 0.05
-				liberalism_drift = -0.10
-				conservatism_drift = -0.10
-				authoritarian_drift = -0.10
-				monarchism_drift = -0.10
-				communism_drift = -0.10
-				mod_ordaism_drift = -0.10
+				social_liberal_drift = -0.10
+				paternalism_drift = -0.10
+				authoritarian_democrat_drift = -0.10
+				autocratic_despotism_drift = -0.10
+				fangism_drift = -0.10
+				solidarism_drift = -0.10
 				consumer_goods_factor = -0.15
 			}
 		}
@@ -425,7 +425,7 @@ ideas = {
 						
 			modifier = {
 				war_support_factor = 0.05
-				fascism_drift = 0.05
+				national_autocracy_drift = 0.05
 				conscription_factor = 0.5
 			}
 		}
@@ -533,10 +533,10 @@ ideas = {
 				always = no
 				NOT ={
 					OR = {
-						has_government = communism
-						has_government = liberalism
-						has_government = mod_ordaism
-						has_government = conservatism
+						has_government = fangism
+						has_government = social_liberal
+						has_government = solidarism
+						has_government = paternalism
 					}
 				}
 			}

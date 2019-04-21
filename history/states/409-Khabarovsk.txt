@@ -7,9 +7,13 @@ state={
 		chromium=9 # was: 12
 	}
 	
-	state_category = town
+	state_category = rural
 
 	history={
+		owner = MON
+		victory_points = {
+			12189 1
+		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -18,8 +22,6 @@ state={
 				naval_base = 1
 			}
 		}
-
-		owner = MON
 		add_core_of = MON
 	}
 

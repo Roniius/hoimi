@@ -1,14 +1,1 @@
-﻿l_english:
- global_sports_tourny:0 "Global Sports Tournaments"
- 
- 
- #Global Chess Tournament
- global_chess_tourny_enable:0 "Enable Global Chess Tournament Events"
- global_chess_tourny_disable:0 "Disable Global Chess Tournament Events"
- yes_global_chess_tourny:0 "Global Chess Tournaments Enabled"
- no_global_chess_tourny:0 "Global Chess Tournaments Disabled"
- 
- #Burgundy, 1936
- global_chess_tournament.1.t:0 "1936 Global Chess Tournament"
- global_chess_tournament.1.d:0 "Ever since 1866, the Global Chess Tournament was held every two years, this year included. The Global chess tournament is exactly what it sounds like a global tournament where countries send their best chess players to face the chess players of other nations. This year the Global Chess Tournament was held in Burgundy, specifically in Rotterdam. The most notable match was between Crown Prince Nikita of Muscovy and Carl Ahues who was representing the Hanseatic League, their very intense match lasting only three minutes ended with the Crown Prince achieving check mate without losing a single piece. However despite the amazing game from Crown Prince Nikita, Muscovy placed only 4th and the Papal State took first place. With the tournament being at its conclusion, the players return to their homelands and begin training for the 1938 tournament, the location of which has not been revealed."
- global_chess_tournament.1.o1:0 "Check"
+﻿

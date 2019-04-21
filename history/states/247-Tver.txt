@@ -2,25 +2,22 @@
 state={
 	id=247
 	name="STATE_247"
+	manpower = 1331211
+	state_category = town
 
 	history={
-		owner = SOV
-		add_core_of = SOV
-		victory_points = { 
-			6425 10 
+		owner = RUS
+		victory_points = {
+			6245 10 
 		}
 		buildings = {
 			infrastructure = 5
 			air_base = 2
-
 		}
-
+		add_core_of = RUS
 	}
 
 	provinces={
-		85 150 333 344 3143 3176 3215 3323 6022 6122 6203 6245 6303 6346 9046 9144 9256 9343 11250 11315 11326 11349 
+		85 150 344 3143 3176 3323 6022 6122 6203 6245 6346 9046 9144 9256 11084 11154 11250 
 	}
-	manpower=1331211
-	buildings_max_level_factor=1.000
-	state_category=town
 }

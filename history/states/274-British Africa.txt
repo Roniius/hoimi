@@ -1,11 +1,10 @@
-
 state={
 	id=274
 	name="STATE_274"
 
 	history={
-		owner = BUK
-		add_core_of = BUK
+		owner = ENG
+		add_core_of = GHA
 		victory_points = {
 			10862 1 
 		}
@@ -21,9 +20,9 @@ state={
 	}
 
 	provinces={
-		1951 2001 2050 5013 8039 8096 8122 10762 10803 10862 10919 12731 12742 12762 12785 12787 12843 12874 13136 
+		8039 8096 10862 12742 12785 12787 13136 
 	}
 	manpower=3163600
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=rural
 }

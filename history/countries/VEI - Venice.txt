@@ -14,28 +14,28 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 20
 		}
 		
-		fascism = { 
+		national_autocracy = { 
 			popularity = 14
 		}
 		
-		conservatism = { 
+		paternalism = { 
 			popularity = 24
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 29
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 13
 		}
 	}
 	
-	ruling_party = monarchism
+	ruling_party = autocratic_despotism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -46,7 +46,7 @@ create_country_leader = {
 	desc = "POLITICS_ORSO_II_DESC"
 	picture = "Portrait_VEI_Orso_II.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		#
 	}

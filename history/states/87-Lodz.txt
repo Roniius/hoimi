@@ -5,24 +5,20 @@ state={
 	
 	state_category = town
 	history={
-		owner = POL
+		owner = LEC
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
 		}
 		victory_points = {
-			9508 1
+			9508 10
 		}
-		add_core_of = POL
+		add_core_of = LEC
 
-		1939.1.1 = {
-			buildings = {
-				air_base = 3
-			}
-		}
+		
 	}
 
 	provinces={
-		493 584 9439 9508 9546 11428 11515 
+		493 548 584 6401 9439 9508 9546 11428 11515 
 	}
 }

@@ -11,36 +11,36 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		conservatism = { 
+		paternalism = { 
 			popularity = 0
 		}
 		
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 10
 		}
 		
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 50
 		}
 		
-		fascism = { 
+		national_autocracy = { 
 			popularity = 25
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 10
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 5
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 0
 		}
 	}
 	
-	ruling_party = monarchism
+	ruling_party = autocratic_despotism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -51,7 +51,7 @@ create_country_leader = {
 	desc = "POLITICS_EMIR_ALI_DESC"
 	picture = "Portrait_SAU_Emir_Ali.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		#
 	}

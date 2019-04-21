@@ -1,0 +1,20 @@
+
+state={
+	id=803
+	name="STATE_803"
+	manpower = 172061
+	
+	state_category = rural
+
+	history={
+		owner = LEC
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = LEC
+	}
+
+	provinces={
+		506 479 11558 
+	}
+}

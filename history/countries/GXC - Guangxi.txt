@@ -14,21 +14,21 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		liberalism = { 
+		social_liberal = { 
 			popularity = 39
 		}
-		conservatism = { 
+		paternalism = { 
 			popularity = 25
 		}
-		fascism = { 
+		national_autocracy = { 
 			popularity = 16
 		}
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 20
 		}
 	}
 	
-	ruling_party = liberalism
+	ruling_party = social_liberal
 	last_election = "1932.4.2"
 	election_frequency = 48
 	elections_allowed = no
@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_SUN_YAT_SEN_DESC"
 	picture = "Portrait_GXC_Sun_Yat_sen.dds"
 	expire = "1965.1.1"
-	ideology = sub_liberalism
+	ideology = social_liberal_subtype
 	traits = {
 		#
 	}

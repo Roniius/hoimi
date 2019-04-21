@@ -366,16 +366,16 @@ opinion_modifiers = {
 	democratic_leanings_bad = {
 		value = -30
 	}
-	communism_leanings_good = {
+	fangism_leanings_good = {
 		value = 30
 	}
-	communism_leanings_bad = {
+	fangism_leanings_bad = {
 		value = -30
 	}
-	fascism_leanings_good = {
+	national_autocracy_leanings_good = {
 		value = 30
 	}
-	fascism_leanings_bad = {
+	national_autocracy_leanings_bad = {
 		value = -30
 	}
 	tizard_relations = {
@@ -486,13 +486,13 @@ opinion_modifiers = {
 
 	### FRENCH FOCUS TREE ###
 
-	FRA_leftist_rhetoric_communism = {
+	FRA_leftist_rhetoric_fangism = {
 		value = 30
 	}
 	FRA_leftist_rhetoric_democratic = {
 		value = -10
 	}
-	FRA_leftist_rhetoric_fascism = {
+	FRA_leftist_rhetoric_national_autocracy = {
 		value = -50
 	}
 
@@ -503,13 +503,13 @@ opinion_modifiers = {
 		value = -50
 	}
 
-	FRA_right_wing_rhetoric_fascism = {
+	FRA_right_wing_rhetoric_national_autocracy = {
 		value = 30
 	}
 	FRA_right_wing_rhetoric_democratic = {
 		value = -10
 	}
-	FRA_right_wing_rhetoric_communism = {
+	FRA_right_wing_rhetoric_fangism = {
 		value = -50
 	}
 
@@ -540,7 +540,7 @@ opinion_modifiers = {
 
 	### END FRENCH FOCUS TREE ###
 
-	FRA_ban_communism = {
+	FRA_ban_fangism = {
 		value = -25
 	}
 

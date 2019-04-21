@@ -15,21 +15,21 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		liberalism = { 
+		social_liberal = { 
 			popularity = 5
 		}
-		conservatism = { 
+		paternalism = { 
 			popularity = 29
 		}
-		fascism = { 
+		national_autocracy = { 
 			popularity = 25
 		}
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 45
 		}
 	}
 	
-	ruling_party = mod_ordaism
+	ruling_party = solidarism
 	last_election = "1932.4.2"
 	election_frequency = 48
 	elections_allowed = no
@@ -40,7 +40,7 @@ create_country_leader = {
 	desc = "POLITICS_CHEN_SONG_DESC"
 	picture = "Portrait_GSU_Chen_Song.dds"
 	expire = "1965.1.1"
-	ideology = engelism
+	ideology = solidarism_subtype
 	traits = {
 		#
 	}

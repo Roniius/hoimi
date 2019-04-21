@@ -13,24 +13,24 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		conservatism = { 
+		paternalism = { 
 			popularity = 54
 		}
 		
-		fascism = { 
+		national_autocracy = { 
 			popularity = 0
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 0
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 46
 		}
 	}
 	
-	ruling_party = conservatism
+	ruling_party = paternalism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -41,7 +41,7 @@ create_country_leader = {
 	desc = "POLITICS_ALI_FUAT_CEBESOY_DESC"
 	picture = "Portrait_RUM_Ali_Fuat_Cebesoy.dds"
 	expire = "1965.1.1"
-	ideology = sub_conservatism
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}

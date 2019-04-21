@@ -1,23 +1,27 @@
-
 state={
 	id=233
 	name="STATE_233"
 	resources={
-		chromium=35.000
+		chromium=35 # was: 46.000
 	}
 
 	history={
-		owner = ILK
-		add_core_of = ILK
+		owner = SOV
 		buildings = {
 			infrastructure = 3
 
 		}
-
+		add_core_of = SOV
+		victory_points = {
+			9628 3
+		}
+		victory_points = {
+			9663 1
+		}
 	}
 
 	provinces={
-		666 670 683 685 700 712 714 717 719 728 735 1455 3667 3672 3698 3717 3720 3760 6674 6692 6702 6718 6721 6730 6733 6736 6738 6748 7554 9628 9632 9647 9649 9674 9691 9694 9696 11609 11614 11632 11633 11661 11664 11668 11681 11690 
+		666 670 685 1455 3667 3698 6674 6692 6721 9628 9632 9647 9649 9663 9674 11609 11614 11647 11664 
 	}
 	manpower=1463970
 	buildings_max_level_factor=1.000

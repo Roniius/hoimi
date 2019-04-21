@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = AWI
+		owner = USA
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
@@ -16,9 +16,15 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = AWI
+		add_core_of = USA
 		victory_points = {
 			12384 10 
+		}
+
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
+			}
 		}
 
 	}

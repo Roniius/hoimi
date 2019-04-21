@@ -6,7 +6,7 @@ ENG_DD_HISTORICAL = {
 	for_countries = { ENG }
 
 	can_use = {
-		not = { has_government = communism }
+		not = { has_government = fangism }
 	}
 
 	type = ship
@@ -64,7 +64,7 @@ ENG_DE_HISTORICAL = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
+		not = { has_government = fangism }
 	}
 
 	type = ship
@@ -102,7 +102,7 @@ ENG_CL_HISTORICAL = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
+		not = { has_government = fangism }
 	}
 
 	type = ship
@@ -133,7 +133,7 @@ ENG_CLAA_HISTORICAL = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
+		not = { has_government = fangism }
 	}
 
 	type = ship
@@ -160,7 +160,7 @@ ENG_CA_HISTORICAL = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
+		not = { has_government = fangism }
 	}
 
 	type = ship
@@ -187,7 +187,7 @@ ENG_MINELAYERS_HISTORICAL = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
+		not = { has_government = fangism }
 	}
 
 	type = ship
@@ -211,7 +211,7 @@ ENG_BB_HISTORICAL = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
+		not = { has_government = fangism }
 	}
 
 	type = ship
@@ -235,7 +235,7 @@ ENG_BC_HISTORICAL = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
+		not = { has_government = fangism }
 	}
 
 	type = ship
@@ -257,7 +257,7 @@ ENG_CV_HISTORICAL = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
+		not = { has_government = fangism }
 	}
 
 	type = ship
@@ -281,7 +281,7 @@ ENG_CVL_HISTORICAL = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
+		not = { has_government = fangism }
 	}
 
 	type = ship
@@ -306,7 +306,7 @@ ENG_SS_HISTORICAL = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
+		not = { has_government = fangism }
 	}
 
 	type = ship
@@ -350,7 +350,7 @@ ENG_COUNTIES = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
+		not = { has_government = fangism }
 	}
 
 	type = ship
@@ -368,7 +368,7 @@ ENG_CITIES = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
+		not = { has_government = fangism }
 	}
 
 	type = ship
@@ -386,7 +386,7 @@ ENG_COLONIES = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
+		not = { has_government = fangism }
 	}
 
 	type = ship
@@ -400,7 +400,7 @@ ENG_COLONIES = {
 
 
 
-##### Britain NAME LISTS COMMUNISM #####
+##### Britain NAME LISTS fangism #####
 ### REGULAR DESTROYER NAMES###
 ENG_DD_COMMUNIST = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
@@ -408,7 +408,7 @@ ENG_DD_COMMUNIST = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = fangism
 	}
 
 	type = ship
@@ -460,13 +460,13 @@ ENG_DD_COMMUNIST = {
 }
 
 ### DESTROYER ESCORT NAMES###
-ENG_DE_COMMUNISM = {
+ENG_DE_fangism = {
 	name = NAME_THEME_HISTORICAL_DE
 
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = fangism
 	}
 
 	type = ship
@@ -498,13 +498,13 @@ ENG_DE_COMMUNISM = {
 }
 
 ### LIGHT CRUISER NAMES###
-ENG_CL_COMMUNISM = {
+ENG_CL_fangism = {
 	name = NAME_THEME_HISTORICAL_CL
 
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = fangism
 	}
 
 	type = ship
@@ -529,13 +529,13 @@ ENG_CL_COMMUNISM = {
 }
 
 ### A-A LIGHT CRUISER NAMES###
-ENG_CLAA_COMMUNISM = {
+ENG_CLAA_fangism = {
 	name = NAME_THEME_HISTORICAL_CLAA
 
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = fangism
 	}
 
 	type = ship
@@ -556,13 +556,13 @@ ENG_CLAA_COMMUNISM = {
 }
 
 ### HEAVY CRUISER NAMES###
-ENG_CA_COMMUNISM = {
+ENG_CA_fangism = {
 	name = NAME_THEME_HISTORICAL_CA
 
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = fangism
 	}
 
 	type = ship
@@ -583,13 +583,13 @@ ENG_CA_COMMUNISM = {
 
 
 ### MINELAYER NAMES###
-ENG_MINELAYERS_COMMUNISM = {
+ENG_MINELAYERS_fangism = {
 	name = NAME_THEME_HISTORICAL_MINELAYERS
 
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = fangism
 	}
 
 	type = ship
@@ -607,13 +607,13 @@ ENG_MINELAYERS_COMMUNISM = {
 }
 
 ### BATTLESHIP NAMES ###
-ENG_BB_COMMUNISM = {
+ENG_BB_fangism = {
 	name = NAME_THEME_HISTORICAL_BB
 
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = fangism
 	}
 
 	type = ship
@@ -631,13 +631,13 @@ ENG_BB_COMMUNISM = {
 }
 
 ### BATTLECRUISER NAMES ###
-ENG_BC_COMMUNISM = {
+ENG_BC_fangism = {
 	name = NAME_THEME_HISTORICAL_BC
 
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = fangism
 	}
 
 	type = ship
@@ -653,13 +653,13 @@ ENG_BC_COMMUNISM = {
 }
 
 ### AIRCRAFT CARRIER NAMES ###
-ENG_CV_COMMUNISM = {
+ENG_CV_fangism = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = fangism
 	}
 
 	type = ship
@@ -677,13 +677,13 @@ ENG_CV_COMMUNISM = {
 }
 
 ### LIGHT CARRIER NAMES ###
-ENG_CVL_COMMUNISM = {
+ENG_CVL_fangism = {
 	name = NAME_THEME_HISTORICAL_CVL
 
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = fangism
 	}
 
 	type = ship
@@ -702,13 +702,13 @@ ENG_CVL_COMMUNISM = {
 }
 
 ### SUBMARINES ###
-ENG_SS_COMMUNISM= {
+ENG_SS_fangism= {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = fangism
 	}
 
 	type = ship
@@ -746,13 +746,13 @@ ENG_SS_COMMUNISM= {
 
 
 ### THEME: BRITISH COUNTIES ###
-ENG_COUNTIES_COMMUNISM = {
+ENG_COUNTIES_fangism = {
 	name = NAME_THEME_COUNTIES
 
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = fangism
 	}
 
 	type = ship
@@ -764,13 +764,13 @@ ENG_COUNTIES_COMMUNISM = {
 }
 
 ## THEME: BRITISH CITIES ###
-ENG_CITIES_COMMUNISM = {
+ENG_CITIES_fangism = {
 	name = NAME_THEME_CITIES
 
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = fangism
 	}
 
 	type = ship

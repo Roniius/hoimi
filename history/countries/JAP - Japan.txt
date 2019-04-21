@@ -9,34 +9,69 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		fascism = { 
-			popularity = 5
-			banned = yes
-		}
-
-		liberalism = {
-			popularity = 5
+		fangism = { 
+			popularity = 0
 			banned = yes
 		}
 		
-		monarchism = {
-			popularity = 90
+		liberationism = { 
+			popularity = 0
+			banned = no
+		}
+		
+		solidarism = { 
+			popularity = 0
+			banned = no
+		}
+
+		socialism = {
+			popularity = 0
+			banned = yes
+		}
+		
+		social_liberal = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		market_liberal = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		paternalism = {
+			popularity = 15
+			#banned = no #default is no
+		}
+		
+		authoritarian_democrat = {
+			popularity = 75
+			#banned = no #default is no
+		}
+		
+		autocratic_despotism = {
+			popularity = 5
+			#banned = no #default is no
+		}
+		
+		national_autocracy = {
+			popularity = 5
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = monarchism
+	ruling_party = authoritarian_democrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Emperor Taishō"
-	desc = "POLITICS_EMPEROR_TAISHO_DESC"
-	picture = "Portrait_JAP_Taisho.dds"
+	name = "Shizuichi Tanaka"
+	desc = "POLITICS_SHIZUICHI_TANAKA_DESC"
+	picture = "Portrait_JAP_Shizuichi_Tanaka.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}

@@ -20,28 +20,28 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		communism = { 
+		fangism = { 
 			popularity = 55
 			banned = yes
 		}
 
-		mod_ordaism = {
+		solidarism = {
 			popularity = 20
 			banned = yes
 		}
 		
-		fascism = {
+		national_autocracy = {
 			popularity = 5
 			#banned = no #default is no
 		}
 		
-		liberalism = {
+		social_liberal = {
 			popularity = 20
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = communism
+	ruling_party = fangism
 	last_election = "1935.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -63,7 +63,7 @@ create_country_leader = {
 	desc = "POLITICS_NORBERTO_PINERO_DESC"
 	picture = "Portrait_AST_Norberto_Pinero.dds"
 	expire = "1965.1.1"
-	ideology = engelism
+	ideology = solidarism_subtype
 	traits = {
 		#
 	}
@@ -85,7 +85,7 @@ create_country_leader = {
 	desc = "POLITICS_NIKLAS_PINTO_DESC"
 	picture = "Portrait_AST_Niklas_Pinto.dds"
 	expire = "1965.1.1"
-	ideology = sub_conservatism
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}
@@ -107,7 +107,7 @@ create_country_leader = {
 	desc = "POLITICS_HERSE_GEIJER_DESC"
 	picture = "Portrait_AST_Herse_Geijer.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		#
 	}

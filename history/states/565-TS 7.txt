@@ -1,26 +1,23 @@
 
 state={
 	id=565
-	name="STATE_565"
+	name="STATE_565" # Bodaybo
+	manpower = 195325
+	state_category = rural
 	resources={
-		steel=10.000
-		chromium=5.000
+		steel=10 # was: 32
+		chromium=5 # was: 12
 	}
 
 	history={
+		owner = MON
 		buildings = {
 			infrastructure = 1
-
 		}
-		owner = EAF
-		add_core_of = EAF
-
+		add_core_of = MON
 	}
 
 	provinces={
-		1666 1761 4762 4795 4835 4868 7759 7854 10583 10654 12506 12538 12575 
+		1666 1761 1792 4716 4737 4762 4795 4835 4855 4868 7736 7759 7854 7889 10583 10654 12506 12538 12565 12575 
 	}
-	manpower=32621
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

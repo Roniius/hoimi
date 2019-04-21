@@ -1,4 +1,4 @@
-﻿capital = 401
+﻿capital = 217
 
 set_technology = {
 	infantry_weapons = 1
@@ -11,37 +11,59 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		conservatism = { 
-			popularity = 40
-		}
-		
-		authoritarian = { 
+		fangism = { 
 			popularity = 0
+			banned = yes
 		}
 		
-		monarchism = { 
-			popularity = 10
+		liberationism = { 
+			popularity = 0
+			banned = no
 		}
 		
-		fascism = { 
-			popularity = 5
+		solidarism = { 
+			popularity = 0
+			banned = no
+		}
+
+		socialism = {
+			popularity = 0
+			banned = yes
 		}
 		
-		communism = { 
-			popularity = 5
+		social_liberal = { 
+			popularity = 0
+			banned = yes
 		}
 		
-		liberalism = { 
-			popularity = 20
+		market_liberal = { 
+			popularity = 0
+			banned = yes
 		}
 		
-		mod_ordaism = { 
-			popularity = 20
+		paternalism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		authoritarian_democrat = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		autocratic_despotism = {
+			popularity = 100
+			#banned = no #default is no
+		}
+		
+		national_autocracy = {
+			popularity = 0
+			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = conservatism
-	last_election = "1933.1.1"
+	ruling_party = autocratic_despotism
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -52,7 +74,7 @@ create_country_leader = {
 	desc = "POLITICS_BATAAR_KHAN_DESC"
 	picture = "Portrait_GLD_Bataar_Khan.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = autocratic_despotism_subtype
 	traits = {
 		#
 	}
@@ -63,7 +85,7 @@ create_country_leader = {
 	desc = "POLITICS_CHIGU_YADUUCHUUD_DESC"
 	picture = "Portrait_GLD_Chigu_Yaduuchuud.dds"
 	expire = "1965.1.1"
-	ideology = sub_conservatism
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}

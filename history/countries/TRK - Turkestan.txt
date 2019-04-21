@@ -17,23 +17,58 @@ create_faction = new_world_movement
 set_politics = {
 
 	parties = {
-		fascism = { 
-			popularity = 70
-			banned = yes
-		}
-
-		conservatism = {
-			popularity = 20
+		fangism = { 
+			popularity = 0
 			banned = yes
 		}
 		
-		communism = {
-			popularity = 10
+		liberationism = { 
+			popularity = 0
+			banned = no
+		}
+		
+		solidarism = { 
+			popularity = 0
+			banned = no
+		}
+
+		socialism = {
+			popularity = 0
+			banned = yes
+		}
+		
+		social_liberal = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		market_liberal = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		paternalism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		authoritarian_democrat = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		autocratic_despotism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		national_autocracy = {
+			popularity = 100
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = national_autocracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -44,7 +79,7 @@ create_country_leader = {
 	desc = "POLITICS_BASTUG_SENGUL_DESC"
 	picture = "Portrait_TRK_Bastug_Sengul.dds"
 	expire = "1965.1.1"
-	ideology = anarchist_communism
+	ideology = liberationism_subtype
 	traits = {
 		#
 	}
@@ -55,7 +90,7 @@ create_country_leader = {
 	desc = "POLITICS_MAGZHAN_KIZIL_DESC"
 	picture = "Portrait_TRK_Magzhan_Kizil.dds"
 	expire = "1965.1.1"
-	ideology = engelism
+	ideology = solidarism_subtype
 	traits = {
 		#
 	}
@@ -66,7 +101,7 @@ create_country_leader = {
 	desc = "POLITICS_ARDAVAN_BIROL_DESC"
 	picture = "Portrait_TRK_Ardavan_Birol.dds"
 	expire = "1965.1.1"
-	ideology = sub_liberalism
+	ideology = social_liberal_subtype
 	traits = {
 		#
 	}
@@ -77,7 +112,7 @@ create_country_leader = {
 	desc = "POLITICS_ALPTUG_YUCE_DESC"
 	picture = "Portrait_TRK_Alptug_Yuce.dds"
 	expire = "1965.1.1"
-	ideology = sub_conservatism
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}
@@ -88,7 +123,7 @@ create_country_leader = {
 	desc = "POLITICS_OMER_ALTIN_DESC"
 	picture = "Portrait_TRK_Omer_Altin.dds"
 	expire = "1965.1.1"
-	ideology = militaryreign
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}
@@ -99,7 +134,7 @@ create_country_leader = {
 	desc = "POLITICS_AKCAKOCA_YETIS_DESC"
 	picture = "Portrait_TRK_Akcakoca_Yetis.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = autocratic_despotism_subtype
 	traits = {
 		#
 	}
@@ -110,7 +145,7 @@ create_country_leader = {
 	desc = "POLITICS_MUSTAFA_SHOKAY_DESC"
 	picture = "Portrait_TRK_Mustafa_Shokay.dds"
 	expire = "1965.1.1"
-	ideology = ado_sub
+	ideology = national_autocracy_subtype
 	traits = {
 		#
 	}

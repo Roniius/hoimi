@@ -9,36 +9,36 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		liberalism = { 
+		social_liberal = { 
 			popularity = 10
 		}
 		
-		conservatism = { 
+		paternalism = { 
 			popularity = 40
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 20
 		}
 		
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 10
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 0
 		}
 
-		fascism = {
+		national_autocracy = {
 			popularity = 20
 		}
 		
-		monarchism = {
+		autocratic_despotism = {
 			popularity = 0
 		}
 	}
 	
-	ruling_party = conservatism
+	ruling_party = paternalism
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -49,7 +49,7 @@ create_country_leader = {
 	desc = "POLITICS_KHAN_MOHAMMAD_ABBAS_KHAN_DESC"
 	picture = "Portrait_MLW_Khan_Mohammad_Abbas_Khan.dds"
 	expire = "1965.1.1"
-	ideology = sub_conservatism
+	ideology = paternalism_subtype
 	traits = {
 		
 	}

@@ -16,20 +16,20 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		fascism = { 
+		national_autocracy = { 
 			popularity = 60
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 30
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 10
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = national_autocracy
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no

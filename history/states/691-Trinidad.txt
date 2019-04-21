@@ -10,8 +10,11 @@ state={
 
 
 	history={
-		owner = NRO
-		add_core_of = NRO
+		add_core_of = TRI
+		owner = ENG
+		victory_points = {
+			3284 1
+		}
 		buildings = {
 			infrastructure = 3
 			3284 = {

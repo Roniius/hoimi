@@ -5,7 +5,7 @@ ideas = {
 		MON_peljidiin_genden_hog = { 
 			allowed = {original_tag = MON}
 			available = {
-				has_government = monarchism
+				has_government = autocratic_despotism
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = peljidiin_genden_dead}
 				NOT = {has_country_flag = peljidiin_hog_fired}
@@ -21,7 +21,7 @@ ideas = {
 		MON_khorloogiin_choibalsan_cos = { 
 			allowed = {original_tag = MON}
 			available = {
-				has_government = monarchism
+				has_government = autocratic_despotism
 				has_country_flag = can_replace_cos
 				NOT = {has_country_flag = khorloogiin_choibalsan_dead}
 				NOT = {has_country_flag = khorloogiin_choibalsan_cos_fired}
@@ -37,7 +37,7 @@ ideas = {
 		MON_ile_luk_hoj = { 
 			allowed = {original_tag = MON}
 			available = {
-				has_government = monarchism
+				has_government = autocratic_despotism
 				has_country_flag = can_replace_hoj
 				NOT = {has_country_flag = ile_luk_dead}
 				NOT = {has_country_flag = ile_luk_hoj_fired}
@@ -54,7 +54,7 @@ ideas = {
 		MON_khorloogiin_choibalsan_dm = { 
 			allowed = {original_tag = MON}
 			available = {
-				has_government = monarchism
+				has_government = autocratic_despotism
 				has_country_flag = can_replace_dm
 				NOT = {has_country_flag = khorloogiin_choibalsan_dead}
 				NOT = {has_country_flag = khorloogiin_choibalsan_dm_fired}
@@ -71,7 +71,7 @@ ideas = {
 		MON_banzarjavyn_damdinsuren_fm = { 
 			allowed = {original_tag = MON}
 			available = {
-				has_government = monarchism
+				has_government = autocratic_despotism
 				has_country_flag = can_replace_fm
 				NOT = {has_country_flag = banzarjavyn_damdinsuren_dead}
 				NOT = {has_country_flag = banzarjavyn_damdinsuren_fm_fired}
@@ -88,7 +88,7 @@ ideas = {
 		MON_jamtsangiin_ochirbat_im = { 
 			allowed = {original_tag = MON}
 			available = {
-				has_government = monarchism
+				has_government = autocratic_despotism
 				has_country_flag = can_replace_im
 				NOT = {has_country_flag = jamtsangiin_ochirbat_dead}
 				NOT = {has_country_flag = jamtsangiin_ochirbat_im_fired}
@@ -105,7 +105,7 @@ ideas = {
 		MON_ukhnaagiin_bagabandi_cm = { 
 			allowed = {original_tag = MON}
 			available = {
-				has_government = monarchism
+				has_government = autocratic_despotism
 				has_country_flag = can_replace_cm
 				NOT = {has_country_flag = ukhnaagiin_bagabandi_dead}
 				NOT = {has_country_flag = ukhnaagiin_bagabandi_cm_fired}
@@ -122,7 +122,7 @@ ideas = {
 		MON_ukhnaagiin_bagabandi_em = { 
 			allowed = {original_tag = MON}
 			available = {
-				has_government = monarchism
+				has_government = autocratic_despotism
 				has_country_flag = can_replace_em
 				NOT = {has_country_flag = ukhnaagiin_bagabandi_dead}
 				NOT = {has_country_flag = ukhnaagiin_bagabandi_em_fired}

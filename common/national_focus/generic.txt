@@ -9,8 +9,8 @@ focus_tree = {
 	reset_on_civilwar = no
 
 	focus = {
-		id = military_doctrine
-		icon = GFX_goal_generic_army_artillery
+		id = national_industry_focus
+		icon = GFX_focus_generic_industry_3
 		x = 5
 		y = 0
 		cost = 10
@@ -18,1178 +18,315 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			army_experience = 10
-			navy_experience = 10
-			air_experience = 10
+			
 		}
 	}
 	
 	focus = {
-		id = army_expansion
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = military_doctrine }
-		x = -2
-		y = 1
-		cost = 10
-		relative_position_id = military_doctrine
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = army_expansion_idea
-		}
-	}
-	
-	focus = {
-		id = motorized_research
-		icon = GFX_goal_generic_army_motorized
-		prerequisite = { focus = army_expansion }
-		x = -4
-		y = 2
-		cost = 10
-		relative_position_id = military_doctrine
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = motorized_generic_boost
-				bonus = 0.50
-				uses = 1
-				category = motorized_equipment
-			}
-		}
-	}
-	
-	focus = {
-		id = upgrade_infantry_equipment
-		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = army_expansion }
-		x = -2
-		y = 2
-		cost = 10
-		relative_position_id = military_doctrine
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = upgrade_infantry_equipment_re
-				bonus = 0.50
-				uses = 1
-				category = infantry_weapons
-			}
-		}
-	}
-	
-	focus = {
-		id = artillery_research
-		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus = motorized_research }
-		prerequisite = { focus = upgrade_infantry_equipment }
-		x = -3
-		y = 3
-		cost = 10
-		relative_position_id = military_doctrine
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = generic_artillery_research
-				bonus = 0.50
-				uses = 1
-				category = artillery
-			}
-		}
-	}
-	
-	focus = {
-		id = invest_in_armor
-		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = artillery_research }
-		x = -3
-		y = 4
-		cost = 10
-		relative_position_id = military_doctrine
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = generic_invest_in_armor
-				bonus = 0.50
-				uses = 1
-				category = armor
-			}
-		}
-	}
-	
-	focus = {
-		id = aerial_expansion
-		icon = GFX_goal_generic_build_airforce
-		prerequisite = { focus = military_doctrine }
-		x = 0
-		y = 1
-		cost = 10
-		relative_position_id = military_doctrine
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = aerial_expansion_idea
-		}
-	}
-	
-	focus = {
-		id = aerial_tactics
-		icon = GFX_goal_generic_air_doctrine
-		prerequisite = { focus = aerial_expansion }
-		x = 0
-		y = 2
-		cost = 10
-		relative_position_id = military_doctrine
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = generic_aerial_tactics
-				bonus = 0.50
-				uses = 2
-				category = air_doctrine
-			}
-		}
-	}
-	
-	focus = {
-		id = bomber_research
-		icon = GFX_goal_generic_air_bomber
-		prerequisite = { focus = aerial_tactics }
-		x = 0
-		y = 3
-		cost = 10
-		relative_position_id = military_doctrine
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = generic_bomber_research
-				bonus = 0.50
-				uses = 1
-				category = tactical_bomber
-			}
-		}
-	}
-	
-	focus = {
-		id = fighter_research
-		icon = GFX_goal_generic_air_fighter
-		prerequisite = { focus = bomber_research }
-		x = 0
-		y = 4
-		cost = 10
-		relative_position_id = military_doctrine
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = generic_fighter_research
-				bonus = 0.50
-				uses = 1
-				category = light_fighter
-			}
-		}
-	}
-	
-	focus = {
-		id = naval_expansion
-		icon = GFX_goal_generic_build_navy
-		prerequisite = { focus = military_doctrine }
-		x = 2
-		y = 1
-		cost = 10
-		relative_position_id = military_doctrine
-		available_if_capitulated = yes
-
-		completion_reward = {
-			navy_experience = 10
-			add_tech_bonus = {
-				name = generic_naval_expansion
-				bonus = 0.50
-				uses = 1
-				category = naval_doctrine
-			}
-		}
-	}
-	
-	focus = {
-		id = cruiser_research
-		icon = GFX_goal_generic_navy_cruiser
-		prerequisite = { focus = naval_expansion }
-		x = 2
-		y = 2
-		cost = 10
-		relative_position_id = military_doctrine
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = generic_cruiser_research
-				bonus = 0.50
-				uses = 1
-				category = cl_tech
-			}
-		}
-	}
-	
-	focus = {
-		id = battleship_research
-		icon = GFX_goal_generic_navy_battleship
-		prerequisite = { focus = naval_expansion }
-		x = 4
-		y = 2
-		cost = 10
-		relative_position_id = military_doctrine
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = generic_battleship_research
-				bonus = 0.50
-				uses = 2
-				category = bb_tech
-			}
-		}
-	}
-	
-	focus = {
-		id = carrier_research
-		icon = GFX_goal_generic_navy_doctrines_tactics
-		prerequisite = { focus = battleship_research }
-		prerequisite = { focus = cruiser_research }
-		x = 3
-		y = 3
-		cost = 10
-		relative_position_id = military_doctrine
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = generic_carrier_research
-				bonus = 0.50
-				uses = 2
-				category = cv_tech
-			}
-		}
-	}
-	
-	focus = {
-		id = submarine_research
-		icon = GFX_goal_generic_navy_submarine
-		prerequisite = { focus = carrier_research }
-		x = 3
-		y = 4
-		cost = 10
-		relative_position_id = military_doctrine
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = generic_submarine_research
-				bonus = 0.50
-				uses = 1
-				category = ss_tech
-			}
-		}
-	}
-	
-	focus = {
-		id = fund_electronic_research
-		icon = GFX_focus_research
-		prerequisite = { focus = submarine_research }
-		prerequisite = { focus = fighter_research }
-		prerequisite = { focus = invest_in_armor }
-		x = 0
-		y = 5
-		cost = 10
-		relative_position_id = military_doctrine
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = generic_electronic_research
-				bonus = 0.50
-				uses = 3
-				category = electronics
-			}
-		}
-	}
-	
-	focus = {
-		id = rocket_science
-		icon = GFX_focus_rocketry
-		prerequisite = { focus = fund_electronic_research }
-		x = -1
-		y = 6
-		cost = 10
-		relative_position_id = military_doctrine
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = generic_rocket_science
-				bonus = 0.50
-				uses = 1
-				category = rocketry
-			}
-		}
-	}
-	
-	focus = {
-		id = abuse_the_atom
-		icon = GFX_focus_wonderweapons
-		prerequisite = { focus = fund_electronic_research }
-		x = 1
-		y = 6
-		cost = 10
-		relative_position_id = military_doctrine
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = generic_abuse_the_atom
-				bonus = 0.50
-				uses = 1
-				category = nuclear
-			}
-		}
-	}
-	
-	focus = {
-		id = invest_in_new_contracts
-		icon = GFX_focus_generic_stolen_papers
-		x = 14
-		y = 0
-		cost = 10
-		#relative_position_id = ENG_snap_elections
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = generic_invest_in_new_contracts
-				bonus = 0.50
-				uses = 2
-				category = industry
-			}
-		}
-	}
-	
-	focus = {
-		id = invest_in_infrastructure
-		icon = GFX_goal_generic_construct_civilian
-		prerequisite = { focus = invest_in_new_contracts }
-		x = -3
-		y = 1
-		cost = 10
-		relative_position_id = invest_in_new_contracts
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = infrastructure_investments_idea
-		}
-	}
-	
-	focus = {
-		id = rail_expansion
-		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = invest_in_infrastructure }
-		x = -3
-		y = 2
-		cost = 10
-		relative_position_id = invest_in_new_contracts
-		available_if_capitulated = yes
-
-		completion_reward = {
-			random_owned_state = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-	
-	focus = {
-		id = national_highway
-		icon = GFX_focus_generic_rubber
-		prerequisite = { focus = rail_expansion }
-		x = -3
-		y = 3
-		cost = 10
-		relative_position_id = invest_in_new_contracts
-		available_if_capitulated = yes
-
-		completion_reward = {
-			random_owned_state = {
-				add_building_construction = {
-					type = infrastructure
-					level = 3
-					instant_build = yes
-				}
-			}
-		}
-	}
-	
-	focus = {
-		id = invest_in_the_civilian_sector
+		id = civil_industry_focus
 		icon = GFX_focus_generic_industry_2
-		prerequisite = { focus = invest_in_new_contracts }
-		x = -1
+		prerequisite = { focus = national_industry_focus }
+		x = -3
 		y = 1
 		cost = 10
-		relative_position_id = invest_in_new_contracts
+		relative_position_id = national_industry_focus
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = civilian_investments_idea
+			
 		}
 	}
 	
 	focus = {
-		id = work_with_consumer_companies
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = invest_in_the_civilian_sector }
-		x = -1
-		y = 2
-		cost = 10
-		relative_position_id = invest_in_new_contracts
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = working_with_consumer_companies_idea
-		}
-	}
-	
-	focus = {
-		id = expand_civil_factories
+		id = more_civilian_investments_focus
 		icon = GFX_focus_generic_the_giant_wakes
-		prerequisite = { focus = work_with_consumer_companies }
-		x = -1
-		y = 3
+		prerequisite = { focus = civil_industry_focus }
+		x = -3
+		y = 2
 		cost = 10
-		relative_position_id = invest_in_new_contracts
+		relative_position_id = national_industry_focus
 		available_if_capitulated = yes
 
 		completion_reward = {
-			random_owned_state = {
-				add_extra_state_shared_building_slots = 4
-				add_building_construction = {
-					type = industrial_complex
-					level = 3
-					instant_build = yes
-				}
-			}
+			
 		}
 	}
 	
 	focus = {
-		id = invest_in_the_military_sector
-		icon = GFX_goal_generic_intelligence_exchange
-		prerequisite = { focus = invest_in_new_contracts }
-		x = 1
+		id = roads_and_rails_focus
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = national_industry_focus }
+		x = 0
 		y = 1
 		cost = 10
-		relative_position_id = invest_in_new_contracts
+		relative_position_id = national_industry_focus
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = military_investments_idea
+			
 		}
 	}
 	
 	focus = {
-		id = new_arms_factories
+		id = expand_to_highways_focus
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = { focus = roads_and_rails_focus }
+		x = 0
+		y = 2
+		cost = 10
+		relative_position_id = national_industry_focus
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = military_industrial_complex_focus
+		icon = GFX_military_industrial_complex_1
+		prerequisite = { focus = national_industry_focus }
+		x = 3
+		y = 1
+		cost = 10
+		relative_position_id = national_industry_focus
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = our_war_machine_focus
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = invest_in_the_military_sector }
-		x = 1
-		y = 2
-		cost = 10
-		relative_position_id = invest_in_new_contracts
-		available_if_capitulated = yes
-
-		completion_reward = {
-			random_owned_state = {
-				add_extra_state_shared_building_slots = 4
-				add_building_construction = {
-					type = arms_factory
-					level = 3
-					instant_build = yes
-				}
-			}
-		}
-	}
-	
-	focus = {
-		id = cut_a_deal_with_the_military
-		icon = GFX_focus_generic_soldiers_for_workers
-		prerequisite = { focus = new_arms_factories }
-		x = 1
-		y = 3
-		cost = 10
-		relative_position_id = invest_in_new_contracts
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = deal_with_military_idea
-		}
-	}
-	
-	focus = {
-		id = invest_in_excavation
-		icon = GFX_goal_generic_construction2
-		prerequisite = { focus = invest_in_new_contracts }
-		x = 3
-		y = 1
-		cost = 10
-		relative_position_id = invest_in_new_contracts
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = excavation_investments_idea
-		}
-	}
-	
-	focus = {
-		id = the_search_for_black_gold
-		icon = GFX_goal_generic_oil_refinery
-		prerequisite = { focus = invest_in_excavation }
+		prerequisite = { focus = military_industrial_complex_focus }
 		x = 3
 		y = 2
 		cost = 10
-		relative_position_id = invest_in_new_contracts
+		relative_position_id = national_industry_focus
 		available_if_capitulated = yes
 
 		completion_reward = {
-			random_owned_state = { 
-				add_resource = { type = rubber amount = 5 }
-			}
-			random_owned_state = { 
-				add_resource = { type = oil amount = 5 }
-			}
+			
 		}
 	}
 	
 	focus = {
-		id = mine_for_metal
-		icon = GFX_focus_generic_steel
-		prerequisite = { focus = the_search_for_black_gold }
-		x = 3
+		id = research_new_construction_methods_focus
+		#icon = 
+		prerequisite = { focus = our_war_machine_focus }
+		prerequisite = { focus = expand_to_highways_focus }
+		prerequisite = { focus = more_civilian_investments_focus }
+		x = 0
 		y = 3
 		cost = 10
-		relative_position_id = invest_in_new_contracts
+		relative_position_id = national_industry_focus
 		available_if_capitulated = yes
 
 		completion_reward = {
-			random_owned_state = { 
-				add_resource = { type = aluminium amount = 5 }
-			}
-			random_owned_state = { 
-				add_resource = { type = tungsten amount = 5 }
-			}
-			random_owned_state = { 
-				add_resource = { type = steel amount = 5 }
-			}
-			random_owned_state = { 
-				add_resource = { type = chromium amount = 5 }
-			}
+			
 		}
 	}
 	
 	focus = {
-		id = reforming_the_system
-		icon = GFX_focus_generic_free_press
-		x = 24
+		id = excavation_logistical_studies_focus
+		#icon = 
+		prerequisite = { focus = research_new_construction_methods_focus }
+		x = 0
+		y = 4
+		cost = 10
+		relative_position_id = national_industry_focus
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	######Military Generic
+	
+	focus = {
+		id = national_military_focus
+		#icon = 
+		x = 12
 		y = 0
 		cost = 10
 		#relative_position_id = ENG_snap_elections
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 50
+			
 		}
 	}
 	
 	focus = {
-		id = strong_leadership
-		icon = GFX_focus_generic_swing_the_sword
-		prerequisite = { focus = reforming_the_system }
-		available = {
-			OR = {
-				has_government = fascism
-				has_government = communism
-				has_government = monarchism
-				has_government = authoritarian
-			}
-		}
+		id = army_doctrine_studies_focus
+		#icon = 
+		prerequisite = { focus = national_military_focus }
 		x = -2
 		y = 1
 		cost = 10
-		relative_position_id = reforming_the_system
+		relative_position_id = national_military_focus
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_popularity = {
-				ideology = liberalism
-				popularity = -0.10
-			}
-			add_popularity = {
-				ideology = conservatism
-				popularity = -0.10
-			}
-			add_popularity = {
-				ideology = mod_ordaism
-				popularity = -0.10
-			}
+			
 		}
 	}
 	
 	focus = {
-		id = national_supremacy
-		icon = GFX_goal_support_fascism
-		prerequisite = { focus = strong_leadership }
-		available = {
-			
-			has_government = fascism
-			
-		}
-		x = -5
+		id = training_land_forces_focus
+		#icon = 
+		prerequisite = { focus = army_doctrine_studies_focus }
+		x = -2
 		y = 2
 		cost = 10
-		relative_position_id = reforming_the_system
+		relative_position_id = national_military_focus
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.05
-			}
-		}
-	}
-	
-	focus = {
-		id = militarism
-		icon = GFX_focus_generic_enlist_the_police
-		prerequisite = { focus = national_supremacy }
-		x = -5
-		y = 3
-		cost = 10
-		relative_position_id = reforming_the_system
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = militarism_focus
-		}
-	}
-	
-	focus = {
-		id = minority_opression
-		icon = GFX_focus_generic_death_or_dishonor
-		prerequisite = { focus = militarism }
-		x = -5
-		y = 4
-		cost = 10
-		relative_position_id = reforming_the_system
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = oppressed_minorities_idea
-		}
-	}
-	
-	focus = {
-		id = expand_the_homeland
-		icon = GFX_goal_generic_attack_allies
-		prerequisite = { focus = minority_opression }
-		x = -5
-		y = 5
-		cost = 10
-		relative_position_id = reforming_the_system
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = expanding_the_homeland_idea
-		}
-	}
-	
-	focus = {
-		id = institute_divine_rule
-		icon = GFX_focus_generic_divine_rule
-		prerequisite = { focus = strong_leadership }
-		available = {
-			
-			has_government = monarchism
 			
 		}
-		x = -3
-		y = 2
-		cost = 10
-		relative_position_id = reforming_the_system
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_popularity = {
-				ideology = monarchism
-				popularity = 0.05
-			}
-		}
 	}
 	
 	focus = {
-		id = work_with_the_churches
-		icon = GFX_focus_generic_work_with_church
-		prerequisite = { focus = institute_divine_rule }
-		x = -3
-		y = 3
-		cost = 10
-		relative_position_id = reforming_the_system
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = approved_divine_right_idea
-		}
-	}
-	
-	focus = {
-		id = hang_royal_portraits
-		icon = GFX_focus_generic_royal_portraits
-		prerequisite = { focus = work_with_the_churches }
-		x = -3
-		y = 4
-		cost = 10
-		relative_position_id = reforming_the_system
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = monarchy_cult_idea
-		}
-	}
-	
-	focus = {
-		id = land_for_their_majesty
-		icon = GFX_focus_generic_monarchist
-		prerequisite = { focus = hang_royal_portraits }
-		x = -3
-		y = 5
-		cost = 10
-		relative_position_id = reforming_the_system
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = expanding_the_kingdom_idea
-		}
-	}
-	
-	focus = {
-		id = a_new_authority
-		icon = GFX_focus_generic_authority
-		prerequisite = { focus = strong_leadership }
-		available = {
-			
-			has_government = authoritarian
-			
-		}
-		x = -1
-		y = 2
-		cost = 10
-		relative_position_id = reforming_the_system
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_popularity = {
-				ideology = authoritarian
-				popularity = 0.05
-			}
-		}
-	}
-	
-	focus = {
-		id = work_with_the_military
-		icon = GFX_focus_generic_parade
-		prerequisite = { focus = a_new_authority }
-		x = -1
-		y = 3
-		cost = 10
-		relative_position_id = reforming_the_system
-		available_if_capitulated = yes
-
-		completion_reward = {
-			army_experience = 50
-			add_war_support = 0.15
-		}
-	}
-	
-	focus = {
-		id = work_with_the_corporations
-		icon = GFX_focus_generic_root_out_funding
-		prerequisite = { focus = work_with_the_military }
-		x = -1
-		y = 4
-		cost = 10
-		relative_position_id = reforming_the_system
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = working_with_corporations_idea
-		}
-	}
-	
-	focus = {
-		id = build_our_sphere
-		icon = GFX_focus_generic_build_our_sphere
-		prerequisite = { focus = work_with_the_corporations }
-		x = -1
-		y = 5
-		cost = 10
-		relative_position_id = reforming_the_system
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = building_our_sphere_idea
-		}
-	}
-	
-	focus = {
-		id = dictatorship_of_the_ajilchin
-		icon = GFX_focus_generic_ajilchin
-		prerequisite = { focus = strong_leadership }
-		available = {
-			
-			has_government = communism
-			
-		}
-		x = 1
-		y = 2
-		cost = 10
-		relative_position_id = reforming_the_system
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_popularity = {
-				ideology = communism
-				popularity = 0.05
-			}
-		}
-	}
-	
-	focus = {
-		id = purge_unloyal_elements
-		icon = GFX_goal_generic_war_with_comintern
-		prerequisite = { focus = dictatorship_of_the_ajilchin }
-		x = 1
-		y = 3
-		cost = 10
-		relative_position_id = reforming_the_system
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_political_power = 100
-			add_popularity = {
-				ideology = communism
-				popularity = 0.05
-			}
-		}
-	}
-	
-	focus = {
-		id = work_with_unions
-		icon = GFX_focus_generic_union
-		prerequisite = { focus = purge_unloyal_elements }
-		x = 1
-		y = 4
-		cost = 10
-		relative_position_id = reforming_the_system
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = union_support_idea
-		}
-	}
-	
-	focus = {
-		id = export_the_revolution
-		icon = GFX_focus_generic_export_the_revolution
-		prerequisite = { focus = work_with_unions }
-		x = 1
-		y = 5
-		cost = 10
-		relative_position_id = reforming_the_system
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = exporting_the_revolution_idea
-		}
-	}
-	
-	focus = {
-		id = international_friends
-		icon = GFX_goal_anschluss
-		prerequisite = { focus = export_the_revolution focus = expand_the_homeland focus = land_for_their_majesty focus = build_our_sphere }
-		x = -4
-		y = 6
-		cost = 10
-		relative_position_id = reforming_the_system
-		available_if_capitulated = yes
-
-		completion_reward = {
-			set_rule = { can_create_factions = yes }
-		}
-	}
-	
-	focus = {
-		id = liberalize_the_nation
-		icon = GFX_goal_support_democracy
-		prerequisite = { focus = reforming_the_system }
-		available = {
-			OR = {
-				has_government = conservatism
-				has_government = liberalism
-				has_government = mod_ordaism
-			}
-		}
-		x = 5
+		id = navy_doctrine_studies_focus
+		#icon = 
+		prerequisite = { focus = national_military_focus }
+		x = 0
 		y = 1
 		cost = 10
-		relative_position_id = reforming_the_system
+		relative_position_id = national_military_focus
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_popularity = {
-				ideology = authoritarian
-				popularity = -0.10
-			}
-			add_popularity = {
-				ideology = monarchism
-				popularity = -0.10
-			}
-			add_popularity = {
-				ideology = communism
-				popularity = -0.10
-			}
-			add_popularity = {
-				ideology = fascism
-				popularity = -0.10
-			}
+			
 		}
 	}
 	
 	focus = {
-		id = for_the_worker_the_farmer_the_peasant
-		icon = GFX_focus_generic_mod_ordaism
-		prerequisite = { focus = liberalize_the_nation }
-		available = {
-			
-			has_government = mod_ordaism
-			
-		}
-		x = 3
+		id = training_naval_forces_focus
+		#icon = 
+		prerequisite = { focus = navy_doctrine_studies_focus }
+		x = 0
 		y = 2
 		cost = 10
-		relative_position_id = reforming_the_system
+		relative_position_id = national_military_focus
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_popularity = {
-				ideology = mod_ordaism
-				popularity = 0.05
-			}
-		}
-	}
-	
-	focus = {
-		id = government_intervention
-		icon = GFX_focus_generic_self_management
-		prerequisite = { focus = for_the_worker_the_farmer_the_peasant }
-		x = 3
-		y = 3
-		cost = 10
-		relative_position_id = reforming_the_system
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_political_power = 50
-			add_popularity = {
-				ideology = mod_ordaism
-				popularity = 0.05
-			}
-		}
-	}
-	
-	focus = {
-		id = environmental_refom
-		icon = GFX_focus_generic_agrarian_reforms
-		prerequisite = { focus = government_intervention }
-		x = 3
-		y = 4
-		cost = 10
-		relative_position_id = reforming_the_system
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_stability = 0.05
-		}
-	}
-	
-	focus = {
-		id = the_spread_of_socialism
-		icon = GFX_goal_generic_dangerous_deal
-		prerequisite = { focus = environmental_refom }
-		x = 3
-		y = 5
-		cost = 10
-		relative_position_id = reforming_the_system
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = spreading_socialism_idea
-		}
-	}
-	
-	focus = {
-		id = new_found_freedom
-		icon = GFX_focus_generic_new_found_freedom
-		prerequisite = { focus = liberalize_the_nation }
-		available = {
-			
-			has_government = liberalism
 			
 		}
-		x = 5
+	}
+	
+	focus = {
+		id = air_doctrine_studies_focus
+		#icon = 
+		prerequisite = { focus = national_military_focus }
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = national_military_focus
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = training_air_forces_focus
+		#icon = 
+		prerequisite = { focus = air_doctrine_studies_focus }
+		x = 2
 		y = 2
 		cost = 10
-		relative_position_id = reforming_the_system
+		relative_position_id = national_military_focus
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_popularity = {
-				ideology = liberalism
-				popularity = 0.05
-			}
-		}
-	}
-	
-	focus = {
-		id = liberalize_the_constitution
-		icon = GFX_focus_generic_democratic_reform
-		prerequisite = { focus = new_found_freedom }
-		x = 5
-		y = 3
-		cost = 10
-		relative_position_id = reforming_the_system
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_political_power = 50
-			add_popularity = {
-				ideology = liberalism
-				popularity = 0.05
-			}
-		}
-	}
-	
-	focus = {
-		id = progressive_reform
-		icon = GFX_focus_generic_concessions
-		prerequisite = { focus = liberalize_the_constitution }
-		x = 5
-		y = 4
-		cost = 10
-		relative_position_id = reforming_the_system
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_stability = 0.05
-		}
-	}
-	
-	focus = {
-		id = the_spread_of_democracy
-		icon = GFX_goal_generic_propaganda
-		prerequisite = { focus = progressive_reform }
-		x = 5
-		y = 5
-		cost = 10
-		relative_position_id = reforming_the_system
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = spreading_democracy_idea
-		}
-	}
-	
-	focus = {
-		id = we_must_keep_tradition
-		icon = GFX_focus_generic_strike_at_democracy1
-		prerequisite = { focus = liberalize_the_nation }
-		available = {
-			
-			has_government = conservatism
 			
 		}
-		x = 7
-		y = 2
-		cost = 10
-		relative_position_id = reforming_the_system
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_popularity = {
-				ideology = conservatism
-				popularity = 0.05
-			}
-		}
 	}
 	
 	focus = {
-		id = tighten_borders
-		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = we_must_keep_tradition }
-		x = 7
+		id = armor_theory_focus
+		#icon = 
+		prerequisite = { focus = training_air_forces_focus }
+		prerequisite = { focus = training_land_forces_focus }
+		prerequisite = { focus = training_naval_forces_focus }
+		x = -1
 		y = 3
 		cost = 10
-		relative_position_id = reforming_the_system
+		relative_position_id = national_military_focus
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 50
-			add_popularity = {
-				ideology = conservatism
-				popularity = 0.05
-			}
+			
 		}
 	}
 	
 	focus = {
-		id = conservative_reform
-		icon = GFX_goal_generic_cavalry
-		prerequisite = { focus = tighten_borders }
-		x = 7
+		id = artillery_modernization_focus
+		#icon = 
+		prerequisite = { focus = training_air_forces_focus }
+		prerequisite = { focus = training_land_forces_focus }
+		prerequisite = { focus = training_naval_forces_focus }
+		x = 1
+		y = 3
+		cost = 10
+		relative_position_id = national_military_focus
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = electronics_expansion_focus
+		#icon = 
+		prerequisite = { focus = artillery_modernization_focus }
+		prerequisite = { focus = armor_theory_focus }
+		x = 0
 		y = 4
 		cost = 10
-		relative_position_id = reforming_the_system
+		relative_position_id = national_military_focus
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_stability = 0.05
+			
 		}
 	}
 	
 	focus = {
-		id = the_spread_of_tradition
-		icon = goal_continuous_def_against_influence
-		prerequisite = { focus = conservative_reform }
-		x = 7
+		id = atomic_theory_focus
+		#icon = 
+		prerequisite = { focus = electronics_expansion_focus }
+		x = -1
 		y = 5
 		cost = 10
-		relative_position_id = reforming_the_system
+		relative_position_id = national_military_focus
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = spreading_tradition_idea
+			
+		}
+	}
+	
+	focus = {
+		id = rocket_theory_focus
+		#icon = 
+		prerequisite = { focus = electronics_expansion_focus }
+		x = 1
+		y = 5
+		cost = 10
+		relative_position_id = national_military_focus
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
 		}
 	}
 

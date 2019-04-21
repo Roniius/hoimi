@@ -14,36 +14,36 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		conservatism = { 
+		paternalism = { 
 			popularity = 42
 		}
 		
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 0
 		}
 		
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 0
 		}
 		
-		fascism = { 
+		national_autocracy = { 
 			popularity = 0
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 2
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 13
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 43
 		}
 	}
 	
-	ruling_party = mod_ordaism
+	ruling_party = solidarism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -55,7 +55,7 @@ create_country_leader = {
 	desc = "POLITICS_LIAM_J_OBRIEN_DESC"
 	picture = "Portrait_CAN_Liam_J_Obrien.dds"
 	expire = "1965.1.1"
-	ideology = engelism
+	ideology = solidarism_subtype
 	traits = {
 		#
 	}
@@ -66,7 +66,7 @@ create_country_leader = {
 	desc = "POLITICS_MHARTAIN_OLANN_DESC"
 	picture = "Portrait_CAN_Mhartain_Olann.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		#
 	}

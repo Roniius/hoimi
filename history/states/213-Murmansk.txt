@@ -10,8 +10,10 @@ state={
 	}
 
 	history={
-		owner = SWE
-		add_core_of = SWE
+		owner = SOV
+		victory_points = {
+			3134 5 
+		}
 		buildings = {
 			infrastructure = 2
 			air_base = 2
@@ -20,6 +22,7 @@ state={
 				coastal_bunker = 1
 			}
 		}
+		add_core_of = SOV
 	}
 
 	provinces={

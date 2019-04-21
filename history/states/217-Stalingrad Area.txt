@@ -7,17 +7,17 @@ state={
 	state_category = city
 
 	history={
-		owner = KAL
-		add_core_of = KAL
+		owner = GLD
+		victory_points = {
+			3529 30.0
+		}
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
 			industrial_complex = 1
 			air_base = 1
 		}
-		victory_points = {
-			3529 50 
-		}
+		add_core_of = GLD
 	}
 
 	provinces={

@@ -15,33 +15,33 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		conservatism = { 
+		paternalism = { 
 			popularity = 20
 			banned = yes
 		}
 
-		liberalism = {
+		social_liberal = {
 			popularity = 54
 			banned = yes
 		}
 		
-		fascism = {
+		national_autocracy = {
 			popularity = 6
 			#banned = no #default is no
 		}
 		
-		communism = {
+		fangism = {
 			popularity = 10
 			#banned = no #default is no
 		}
 		
-		authoritarian = {
+		authoritarian_democrat = {
 			popularity = 10
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = liberalism
+	ruling_party = social_liberal
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -52,7 +52,7 @@ create_country_leader = {
 	desc = "POLITICS_KANG_GOH_DESC"
 	picture = "Portrait_EAF_Kang_Goh.dds"
 	expire = "1965.1.1"
-	ideology = sub_liberalism
+	ideology = social_liberal_subtype
 	traits = {
 		#
 	}

@@ -1,23 +1,19 @@
 
 state={
 	id=562
-	name="STATE_562"
+	name="STATE_562" # Okhotsk
+	manpower = 126961
+	state_category = wasteland
 
 	history={
+		owner = MON
 		buildings = {
-			infrastructure = 4
-
+			infrastructure = 1
 		}
-		
-		owner = EAF
-		add_core_of = EAF
-
+		add_core_of = MON
 	}
 
 	provinces={
-		1714 1772 1805 1865 4810 4881 7772 10540 10572 10598 11607 12518 12551 12650 12683 
+		1748 1805 4752 4810 4881 7772 7844 10598 10608 10667 12650 12694 
 	}
-	manpower=126961
-	buildings_max_level_factor=1.000
-	state_category=town
 }

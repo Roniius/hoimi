@@ -84,13 +84,13 @@ USA_stop_soviet_from_falling = {
 		has_war = no
 		num_divisions > 85 # we must have some divisions ourselves
 
-		NOT = { has_government = fascism }
+		NOT = { has_government = national_autocracy }
 		NOT = { is_in_faction_with = GER }
 		NOT = { has_war_with = SOV }
 		GER = { 
 			has_war_with = SOV 
 			has_war_with = ENG
-			has_government = fascism
+			has_government = national_autocracy
 		}
 		SOV = {
 			surrender_progress > 0.05
@@ -104,7 +104,7 @@ USA_stop_soviet_from_falling = {
 			has_war_with = SOV
 			NOT = { GER = { has_war_with = SOV } }
 			is_in_faction_with = GER
-			has_government = fascism
+			has_government = national_autocracy
 			SOV = { has_war = no }
 			SOV = { surrender_progress < 0.01 }
 		}
@@ -146,7 +146,7 @@ USA_stop_soviet_from_falling_2 = {
 	enable = {
 		tag = USA
 		has_war = yes
-		NOT = { has_government = fascism }
+		NOT = { has_government = national_autocracy }
 		NOT = { is_in_faction_with = GER }
 		NOT = { has_war_with = SOV }
 		GER = { 
@@ -165,7 +165,7 @@ USA_stop_soviet_from_falling_2 = {
 			has_war_with = SOV
 			NOT = { GER = { has_war_with = SOV } }
 			is_in_faction_with = GER
-			has_government = fascism
+			has_government = national_autocracy
 			SOV = { has_war = no }
 			SOV = { surrender_progress < 0.01 }
 		}
@@ -317,8 +317,8 @@ USA_protect_against_extremism = { # Reverse strategy
 		USA = {
 			has_government = democratic
 		}
-		NOT = { has_government = communism }
-		NOT = { has_government = fascism }
+		NOT = { has_government = fangism }
+		NOT = { has_government = national_autocracy }
 		OR = {
 			capital_scope = {
 				is_on_continent = europe # lets avoid smaller conflicts elsewhere
@@ -332,8 +332,8 @@ USA_protect_against_extremism = { # Reverse strategy
 			NOT = { tag = USA }
 			has_war_with = ROOT
 			OR = {
-				has_government = communism
-				has_government = fascism
+				has_government = fangism
+				has_government = national_autocracy
 			}
 		}
 	}
@@ -342,8 +342,8 @@ USA_protect_against_extremism = { # Reverse strategy
 		OR = {
 			has_war = no
 			OR = {
-				has_government = communism
-				has_government = fascism
+				has_government = fangism
+				has_government = national_autocracy
 			}
 			USA = {
 				OR = {

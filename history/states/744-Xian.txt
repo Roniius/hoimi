@@ -1,26 +1,22 @@
-
 state={
 	id=744
 	name="STATE_744"
+	provinces={
+		531 1976 2006 4167 4256 4295 4313 5092 7301 7397 7406 7418 7911 10257 12713 12882 
+	}
 
 	history={
-		owner = CHI
-		add_core_of = PRC
-		add_core_of = CHI
+		owner = SHU
+		add_core_of = SHU
 		victory_points = {
 			7418 1 
 		}
 		buildings = {
 			infrastructure = 3
-
 		}
 
 	}
-
-	provinces={
-		1976 2006 4167 4256 4295 7406 7418 8072 10257 
-	}
 	manpower=9000000
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category = town
 }

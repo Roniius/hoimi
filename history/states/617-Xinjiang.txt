@@ -3,24 +3,17 @@ state={
 	name="STATE_617"
 
 	history={
-		owner = AFG
-		add_core_of = AFG
+		owner = SIK
+		add_core_of = SIK
+		add_core_of = CHI
+		add_core_of = PRC
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 
 		}
 		victory_points = {
-			4709 20
-		}
-		victory_points = {
-			10545 3 
-		}
-		victory_points = {
-			12601 25
-		}
-		victory_points = {
-			7702 3 
+			4709 3 
 		}
 
 	}

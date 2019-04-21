@@ -12,12 +12,19 @@ state={
 	state_category = large_city
 
 	history={
-		owner = SAX
-		add_core_of = SAX
-		victory_points = { 6524 5 }
+		owner = GER
+		victory_points = { 3561 5 }
+		victory_points = { 425 3 }
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
+		}
+		add_core_of = GER
+		1939.1.1 = {
+			buildings = {
+				synthetic_refinery = 3
+				arms_factory = 2
+			}
 		}
 	}
 

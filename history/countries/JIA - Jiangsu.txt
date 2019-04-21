@@ -9,36 +9,36 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		liberalism = { 
+		social_liberal = { 
 			popularity = 0
 		}
 		
-		conservatism = { 
+		paternalism = { 
 			popularity = 12
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 62
 		}
 		
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 5
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 14
 		}
 
-		fascism = {
+		national_autocracy = {
 			popularity = 7
 		}
 		
-		monarchism = {
+		autocratic_despotism = {
 			popularity = 0
 		}
 	}
 	
-	ruling_party = mod_ordaism
+	ruling_party = solidarism
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -49,7 +49,7 @@ create_country_leader = {
 	desc = "POLITICS_WANG_ZI_PING_DESC"
 	picture = "Portrait_JIA_Wang_Zi_Ping.dds"
 	expire = "1965.1.1"
-	ideology = disciplined_engelism
+	ideology = disciplined_solidarism_subtype
 	traits = {
 		
 	}

@@ -11,36 +11,36 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		conservatism = { 
+		paternalism = { 
 			popularity = 4
 		}
 		
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 76
 		}
 		
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 5
 		}
 		
-		fascism = { 
+		national_autocracy = { 
 			popularity = 10
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 0
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 5
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 0
 		}
 	}
 	
-	ruling_party = authoritarian
+	ruling_party = authoritarian_democrat
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no

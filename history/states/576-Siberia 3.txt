@@ -7,11 +7,11 @@ state={
 	state_category = wasteland
 
 	history={
+		owner = SIB
+		add_core_of = SIB
 		buildings = {
 			infrastructure = 1
 		}
-		owner = EAF
-		add_core_of = EAF
 	}
 
 	provinces={

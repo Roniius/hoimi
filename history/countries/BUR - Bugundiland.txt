@@ -12,36 +12,36 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		conservatism = { 
+		paternalism = { 
 			popularity = 47
 		}
 		
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 0
 		}
 		
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 0
 		}
 		
-		fascism = { 
+		national_autocracy = { 
 			popularity = 0
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 0
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 49
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 4
 		}
 	}
 	
-	ruling_party = liberalism
+	ruling_party = social_liberal
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -52,7 +52,7 @@ create_country_leader = {
 	desc = "POLITICS_EELCO_VAN_RIJN_DESC"
 	picture = "Portrait_BUR_Eelco_van_Rijn.dds"
 	expire = "1965.1.1"
-	ideology = sub_liberalism
+	ideology = social_liberal_subtype
 	traits = {
 		#
 	}
@@ -85,7 +85,7 @@ create_country_leader = {
 	desc = "POLITICS_LAURENS_J_TIMMERMAN_DESC"
 	picture = "Portrait_BUR_Laurens_J_Timmerman.dds"
 	expire = "1965.1.1"
-	ideology = sub_conservatism
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}
@@ -96,7 +96,7 @@ create_country_leader = {
 	desc = "POLITICS_QUINTIJN_NYS_DESC"
 	picture = "Portrait_BUR_Quintijn_Nys.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = national_autocracy_ideology
 	traits = {
 		#
 	}
@@ -107,7 +107,7 @@ create_country_leader = {
 	desc = "POLITICS_ARNOLD_VUGTEVEEN_DESC"
 	picture = "Portrait_BUR_Arnold_Vugteveen.dds"
 	expire = "1965.1.1"
-	ideology = engelism
+	ideology = solidarism_subtype
 	traits = {
 		#
 	}
@@ -118,7 +118,7 @@ create_country_leader = {
 	desc = "POLITICS_PRINCE_DIEDERICK_DESC"
 	picture = "Portrait_BUR_Prince_Diederick.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		#
 	}

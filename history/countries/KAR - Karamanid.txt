@@ -13,24 +13,24 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		conservatism = { 
+		paternalism = { 
 			popularity = 30
 		}
 		
-		fascism = { 
+		national_autocracy = { 
 			popularity = 10
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 4
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 56
 		}
 	}
 	
-	ruling_party = liberalism
+	ruling_party = social_liberal
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -41,7 +41,7 @@ create_country_leader = {
 	desc = "POLITICS_SEVKET_II_DESC"
 	picture = "Portrait_KAR_Sevket_II.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		#
 	}
@@ -52,7 +52,7 @@ create_country_leader = {
 	desc = "POLITICS_FEVZI_CAKMAK_DESC"
 	picture = "Portrait_KAR_Fevzi_Cakmak.dds"
 	expire = "1965.1.1"
-	ideology = sub_liberalism
+	ideology = social_liberal_subtype
 	traits = {
 		#
 	}

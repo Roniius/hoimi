@@ -144,8 +144,8 @@ ideas = {
 			available = {
 				has_war_support > 0.5
 				OR = {
-					has_government = fascism
-					has_government = communism
+					has_government = national_autocracy
+					has_government = fangism
 					custom_trigger_tooltip = { tooltip = or_clarification_tooltip always = no }
 					AND = {
 						has_war = yes
@@ -309,9 +309,9 @@ ideas = {
 				OR = {
 					AND = {
 						OR = {
-							has_government = liberalism
-							has_government = conservatism
-							has_government = mod_ordaism
+							has_government = social_liberal
+							has_government = paternalism
+							has_government = solidarism
 						}
 						has_war = yes
 						any_enemy_country = {
@@ -323,9 +323,9 @@ ideas = {
 					}
 					AND = {
 						OR = {
-							NOT = { has_government = liberalism }
-							NOT = { has_government = conservatism }
-							NOT = { has_government = mod_ordaism }
+							NOT = { has_government = social_liberal }
+							NOT = { has_government = paternalism }
+							NOT = { has_government = solidarism }
 						}
 						OR = {
 							has_idea = partial_economic_mobilisation
@@ -379,8 +379,8 @@ ideas = {
 			available = {
 				has_war = yes
 				OR = { 
-					has_government = fascism
-					has_government = communism
+					has_government = national_autocracy
+					has_government = fangism
 				}
 				OR = {
 					has_idea = war_economy

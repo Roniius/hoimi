@@ -2,10 +2,10 @@
 is_enemy_ideology = {
 	OR = {
 		AND = {
-			has_government = communism
+			has_government = fangism
 			ROOT = {
 				OR = {
-					has_government = fascism
+					has_government = national_autocracy
 					has_government = democratic
 				}
 			}
@@ -14,17 +14,17 @@ is_enemy_ideology = {
 			has_government = democratic
 			ROOT = {
 				OR = {
-					has_government = communism
-					has_government = fascism
+					has_government = fangism
+					has_government = national_autocracy
 				}
 			}
 		}
 		AND = {
-			has_government = fascism
+			has_government = national_autocracy
 			ROOT = {
 				OR = {
 					has_government = democratic
-					has_government = communism
+					has_government = fangism
 				}
 			}
 		}

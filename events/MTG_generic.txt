@@ -154,13 +154,13 @@ country_event = {
 		if = {
 			limit = {
 				FROM = {
-					has_government = authoritarian
+					has_government = authoritarian_democrat
 				}
 			}
 			effect_tooltip = {
 				
 				set_politics = {
-					ruling_party = authoritarian
+					ruling_party = authoritarian_democrat
 					elections_allowed = no
 				}
 			}
@@ -168,13 +168,13 @@ country_event = {
 		if = {
 			limit = {
 				FROM = {
-					has_government = liberalism
+					has_government = social_liberal
 				}
 			}
 			effect_tooltip = {
 				
 				set_politics = {
-					ruling_party = liberalism
+					ruling_party = social_liberal
 					elections_allowed = yes
 				}
 			}
@@ -182,13 +182,13 @@ country_event = {
 		if = {
 			limit = {
 				FROM = {
-					has_government = fascism
+					has_government = national_autocracy
 				}
 			}
 			effect_tooltip = {
 				
 				set_politics = {
-					ruling_party = fascism
+					ruling_party = national_autocracy
 					elections_allowed = no
 				}
 			}
@@ -196,13 +196,13 @@ country_event = {
 		if = {
 			limit = {
 				FROM = {
-					has_government = communism
+					has_government = fangism
 				}
 			}
 			effect_tooltip = {
 				
 				set_politics = {
-					ruling_party = communism
+					ruling_party = fangism
 					elections_allowed = no
 				}
 			}

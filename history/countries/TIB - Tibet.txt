@@ -15,12 +15,12 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 100
 		}
 	}
 	
-	ruling_party = monarchism
+	ruling_party = autocratic_despotism
 	last_election = "1932.4.2"
 	election_frequency = 48
 	elections_allowed = no
@@ -31,7 +31,7 @@ create_country_leader = {
 	desc = "POLITICS_THUBTEN_GYATSO_DESC"
 	picture = "Portrait_TIB_Thubten_Gyatso.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		#
 	}

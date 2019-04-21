@@ -11,36 +11,36 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		conservatism = { 
+		paternalism = { 
 			popularity = 43
 		}
 		
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 11
 		}
 		
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 0
 		}
 		
-		fascism = { 
+		national_autocracy = { 
 			popularity = 12
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 0
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 34
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 0
 		}
 	}
 	
-	ruling_party = conservatism
+	ruling_party = paternalism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -51,7 +51,7 @@ create_country_leader = {
 	desc = "POLITICS_MANIE_MARITZ_DESC"
 	picture = "Portrait_CMO_Manie_Maritz.dds"
 	expire = "1965.1.1"
-	ideology = sub_conservatism
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}
@@ -62,7 +62,7 @@ create_country_leader = {
 	desc = "POLITICS_PAUL_MAISTRE_DESC"
 	picture = "Portrait_CMO_Paul_Maistre.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		#
 	}

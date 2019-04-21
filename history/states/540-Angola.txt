@@ -2,28 +2,33 @@
 state={
 	id=540
 	name="STATE_540"
+	manpower = 3225000
+	
+	state_category = rural
 	resources={
-		rubber=1.000
+		rubber=1 # was: 1
 	}
-
 	history={
-		owner = IRS
-		add_core_of = IRS
+		owner = POR
 		buildings = {
 			infrastructure = 2
-			
-
+			8248 ={
+				naval_base = 1
+			}
+			2115 ={
+				naval_base = 1
+			}
 		}
 		victory_points = {
-			10966 5 
+			8248 1
 		}
-
+		victory_points = {
+			10966 1
+		}
+		add_core_of = ANG
 	}
 
 	provinces={
-		2126 5158 8138 8202 10966 10978 12391 12921 12958 12985 
+		1552 2115 2126 4735 5158 7548 8054 8138 8202 8219 8248 10966 12391 12958 12981 12985 
 	}
-	manpower=3225000
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

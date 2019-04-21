@@ -235,8 +235,12 @@ SIA = {
 	color_ui = rgb { 222 247 198 }
 }
 SIK = {
-	color = rgb { 71 190 152 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 198 12 48 }
+	color_ui = rgb { 198 12 48 }
+}
+XIW = {
+	color = rgb { 249 199 132 }
+	color_ui = rgb { 249 199 132 }
 }
 TIB = {
 	color = rgb { 244 225 9 }
@@ -320,8 +324,8 @@ GXC = {
 }
 
 SHX = {
-	color = rgb { 198  242  72 }
-	color_ui = rgb { 198  242  72 }
+	color = rgb { 69  63  231 }
+	color_ui = rgb { 69  63  231 }
 }
 
 XSM = {
@@ -476,10 +480,6 @@ NJA = {
 	color = rgb { 23 69 244 }
 	color_ui = rgb { 23 69 244 }
 }
-TAI = {
-	color = rgb { 82 35 244 }
-	color_ui = rgb { 82 35 244 }
-}
 KAM = {
 	color = rgb { 170  102  120 }
 	color_ui = rgb { 170  102  120 }
@@ -489,8 +489,8 @@ EAF = {
 	color_ui = rgb { 23 82 244 }
 }
 SIB = {
-	color = rgb { 186  255  186 }
-	color_ui = rgb { 186  255  186 }
+	color = rgb { 202  60  15 }
+	color_ui = rgb { 202  60  15 }
 }
 SHN = {
 	color = rgb { 255  79  219 }
@@ -891,6 +891,42 @@ GND = {
 JIA = {
 	color = rgb { 0  48  121 }
 	color_ui = rgb { 0  48  121 }
+}
+TAI = {
+	color = rgb { 255  255  0 }
+	color_ui = rgb { 255  255  0 }
+}
+SHU = {
+	color = rgb { 105  179  35 }
+	color_ui = rgb { 105  179  35 }
+}
+SHA = {
+	color = rgb { 239  173  16 }
+	color_ui = rgb { 239  173  16 }
+}
+BRI = {
+	color = rgb { 255  255  3 }
+	color_ui = rgb { 255  255  3 }
+}
+RUS = {
+	color = rgb { 66  74  0 }
+	color_ui = rgb { 66  74  0 }
+}
+VSP = {
+	color = rgb { 113  228  0 }
+	color_ui = rgb { 113  228  0 }
+}
+MRI = {
+	color = rgb { 64  90  159 }
+	color_ui = rgb { 64  90  159 }
+}
+MRD = {
+	color = rgb { 210  0  0 }
+	color_ui = rgb { 210  0  0 }
+}
+LEC = {
+	color = rgb { 50  92  209 }
+	color_ui = rgb { 50  92  209 }
 }
 D01 = {
 	color = rgb { 200 100 31 }

@@ -9,36 +9,36 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		liberalism = { 
+		social_liberal = { 
 			popularity = 70
 		}
 		
-		conservatism = { 
+		paternalism = { 
 			popularity = 0
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 0
 		}
 		
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 20
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 5
 		}
 
-		fascism = {
+		national_autocracy = {
 			popularity = 0
 		}
 		
-		monarchism = {
+		autocratic_despotism = {
 			popularity = 5
 		}
 	}
 	
-	ruling_party = authoritarian
+	ruling_party = autocratic_despotism
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -49,7 +49,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANCESC_MACIA_DESC"
 	picture = "Portrait_AAF_Francesc_Macia.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = autocratic_despotism_subtype
 	traits = {
 		
 	}

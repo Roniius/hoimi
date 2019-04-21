@@ -1,0 +1,21 @@
+state={
+	id=794
+	name="STATE_794" 
+	manpower = 1235482
+	
+	state_category = rural
+
+	history={
+		
+		owner = MLY
+		add_core_of = MLY
+		buildings = {
+			infrastructure = 4
+		}
+
+	}
+
+	provinces={
+		7295 1315 1385 12292 1296 4275 10217 
+	}
+}

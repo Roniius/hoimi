@@ -12,16 +12,22 @@ state={
 	}
 
 	history={
-		owner = AGO
+		owner = SPR
 		victory_points = {
-			3816 1 
+			3816 3
+		}
+		victory_points = {
+			9840 1
+		}
+		victory_points = {
+			7213 1
 		}
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
 			air_base = 3
 		}
-		add_core_of = AGO
+		add_core_of = SPR
 	}
 
 	provinces={

@@ -12,36 +12,36 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		conservatism = { 
+		paternalism = { 
 			popularity = 10
 		}
 		
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 10
 		}
 		
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 15
 		}
 		
-		fascism = { 
+		national_autocracy = { 
 			popularity = 5
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 5
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 35
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 20
 		}
 	}
 	
-	ruling_party = liberalism
+	ruling_party = social_liberal
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -53,7 +53,7 @@ create_country_leader = {
 	desc = "POLITICS_DUKE_CASIMIR_IX_DESC"
 	picture = "Portrait_POT_Casimir_IX.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		#
 	}
@@ -64,7 +64,7 @@ create_country_leader = {
 	desc = "POLITICS_HERMANN_DIETRICH_DESC"
 	picture = "Portrait_POT_Hermann_Dietrich.dds"
 	expire = "1965.1.1"
-	ideology = sub_liberalism
+	ideology = social_liberal_subtype
 	traits = {
 		#
 	}

@@ -1,0 +1,30 @@
+state={
+	id=800
+	name="STATE_800" 
+	manpower = 1123526
+	
+	state_category = city
+
+	
+	history={
+		victory_points = {
+			677 5 
+		}
+		
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			677 = {
+				naval_base = 3
+			}
+		}
+		
+		owner = MON
+		add_core_of = MON
+
+	}
+
+	provinces={
+		677 
+	}
+}

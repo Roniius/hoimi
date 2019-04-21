@@ -7,8 +7,7 @@ state=
 	state_category = enclave
 	
 	history={
-		add_core_of = VEI
-		owner = VEI
+		owner = ITA
 		buildings = {
 			infrastructure = 5
 			3943 = {

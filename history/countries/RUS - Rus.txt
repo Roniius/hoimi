@@ -1,0 +1,81 @@
+﻿capital = 207
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_stability = 0.55
+set_war_support = 0.41
+
+set_politics = {
+
+	parties = {
+		fangism = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		liberationism = { 
+			popularity = 5
+			banned = no
+		}
+		
+		solidarism = { 
+			popularity = 0
+			banned = no
+		}
+
+		socialism = {
+			popularity = 20
+			banned = yes
+		}
+		
+		social_liberal = { 
+			popularity = 20
+			banned = yes
+		}
+		
+		market_liberal = { 
+			popularity = 30
+			banned = yes
+		}
+		
+		paternalism = {
+			popularity = 20
+			#banned = no #default is no
+		}
+		
+		authoritarian_democrat = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		autocratic_despotism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		national_autocracy = {
+			popularity = 5
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = market_liberal
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Nikolai Romanov"
+	desc = "POLITICS_NICHOLAS_ROMANOV_DESC"
+	picture = "Portrait_RUS_Nicholas_Romanov.dds"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}

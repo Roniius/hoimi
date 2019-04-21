@@ -1,11 +1,13 @@
-
 state={
 	id=515
 	name="STATE_515"
+	
+	state_category = pastoral
+	impassable = yes
 
 	history={
-		owner = WAT
-		add_core_of = WAT
+		owner = FRA
+		add_core_of = NGR
 		buildings = {
 			infrastructure = 1
 
@@ -14,9 +16,8 @@ state={
 	}
 
 	provinces={
-		1891 1932 1956 2025 2068 4913 7939 8028 8128 10758 10780 10805 10917 12817 12900 13138 
+		1956 4913 7939 8028 8128 10758 10780 10805 10917
 	}
-	manpower=1482744
+	manpower=1456356
 	buildings_max_level_factor=1.000
-	state_category=wasteland
 }

@@ -14,36 +14,36 @@ oob = "generic"
 set_politics = {
 
 	parties = {
-		conservatism = { 
+		paternalism = { 
 			popularity = 4
 		}
 		
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 72
 		}
 		
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 0
 		}
 		
-		fascism = { 
+		national_autocracy = { 
 			popularity = 0
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 0
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 20
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 4
 		}
 	}
 	
-	ruling_party = authoritarian
+	ruling_party = authoritarian_democrat
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no

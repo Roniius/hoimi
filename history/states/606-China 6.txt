@@ -1,4 +1,3 @@
-
 state={
 	id=606
 	name="STATE_606"
@@ -7,8 +6,8 @@ state={
 	}
 
 	history={
-		owner = NSC
-		add_core_of = NSC
+		owner = TAI
+		add_core_of = TAI
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -22,7 +21,7 @@ state={
 	}
 
 	provinces={
-		1001 1036 1083 1121 1146 1161 4148 4203 4619 7035 7094 7222 7637 9959 10008 10017 10064 10114 11916 11994 12036 12061 13144 
+		1083 1146 4079 4158 4203 7035 7094 7222 9937 10008 10017 10040 10064 10079 11916 11994 12036 12061 
 	}
 	manpower=18265400
 	buildings_max_level_factor=1.000

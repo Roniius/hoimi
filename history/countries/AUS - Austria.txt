@@ -14,24 +14,24 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 58
 		}
 		
-		fascism = { 
+		national_autocracy = { 
 			popularity = 12
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 20
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 10
 		}
 	}
 	
-	ruling_party = monarchism
+	ruling_party = autocratic_despotism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -42,7 +42,7 @@ create_country_leader = {
 	desc = "POLITICS_LEOPOLD_II_DESC"
 	picture = "Portrait_AUS_Leopold_II.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		#
 	}

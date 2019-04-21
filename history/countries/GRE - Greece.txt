@@ -15,24 +15,24 @@ puppet = GNA
 set_politics = {
 
 	parties = {
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 33
 		}
 		
-		fascism = { 
+		national_autocracy = { 
 			popularity = 33
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 32
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 2
 		}
 	}
 	
-	ruling_party = monarchism
+	ruling_party = autocratic_despotism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -45,7 +45,7 @@ create_country_leader = {
 	desc = "POLITICS_CONSTANTINE_XXI_DESC"
 	picture = "Portrait_GRE_Constantine_XXI.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		#
 	}

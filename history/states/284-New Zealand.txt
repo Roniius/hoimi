@@ -7,7 +7,7 @@ state={
 	state_category = city
 	
 	history={
-		owner = AST
+		owner = NZL
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
@@ -26,7 +26,7 @@ state={
 		victory_points = {
 			4543 5 
 		}
-		add_core_of = AST
+		add_core_of = NZL
 	}
 
 	provinces={

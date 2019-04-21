@@ -10,11 +10,20 @@ state={
 	}
 
 	history={
-		owner = POL
+		victory_points = {
+			11430 5
+		}
+		victory_points = {
+			3458 5
+		}
+		#victory_points = {
+		#	562 3
+		#}
+		owner = LEC
 		buildings = {
 			infrastructure = 6
 		}
-		add_core_of = POL
+		add_core_of = LEC
 	}
 
 	provinces={

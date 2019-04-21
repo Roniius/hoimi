@@ -9,36 +9,36 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		liberalism = { 
+		social_liberal = { 
 			popularity = 41
 		}
 		
-		conservatism = { 
+		paternalism = { 
 			popularity = 51
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 3
 		}
 		
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 0
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 5
 		}
 
-		fascism = {
+		national_autocracy = {
 			popularity = 0
 		}
 		
-		monarchism = {
+		autocratic_despotism = {
 			popularity = 0
 		}
 	}
 	
-	ruling_party = conservatism
+	ruling_party = paternalism
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -50,7 +50,7 @@ create_country_leader = {
 	desc = "POLITICS_TAJ_AL_DIN_AL_HASANI_DESC"
 	picture = "Portrait_SYR_Taj_al_din_al_Hasani.dds"
 	expire = "1965.1.1"
-	ideology = sub_conservatism
+	ideology = paternalism_subtype
 	traits = {
 		
 	}
@@ -72,7 +72,7 @@ create_country_leader = {
 	desc = "POLITICS_ABDERRAZAK_AL_DANDASHLI_DESC"
 	picture = "Portrait_SYR_Abderrazak_Al_Dandashli.dds"
 	expire = "1965.1.1"
-	ideology = sub_liberalism
+	ideology = social_liberal_subtype
 	traits = {
 		
 	}

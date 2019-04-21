@@ -6,11 +6,11 @@ ideas = {
 			allowed = {original_tag = IRE}
 			available = {
 				OR = {
-					has_government = monarchism
-					has_government = authoritarian
-					has_government = fascism
-					has_government = conservatism
-					has_government = liberalism
+					has_government = autocratic_despotism
+					has_government = authoritarian_democrat
+					has_government = national_autocracy
+					has_government = paternalism
+					has_government = social_liberal
 				}
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = patrick_pearse_dead}
@@ -30,12 +30,12 @@ ideas = {
 			allowed = {original_tag = IRE}
 			available = {
 				OR = {
-					has_government = monarchism
-					has_government = authoritarian
-					has_government = fascism
-					has_government = conservatism
-					has_government = liberalism
-					has_government = mod_ordaism
+					has_government = autocratic_despotism
+					has_government = authoritarian_democrat
+					has_government = national_autocracy
+					has_government = paternalism
+					has_government = social_liberal
+					has_government = solidarism
 				}
 				has_country_flag = can_replace_cos
 				NOT = {has_country_flag = eoin_fraincis_dead}
@@ -53,12 +53,12 @@ ideas = {
 			allowed = {original_tag = IRE}
 			available = {
 				OR = {
-					has_government = monarchism
-					has_government = authoritarian
-					has_government = fascism
-					has_government = conservatism
-					has_government = liberalism
-					has_government = mod_ordaism
+					has_government = autocratic_despotism
+					has_government = authoritarian_democrat
+					has_government = national_autocracy
+					has_government = paternalism
+					has_government = social_liberal
+					has_government = solidarism
 				}
 				has_country_flag = can_replace_hoj
 				NOT = {has_country_flag = hugo_macneill_dead}
@@ -77,12 +77,12 @@ ideas = {
 			allowed = {original_tag = IRE}
 			available = {
 				OR = {
-					has_government = monarchism
-					has_government = authoritarian
-					has_government = fascism
-					has_government = conservatism
-					has_government = liberalism
-					has_government = mod_ordaism
+					has_government = autocratic_despotism
+					has_government = authoritarian_democrat
+					has_government = national_autocracy
+					has_government = paternalism
+					has_government = social_liberal
+					has_government = solidarism
 				}
 				has_country_flag = can_replace_dm
 				NOT = {has_country_flag = eoin_francis_dead}
@@ -101,11 +101,11 @@ ideas = {
 			allowed = {original_tag = IRE}
 			available = {
 				OR = {
-					has_government = monarchism
-					has_government = authoritarian
-					has_government = conservatism
-					has_government = liberalism
-					has_government = mod_ordaism
+					has_government = autocratic_despotism
+					has_government = authoritarian_democrat
+					has_government = paternalism
+					has_government = social_liberal
+					has_government = solidarism
 				}
 				has_country_flag = can_replace_fm
 				NOT = {has_country_flag = douglas_hyde_dead}
@@ -124,10 +124,10 @@ ideas = {
 			allowed = {original_tag = IRE}
 			available = {
 				OR = {
-					has_government = monarchism
-					has_government = authoritarian
-					has_government = conservatism
-					has_government = fascism
+					has_government = autocratic_despotism
+					has_government = authoritarian_democrat
+					has_government = paternalism
+					has_government = national_autocracy
 				}
 				has_country_flag = can_replace_im
 				NOT = {has_country_flag = liam_tobin_dead}
@@ -146,10 +146,10 @@ ideas = {
 			allowed = {original_tag = IRE}
 			available = {
 				OR = {
-					has_government = monarchism
-					has_government = authoritarian
-					has_government = conservatism
-					has_government = liberalism
+					has_government = autocratic_despotism
+					has_government = authoritarian_democrat
+					has_government = paternalism
+					has_government = social_liberal
 				}
 				has_country_flag = can_replace_cm
 				NOT = {has_country_flag = w_t_cosgrave_dead}
@@ -168,10 +168,10 @@ ideas = {
 			allowed = {original_tag = IRE}
 			available = {
 				OR = {
-					has_government = monarchism
-					has_government = authoritarian
-					has_government = conservatism
-					has_government = liberalism
+					has_government = autocratic_despotism
+					has_government = authoritarian_democrat
+					has_government = paternalism
+					has_government = social_liberal
 				}
 				has_country_flag = can_replace_em
 				NOT = {has_country_flag = w_t_cosgrave_dead}

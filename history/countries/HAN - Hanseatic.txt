@@ -18,20 +18,20 @@ set_convoys = 300
 set_politics = {
 
 	parties = {
-		liberalism = { 
+		social_liberal = { 
 			popularity = 45
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 5
 		}
 		
-		conservatism = { 
+		paternalism = { 
 			popularity = 50
 		}
 	}
 	
-	ruling_party = conservatism
+	ruling_party = paternalism
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -42,7 +42,7 @@ create_country_leader = {
 	desc = "POLITICS_WERNER_WILLIKENS_DESC"
 	picture = "Portrait_HAN_Werner_Willikens.dds"
 	expire = "1965.1.1"
-	ideology = sub_conservatism
+	ideology = paternalism_subtype
 	traits = {
 		
 	}
@@ -53,7 +53,7 @@ create_country_leader = {
 	desc = "POLITICS_FRIEDRICH_NAUMANN_DESC"
 	picture = "Portrait_HAN_Friedrich_Naumann.dds"
 	expire = "1965.1.1"
-	ideology = sub_liberalism
+	ideology = social_liberal_subtype
 	traits = {
 		
 	}
@@ -64,7 +64,7 @@ create_country_leader = {
 	desc = "POLITICS_JULIUS_LEBER_DESC"
 	picture = "Portrait_HAN_Julius_Leber.dds"
 	expire = "1965.1.1"
-	ideology = engelism
+	ideology = solidarism_subtype
 	traits = {
 		
 	}
@@ -97,7 +97,7 @@ create_country_leader = {
 	desc = "POLITICS_HANSEATIC_MONARCHIST_COUNCIL_DESC"
 	picture = "Portrait_HAN_Hanseatic_Monarchist_Council.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		
 	}

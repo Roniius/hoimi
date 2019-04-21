@@ -1,29 +1,22 @@
-
 state={
 	id=728
 	name="STATE_728"
-
-
-
+	manpower = 200000
+	
+	state_category = enclave
+	
 	history={
+		owner = XIW
+		add_core_of = XIW
 		buildings = {
 			infrastructure = 3
 			11981 = {
 				naval_base = 1
-
 			}
-
 		}
-
-		owner = GXC
-		add_core_of = GXC
-
 	}
-
+	
 	provinces={
-		4160 7135 11981 
+		11981 
 	}
-	manpower=200000
-	buildings_max_level_factor=1.000
-	state_category=enclave
 }

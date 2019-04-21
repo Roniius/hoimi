@@ -13,18 +13,18 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 95
 			banned = yes
 		}
 		
-		communism = {
+		fangism = {
 			popularity = 5
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = monarchism
+	ruling_party = autocratic_despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -36,7 +36,7 @@ create_country_leader = {
 	desc = "POLITICS_CHRISTOPHORUS_III_DESC"
 	picture = "Portrait_GEO_Christophorus_III.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		#
 	}

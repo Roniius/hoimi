@@ -1,24 +1,23 @@
-
 state={
 	id=746
 	name="STATE_746"
-
-	history={
-		owner = SHX
-		add_core_of = SHX
-		add_core_of = CHI
-		add_core_of = PRC
+	provinces={
+		1959 3427 4960 4986 10451 10854 12706 
+	}
+	state_category = pastoral
+	
+	
+	history=
+	{
+		owner = TAI
+		add_core_of = TAI
+		
 		buildings = {
 			infrastructure = 2
-
 		}
 
-	}
-
-	provinces={
-		1959 3427 3745 4960 4986 7659 8081 10451 10854 10880 12706 
+		
 	}
 	manpower=500000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

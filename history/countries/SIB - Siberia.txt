@@ -15,49 +15,69 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		mod_ordaism = { 
-			popularity = 20
+		fangism = { 
+			popularity = 33
 			banned = yes
+		}
+		
+		liberationism = { 
+			popularity = 34
+			banned = no
+		}
+		
+		solidarism = { 
+			popularity = 33
+			banned = no
 		}
 
-		liberalism = {
-			popularity = 5
+		socialism = {
+			popularity = 0
 			banned = yes
 		}
 		
-		conservatism = {
-			popularity = 20
+		social_liberal = { 
+			popularity = 0
 			banned = yes
 		}
 		
-		fascism = {
-			popularity = 13
+		market_liberal = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		paternalism = {
+			popularity = 0
 			#banned = no #default is no
 		}
 		
-		communism = {
-			popularity = 12
+		authoritarian_democrat = {
+			popularity = 0
 			#banned = no #default is no
 		}
 		
-		authoritarian = {
-			popularity = 30
+		autocratic_despotism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		national_autocracy = {
+			popularity = 0
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = mod_ordaism
+	ruling_party = solidarism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Aysen Ibragimov"
-	desc = "POLITICS_AYSEN_IBRAGIMOV_DESC"
-	picture = "Portrait_SIB_Aysen_Ibragimov.dds"
+	name = "Jochi Buga"
+	desc = "POLITICS_JOCHI_BUGA_DESC"
+	picture = "Portrait_SIB_Jochi_Buga.dds"
 	expire = "1965.1.1"
-	ideology = engelism
+	ideology = solidarism_subtype
 	traits = {
 		#
 	}

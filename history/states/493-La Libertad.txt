@@ -2,27 +2,27 @@
 state={
 	id=493
 	name="STATE_493"
+	manpower = 2826781
 	resources={
-		oil=15.000
+		oil=15 # was: 20
 	}
+	
+	state_category = town
 
 	history={
-		owner = NRO
+		owner = COL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 			air_base = 4
 			12790 = {
 				naval_base = 5
-
 			}
 			8056 = {
 				naval_base = 1
-
 			}
-
 		}
-		add_core_of = NRO
+		add_core_of = COL
 		victory_points = {
 			2023 1 
 		}
@@ -33,9 +33,6 @@ state={
 	}
 
 	provinces={
-		1887 1937 2023 2085 4969 5026 7993 8056 10494 10747 10790 10864 12703 12790 12845 12872 
+		1937 2023 2085 4969 8056 10494 10864 12703 12790 12845 12872 
 	}
-	manpower=2826781
-	buildings_max_level_factor=1.000
-	state_category=town
 }

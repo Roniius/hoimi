@@ -15,32 +15,32 @@ puppet = KEN
 set_politics = {
 
 	parties = {
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 30
 		}
 		
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 5
 		}
 		
-		fascism = { 
+		national_autocracy = { 
 			popularity = 5
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 10
 		}
 		
-		conservatism = { 
+		paternalism = { 
 			popularity = 25
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 25
 		}
 	}
 	
-	ruling_party = mod_ordaism
+	ruling_party = solidarism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -51,7 +51,7 @@ create_country_leader = {
 	desc = "POLITICS_CHRISTIAN_IX_DESC"
 	picture = "Portrait_DEN_Christian_IX.dds"
 	expire = "1965.1.1"
-	ideology = engelism
+	ideology = solidarism_subtype
 	traits = {
 		#
 	}

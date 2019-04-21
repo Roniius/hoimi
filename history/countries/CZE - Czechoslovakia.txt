@@ -11,36 +11,36 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		conservatism = { 
+		paternalism = { 
 			popularity = 22
 		}
 		
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 10
 		}
 		
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 15
 		}
 		
-		fascism = { 
+		national_autocracy = { 
 			popularity = 7
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 7
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 20
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 19
 		}
 	}
 	
-	ruling_party = conservatism
+	ruling_party = paternalism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -52,7 +52,7 @@ create_country_leader = {
 	desc = "POLITICS_ZDENEK_FIERLINGER_DESC"
 	picture = "Portrait_CZE_Zdenek_Fierlinger.dds"
 	expire = "1965.1.1"
-	ideology = sub_conservatism
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}
@@ -63,7 +63,7 @@ create_country_leader = {
 	desc = "POLITICS_KONRAD_HENLEIN_DESC"
 	picture = "Portrait_CZE_Konrad_Henlein.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = national_autocracy_ideology
 	traits = {
 		#
 	}

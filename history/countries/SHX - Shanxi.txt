@@ -1,4 +1,4 @@
-﻿capital = 611
+﻿capital = 283
 
 # Starting tech
 set_technology = {
@@ -13,18 +13,58 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		fascism = { 
-			popularity = 87
+		fangism = { 
+			popularity = 0
 			banned = yes
 		}
 		
-		monarchism = {
-			popularity = 13
+		liberationism = { 
+			popularity = 0
+			banned = no
+		}
+		
+		solidarism = { 
+			popularity = 0
+			banned = no
+		}
+
+		socialism = {
+			popularity = 0
+			banned = yes
+		}
+		
+		social_liberal = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		market_liberal = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		paternalism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		authoritarian_democrat = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		autocratic_despotism = {
+			popularity = 5
+			#banned = no #default is no
+		}
+		
+		national_autocracy = {
+			popularity = 95
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = national_autocracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -35,7 +75,7 @@ create_country_leader = {
 	desc = "POLITICS_DANSRANBILEGIIN_DOGSOM_DESC"
 	picture = "Portrait_SHX_Dansranbilegiin_Dogsom.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = national_autocracy_subtype
 	traits = {
 		#
 	}

@@ -12,7 +12,10 @@ state={
 	history={
 		owner = CZE
 		victory_points = {
-			3569 1 
+			3569 20
+		}
+		victory_points = {
+			6562 5
 		}
 		buildings = {
 			infrastructure = 7
@@ -22,6 +25,10 @@ state={
 		}
 		add_core_of = CZE
 
+		1939.3.14 = {
+			owner = GER
+			controller = GER
+		}
 	}
 
 	provinces={

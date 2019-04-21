@@ -6,8 +6,7 @@ state={
 	state_category = enclave
 
 	history={
-		owner = PAN
-		add_core_of = PAN
+		owner = USA
 		victory_points = {
 			7617 5 
 		}
@@ -18,6 +17,7 @@ state={
 				naval_base = 3
 			}
 		}
+		add_core_of = PAN
 	}
 	
 	provinces={ 7617 }

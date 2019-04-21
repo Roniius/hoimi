@@ -6,23 +6,22 @@ state= {
 		oil=3 # was: 4
 	}
 	
-	state_category = city
+	state_category = rural
 
 	history= {
-		victory_points = {
-			1820 5 
-		}
+		owner = MON
+		add_core_of = MON
+		#add_claim_by = SOV # Removed because of too much aggression
 		buildings = {
 			infrastructure = 3
-			air_base = 3
 			12446 = {
 				naval_base = 1
 
 			}
 		}
-
-		owner = MON
-		add_core_of = MON
+		victory_points = {
+			12446 1
+		}
 
 	}
 	provinces=

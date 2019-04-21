@@ -5,7 +5,7 @@ ideas = {
 			allowed = {original_tag = SOV}
 			available = {
 				OR = {
-					has_government = monarchism
+					has_government = autocratic_despotism
 				}
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = ivan_ix_dead}
@@ -20,10 +20,10 @@ ideas = {
 			allowed = {original_tag = SOV}
 			available = {
 				OR = {
-					has_government = monarchism
-					has_government = authoritarian
-					has_government = conservatism
-					has_government = fascism
+					has_government = autocratic_despotism
+					has_government = authoritarian_democrat
+					has_government = paternalism
+					has_government = national_autocracy
 				}
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = pyotr_krasnov_dead}
@@ -38,10 +38,10 @@ ideas = {
 			allowed = {original_tag = SOV}
 			available = {
 				OR = {
-					has_government = liberalism
-					has_government = mod_ordaism
-					has_government = conservatism
-					has_government = authoritarian
+					has_government = social_liberal
+					has_government = solidarism
+					has_government = paternalism
+					has_government = authoritarian_democrat
 				}
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = aleksei_aladin_dead}
@@ -56,12 +56,12 @@ ideas = {
 			allowed = {original_tag = SOV}
 			available = {
 				OR = {
-					has_government = liberalism
-					has_government = mod_ordaism
-					has_government = conservatism
-					has_government = authoritarian
-					has_government = monarchism
-					has_government = fascism
+					has_government = social_liberal
+					has_government = solidarism
+					has_government = paternalism
+					has_government = authoritarian_democrat
+					has_government = autocratic_despotism
+					has_government = national_autocracy
 				}
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = georgy_lvov_dead}
@@ -76,11 +76,11 @@ ideas = {
 			allowed = {original_tag = SOV}
 			available = {
 				OR = {
-					has_government = liberalism
-					has_government = mod_ordaism
-					has_government = conservatism
-					has_government = authoritarian
-					has_government = communism
+					has_government = social_liberal
+					has_government = solidarism
+					has_government = paternalism
+					has_government = authoritarian_democrat
+					has_government = fangism
 				}
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = nikolay_krestinsky_dead}
@@ -95,7 +95,7 @@ ideas = {
 			allowed = {original_tag = SOV}
 			available = {
 				OR = {
-					has_government = fascism
+					has_government = national_autocracy
 				}
 				has_country_flag = can_replace_hog
 				NOT = {has_country_flag = fyokhlachev_panteley_dead}
@@ -114,12 +114,12 @@ ideas = {
 			allowed = {original_tag = SOV }
 			available = {
 				OR = {
-					has_government = monarchism
-					has_government = authoritarian
-					has_government = fascism
-					has_government = conservatism
-					has_government = liberalism
-					has_government = mod_ordaism
+					has_government = autocratic_despotism
+					has_government = authoritarian_democrat
+					has_government = national_autocracy
+					has_government = paternalism
+					has_government = social_liberal
+					has_government = solidarism
 				}
 				has_country_flag = can_replace_cos
 				NOT = {has_country_flag = ivan_ix_dead}
@@ -134,12 +134,12 @@ ideas = {
 			allowed = {original_tag = SOV }
 			available = {
 				OR = {
-					has_government = monarchism
-					has_government = authoritarian
-					has_government = conservatism
-					has_government = fascism
-					has_government = liberalism
-					has_government = mod_ordaism
+					has_government = autocratic_despotism
+					has_government = authoritarian_democrat
+					has_government = paternalism
+					has_government = national_autocracy
+					has_government = social_liberal
+					has_government = solidarism
 				}
 				has_country_flag = can_replace_cos
 				NOT = {has_country_flag = pyotr_krasnov_dead}
@@ -157,12 +157,12 @@ ideas = {
 			allowed = {original_tag = SOV }
 			available = {
 				OR = {
-					has_government = monarchism
-					has_government = authoritarian
-					has_government = fascism
-					has_government = conservatism
-					has_government = liberalism
-					has_government = mod_ordaism
+					has_government = autocratic_despotism
+					has_government = authoritarian_democrat
+					has_government = national_autocracy
+					has_government = paternalism
+					has_government = social_liberal
+					has_government = solidarism
 				}
 				has_country_flag = can_replace_hoj
 				NOT = {has_country_flag = ivan_ix_dead}
@@ -177,10 +177,10 @@ ideas = {
 			allowed = {original_tag = SOV }
 			available = {
 				OR = {
-					has_government = monarchism
-					has_government = authoritarian
-					has_government = conservatism
-					has_government = fascism
+					has_government = autocratic_despotism
+					has_government = authoritarian_democrat
+					has_government = paternalism
+					has_government = national_autocracy
 				}
 				has_country_flag = can_replace_hoj
 				NOT = {has_country_flag = pyotr_krasnov_dead}
@@ -195,11 +195,11 @@ ideas = {
 			allowed = {original_tag = SOV }
 			available = {
 				OR = {
-					has_government = mod_ordaism
-					has_government = liberalism
-					has_government = conservatism
-					has_government = communism
-					has_government = authoritarian
+					has_government = solidarism
+					has_government = social_liberal
+					has_government = paternalism
+					has_government = fangism
+					has_government = authoritarian_democrat
 				}
 				has_country_flag = can_replace_hoj
 				NOT = {has_country_flag = alexander_kerensky_dead}
@@ -214,10 +214,10 @@ ideas = {
 			allowed = {original_tag = SOV }
 			available = {
 				OR = {
-					has_government = monarchism
-					has_government = conservatism
-					has_government = fascism
-					has_government = authoritarian
+					has_government = autocratic_despotism
+					has_government = paternalism
+					has_government = national_autocracy
+					has_government = authoritarian_democrat
 				}
 				has_country_flag = can_replace_hoj
 				NOT = {has_country_flag = arseni_filippovich_dead}
@@ -236,11 +236,11 @@ ideas = {
 			allowed = {original_tag = SOV }
 			available = {
 				OR = {
-					has_government = monarchism
-					has_government = authoritarian
-					has_government = fascism
-					has_government = conservatism
-					has_government = liberalism
+					has_government = autocratic_despotism
+					has_government = authoritarian_democrat
+					has_government = national_autocracy
+					has_government = paternalism
+					has_government = social_liberal
 				}
 				has_country_flag = can_replace_dm
 				NOT = {has_country_flag = smotrov_milomir_georgiy_dead}
@@ -255,10 +255,10 @@ ideas = {
 			allowed = {original_tag = SOV }
 			available = {
 				OR = {
-					has_government = monarchism
-					has_government = conservatism
-					has_government = fascism
-					has_government = authoritarian
+					has_government = autocratic_despotism
+					has_government = paternalism
+					has_government = national_autocracy
+					has_government = authoritarian_democrat
 				}
 				has_country_flag = can_replace_dm
 				NOT = {has_country_flag = arseni_filippovich_dead}
@@ -273,12 +273,12 @@ ideas = {
 			allowed = {original_tag = SOV }
 			available = {
 				OR = {
-					has_government = mod_ordaism
-					has_government = communism
-					has_government = fascism
-					has_government = conservatism
-					has_government = liberalism
-					has_government = authoritarian
+					has_government = solidarism
+					has_government = fangism
+					has_government = national_autocracy
+					has_government = paternalism
+					has_government = social_liberal
+					has_government = authoritarian_democrat
 				}
 				has_country_flag = can_replace_dm
 				NOT = {has_country_flag = arkady_mishkin_dead}
@@ -297,11 +297,11 @@ ideas = {
 			allowed = {original_tag = SOV }
 			available = {
 				OR = {
-					has_government = monarchism
-					has_government = authoritarian
-					has_government = conservatism
-					has_government = liberalism
-					has_government = mod_ordaism
+					has_government = autocratic_despotism
+					has_government = authoritarian_democrat
+					has_government = paternalism
+					has_government = social_liberal
+					has_government = solidarism
 				}
 				has_country_flag = can_replace_fm
 				NOT = {has_country_flag = vladimir_sidorin_dead}
@@ -316,13 +316,13 @@ ideas = {
 			allowed = {original_tag = SOV }
 			available = {
 				OR = {
-					has_government = monarchism
-					has_government = authoritarian
-					has_government = communism
-					has_government = fascism
-					has_government = conservatism
-					has_government = liberalism
-					has_government = mod_ordaism
+					has_government = autocratic_despotism
+					has_government = authoritarian_democrat
+					has_government = fangism
+					has_government = national_autocracy
+					has_government = paternalism
+					has_government = social_liberal
+					has_government = solidarism
 				}
 				has_country_flag = can_replace_fm
 				NOT = {has_country_flag = pyotr_stolypin_dead}
@@ -341,10 +341,10 @@ ideas = {
 			allowed = {original_tag = SOV }
 			available = {
 				OR = {
-					has_government = monarchism
-					has_government = authoritarian
-					has_government = conservatism
-					has_government = fascism
+					has_government = autocratic_despotism
+					has_government = authoritarian_democrat
+					has_government = paternalism
+					has_government = national_autocracy
 				}
 				has_country_flag = can_replace_im
 				NOT = {has_country_flag = pytor_krasnov_dead}
@@ -359,13 +359,13 @@ ideas = {
 			allowed = {original_tag = SOV }
 			available = {
 				OR = {
-					has_government = monarchism
-					has_government = authoritarian
-					has_government = communism
-					has_government = fascism
-					has_government = conservatism
-					has_government = liberalism
-					has_government = mod_ordaism
+					has_government = autocratic_despotism
+					has_government = authoritarian_democrat
+					has_government = fangism
+					has_government = national_autocracy
+					has_government = paternalism
+					has_government = social_liberal
+					has_government = solidarism
 				}
 				has_country_flag = can_replace_im
 				NOT = {has_country_flag = pyotr_stolypin_dead}
@@ -384,10 +384,10 @@ ideas = {
 			allowed = {original_tag = IRE}
 			available = {
 				OR = {
-					has_government = monarchism
-					has_government = authoritarian
-					has_government = conservatism
-					has_government = liberalism
+					has_government = autocratic_despotism
+					has_government = authoritarian_democrat
+					has_government = paternalism
+					has_government = social_liberal
 				}
 				has_country_flag = can_replace_cm
 				NOT = {has_country_flag = silin_lukyan_dead}
@@ -407,10 +407,10 @@ ideas = {
 			allowed = {original_tag = SOV }
 			available = {
 				OR = {
-					has_government = monarchism
-					has_government = authoritarian
-					has_government = conservatism
-					has_government = liberalism
+					has_government = autocratic_despotism
+					has_government = authoritarian_democrat
+					has_government = paternalism
+					has_government = social_liberal
 				}
 				has_country_flag = can_replace_em
 				NOT = {has_country_flag = vladimir_kokovtsov_dead}
@@ -425,11 +425,11 @@ ideas = {
 			allowed = {original_tag = SOV }
 			available = {
 				OR = {
-					has_government = mod_ordaism
-					has_government = liberalism
-					has_government = conservatism
-					has_government = communism
-					has_government = authoritarian
+					has_government = solidarism
+					has_government = social_liberal
+					has_government = paternalism
+					has_government = fangism
+					has_government = authoritarian_democrat
 				}
 				has_country_flag = can_replace_em
 				NOT = {has_country_flag = alexander_kerensky_dead}

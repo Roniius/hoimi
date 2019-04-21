@@ -41,32 +41,32 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		conservatism = { 
+		paternalism = { 
 			popularity = 20
 		}
 		
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 5
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 23
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 22
 		}
 		
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 10
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 20
 		}
 	}
 	
-	ruling_party = authoritarian
+	ruling_party = authoritarian_democrat
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -88,7 +88,7 @@ create_country_leader = {
 	desc = "POLITICS_HIGH_KING_IOAICHIM_DESC"
 	picture = "Portrait_IRE_HK_Ioaichim.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		#
 	}

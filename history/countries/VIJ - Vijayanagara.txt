@@ -10,36 +10,36 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		liberalism = { 
+		social_liberal = { 
 			popularity = 0
 		}
 		
-		conservatism = { 
+		paternalism = { 
 			popularity = 0
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 0
 		}
 		
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 0
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 0
 		}
 
-		fascism = {
+		national_autocracy = {
 			popularity = 3
 		}
 		
-		monarchism = {
+		autocratic_despotism = {
 			popularity = 97
 		}
 	}
 	
-	ruling_party = monarchism
+	ruling_party = autocratic_despotism
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -50,7 +50,7 @@ create_country_leader = {
 	desc = "POLITICS_SRIRANGA_VIII_DESC"
 	picture = "Portrait_VIJ_Sriranga_VIII.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		
 	}

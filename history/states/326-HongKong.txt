@@ -1,11 +1,13 @@
-
-state={
+state=
+{
 	id=326
 	name="STATE_326"
-
-	history={
-		owner = FUJ
-		add_core_of = FUJ
+	manpower = 1143516
+	state_category = large_town
+	history=
+	{
+		owner = XIW
+		add_core_of = XIW
 		victory_points = {
 			10062 3 
 		}
@@ -15,17 +17,10 @@ state={
 			10062 = {
 				naval_base = 6
 				coastal_bunker = 1
-
 			}
-
 		}
-
 	}
-
 	provinces={
-		1078 1162 1202 4050 4081 4165 4207 7067 7108 7141 7182 9938 9978 10062 10112 11945 
+		10062
 	}
-	manpower=1143516
-	buildings_max_level_factor=1.000
-	state_category=large_town
 }

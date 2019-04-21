@@ -14,28 +14,28 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		conservatism = { 
+		paternalism = { 
 			popularity = 33
 		}
 		
-		fascism = { 
+		national_autocracy = { 
 			popularity = 4
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 20
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 22
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 21
 		}
 	}
 	
-	ruling_party = conservatism
+	ruling_party = paternalism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no

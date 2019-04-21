@@ -11,14 +11,20 @@ state={
 	state_category = city
 
 	history={
-		owner = CZE
-		add_core_of = CZE
+		victory_points = {
+			11467 5
+		}
+		victory_points = {
+			9511 3
+		}
+		owner = GER
 		buildings = {
 			infrastructure = 6
 		}
+		add_core_of = GER
 	}
 
 	provinces={
-		479 6512 9457 9511 11467 
+		6512 9457 9511 11467 
 	}
 }

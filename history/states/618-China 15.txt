@@ -7,20 +7,13 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = AFG
-		add_core_of = AFG
+		owner = SIK
+		add_core_of = SIK
+		add_core_of = CHI
+		add_core_of = PRC
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-		}
-		victory_points = {
-			1783 3 
-		}
-		victory_points = {
-			1708 3 
-		}
-		victory_points = {
-			4823 3 
 		}
 
 	}

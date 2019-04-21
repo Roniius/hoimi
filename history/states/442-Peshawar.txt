@@ -2,37 +2,23 @@
 state={
 	id=442
 	name="STATE_442"
+	manpower = 4684400
+	
+	state_category = rural
 
 	history={
-		owner = AFG
-		add_core_of = AFG
+		victory_points = {
+			12763 3
+		}
+		owner = TRK
 		buildings = {
 			infrastructure = 3
 			air_base = 3
-
 		}
-		victory_points = {
-			12763 20
-		}
-		victory_points = {
-			12717 3 
-		}
-		victory_points = {
-			8106 3 
-		}
-		victory_points = {
-			10173 10
-		}
-		victory_points = {
-			4979 15
-		}
-
+		add_core_of = TRK
 	}
 
 	provinces={
-		1978 2084 4558 4979 4998 8022 8106 10173 12717 12763 
+		1978 4558 4998 12717 12763 
 	}
-	manpower=4684400
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

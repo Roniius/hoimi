@@ -15,24 +15,24 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 11
 		}
 		
-		fascism = { 
+		national_autocracy = { 
 			popularity = 21
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 32
 		}
 		
-		conservatism = { 
+		paternalism = { 
 			popularity = 36
 		}
 	}
 	
-	ruling_party = liberalism
+	ruling_party = social_liberal
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -45,7 +45,7 @@ create_country_leader = {
 	desc = "POLITICS_FERDINAND_I_DESC"
 	picture = "Portrait_BUL_Ferdinand_I.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		#
 	}
@@ -56,7 +56,7 @@ create_country_leader = {
 	desc = "POLITICS_ANDREY_TOSHEV_DESC"
 	picture = "Portrait_BUL_Andrey_Toshev.dds"
 	expire = "1965.1.1"
-	ideology = sub_liberalism
+	ideology = social_liberal_subtype
 	traits = {
 		#
 	}

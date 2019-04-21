@@ -9,36 +9,36 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		liberalism = { 
+		social_liberal = { 
 			popularity = 0
 		}
 		
-		conservatism = { 
+		paternalism = { 
 			popularity = 0
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 0
 		}
 		
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 30
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 10
 		}
 
-		fascism = {
+		national_autocracy = {
 			popularity = 0
 		}
 		
-		monarchism = {
+		autocratic_despotism = {
 			popularity = 60
 		}
 	}
 	
-	ruling_party = monarchism
+	ruling_party = autocratic_despotism
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -49,7 +49,7 @@ create_country_leader = {
 	desc = "POLITICS_SULTAN_JAWHAR_II_DESC"
 	picture = "Portrait_IRQ_Jawhar_II.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		
 	}

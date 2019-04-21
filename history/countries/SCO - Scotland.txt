@@ -15,36 +15,36 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		conservatism = { 
+		paternalism = { 
 			popularity = 31
 		}
 		
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 3
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 4
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 34
 		}
 		
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 0
 		}
 		
-		fascism = { 
+		national_autocracy = { 
 			popularity = 3
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 25
 		}
 	}
 	
-	ruling_party = liberalism
+	ruling_party = social_liberal
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -55,7 +55,7 @@ create_country_leader = {
 	desc = "POLITICS_EDMOND_BRUCE_DESC"
 	picture = "Portrait_SCO_Edmond_Bruce.dds"
 	expire = "1965.1.1"
-	ideology = sub_liberalism
+	ideology = social_liberal_subtype
 	traits = {
 		#
 	}
@@ -66,7 +66,7 @@ create_country_leader = {
 	desc = "POLITICS_GORDON_GILLIES_DESC"
 	picture = "Portrait_SCO_Gordon Gillies.dds"
 	expire = "1965.1.1"
-	ideology = sub_conservatism
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}
@@ -77,7 +77,7 @@ create_country_leader = {
 	desc = "POLITICS_KEIR_HARDIE_DESC"
 	picture = "Portrait_SCO_KEIR_HARDIE.dds"
 	expire = "1965.1.1"
-	ideology = engelism
+	ideology = solidarism_subtype
 	traits = {
 		#
 	}

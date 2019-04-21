@@ -280,7 +280,7 @@ leader_traits = {
 
 	fascist_sympathies = {
 		random = no		
-		fascism_acceptance = 70
+		national_autocracy_acceptance = 70
 
 		ai_will_do = {
 			factor = 1
@@ -289,8 +289,8 @@ leader_traits = {
 
 	anti_communist = {
 		random = no
-		communism_acceptance = -50
-		communism_drift = -0.01
+		fangism_acceptance = -50
+		fangism_drift = -0.01
 
 		ai_will_do = {
 			factor = 1
@@ -331,12 +331,12 @@ leader_traits = {
 
 	anti_democrat = {
 		random = no
-		liberalism_acceptance = -50
-		conservatism_acceptance = -50
-		mod_ordaism_acceptance = -50
-		liberalism_drift = -0.02
-		conservatism_drift = -0.02
-		mod_ordaism_drift = -0.02
+		social_liberal_acceptance = -50
+		paternalism_acceptance = -50
+		solidarism_acceptance = -50
+		social_liberal_drift = -0.02
+		paternalism_drift = -0.02
+		solidarism_drift = -0.02
 		stability_factor = 0.10
 
 		ai_will_do = {
@@ -388,7 +388,7 @@ leader_traits = {
 	}
 
 	incognito = {
-		fascism_drift = 0.1
+		national_autocracy_drift = 0.1
 		drift_defence_factor = 0.15
 	}
 
@@ -404,9 +404,9 @@ leader_traits = {
 	# drift is a percent applied weekly
 	communist_revolutionary = {
 		random = no
-		# Boosts Communism
+		# Boosts fangism
 		sprite = 13
-		communism_drift = 0.1
+		fangism_drift = 0.1
 		
 		ai_will_do = {
 			factor = 0
@@ -417,9 +417,9 @@ leader_traits = {
 		random = no
 		# Boosts Democracy
 		sprite = 13
-		liberalism_drift = 0.1
-		conservatism_drift = 0.1
-		mod_ordaism_drift = 0.1
+		social_liberal_drift = 0.1
+		paternalism_drift = 0.1
+		solidarism_drift = 0.1
 		
 		ai_will_do = {
 			factor = 0
@@ -428,9 +428,9 @@ leader_traits = {
 	
 	fascist_demagogue = {
 		random = no
-		# Boosts Fascism
+		# Boosts national_autocracy
 		sprite = 13
-		fascism_drift = 0.1
+		national_autocracy_drift = 0.1
 		
 		ai_will_do = {
 			factor = 0
@@ -440,7 +440,7 @@ leader_traits = {
 		random = no
 		# Boosts Unaligned
 		sprite = 13
-		monarchism_drift = 0.1
+		autocratic_despotism_drift = 0.1
 		
 		ai_will_do = {
 			factor = 0

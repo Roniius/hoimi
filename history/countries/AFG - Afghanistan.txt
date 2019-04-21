@@ -18,36 +18,36 @@ set_war_support = 0.36
 set_politics = {
 
 	parties = {
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 6
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 0
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 0
 		}
 		
-		conservatism = { 
+		paternalism = { 
 			popularity = 23
 		}
 		
-		fascism = { 
+		national_autocracy = { 
 			popularity = 2
 		}
 		
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 51
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 18
 		}
 	}
 	
-	ruling_party = monarchism
+	ruling_party = autocratic_despotism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -58,7 +58,7 @@ create_country_leader = {
 	desc = "POLITICS_MOHAMMED_ALIM_KHAN_DESC"
 	picture = "Portrait_AFG_Mohammed_Alim_Khan.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		#
 	}

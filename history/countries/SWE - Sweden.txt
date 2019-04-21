@@ -18,24 +18,24 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 40
 		}
 		
-		fascism = { 
+		national_autocracy = { 
 			popularity = 31
 		}
 		
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 20
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 9
 		}
 	}
 	
-	ruling_party = monarchism
+	ruling_party = autocratic_despotism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -46,7 +46,7 @@ create_country_leader = {
 	desc = "POLITICS_EMPRESS_REGENT_CATELYN_DESC"
 	picture = "Portrait_SWE_Empress_Regent_Catelyn.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		#
 	}

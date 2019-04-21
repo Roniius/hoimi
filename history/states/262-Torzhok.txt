@@ -11,9 +11,7 @@ state={
 	}
 
 	history={
-	
-		add_core_of = NOV
-		owner = NOV
+		owner = VSP
 		buildings = {
 			infrastructure = 1
 			12530 = {
@@ -21,6 +19,7 @@ state={
 			}
 
 		}
+		add_core_of = VSP
 	}
 
 	provinces={

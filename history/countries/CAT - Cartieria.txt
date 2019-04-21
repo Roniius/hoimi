@@ -21,36 +21,36 @@ set_convoys = 300
 set_politics = {
 
 	parties = {
-		liberalism = { 
+		social_liberal = { 
 			popularity = 44
 		}
 		
-		conservatism = { 
+		paternalism = { 
 			popularity = 41
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 9
 		}
 		
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 6
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 0
 		}
 
-		fascism = {
+		national_autocracy = {
 			popularity = 0
 		}
 		
-		monarchism = {
+		autocratic_despotism = {
 			popularity = 0
 		}
 	}
 	
-	ruling_party = conservatism
+	ruling_party = paternalism
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -61,7 +61,7 @@ create_country_leader = {
 	desc = "POLITICS_BERNO_VE_FRANZI_DESC"
 	picture = "Portrait_CAT_Berno_ve_Franzi.dds"
 	expire = "1965.1.1"
-	ideology = sub_conservatism
+	ideology = paternalism_subtype
 	traits = {
 		
 	}

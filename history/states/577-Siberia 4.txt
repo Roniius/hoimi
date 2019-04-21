@@ -7,15 +7,14 @@ state={
 		oil=13 # was: 14
 	}
 	
-	state_category = rural
+	state_category = wasteland
 
 	history={
+		owner = SIB
+		add_core_of = SIB
 		buildings = {
 			infrastructure = 1
 		}
-		owner = SIB
-		add_core_of = SIB
-
 	}
 
 	provinces={

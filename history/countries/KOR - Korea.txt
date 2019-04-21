@@ -12,28 +12,58 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		monarchism = { 
-			popularity = 35
-			banned = yes
-		}
-
-		fascism = {
-			popularity = 30
+		fangism = { 
+			popularity = 0
 			banned = yes
 		}
 		
-		authoritarian = {
-			popularity = 20
+		liberationism = { 
+			popularity = 0
+			banned = no
+		}
+		
+		solidarism = { 
+			popularity = 0
+			banned = no
+		}
+
+		socialism = {
+			popularity = 0
+			banned = yes
+		}
+		
+		social_liberal = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		market_liberal = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		paternalism = {
+			popularity = 0
 			#banned = no #default is no
 		}
 		
-		authoritarian = {
-			popularity = 15
+		authoritarian_democrat = {
+			popularity = 100
+			#banned = no #default is no
+		}
+		
+		autocratic_despotism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		national_autocracy = {
+			popularity = 0
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = monarchism
+	ruling_party = autocratic_despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -52,11 +82,11 @@ create_country_leader = {
 
 
 create_country_leader = {
-	name = "Emperor Uimin"
+	name = "Euimin Daewang"
 	desc = "POLITICS_EMPEROR_UIMIN_DESC"
 	picture = "Portrait_KOR_Uimin.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = autocratic_despotism_subtype
 	traits = {
 		#
 	}

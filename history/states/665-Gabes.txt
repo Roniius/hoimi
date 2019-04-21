@@ -3,8 +3,11 @@ state={
 	name="STATE_665"
 
 	history={
-		owner = AGM
-		add_core_of = AGM
+		owner = FRA
+		add_core_of = TUN
+		victory_points = {
+			7005 1 
+		}
 		buildings = {
 			infrastructure = 3
 

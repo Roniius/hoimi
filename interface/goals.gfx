@@ -553,13 +553,13 @@ spriteTypes = {
 	}	
 	
 	SpriteType = {
-	name = "GFX_goal_support_fascism"
-	texturefile = "gfx/interface/goals/goal_generic_support_fascism.dds"			
+	name = "GFX_goal_support_national_autocracy"
+	texturefile = "gfx/interface/goals/goal_generic_support_national_autocracy.dds"			
 	}	
 	
 	SpriteType = {
-	name = "GFX_goal_support_communism"
-	texturefile = "gfx/interface/goals/goal_generic_support_communism.dds"			
+	name = "GFX_goal_support_fangism"
+	texturefile = "gfx/interface/goals/goal_generic_support_fangism.dds"			
 	}		
 
 	SpriteType = {
@@ -1329,8 +1329,8 @@ spriteTypes = {
 	}
 	
 	SpriteType = { 
-		name = "GFX_focus_generic_mod_ordaism"
-		texturefile = "gfx/interface/goals/focus_generic_mod_ordaism.dds"
+		name = "GFX_focus_generic_solidarism"
+		texturefile = "gfx/interface/goals/focus_generic_solidarism.dds"
 	}
 	
 	SpriteType = { 
@@ -1662,6 +1662,16 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_focus_generic_lithuania_hegemony"
 		texturefile = "gfx/interface/goals/focus_generic_lithuania_hegemony.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_generic_industry_3"
+		texturefile = "gfx/interface/goals/focus_generic_industry_3.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_military_industrial_complex_1"
+		texturefile = "gfx/interface/goals/military_industrial_complex_1.dds"
 	}
 	
 }

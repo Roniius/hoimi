@@ -1,0 +1,20 @@
+
+state={
+	id=802
+	name="STATE_802"
+	manpower = 72061
+	
+	state_category = town
+
+	history={
+		owner = MRD
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = MRD
+	}
+
+	provinces={
+		11255 6372 3361 9270 9280 6403 11263 9390 11286 
+	}
+}

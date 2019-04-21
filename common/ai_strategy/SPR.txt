@@ -16,14 +16,14 @@ ITA_and_GER_help_SPA_win_civil_war = {
 	enable = {
 		date < 1939.1.1
 		original_tag = SPR
-		has_government = fascism
+		has_government = national_autocracy
 		SPR = { has_civil_war = yes }
 		NOT = { has_global_flag = scw_over }
 	}
 	abort = {
 		OR = {
 			date > 1939.1.1
-			NOT = { has_government = fascism }
+			NOT = { has_government = national_autocracy }
 			SPR = { has_civil_war = no }
 			has_global_flag = scw_over
 		}

@@ -13,18 +13,18 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		conservatism = { 
+		paternalism = { 
 			popularity = 49
 			banned = yes
 		}
 		
-		mod_ordaism = {
+		solidarism = {
 			popularity = 51
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = conservatism
+	ruling_party = paternalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -46,7 +46,7 @@ create_country_leader = {
 	desc = "POLITICS_GU_GONGREN_DESC"
 	picture = "Portrait_SHN_Gu_Gongren.dds"
 	expire = "1965.1.1"
-	ideology = engelism
+	ideology = solidarism_subtype
 	traits = {
 		#
 	}
@@ -57,7 +57,7 @@ create_country_leader = {
 	desc = "POLITICS_JIANG_QING_DESC"
 	picture = "Portrait_SHN_Jiang_Qing.dds"
 	expire = "1965.1.1"
-	ideology = sub_liberalism
+	ideology = social_liberal_subtype
 	traits = {
 		#
 	}

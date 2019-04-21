@@ -4,15 +4,18 @@ state={
 	name="STATE_349"
 	manpower = 592821
 	
-	state_category = city
+	state_category = rural
 
 	history={
+		owner = TUR
+		victory_points = {
+			9777 1 
+		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
-		owner = RUM
-		add_core_of = RUM
+		add_core_of = TUR
 	}
 
 	provinces={

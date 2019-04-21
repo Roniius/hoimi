@@ -1,24 +1,15 @@
-
 state={
 	id=539
 	name="STATE_539"
-	resources={
-		rubber=1.000
-	}
 
 	history={
-		owner = CMO
-		add_core_of = CMO
-		victory_points = {
-			8193 2 
-		}
+		owner = FRA
+		add_core_of = GAB
 		victory_points = {
 			5139 1 
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
-			air_base = 1
 			5139 = {
 				naval_base = 1
 
@@ -29,9 +20,9 @@ state={
 	}
 
 	provinces={
-		988 2080 2115 2192 3109 5054 5139 6008 7931 8048 8193 8207 10883 10948 10951 10968 11012 12741 12824 12975 
+		5139 8207 10948 13210 
 	}
-	manpower=2564000
+	manpower=409752
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pastoral
 }

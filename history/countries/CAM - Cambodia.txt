@@ -1,3 +1,78 @@
 ﻿capital = 286 #Phnom Penh NOT on the map as VP!
 
 oob = "generic"
+
+set_cosmetic_tag = CAM_mongol_kamboj_colony
+
+set_politics = {
+
+	parties = {
+		fangism = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		liberationism = { 
+			popularity = 0
+			banned = no
+		}
+		
+		solidarism = { 
+			popularity = 0
+			banned = no
+		}
+
+		socialism = {
+			popularity = 15
+			banned = yes
+		}
+		
+		social_liberal = { 
+			popularity = 10
+			banned = yes
+		}
+		
+		market_liberal = { 
+			popularity = 10
+			banned = yes
+		}
+		
+		paternalism = {
+			popularity = 36
+			#banned = no #default is no
+		}
+		
+		authoritarian_democrat = {
+			popularity = 29
+			#banned = no #default is no
+		}
+		
+		autocratic_despotism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		national_autocracy = {
+			popularity = 0
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = paternalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+
+create_country_leader = {
+	name = "Mạch Quốc Trụ"
+	desc = "POLITICS_MACH_QUOC_TRU_DESC"
+	picture = "Portrait_CAM_Mach_Quoc_Tru.dds"
+	expire = "1965.1.1"
+	ideology = paternalism_subtype
+	traits = {
+		#
+	}
+}

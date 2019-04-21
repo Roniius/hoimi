@@ -14,36 +14,36 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		conservatism = { 
+		paternalism = { 
 			popularity = 42
 		}
 		
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 0
 		}
 		
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 0
 		}
 		
-		fascism = { 
+		national_autocracy = { 
 			popularity = 1
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 2
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 41
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 14
 		}
 	}
 	
-	ruling_party = conservatism
+	ruling_party = paternalism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -65,7 +65,7 @@ create_country_leader = {
 	desc = "POLITICS_BORTOLO_HALEVI_DESC"
 	picture = "Portrait_NRO_Bortolo_Halevi.dds"
 	expire = "1965.1.1"
-	ideology = engelism
+	ideology = solidarism_subtype
 	traits = {
 		#
 	}
@@ -76,7 +76,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSEPH_CAPUTO_DESC"
 	picture = "Portrait_NRO_Joseph_Caputo.dds"
 	expire = "1965.1.1"
-	ideology = sub_liberalism
+	ideology = social_liberal_subtype
 	traits = {
 		#
 	}
@@ -87,7 +87,7 @@ create_country_leader = {
 	desc = "POLITICS_FIORELLO_H_LA_GUARDIA_DESC"
 	picture = "Portrait_NRO_Fiorello_H_La_Guardia.dds"
 	expire = "1965.1.1"
-	ideology = sub_conservatism
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}
@@ -109,7 +109,7 @@ create_country_leader = {
 	desc = "POLITICS_ROYAL_COUNCIL_DESC"
 	picture = "Portrait_NRO_Royal_council.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		#
 	}
@@ -120,7 +120,7 @@ create_country_leader = {
 	desc = "POLITICS_VENTURA_CAVALLERO_DESC"
 	picture = "Portrait_NRO_Ventura_Cavallero.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = national_autocracy_ideology
 	traits = {
 		#
 	}

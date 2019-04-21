@@ -9,12 +9,11 @@ state={
 	}
 
 	history={
-		owner = NWN
-		add_core_of = NWN
 		buildings = {
 			infrastructure = 1
 
 		}
+		add_core_of = CAN
 
 	}
 

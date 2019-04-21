@@ -2,23 +2,25 @@
 state={
 	id=199
 	name="STATE_199"
+	manpower = 1424022
+	
+	state_category = town
 
 	history={
-		owner = MLD
-		add_core_of = MLD
+		victory_points = {
+			3457 3
+		}
+		owner = SOV
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
 			air_base = 3
-
 		}
-
+		add_core_of = SOV
+		add_core_of = UKR
 	}
 
 	provinces={
-		438 462 3457 3483 3511 3562 3570 6509 6557 9533 11427 
+		462 3430 3457 3511 6429 6509 
 	}
-	manpower=1424022
-	buildings_max_level_factor=1.000
-	state_category=town
 }

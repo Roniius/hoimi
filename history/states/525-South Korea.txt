@@ -4,22 +4,23 @@ state=
 	name="STATE_525"
 	manpower = 14284105
 	
-	state_category = city
-	history = {
+	state_category = town
+	history=
+	{
 		owner = KOR
 		buildings = {
-			infrastructure = 5
-			arms_factory = 4
+			infrastructure = 4
+			arms_factory = 1
 			dockyard = 1
 			4056 = {
 				naval_base = 3
 			}
 		}
 		victory_points = {
-			4056 15 
+			4056 1 
 		}
 		victory_points = {
-			7125 25
+			7125 3 
 		}
 
 		add_core_of = KOR

@@ -9,47 +9,69 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		liberalism = { 
-			popularity = 10
-		}
-		
-		conservatism = { 
-			popularity = 76
-		}
-		
-		mod_ordaism = { 
-			popularity = 10
-		}
-		
-		authoritarian = { 
+		fangism = { 
 			popularity = 0
+			banned = yes
 		}
 		
-		communism = { 
-			popularity = 3
+		liberationism = { 
+			popularity = 0
+			banned = no
+		}
+		
+		solidarism = { 
+			popularity = 0
+			banned = no
 		}
 
-		fascism = {
-			popularity = 1
+		socialism = {
+			popularity = 0
+			banned = yes
 		}
 		
-		monarchism = {
+		social_liberal = { 
 			popularity = 0
+			banned = yes
+		}
+		
+		market_liberal = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		paternalism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		authoritarian_democrat = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		autocratic_despotism = {
+			popularity = 100
+			#banned = no #default is no
+		}
+		
+		national_autocracy = {
+			popularity = 0
+			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = conservatism
-	last_election = "1932.5.1"
+	ruling_party = autocratic_despotism
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Sein Kaung"
-	desc = "POLITICS_SEIN_KAUNG_DESC"
-	picture = "Portrait_BRM_Sein_Kaung.dds"
+	name = "King Mgmin"
+	desc = "POLITICS_KING_MGMIN_DESC"
+	picture = "Portrait_BRM_King_Mgmin.dds"
 	expire = "1965.1.1"
-	ideology = sub_conservatism
+	ideology = autocratic_despotism_subtype
 	traits = {
 		
 	}

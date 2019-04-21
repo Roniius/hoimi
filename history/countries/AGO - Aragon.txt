@@ -18,20 +18,20 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		conservatism = { 
+		paternalism = { 
 			popularity = 45
 		}
 		
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 10
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 45
 		}
 	}
 	
-	ruling_party = conservatism
+	ruling_party = paternalism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -41,36 +41,36 @@ INS = {
 	set_politics = {
 
 		parties = {
-			conservatism = { 
+			paternalism = { 
 				popularity = 9
 			}
 		
-			authoritarian = { 
+			authoritarian_democrat = { 
 				popularity = 51
 			}
 		
-			monarchism = { 
+			autocratic_despotism = { 
 				popularity = 5
 			}
 		
-			fascism = { 
+			national_autocracy = { 
 				popularity = 0
 			}
 		
-			communism = { 
+			fangism = { 
 				popularity = 15
 			}
 		
-			liberalism = { 
+			social_liberal = { 
 				popularity = 0
 			}
 		
-			mod_ordaism = { 
+			solidarism = { 
 				popularity = 20
 			}
 		}
 	
-		ruling_party = authoritarian
+		ruling_party = authoritarian_democrat
 		last_election = "1933.1.1"
 		election_frequency = 48
 		elections_allowed = no
@@ -82,7 +82,7 @@ create_country_leader = {
 	desc = "POLITICS_BITOR_BAPTISTA_DESC"
 	picture = "Portrait_AGO_Bitor_Baptista.dds"
 	expire = "1965.1.1"
-	ideology = sub_conservatism
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}
@@ -93,7 +93,7 @@ create_country_leader = {
 	desc = "POLITICS_MARTIN_II_DESC"
 	picture = "Portrait_AGO_Martin_II.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		#
 	}

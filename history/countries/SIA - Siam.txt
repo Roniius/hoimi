@@ -13,27 +13,72 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		liberalism = { 
-			popularity = 30
+		fangism = { 
+			popularity = 25
+			banned = yes
 		}
-		conservatism = { 
-			popularity = 12
+		
+		liberationism = { 
+			popularity = 50
+			banned = no
 		}
-		fascism = { 
-			popularity = 20
+		
+		solidarism = { 
+			popularity = 25
+			banned = no
 		}
-		mod_ordaism = { 
-			popularity = 15
+
+		socialism = {
+			popularity = 0
+			banned = yes
 		}
-		monarchism = { 
-			popularity = 23
+		
+		social_liberal = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		market_liberal = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		paternalism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		authoritarian_democrat = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		autocratic_despotism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		national_autocracy = {
+			popularity = 0
+			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = liberalism
-	last_election = "1932.4.2"
+	ruling_party = liberationism
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Song Noppakul"
+	desc = "POLITICS_SONG_NOPPAKUL_DESC"
+	picture = "Portrait_SIA_Song_Noppakul.dds"
+	expire = "1965.1.1"
+	ideology = liberationism_subtype
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {
@@ -41,7 +86,7 @@ create_country_leader = {
 	desc = "POLITICS_CHAOPHRAYA_P_SURENTHARATHIBODI_DESC"
 	picture = "Portrait_SIA_Chaophraya_Phrasadet_Surentharathibodi.dds"
 	expire = "1965.1.1"
-	ideology = sub_liberalism
+	ideology = social_liberal_subtype
 	traits = {
 		#
 	}
@@ -52,7 +97,7 @@ create_country_leader = {
 	desc = "POLITICS_KING_RAMA_VI_DESC"
 	picture = "Portrait_SIA_King_Rama_VI.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = autocratic_despotism_subtype
 	traits = {
 		#
 	}

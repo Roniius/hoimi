@@ -11,36 +11,36 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		conservatism = { 
+		paternalism = { 
 			popularity = 5
 		}
 		
-		authoritarian = { 
+		authoritarian_democrat = { 
 			popularity = 0
 		}
 		
-		monarchism = { 
+		autocratic_despotism = { 
 			popularity = 65
 		}
 		
-		fascism = { 
+		national_autocracy = { 
 			popularity = 10
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 20
 		}
 		
-		liberalism = { 
+		social_liberal = { 
 			popularity = 0
 		}
 		
-		mod_ordaism = { 
+		solidarism = { 
 			popularity = 0
 		}
 	}
 	
-	ruling_party = monarchism
+	ruling_party = autocratic_despotism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -52,7 +52,7 @@ create_country_leader = {
 	desc = "POLITICS_KING_LINGXIN_DESC"
 	picture = "Portrait_YUN_King_Lingxin.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		#
 	}
@@ -63,7 +63,7 @@ create_country_leader = {
 	desc = "POLITICS_TANG_JIYAO_DESC"
 	picture = "Portrait_YUN_Tang_Jiyao.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = national_autocracy_ideology
 	traits = {
 		#
 	}
@@ -74,7 +74,7 @@ create_country_leader = {
 	desc = "POLITICS_LU_HAN_DESC"
 	picture = "Portrait_YUN_Lu_Han.dds"
 	expire = "1965.1.1"
-	ideology = sub_conservatism
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}
@@ -96,7 +96,7 @@ create_country_leader = {
 	desc = "POLITICS_QIAO_QIGANG_DESC"
 	picture = "Portrait_YUN_Qiao_Qigang.dds"
 	expire = "1965.1.1"
-	ideology = sub_liberalism
+	ideology = social_liberal_subtype
 	traits = {
 		#
 	}
@@ -118,7 +118,7 @@ create_country_leader = {
 	desc = "POLITICS_LONG_YUN_DESC"
 	picture = "Portrait_YUN_Long_Yun.dds"
 	expire = "1965.1.1"
-	ideology = engelism
+	ideology = solidarism_subtype
 	traits = {
 		#
 	}

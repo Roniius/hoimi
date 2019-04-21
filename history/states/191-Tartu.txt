@@ -1,11 +1,11 @@
-
 state={
 	id=191
 	name="STATE_191"
+	
+	state_category = rural
 
 	history={
-		add_core_of = NOV
-		owner = NOV
+		owner = RUS
 		victory_points = {
 			9221 1 
 		}
@@ -17,13 +17,13 @@ state={
 			}
 
 		}
+		add_core_of = RUS
 
 	}
 
 	provinces={
-		592 4640 6099 6178 6408 9079 9221 9485 11057 11127 11443 13127 
+		592 4640 6099 6178 6408 9221 9485 11057 11443 13127 
 	}
 	manpower=376400
 	buildings_max_level_factor=1.000
-	state_category=rural
 }

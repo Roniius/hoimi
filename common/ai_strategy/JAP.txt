@@ -439,7 +439,7 @@ JAP_dont_mess_with_volunteers = { # Reverse strategy
 		date < 1941.6.1	
 		JAP = {
 			OR = {
-				has_government = fascism
+				has_government = national_autocracy
 				has_government = neutrality
 			}
 		}
@@ -453,7 +453,7 @@ JAP_dont_mess_with_volunteers = { # Reverse strategy
 		date > 1941.6.1 #lets go global later yo
 		JAP = {
 			OR = {
-				NOT = {	has_government = fascism }
+				NOT = {	has_government = national_autocracy }
 				NOT = {	has_government = neutrality }
 			}
 		}

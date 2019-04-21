@@ -41,28 +41,28 @@ if = {
 set_politics = {
 
 	parties = {
-		liberalism = { 
+		social_liberal = { 
 			popularity = 45
 		}
 		
-		communism = { 
+		fangism = { 
 			popularity = 5
 		}
 		
-		conservatism = { 
+		paternalism = { 
 			popularity = 30
 		}
 
-		fascism = {
+		national_autocracy = {
 			popularity = 10
 		}
 		
-		monarchism = {
+		autocratic_despotism = {
 			popularity = 10
 		}
 	}
 	
-	ruling_party = liberalism
+	ruling_party = social_liberal
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -73,7 +73,7 @@ create_country_leader = {
 	desc = "POLITICS_HENRI_JASPAR_DESC"
 	picture = "Portrait_BEL_Henri_Jaspar.dds"
 	expire = "1965.1.1"
-	ideology = sub_liberalism
+	ideology = social_liberal_subtype
 	traits = {
 		
 	}
@@ -84,7 +84,7 @@ create_country_leader = {
 	desc = "POLITICS_CONRAD_VII_DESC"
 	picture = "Portrait_BEL_Conrad_VII.dds"
 	expire = "1965.1.1"
-	ideology = sub_monarchism
+	ideology = sub_autocratic_despotism
 	traits = {
 		
 	}

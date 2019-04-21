@@ -13,8 +13,7 @@ state={
 	}
 
 	history={
-		owner = ODI
-		add_core_of = ODI
+		owner = RAJ
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1

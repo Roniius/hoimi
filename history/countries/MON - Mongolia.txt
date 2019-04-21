@@ -10,149 +10,85 @@ set_technology = {
 set_stability = 0.55
 set_war_support = 0.41
 
-create_faction = unity_organization
-add_to_faction = NJA
-add_to_faction = TAI
-add_to_faction = MAL
 
 add_ideas = {
 	limited_conscription
-	MON_peljidiin_genden_hog
-	MON_khorloogiin_choibalsan_cos
-	MON_ile_luk_hoj
-	MON_khorloogiin_choibalsan_dm
-	MON_banzarjavyn_damdinsuren_fm
-	MON_jamtsangiin_ochirbat_im
-	MON_ukhnaagiin_bagabandi_cm
-	MON_ukhnaagiin_bagabandi_em
 
-	MON_a_thirst_for_democracy
-	MON_split_military
-	MON_failing_economy
-	MON_unrestrained_corruption
+	#MON_a_thirst_for_democracy
+	#MON_split_military
+	#MON_failing_economy
+	#MON_unrestrained_corruption
 }
 
 set_politics = {
 
 	parties = {
-		communism = { 
-			popularity = 2
+		fangism = { 
+			popularity = 0
 			banned = yes
 		}
 		
-		conservatism = { 
+		liberationism = { 
 			popularity = 0
 			banned = no
 		}
 		
-		mod_ordaism = { 
-			popularity = 5
+		solidarism = { 
+			popularity = 0
 			banned = no
 		}
 
-		liberalism = {
-			popularity = 31
+		socialism = {
+			popularity = 36
 			banned = yes
 		}
 		
-		fascism = { 
-			popularity = 3
+		social_liberal = { 
+			popularity = 10
 			banned = yes
 		}
 		
-		authoritarian = { 
+		market_liberal = { 
+			popularity = 10
+			banned = yes
+		}
+		
+		paternalism = {
+			popularity = 15
+			#banned = no #default is no
+		}
+		
+		authoritarian_democrat = {
+			popularity = 29
+			#banned = no #default is no
+		}
+		
+		autocratic_despotism = {
 			popularity = 0
-			banned = yes
+			#banned = no #default is no
 		}
 		
-		monarchism = {
-			popularity = 59
+		national_autocracy = {
+			popularity = 0
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = monarchism
+	ruling_party = socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-puppet = NJA
-puppet = TAI
-puppet = MAL
+puppet = CAM
 
-create_country_leader = {
-	name = "Batzorig Khan"
-	desc = "POLITICS_BATZORIG_KHAN_DESC"
-	picture = "Portrait_MON_Batzorig_Khan.dds"
-	expire = "1965.1.1"
-	ideology = sub_monarchism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Peljidiin Genden"
-	desc = "POLITICS_PELJIDIIN_GENDEN_DESC"
-	picture = "Portrait_MON_Peljidiin_Genden.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Tserendondovyn Navaanneren"
-	desc = "POLITICS_TSERENDONDOVYN_NAVAANNEREN_DESC"
-	picture = "Portrait_MON_Tserendondovyn_Navaanneren.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
 
 create_country_leader = {
 	name = "Demchugdongrub"
 	desc = "POLITICS_DEMCHUGDONGRUB_DESC"
 	picture = "Portrait_MON_Demchugdongrub.dds"
 	expire = "1965.1.1"
-	ideology = sub_conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Aisin Gioro Pu-yi"
-	desc = "POLITICS_AISIN_GIORO_PU_YI_DESC"
-	picture = "Portrait_MON_Aisin_Gioro_Pu_yi.dds"
-	expire = "1965.1.1"
-	ideology = sub_liberalism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Jambyn Lkhümbe"
-	desc = "POLITICS_JAMBYN_LKHUMBE_DESC"
-	picture = "Portrait_MON_Jambyn_Lkhumbe.dds"
-	expire = "1965.1.1"
-	ideology = engelism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Dogsomyn Bodoo"
-	desc = "POLITICS_DOGSOMYN_BODOO_DESC"
-	picture = "Portrait_MON_Dogsomyn_Bodoo.dds"
-	expire = "1965.1.1"
-	ideology = marxism
+	ideology = socialism_subtype
 	traits = {
 		#
 	}

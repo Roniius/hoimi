@@ -3,19 +3,21 @@ state={
 	name="STATE_45"
 
 	history={
-		owner = DAN
+		victory_points = { 619 3 }
+		owner = YUG
 		buildings = {
 			infrastructure = 6
 
 		}
-		add_core_of = DAN
+		add_core_of = YUG
+		add_core_of = SER
 
 	}
 
 	provinces={
-		614 619 3614 3617 3623 6643 9608 9621 11580 11787 
+		619 3617 3623 9608 9621
 	}
-	manpower=1026200
+	manpower=440621
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

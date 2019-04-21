@@ -26,13 +26,13 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_raj_all_india_forward_bloc_communism"
-		texturefile = "gfx/interface/ideas/idea_raj_all_india_forward_bloc_communism.dds"
+		name = "GFX_idea_raj_all_india_forward_bloc_fangism"
+		texturefile = "gfx/interface/ideas/idea_raj_all_india_forward_bloc_fangism.dds"
 	}
 
 	spriteType = {
-		name = "GFX_idea_raj_all_india_forward_bloc_fascism"
-		texturefile = "gfx/interface/ideas/idea_raj_all_india_forward_bloc_fascism.dds"
+		name = "GFX_idea_raj_all_india_forward_bloc_national_autocracy"
+		texturefile = "gfx/interface/ideas/idea_raj_all_india_forward_bloc_national_autocracy.dds"
 	}
 
 	spriteType = {
@@ -76,13 +76,13 @@ spriteTypes = {
 	}	
 	
 	spriteType = {
-		name = "GFX_idea_ast_abandon_the_westminster_system_communism"
-		texturefile = "gfx/interface/ideas/idea_ast_abandon_the_westminster_system_communism.dds"
+		name = "GFX_idea_ast_abandon_the_westminster_system_fangism"
+		texturefile = "gfx/interface/ideas/idea_ast_abandon_the_westminster_system_fangism.dds"
 	}	
 	
 	spriteType = {
-		name = "GFX_idea_ast_abandon_the_westminster_system_fascism"
-		texturefile = "gfx/interface/ideas/idea_ast_abandon_the_westminster_system_fascism.dds"
+		name = "GFX_idea_ast_abandon_the_westminster_system_national_autocracy"
+		texturefile = "gfx/interface/ideas/idea_ast_abandon_the_westminster_system_national_autocracy.dds"
 	}	
 	
 	spriteType = {
@@ -106,8 +106,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_idea_can_defence_of_canada_regulations_communism"
-		texturefile = "gfx/interface/ideas/idea_can_defence_of_canada_regulations_communism.dds"
+		name = "GFX_idea_can_defence_of_canada_regulations_fangism"
+		texturefile = "gfx/interface/ideas/idea_can_defence_of_canada_regulations_fangism.dds"
 	}	
 	
 	spriteType = {
@@ -116,8 +116,8 @@ spriteTypes = {
 	}	
 	
 	spriteType = {
-		name = "GFX_idea_can_defence_of_canada_regulations_fascism"
-		texturefile = "gfx/interface/ideas/idea_can_defence_of_canada_regulations_fascism.dds"
+		name = "GFX_idea_can_defence_of_canada_regulations_national_autocracy"
+		texturefile = "gfx/interface/ideas/idea_can_defence_of_canada_regulations_national_autocracy.dds"
 	}	
 	
 	spriteType = {
@@ -156,8 +156,8 @@ spriteTypes = {
 	}	
 	
 	spriteType = {
-		name = "GFX_idea_saf_ossewabrandwag_fascism"
-		texturefile = "gfx/interface/ideas/idea_saf_ossewabrandwag_fascism.dds"
+		name = "GFX_idea_saf_ossewabrandwag_national_autocracy"
+		texturefile = "gfx/interface/ideas/idea_saf_ossewabrandwag_national_autocracy.dds"
 	}	
 	
 	spriteType = {
@@ -419,8 +419,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_idea_generic_fascism_banned"
-		texturefile = "gfx/interface/ideas/idea_generic_fascism_banned.dds"
+		name = "GFX_idea_generic_national_autocracy_banned"
+		texturefile = "gfx/interface/ideas/idea_generic_national_autocracy_banned.dds"
 	}
 	
 	spriteType = {
@@ -444,8 +444,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_idea_generic_fascism_drift_2"
-		texturefile = "gfx/interface/ideas/idea_generic_fascism_drift_2.dds"
+		name = "GFX_idea_generic_national_autocracy_drift_2"
+		texturefile = "gfx/interface/ideas/idea_generic_national_autocracy_drift_2.dds"
 	}
 	
 	spriteType = {
@@ -594,13 +594,13 @@ spriteTypes = {
 	}	
 	
 	spriteType = {
-		name = "GFX_idea_generic_fascism_drift_bonus"
-		texturefile = "gfx/interface/ideas/generic_fascism_drift_bonus.dds"
+		name = "GFX_idea_generic_national_autocracy_drift_bonus"
+		texturefile = "gfx/interface/ideas/generic_national_autocracy_drift_bonus.dds"
 	}	
 	
 	spriteType = {
-		name = "GFX_idea_generic_communism_drift_bonus"
-		texturefile = "gfx/interface/ideas/generic_communism_drift_bonus.dds"
+		name = "GFX_idea_generic_fangism_drift_bonus"
+		texturefile = "gfx/interface/ideas/generic_fangism_drift_bonus.dds"
 	}	
 	
 	spriteType = {
@@ -2428,8 +2428,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_HUN_hungarian_monarchy_fascism"
-		texturefile = "gfx/interface/ideas/idea_hun_hungarian_monarchy_fascism.dds"
+		name = "GFX_idea_HUN_hungarian_monarchy_national_autocracy"
+		texturefile = "gfx/interface/ideas/idea_hun_hungarian_monarchy_national_autocracy.dds"
 	}
 
 	spriteType = {
