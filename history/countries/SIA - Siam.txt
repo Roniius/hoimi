@@ -13,58 +13,58 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		fangism = { 
-			popularity = 25
-			banned = yes
-		}
-		
-		liberationism = { 
-			popularity = 50
+		fangism = {
+			popularity = 21
 			banned = no
 		}
-		
-		solidarism = { 
-			popularity = 25
+
+		liberationism = {
+			popularity = 29
+			banned = no
+		}
+
+		solidarism = {
+			popularity = 26
 			banned = no
 		}
 
 		socialism = {
-			popularity = 0
+			popularity = 14
+			banned = no
+		}
+
+		social_liberal = {
+			popularity = 1
 			banned = yes
 		}
-		
-		social_liberal = { 
-			popularity = 0
+
+		market_liberal = {
+			popularity = 2
 			banned = yes
 		}
-		
-		market_liberal = { 
-			popularity = 0
-			banned = yes
-		}
-		
+
 		paternalism = {
 			popularity = 0
 			#banned = no #default is no
 		}
-		
+
 		authoritarian_democrat = {
-			popularity = 0
+			popularity = 6
 			#banned = no #default is no
 		}
-		
+
 		autocratic_despotism = {
-			popularity = 0
+			popularity = 1
 			#banned = no #default is no
 		}
-		
+
 		national_autocracy = {
 			popularity = 0
 			#banned = no #default is no
 		}
 	}
-	
-	ruling_party = liberationism
+
+	ruling_party = solidarism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -76,6 +76,17 @@ create_country_leader = {
 	picture = "Portrait_SIA_Song_Noppakul.dds"
 	expire = "1965.1.1"
 	ideology = liberationism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chalong Saowaluk"
+	desc = "POLITICS_CHALONG_SAOWALUK_DESC"
+	picture = "Portrait_SIA_Chalong_Saowaluk.dds"
+	expire = "1965.1.1"
+	ideology = solidarism_subtype
 	traits = {
 		#
 	}
