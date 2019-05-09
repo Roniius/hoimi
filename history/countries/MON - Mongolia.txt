@@ -10,6 +10,10 @@ set_technology = {
 set_stability = 0.55
 set_war_support = 0.41
 
+#set_variable = {
+#    var = electorate_loyalty
+#    value = 10
+#}
 
 add_ideas = {
 	limited_conscription

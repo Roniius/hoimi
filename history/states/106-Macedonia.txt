@@ -7,7 +7,8 @@ state={
 	}
 
 	history={
-		owner = YUG
+		owner = ZOS
+		add_core_of = ZOS
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -17,15 +18,13 @@ state={
 		victory_points = {
 			3882 5
 		}
-		add_core_of = YUG
-		add_core_of = MAC
 
 	}
 
 	provinces={
-		833 867 907 974 3833 3865 3882 6886 11856 
+		907 3882 
 	}
-	manpower=1374200
+	manpower=1014200
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

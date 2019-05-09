@@ -1,3 +1,75 @@
-﻿capital = 46
+﻿capital = 81
 
 oob = "generic"
+
+
+set_politics = {
+
+	parties = {
+		fangism = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		liberationism = { 
+			popularity = 0
+			banned = no
+		}
+		
+		solidarism = { 
+			popularity = 0
+			banned = no
+		}
+
+		socialism = {
+			popularity = 0
+			banned = yes
+		}
+		
+		social_liberal = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		market_liberal = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		paternalism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		authoritarian_democrat = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		autocratic_despotism = {
+			popularity = 100
+			#banned = no #default is no
+		}
+		
+		national_autocracy = {
+			popularity = 0
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = autocratic_despotism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Vasile Atanasiu"
+	desc = "POLITICS_VASILE_ATANASIU_DESC"
+	picture = "Portrait_ROM_Vasile_Atanasiu.dds"
+	expire = "1965.1.1"
+	ideology = autocratic_despotism_subtype
+	traits = {
+		#
+	}
+}

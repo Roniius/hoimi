@@ -1,0 +1,23 @@
+
+state={
+	id=818
+	name="STATE_818"
+	manpower = 1623422
+	
+	state_category = city
+
+	history={
+		
+		owner = NRD
+		add_core_of = NRD
+		buildings = {
+			
+			infrastructure = 5
+		}
+		
+	}
+
+	provinces={
+		3326 374 6349 3271 6263 6218 6325 6298 9264 9238 	
+	}
+}

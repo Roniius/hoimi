@@ -1,0 +1,21 @@
+
+state={
+	id=809
+	name="STATE_809"
+	manpower = 235235
+	
+	state_category = rural
+
+	history={
+		owner = TAT
+		add_core_of = TAT
+		buildings = {
+			infrastructure = 4
+		}
+		
+	}
+
+	provinces={
+		6741 11729 6755 750 6783 765 9744	
+	}
+}

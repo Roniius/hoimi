@@ -13,13 +13,53 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		autocratic_despotism = { 
-			popularity = 95
+		fangism = { 
+			popularity = 0
 			banned = yes
 		}
 		
-		fangism = {
-			popularity = 5
+		liberationism = { 
+			popularity = 0
+			banned = no
+		}
+		
+		solidarism = { 
+			popularity = 0
+			banned = no
+		}
+
+		socialism = {
+			popularity = 0
+			banned = yes
+		}
+		
+		social_liberal = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		market_liberal = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		paternalism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		authoritarian_democrat = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		autocratic_despotism = {
+			popularity = 100
+			#banned = no #default is no
+		}
+		
+		national_autocracy = {
+			popularity = 0
 			#banned = no #default is no
 		}
 	}
@@ -32,11 +72,22 @@ set_politics = {
 
 
 create_country_leader = {
+	name = "King George XIV"
+	desc = "POLITICS_KING_GEORGE_XIV_DESC"
+	picture = "Portrait_GEO_King_George_XIV.dds"
+	expire = "1965.1.1"
+	ideology = autocratic_despotism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Christophorus III"
 	desc = "POLITICS_CHRISTOPHORUS_III_DESC"
 	picture = "Portrait_GEO_Christophorus_III.dds"
 	expire = "1965.1.1"
-	ideology = sub_autocratic_despotism
+	ideology = national_autocracy_subtype
 	traits = {
 		#
 	}

@@ -1,9 +1,9 @@
 ﻿capital = 141	
-puppet = SEI
-puppet = SUM
-puppet = NOR
-puppet = VLD
-puppet = COG
+#puppet = SEI
+#puppet = SUM
+#puppet = NOR
+#puppet = VLD
+#puppet = COG
 
 # Starting tech
 set_technology = {
@@ -18,25 +18,59 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		autocratic_despotism = { 
-			popularity = 40
+		fangism = { 
+			popularity = 0
+			banned = yes
 		}
 		
-		national_autocracy = { 
-			popularity = 31
+		liberationism = { 
+			popularity = 0
+			banned = no
 		}
 		
-		authoritarian_democrat = { 
-			popularity = 20
+		solidarism = { 
+			popularity = 0
+			banned = no
+		}
+
+		socialism = {
+			popularity = 0
+			banned = yes
 		}
 		
 		social_liberal = { 
-			popularity = 9
+			popularity = 0
+			banned = yes
+		}
+		
+		market_liberal = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		paternalism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		authoritarian_democrat = {
+			popularity = 100
+			#banned = no #default is no
+		}
+		
+		autocratic_despotism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		national_autocracy = {
+			popularity = 0
+			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = autocratic_despotism
-	last_election = "1933.1.1"
+	ruling_party = authoritarian_democrat
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -46,7 +80,7 @@ create_country_leader = {
 	desc = "POLITICS_EMPRESS_REGENT_CATELYN_DESC"
 	picture = "Portrait_SWE_Empress_Regent_Catelyn.dds"
 	expire = "1965.1.1"
-	ideology = sub_autocratic_despotism
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}

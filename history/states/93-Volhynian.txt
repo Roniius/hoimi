@@ -16,7 +16,8 @@ state={
 			infrastructure = 5
 
 		}
-
+		owner = BLR
+		add_core_of = BLR
 	}
 
 	provinces={

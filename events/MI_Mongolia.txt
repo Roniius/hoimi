@@ -1,1 +1,27 @@
-﻿
+﻿add_namespace = mongolia
+
+#Mongolia Party Talks With Absolutists
+country_event = {
+	id = mongolia.1
+	title = mongolia.1.t
+	desc = mongolia.1.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	#Attempt To Strike Deal First
+	option = {
+		name = mongolia.1.o1
+		
+		#add_to_variable = {
+		#	var = electorate_loyalty
+		#	value = -5
+		#}
+	}
+	
+	#Let Them Make Their Deal
+	option = {
+		name = mongolia.1.o2
+		
+	}
+}

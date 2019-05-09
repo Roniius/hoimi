@@ -9,7 +9,7 @@ state=
 	
 	history=
 	{
-		owner = DEN
+		owner = SWE
 		victory_points = { 12674 1 }
 		buildings = {
 			infrastructure = 2
@@ -17,8 +17,7 @@ state=
 				naval_base = 1
 			}
 		}
-		add_core_of = DEN
-		add_core_of = ICE
+		add_core_of = SWE
 	}
 	provinces=
 	{

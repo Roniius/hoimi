@@ -1,0 +1,23 @@
+
+state={
+	id=824
+	name="STATE_824"
+	manpower = 56556
+	
+	state_category = rural
+
+	history={
+		owner = GIL
+		add_core_of = GIL
+		
+		buildings = {
+			
+			infrastructure = 3
+		}
+		
+	}
+
+	provinces={
+		4473	
+	}
+}

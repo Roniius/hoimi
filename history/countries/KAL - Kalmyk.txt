@@ -1,4 +1,4 @@
-﻿capital = 217
+﻿capital = 234
 
 set_research_slots = 3
 
@@ -14,48 +14,70 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		paternalism = { 
-			popularity = 0
-		}
-		
-		authoritarian_democrat = { 
-			popularity = 41
-		}
-		
-		autocratic_despotism = { 
-			popularity = 1
-		}
-		
-		national_autocracy = { 
-			popularity = 5
-		}
-		
 		fangism = { 
-			popularity = 40
+			popularity = 0
+			banned = yes
 		}
 		
-		social_liberal = { 
-			popularity = 19
+		liberationism = { 
+			popularity = 0
+			banned = no
 		}
 		
 		solidarism = { 
-			popularity = 3
+			popularity = 0
+			banned = no
+		}
+
+		socialism = {
+			popularity = 0
+			banned = yes
+		}
+		
+		social_liberal = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		market_liberal = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		paternalism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		authoritarian_democrat = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		autocratic_despotism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		national_autocracy = {
+			popularity = 100
+			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = authoritarian_democrat
-	last_election = "1933.1.1"
+	ruling_party = national_autocracy
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 
 create_country_leader = {
-	name = "Xap Dvesha"
-	desc = "POLITICS_XAP_DVESHA_DESC"
-	picture = "Portrait_KAL_Xap_Dvesha.dds"
+	name = "Yahya Bulti Kita"
+	desc = "POLITICS_YAHYA_BULTI_KITA_DESC"
+	picture = "Portrait_KAL_Yahya_Bulti_Kita.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = national_autocracy_subtype
 	traits = {
 		#
 	}

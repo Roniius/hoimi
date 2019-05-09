@@ -1,4 +1,4 @@
-﻿capital = 241
+﻿capital = 94
 
 oob = "generic"
 
@@ -13,47 +13,69 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		paternalism = { 
-			popularity = 20
-		}
-		
-		authoritarian_democrat = { 
-			popularity = 2
-		}
-		
-		autocratic_despotism = { 
-			popularity = 47
-		}
-		
-		national_autocracy = { 
-			popularity = 1
-		}
-		
 		fangism = { 
-			popularity = 3
+			popularity = 0
+			banned = yes
 		}
 		
-		social_liberal = { 
-			popularity = 23
+		liberationism = { 
+			popularity = 0
+			banned = no
 		}
 		
 		solidarism = { 
-			popularity = 4
+			popularity = 0
+			banned = no
+		}
+
+		socialism = {
+			popularity = 10
+			banned = yes
+		}
+		
+		social_liberal = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		market_liberal = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		paternalism = {
+			popularity = 15
+			#banned = no #default is no
+		}
+		
+		authoritarian_democrat = {
+			popularity = 75
+			#banned = no #default is no
+		}
+		
+		autocratic_despotism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		national_autocracy = {
+			popularity = 0
+			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = autocratic_despotism
-	last_election = "1933.1.1"
+	ruling_party = authoritarian_democrat
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Duke Alexander VIII"
+	name = "Prince Alexander V"
 	desc = "POLITICS_ALEXANDER_VIII_DESC"
 	picture = "Portrait_BLR_Alexander_III.dds"
 	expire = "1965.1.1"
-	ideology = sub_autocratic_despotism
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}

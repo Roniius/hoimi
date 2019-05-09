@@ -1,0 +1,22 @@
+
+state={
+	id=810
+	name="STATE_810"
+	manpower = 124124
+	
+	state_category = rural
+
+	history={
+		owner = KAL
+		add_core_of = KAL
+		buildings = {
+			
+			infrastructure = 4
+		}
+		
+	}
+
+	provinces={
+		11632 683 6730 700 6748 728 712	
+	}
+}
