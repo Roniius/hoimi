@@ -12,37 +12,59 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		paternalism = { 
-			popularity = 0
-		}
-		
-		authoritarian_democrat = { 
-			popularity = 0
-		}
-		
-		autocratic_despotism = { 
-			popularity = 0
-		}
-		
-		national_autocracy = { 
-			popularity = 0
-		}
-		
 		fangism = { 
 			popularity = 0
+			banned = yes
 		}
 		
-		social_liberal = { 
-			popularity = 62
+		liberationism = { 
+			popularity = 0
+			banned = no
 		}
 		
 		solidarism = { 
-			popularity = 38
+			popularity = 0
+			banned = no
+		}
+
+		socialism = {
+			popularity = 36
+			banned = yes
+		}
+		
+		social_liberal = { 
+			popularity = 10
+			banned = yes
+		}
+		
+		market_liberal = { 
+			popularity = 10
+			banned = yes
+		}
+		
+		paternalism = {
+			popularity = 15
+			#banned = no #default is no
+		}
+		
+		authoritarian_democrat = {
+			popularity = 29
+			#banned = no #default is no
+		}
+		
+		autocratic_despotism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		national_autocracy = {
+			popularity = 0
+			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = social_liberal
-	last_election = "1933.1.1"
+	ruling_party = socialism
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -52,7 +74,7 @@ create_country_leader = {
 	desc = "POLITICS_NOMAN_CELEBICIHAN_DESC"
 	picture = "Portrait_TAT_Noman_Celebicihan.dds"
 	expire = "1965.1.1"
-	ideology = social_liberal_subtype
+	ideology = socialism_subtype
 	traits = {
 		#
 	}

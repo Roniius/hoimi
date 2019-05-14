@@ -16,24 +16,72 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		
-		paternalism = { 
-			popularity = 33
+		fangism = { 
+			popularity = 0
+			banned = yes
 		}
 		
-		social_liberal = { 
-			popularity = 33
+		liberationism = { 
+			popularity = 10
+			banned = no
 		}
 		
 		solidarism = { 
-			popularity = 34
+			popularity = 0
+			banned = no
+		}
+
+		socialism = {
+			popularity = 40
+			banned = yes
+		}
+		
+		social_liberal = { 
+			popularity = 11
+			banned = yes
+		}
+		
+		market_liberal = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		paternalism = {
+			popularity = 39
+			#banned = no #default is no
+		}
+		
+		authoritarian_democrat = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		autocratic_despotism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		national_autocracy = {
+			popularity = 0
+			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = solidarism
-	last_election = "1933.1.1"
+	ruling_party = socialism
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Slavko Kvaternik"
+	desc = "POLITICS_SLAVKO_KVATERNIK_DESC"
+	picture = "Portrait_CRO_Slavko_Kvaternik.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {
@@ -41,7 +89,7 @@ create_country_leader = {
 	desc = "POLITICS_ANTUN_RADIC_DESC"
 	picture = "Portrait_CRO_Antun_Radic.dds"
 	expire = "1965.1.1"
-	ideology = solidarism_subtype
+	ideology = socialism_subtype
 	traits = {
 		#
 	}

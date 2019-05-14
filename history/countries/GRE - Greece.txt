@@ -10,30 +10,128 @@ add_ideas = {
 	orthodox_idea
 }
 
-puppet = GNA
+puppet = ROM
+
+ROM = {
+
+	set_politics = {
+
+		parties = {
+			fangism = { 
+				popularity = 0
+				banned = yes
+			}
+		
+			liberationism = { 
+				popularity = 0
+				banned = no
+			}
+		
+			solidarism = { 
+				popularity = 0
+				banned = no
+			}
+
+			socialism = {
+				popularity = 0
+				banned = yes
+			}
+		
+			social_liberal = { 
+				popularity = 0
+				banned = yes
+			}
+		
+			market_liberal = { 
+				popularity = 0
+				banned = yes
+			}
+		
+			paternalism = {
+				popularity = 0
+				#banned = no #default is no
+			}
+		
+			authoritarian_democrat = {
+				popularity = 0
+				#banned = no #default is no
+			}
+		
+			autocratic_despotism = {
+				popularity = 100
+				#banned = no #default is no
+			}
+		
+			national_autocracy = {
+				popularity = 0
+				#banned = no #default is no
+			}
+		}
+	
+		ruling_party = autocratic_despotism
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+}
 
 set_politics = {
 
 	parties = {
-		autocratic_despotism = { 
-			popularity = 33
+		fangism = { 
+			popularity = 0
+			banned = yes
 		}
 		
-		national_autocracy = { 
-			popularity = 33
+		liberationism = { 
+			popularity = 0
+			banned = no
+		}
+		
+		solidarism = { 
+			popularity = 0
+			banned = no
+		}
+
+		socialism = {
+			popularity = 0
+			banned = yes
 		}
 		
 		social_liberal = { 
-			popularity = 32
+			popularity = 0
+			banned = yes
 		}
 		
-		fangism = { 
-			popularity = 2
+		market_liberal = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		paternalism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		authoritarian_democrat = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		autocratic_despotism = {
+			popularity = 100
+			#banned = no #default is no
+		}
+		
+		national_autocracy = {
+			popularity = 0
+			#banned = no #default is no
 		}
 	}
 	
 	ruling_party = autocratic_despotism
-	last_election = "1933.1.1"
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -45,7 +143,7 @@ create_country_leader = {
 	desc = "POLITICS_CONSTANTINE_XXI_DESC"
 	picture = "Portrait_GRE_Constantine_XXI.dds"
 	expire = "1965.1.1"
-	ideology = sub_autocratic_despotism
+	ideology = autocratic_despotism_subtype
 	traits = {
 		#
 	}

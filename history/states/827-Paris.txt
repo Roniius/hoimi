@@ -1,0 +1,29 @@
+
+state={
+	id=827
+	name="STATE_827"
+	manpower = 3423523
+	
+	state_category = metropolis
+
+	history={
+		
+		owner = BEL
+		add_core_of = BEL
+		victory_points = {
+			11506 50 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 4
+			anti_air_building = 3
+			air_base = 5
+		}
+		
+	}
+
+	provinces={
+		9534 11506 11518	
+	}
+}

@@ -10,8 +10,7 @@ state= {
 	state_category = city
 
 	history= {
-		add_claim_by = GRE
-		owner = TUR
+		owner = GRE
 		victory_points = {
 			9833 20
 		}
@@ -25,7 +24,7 @@ state= {
 				naval_base = 8
 			}
 		}
-		add_core_of = TUR
+		add_core_of = GRE
 	}
 	provinces=
 	{

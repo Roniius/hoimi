@@ -1,0 +1,23 @@
+
+state={
+	id=819
+	name="STATE_819"
+	manpower = 504801
+	
+	state_category = rural
+
+	history={
+		
+		owner = NRD
+		add_core_of = NRD
+		buildings = {
+			
+			infrastructure = 5
+		}
+		
+	}
+
+	provinces={
+		241 336 11264 11360	
+	}
+}

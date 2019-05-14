@@ -11,7 +11,8 @@ state={
 	state_category = city
 
 	history={
-		owner = BUL
+		owner = ZOS
+		add_core_of = ZOS
 		victory_points = {
 			949 15 
 		}
@@ -20,10 +21,10 @@ state={
 			industrial_complex = 6
 			air_base = 3
 		}
-		add_core_of = BUL
+		
 	}
 
 	provinces={
-		793 935 949 965 3908 3971 6857 9771 9818 11754 
+		793 935 949 965 3908 3971 9771 11754 
 	}
 }

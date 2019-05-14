@@ -1,0 +1,23 @@
+
+state={
+	id=826
+	name="STATE_826"
+	manpower = 23425
+	
+	state_category = rural
+
+	history={
+		owner = ZOS
+		add_core_of = ZOS
+		
+		buildings = {
+			
+			infrastructure = 2
+		}
+		
+	}
+
+	provinces={
+		982	
+	}
+}

@@ -2,12 +2,12 @@
 state={
 	id=354
 	name="STATE_354"
-	manpower = 1031129
+	manpower = 1030129
 	
-	state_category = rural
+	state_category = city
 
 	history={
-		owner = TUR
+		owner = GEO
 		
 		victory_points = {
 			9932 3 
@@ -18,10 +18,10 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = TUR
+		add_core_of = GEO
 	}
 
 	provinces={
-		789 3714 3979 6976 6991 7454 9886 9932 10403 10472 11753 
+		789 3714 3979 6976 7454 9886 9932 10403 11753 
 	}
 }

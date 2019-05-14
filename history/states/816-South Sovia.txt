@@ -1,0 +1,25 @@
+
+state={
+	id=816
+	name="STATE_816"
+	manpower = 2352329
+	
+	state_category = city
+
+	history={
+		victory_points = {
+			6923 5
+		}
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+			
+			infrastructure = 5
+		}
+		
+	}
+
+	provinces={
+		6857 9818 3937 11813 6923 893 878 9862	
+	}
+}

@@ -13,25 +13,59 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		paternalism = { 
-			popularity = 33
+		fangism = { 
+			popularity = 0
+			banned = yes
 		}
 		
-		national_autocracy = { 
-			popularity = 2
+		liberationism = { 
+			popularity = 0
+			banned = no
+		}
+		
+		solidarism = { 
+			popularity = 0
+			banned = no
+		}
+
+		socialism = {
+			popularity = 0
+			banned = yes
 		}
 		
 		social_liberal = { 
-			popularity = 32
+			popularity = 48
+			banned = yes
 		}
 		
-		fangism = { 
-			popularity = 33
+		market_liberal = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		paternalism = {
+			popularity = 52
+			#banned = no #default is no
+		}
+		
+		authoritarian_democrat = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		autocratic_despotism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		national_autocracy = {
+			popularity = 0
+			#banned = no #default is no
 		}
 	}
 	
 	ruling_party = paternalism
-	last_election = "1933.1.1"
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }

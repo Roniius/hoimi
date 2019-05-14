@@ -1,4 +1,4 @@
-﻿capital = 34
+﻿capital = 827
 
 oob = "generic"
 
@@ -23,19 +23,19 @@ set_convoys = 300
 puppet = SOM
 
 # DIPLOMACY
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = BUR
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	else = {
-		puppet = BUR
-	}
-}
+#if = {
+	#limit = {
+	#	has_dlc = "Together for Victory"
+	#}
+	#set_autonomy = {
+	#	target = BUR
+	#	autonomous_state = autonomy_dominion
+	#	freedom_level = 0.4
+	#}
+	#else = {
+	#	puppet = BUR
+	#}
+#}
 
 
 set_politics = {

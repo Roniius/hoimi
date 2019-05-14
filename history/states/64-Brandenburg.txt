@@ -9,7 +9,6 @@ state={
 
 
 	history={
-		owner = GER
 		victory_points = {
 			6521 50 
 		}
@@ -24,19 +23,9 @@ state={
 			air_base = 6
 
 		}
-		add_core_of = GER
-
-		1939.1.1 = {
-			buildings = {
-				air_base = 10
-				anti_air_building = 5
-				arms_factory = 10
-				industrial_complex = 7
-			}
-		}
 	}
 
 	provinces={
-		375 478 3367 3499 3522 6487 6521 9428 9456 9496 9560 11219 11359 11415 11444 11505 
+		478 3499 3522 6487 6521 9428 9456 9496 9560 11359 11415 11444 11505 
 	}
 }

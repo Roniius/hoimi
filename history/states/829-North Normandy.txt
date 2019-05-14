@@ -1,0 +1,42 @@
+
+state={
+	id=829
+	name="STATE_829"
+	manpower = 647453
+	
+	state_category = city
+
+	history={
+		
+		victory_points = {
+			9434 10
+		}
+		
+		victory_points = {
+			11563 5
+		}
+		victory_points = {
+			485 3
+		}
+		owner = BEL
+		add_core_of = BEL
+		
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 2
+			9434 = {
+				naval_base = 5
+				coastal_bunker = 1
+			}
+			485= {
+				naval_base = 1
+			}
+		}
+		
+	}
+
+	provinces={
+		485 6569 9434 11563	
+	}
+}
