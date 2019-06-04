@@ -10,29 +10,17 @@ add_ideas = {
 	sunni_idea
 }
 
-set_politics = {
-
-	parties = {
-		autocratic_despotism = { 
-			popularity = 76
-			banned = yes
-		}
-		
-		solidarism = {
-			popularity = 21
-			#banned = no #default is no
-		}
-		
-		social_liberal = {
-			popularity = 3
-			#banned = no #default is no
-		}
-	}
-	
+set_politics = {	
 	ruling_party = autocratic_despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    autocratic_despotism = 76
+    solidarism = 21
+    social_liberal = 3
 }
 
 create_country_leader = {

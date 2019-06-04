@@ -6,64 +6,24 @@ add_ideas = {
 	shinto_idea
 }
 
-set_politics = {
-
-	parties = {
-		fangism = { 
-			popularity = 0
-			banned = yes
-		}
-		
-		liberationism = { 
-			popularity = 0
-			banned = no
-		}
-		
-		solidarism = { 
-			popularity = 0
-			banned = no
-		}
-
-		socialism = {
-			popularity = 0
-			banned = yes
-		}
-		
-		social_liberal = { 
-			popularity = 0
-			banned = yes
-		}
-		
-		market_liberal = { 
-			popularity = 0
-			banned = yes
-		}
-		
-		paternalism = {
-			popularity = 15
-			#banned = no #default is no
-		}
-		
-		authoritarian_democrat = {
-			popularity = 75
-			#banned = no #default is no
-		}
-		
-		autocratic_despotism = {
-			popularity = 5
-			#banned = no #default is no
-		}
-		
-		national_autocracy = {
-			popularity = 5
-			#banned = no #default is no
-		}
-	}
-	
+set_politics = {	
 	ruling_party = authoritarian_democrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    fangism = 0
+    liberationism = 0
+    solidarism = 0
+    socialism = 0
+    social_liberal = 0
+    market_liberal = 0
+    paternalism = 15
+    authoritarian_democrat = 75
+    autocratic_despotism = 5
+    national_autocracy = 5
 }
 
 create_country_leader = {

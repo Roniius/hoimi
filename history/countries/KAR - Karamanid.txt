@@ -10,30 +10,18 @@ add_ideas = {
 	shia_idea
 }
 
-set_politics = {
-
-	parties = {
-		paternalism = { 
-			popularity = 30
-		}
-		
-		national_autocracy = { 
-			popularity = 10
-		}
-		
-		solidarism = { 
-			popularity = 4
-		}
-		
-		social_liberal = { 
-			popularity = 56
-		}
-	}
-	
+set_politics = {	
 	ruling_party = social_liberal
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    paternalism = 30
+    national_autocracy = 10
+    solidarism = 4
+    social_liberal = 56
 }
 
 create_country_leader = {

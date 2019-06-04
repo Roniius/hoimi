@@ -11,42 +11,21 @@ add_ideas = {
 	shia_idea
 }
 
-set_politics = {
-
-	parties = {
-		authoritarian_democrat = { 
-			popularity = 51
-		}
-		
-		fangism = { 
-			popularity = 0
-		}
-		
-		solidarism = { 
-			popularity = 22
-		}
-		
-		paternalism = { 
-			popularity = 12
-		}
-		
-		national_autocracy = { 
-			popularity = 15
-		}
-		
-		autocratic_despotism = { 
-			popularity = 0
-		}
-		
-		social_liberal = { 
-			popularity = 0
-		}
-	}
-	
+set_politics = {	
 	ruling_party = authoritarian_democrat
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    authoritarian_democrat = 51
+    fangism = 0
+    solidarism = 22
+    paternalism = 12
+    national_autocracy = 15
+    autocratic_despotism = 0
+    social_liberal = 0
 }
 
 create_country_leader = {

@@ -13,42 +13,21 @@ add_ideas = {
 	limited_conscription
 	reformist_idea
 }
-set_politics = {
-
-	parties = {
-		paternalism = { 
-			popularity = 40
-		}
-		
-		authoritarian_democrat = { 
-			popularity = 0
-		}
-		
-		autocratic_despotism = { 
-			popularity = 9
-		}
-		
-		national_autocracy = { 
-			popularity = 0
-		}
-		
-		fangism = { 
-			popularity = 0
-		}
-		
-		social_liberal = { 
-			popularity = 31
-		}
-		
-		solidarism = { 
-			popularity = 20
-		}
-	}
-	
+set_politics = {	
 	ruling_party = paternalism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    paternalism = 40
+    authoritarian_democrat = 0
+    autocratic_despotism = 9
+    national_autocracy = 0
+    fangism = 0
+    social_liberal = 31
+    solidarism = 20
 }
 
 #PM = Aylmer Hunter-Weston

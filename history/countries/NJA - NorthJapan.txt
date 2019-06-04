@@ -11,28 +11,17 @@ add_ideas = {
 	limited_conscription
 	tengri_idea
 }
-set_politics = {
-
-	parties = {
-		fangism = { 
-			popularity = 20
-		}
-
-		social_liberal = {
-			popularity = 30
-			banned = yes
-		}
-		
-		autocratic_despotism = {
-			popularity = 50
-			#banned = no #default is no
-		}
-	}
-	
+set_politics = {	
 	ruling_party = autocratic_despotism
 	last_election = "1935.2.6"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    fangism = 20
+    social_liberal = 30
+    autocratic_despotism = 50
 }
 
 create_country_leader = {

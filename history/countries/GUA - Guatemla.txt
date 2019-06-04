@@ -8,42 +8,21 @@ add_ideas = {
 	limited_conscription
 	catholic_idea
 }
-set_politics = {
-
-	parties = {
-		paternalism = { 
-			popularity = 30
-		}
-		
-		authoritarian_democrat = { 
-			popularity = 62
-		}
-		
-		autocratic_despotism = { 
-			popularity = 4
-		}
-		
-		national_autocracy = { 
-			popularity = 1
-		}
-		
-		fangism = { 
-			popularity = 3
-		}
-		
-		social_liberal = { 
-			popularity = 0
-		}
-		
-		solidarism = { 
-			popularity = 0
-		}
-	}
-	
+set_politics = {	
 	ruling_party = authoritarian_democrat
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    paternalism = 30
+    authoritarian_democrat = 62
+    autocratic_despotism = 4
+    national_autocracy = 1
+    fangism = 3
+    social_liberal = 0
+    solidarism = 0
 }
 
 

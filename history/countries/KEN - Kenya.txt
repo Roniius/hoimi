@@ -5,42 +5,21 @@ oob = "generic"
 add_ideas = {
 	catholic_idea
 }
-set_politics = {
-
-	parties = {
-		social_liberal = { 
-			popularity = 40
-		}
-		
-		paternalism = { 
-			popularity = 10
-		}
-		
-		solidarism = { 
-			popularity = 0
-		}
-		
-		authoritarian_democrat = { 
-			popularity = 10
-		}
-		
-		fangism = { 
-			popularity = 40
-		}
-
-		national_autocracy = {
-			popularity = 0
-		}
-		
-		autocratic_despotism = {
-			popularity = 0
-		}
-	}
-	
+set_politics = {	
 	ruling_party = authoritarian_democrat
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    social_liberal = 40
+    paternalism = 10
+    solidarism = 0
+    authoritarian_democrat = 10
+    fangism = 40
+    national_autocracy = 0
+    autocratic_despotism = 0
 }
 
 create_country_leader = {

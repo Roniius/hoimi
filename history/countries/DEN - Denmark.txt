@@ -11,64 +11,24 @@ add_ideas = {
 }
 
 
-set_politics = {
-
-	parties = {
-		fangism = { 
-			popularity = 10
-			banned = yes
-		}
-		
-		liberationism = { 
-			popularity = 10
-			banned = no
-		}
-		
-		solidarism = { 
-			popularity = 10
-			banned = no
-		}
-
-		socialism = {
-			popularity = 10
-			banned = yes
-		}
-		
-		social_liberal = { 
-			popularity = 10
-			banned = yes
-		}
-		
-		market_liberal = { 
-			popularity = 10
-			banned = yes
-		}
-		
-		paternalism = {
-			popularity = 10
-			#banned = no #default is no
-		}
-		
-		authoritarian_democrat = {
-			popularity = 10
-			#banned = no #default is no
-		}
-		
-		autocratic_despotism = {
-			popularity = 10
-			#banned = no #default is no
-		}
-		
-		national_autocracy = {
-			popularity = 10
-			#banned = no #default is no
-		}
-	}
-	
+set_politics = {	
 	ruling_party = autocratic_despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    fangism = 10
+    liberationism = 10
+    solidarism = 10
+    socialism = 10
+    social_liberal = 10
+    market_liberal = 10
+    paternalism = 10
+    authoritarian_democrat = 10
+    autocratic_despotism = 10
+    national_autocracy = 10
 }
 
 create_country_leader = {

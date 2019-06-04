@@ -13,26 +13,17 @@ add_ideas = {
 	catholic_idea
 }
 
-set_politics = {
-
-	parties = {
-		national_autocracy = { 
-			popularity = 60
-		}
-		
-		fangism = { 
-			popularity = 30
-		}
-		
-		social_liberal = { 
-			popularity = 10
-		}
-	}
-	
+set_politics = {	
 	ruling_party = national_autocracy
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    national_autocracy = 60
+    fangism = 30
+    social_liberal = 10
 }
 
 create_country_leader = {

@@ -14,42 +14,21 @@ add_ideas = {
 	catholic_idea
 }
 
-set_politics = {
-
-	parties = {
-		social_liberal = { 
-			popularity = 34
-		}
-		
-		paternalism = { 
-			popularity = 25
-		}
-		
-		solidarism = { 
-			popularity = 39
-		}
-		
-		authoritarian_democrat = { 
-			popularity = 0
-		}
-		
-		fangism = { 
-			popularity = 0
-		}
-
-		national_autocracy = {
-			popularity = 2
-		}
-		
-		autocratic_despotism = {
-			popularity = 0
-		}
-	}
-	
+set_politics = {	
 	ruling_party = solidarism
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    social_liberal = 34
+    paternalism = 25
+    solidarism = 39
+    authoritarian_democrat = 0
+    fangism = 0
+    national_autocracy = 2
+    autocratic_despotism = 0
 }
 
 create_country_leader = {

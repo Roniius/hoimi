@@ -10,29 +10,17 @@ add_ideas = {
 	confucianism_idea
 }
 
-set_politics = {
-
-	parties = {
-		authoritarian_democrat = { 
-			popularity = 5
-			banned = yes
-		}
-
-		social_liberal = {
-			popularity = 5
-			banned = yes
-		}
-		
-		autocratic_despotism = {
-			popularity = 90
-			#banned = no #default is no
-		}
-	}
-	
+set_politics = {	
 	ruling_party = autocratic_despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    authoritarian_democrat = 5
+    social_liberal = 5
+    autocratic_despotism = 90
 }
 
 create_country_leader = {

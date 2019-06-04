@@ -8,64 +8,24 @@ add_ideas = {
 	limited_conscription
 	orthodox_idea
 }
-set_politics = {
-
-	parties = {
-		fangism = { 
-			popularity = 5
-			banned = yes
-		}
-		
-		liberationism = { 
-			popularity = 0
-			banned = no
-		}
-		
-		solidarism = { 
-			popularity = 0
-			banned = no
-		}
-
-		socialism = {
-			popularity = 0
-			banned = yes
-		}
-		
-		social_liberal = { 
-			popularity = 40
-			banned = yes
-		}
-		
-		market_liberal = { 
-			popularity = 40
-			banned = yes
-		}
-		
-		paternalism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
-		authoritarian_democrat = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
-		autocratic_despotism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
-		national_autocracy = {
-			popularity = 15
-			#banned = no #default is no
-		}
-	}
-	
+set_politics = {	
 	ruling_party = social_liberal
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    fangism = 5
+    liberationism = 0
+    solidarism = 0
+    socialism = 0
+    social_liberal = 40
+    market_liberal = 40
+    paternalism = 0
+    authoritarian_democrat = 0
+    autocratic_despotism = 0
+    national_autocracy = 15
 }
 
 

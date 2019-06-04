@@ -10,27 +10,17 @@ add_ideas = {
 	shia_idea
 }
 
-set_politics = {
-
-	parties = {
-		
-		authoritarian_democrat = { 
-			popularity = 56
-		}
-		
-		fangism = { 
-			popularity = 40
-		}
-		
-		national_autocracy = { 
-			popularity = 4
-		}
-	}
-	
+set_politics = {	
 	ruling_party = authoritarian_democrat
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    authoritarian_democrat = 56
+    fangism = 40
+    national_autocracy = 4
 }
 
 create_country_leader = {

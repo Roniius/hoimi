@@ -8,42 +8,21 @@ add_ideas = {
 	limited_conscription
 	sunni_idea
 }
-set_politics = {
-
-	parties = {
-		paternalism = { 
-			popularity = 0
-		}
-		
-		authoritarian_democrat = { 
-			popularity = 10
-		}
-		
-		autocratic_despotism = { 
-			popularity = 50
-		}
-		
-		national_autocracy = { 
-			popularity = 25
-		}
-		
-		fangism = { 
-			popularity = 10
-		}
-		
-		social_liberal = { 
-			popularity = 5
-		}
-		
-		solidarism = { 
-			popularity = 0
-		}
-	}
-	
+set_politics = {	
 	ruling_party = autocratic_despotism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    paternalism = 0
+    authoritarian_democrat = 10
+    autocratic_despotism = 50
+    national_autocracy = 25
+    fangism = 10
+    social_liberal = 5
+    solidarism = 0
 }
 
 create_country_leader = {

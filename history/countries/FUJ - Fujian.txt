@@ -10,18 +10,15 @@ add_ideas = {
 	atheism_idea
 }
 
-set_politics = {
-
-	parties = {
-		fangism = { 
-			popularity = 100
-		}
-	}
-	
+set_politics = {	
 	ruling_party = fangism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    fangism = 100
 }
 
 create_country_leader = {

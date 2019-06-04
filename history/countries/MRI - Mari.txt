@@ -9,64 +9,24 @@ set_technology = {
 set_stability = 0.55
 set_war_support = 0.41
 
-set_politics = {
-
-	parties = {
-		fangism = { 
-			popularity = 0
-			banned = yes
-		}
-		
-		liberationism = { 
-			popularity = 0
-			banned = no
-		}
-		
-		solidarism = { 
-			popularity = 0
-			banned = no
-		}
-
-		socialism = {
-			popularity = 8
-			banned = yes
-		}
-		
-		social_liberal = { 
-			popularity = 20
-			banned = yes
-		}
-		
-		market_liberal = { 
-			popularity = 0
-			banned = yes
-		}
-		
-		paternalism = {
-			popularity = 21
-			#banned = no #default is no
-		}
-		
-		authoritarian_democrat = {
-			popularity = 51
-			#banned = no #default is no
-		}
-		
-		autocratic_despotism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
-		national_autocracy = {
-			popularity = 0
-			#banned = no #default is no
-		}
-	}
-	
+set_politics = {	
 	ruling_party = authoritarian_democrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    fangism = 0
+    liberationism = 0
+    solidarism = 0
+    socialism = 8
+    social_liberal = 20
+    market_liberal = 0
+    paternalism = 21
+    authoritarian_democrat = 51
+    autocratic_despotism = 0
+    national_autocracy = 0
 }
 
 create_country_leader = {

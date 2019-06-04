@@ -15,30 +15,18 @@ puppet = WAT
 puppet = PMA
 puppet = PAJ
 
-set_politics = {
-
-	parties = {
-		autocratic_despotism = { 
-			popularity = 45
-		}
-		
-		paternalism = { 
-			popularity = 10
-		}
-		
-		social_liberal = { 
-			popularity = 15
-		}
-		
-		solidarism = { 
-			popularity = 30
-		}
-	}
-	
+set_politics = {	
 	ruling_party = autocratic_despotism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    autocratic_despotism = 45
+    paternalism = 10
+    social_liberal = 15
+    solidarism = 30
 }
 
 create_country_leader = {

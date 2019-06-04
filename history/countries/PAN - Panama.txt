@@ -11,42 +11,21 @@ add_ideas = {
 	orthodox_idea
 }
 
-set_politics = {
-
-	parties = {
-		authoritarian_democrat = { 
-			popularity = 10
-		}
-		
-		fangism = { 
-			popularity = 0
-		}
-		
-		solidarism = { 
-			popularity = 0
-		}
-		
-		paternalism = { 
-			popularity = 40
-		}
-		
-		national_autocracy = { 
-			popularity = 10
-		}
-		
-		autocratic_despotism = { 
-			popularity = 5
-		}
-		
-		social_liberal = { 
-			popularity = 35
-		}
-	}
-	
+set_politics = {	
 	ruling_party = paternalism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    authoritarian_democrat = 10
+    fangism = 0
+    solidarism = 0
+    paternalism = 40
+    national_autocracy = 10
+    autocratic_despotism = 5
+    social_liberal = 35
 }
 
 create_country_leader = {

@@ -15,66 +15,36 @@ add_ideas = {
 	reformist_idea
 }
 
-set_politics = {
-
-	parties = {
-		paternalism = { 
-			popularity = 45
-		}
-		
-		autocratic_despotism = { 
-			popularity = 10
-		}
-		
-		social_liberal = { 
-			popularity = 45
-		}
-	}
-	
+set_politics = {	
 	ruling_party = paternalism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-INS = {
-	set_politics = {
+set_popularities = {
+    paternalism = 45
+    autocratic_despotism = 10
+    social_liberal = 45
+}
 
-		parties = {
-			paternalism = { 
-				popularity = 9
-			}
-		
-			authoritarian_democrat = { 
-				popularity = 51
-			}
-		
-			autocratic_despotism = { 
-				popularity = 5
-			}
-		
-			national_autocracy = { 
-				popularity = 0
-			}
-		
-			fangism = { 
-				popularity = 15
-			}
-		
-			social_liberal = { 
-				popularity = 0
-			}
-		
-			solidarism = { 
-				popularity = 20
-			}
-		}
-	
+INS = {
+	set_politics = {	
 		ruling_party = authoritarian_democrat
 		last_election = "1933.1.1"
 		election_frequency = 48
 		elections_allowed = no
-	}
+}
+
+    set_popularities = {
+        paternalism = 9
+        authoritarian_democrat = 51
+        autocratic_despotism = 5
+        national_autocracy = 0
+        fangism = 15
+        social_liberal = 0
+        solidarism = 20
+    }
 }
 
 create_country_leader = {

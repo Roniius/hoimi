@@ -15,26 +15,17 @@ set_technology = {
 set_convoys = 300
 
 
-set_politics = {
-
-	parties = {
-		social_liberal = { 
-			popularity = 45
-		}
-		
-		fangism = { 
-			popularity = 5
-		}
-		
-		paternalism = { 
-			popularity = 50
-		}
-	}
-	
+set_politics = {	
 	ruling_party = paternalism
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    social_liberal = 45
+    fangism = 5
+    paternalism = 50
 }
 
 create_country_leader = {

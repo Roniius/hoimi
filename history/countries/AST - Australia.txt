@@ -18,46 +18,22 @@ add_ideas = {
 	atheism_idea
 }
 
-set_politics = {
-
-	parties = {
-		fangism = { 
-			popularity = 21
-		}
-
-		solidarism = {
-			popularity = 25
-		}
-
-		liberationism = {
-			popularity = 29
-		}
-
-		socialism = {
-			popularity = 16
-		}
-		
-		national_autocracy = {
-			popularity = 4
-		}
-		
-		social_liberal = {
-			popularity = 3
-		}
-
-		autocratic_despotism = {
-			popularity = 0
-		}
-
-		authoritarian_democrat = {
-			popularity = 2
-		}
-	}
-	
+set_politics = {	
 	ruling_party = liberationism
 	last_election = "1926.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    fangism = 21
+    solidarism = 25
+    liberationism = 29
+    socialism = 16
+    national_autocracy = 4
+    social_liberal = 3
+    autocratic_despotism = 0
+    authoritarian_democrat = 2
 }
 
 create_country_leader = {

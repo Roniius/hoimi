@@ -11,26 +11,17 @@ add_ideas = {
 	reformist_idea
 }
 
-set_politics = {
-
-	parties = {
-		authoritarian_democrat = { 
-			popularity = 80
-		}
-		
-		autocratic_despotism = { 
-			popularity = 10
-		}
-		
-		social_liberal = { 
-			popularity = 10
-		}
-	}
-	
+set_politics = {	
 	ruling_party = authoritarian_democrat
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    authoritarian_democrat = 80
+    autocratic_despotism = 10
+    social_liberal = 10
 }
 
 create_country_leader = {

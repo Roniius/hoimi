@@ -4,64 +4,24 @@ oob = "generic"
 
 set_cosmetic_tag = CAM_mongol_kamboj_colony
 
-set_politics = {
-
-	parties = {
-		fangism = { 
-			popularity = 0
-			banned = yes
-		}
-		
-		liberationism = { 
-			popularity = 0
-			banned = no
-		}
-		
-		solidarism = { 
-			popularity = 0
-			banned = no
-		}
-
-		socialism = {
-			popularity = 15
-			banned = yes
-		}
-		
-		social_liberal = { 
-			popularity = 10
-			banned = yes
-		}
-		
-		market_liberal = { 
-			popularity = 10
-			banned = yes
-		}
-		
-		paternalism = {
-			popularity = 36
-			#banned = no #default is no
-		}
-		
-		authoritarian_democrat = {
-			popularity = 29
-			#banned = no #default is no
-		}
-		
-		autocratic_despotism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
-		national_autocracy = {
-			popularity = 0
-			#banned = no #default is no
-		}
-	}
-	
+set_politics = {	
 	ruling_party = paternalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    fangism = 0
+    liberationism = 0
+    solidarism = 0
+    socialism = 15
+    social_liberal = 10
+    market_liberal = 10
+    paternalism = 36
+    authoritarian_democrat = 29
+    autocratic_despotism = 0
+    national_autocracy = 0
 }
 
 

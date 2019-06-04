@@ -31,30 +31,18 @@ add_ideas = {
 	SOV_mass_purges
 }
 
-set_politics = {
-
-	parties = {
-		paternalism = { 
-			popularity = 10 #shared between all parties, should add to 100
-		}
-
-		authoritarian_democrat = {
-			popularity = 10
-		}
-		
-		national_autocracy = {
-			popularity = 15
-		}
-		
-		autocratic_despotism = {
-			popularity = 65
-		}
-	}
-	
+set_politics = {	
 	ruling_party = autocratic_despotism
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    paternalism = 10
+    authoritarian_democrat = 10
+    national_autocracy = 15
+    autocratic_despotism = 65
 }
 
 create_country_leader = {

@@ -16,28 +16,16 @@ set_technology = {
 }
 
 
-set_politics = {
-
-	parties = {
-		paternalism = { 
-			popularity = 10 #shared between all parties, should add to 100
-		}
-
-		fangism = {
-			popularity = 10
-		}
-		
-		national_autocracy = {
-			popularity = 15
-		}
-		
-		authoritarian_democrat = {
-			popularity = 65
-		}
-	}
-	
+set_politics = {	
 	ruling_party = authoritarian_democrat
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    paternalism = 10
+    fangism = 10
+    national_autocracy = 15
+    authoritarian_democrat = 65
 }

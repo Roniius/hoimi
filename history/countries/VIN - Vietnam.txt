@@ -10,30 +10,19 @@ add_ideas = {
 	buddhism_idea
 }
 
-set_politics = {
-
-	parties = {
-		social_liberal = { 
-			popularity = 25
-		}
-		paternalism = { 
-			popularity = 25
-		}
-		solidarism = { 
-			popularity = 25
-		}
-		authoritarian_democrat = { 
-			popularity = 13
-		}
-		autocratic_despotism = { 
-			popularity = 12
-		}
-	}
-	
+set_politics = {	
 	ruling_party = paternalism
 	last_election = "1932.4.2"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    social_liberal = 25
+    paternalism = 25
+    solidarism = 25
+    authoritarian_democrat = 13
+    autocratic_despotism = 12
 }
 
 create_country_leader = {

@@ -6,42 +6,21 @@ add_ideas = {
 	hindu_idea
 }
 
-set_politics = {
-
-	parties = {
-		social_liberal = { 
-			popularity = 0
-		}
-		
-		paternalism = { 
-			popularity = 10
-		}
-		
-		solidarism = { 
-			popularity = 15
-		}
-		
-		authoritarian_democrat = { 
-			popularity = 60
-		}
-		
-		fangism = { 
-			popularity = 5
-		}
-
-		national_autocracy = {
-			popularity = 10
-		}
-		
-		autocratic_despotism = {
-			popularity = 0
-		}
-	}
-	
+set_politics = {	
 	ruling_party = authoritarian_democrat
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    social_liberal = 0
+    paternalism = 10
+    solidarism = 15
+    authoritarian_democrat = 60
+    fangism = 5
+    national_autocracy = 10
+    autocratic_despotism = 0
 }
 
 create_country_leader = {

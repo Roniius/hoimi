@@ -8,42 +8,21 @@ add_ideas = {
 	limited_conscription
 	reformist_idea
 }
-set_politics = {
-
-	parties = {
-		paternalism = { 
-			popularity = 6
-		}
-		
-		authoritarian_democrat = { 
-			popularity = 50
-		}
-		
-		autocratic_despotism = { 
-			popularity = 12
-		}
-		
-		national_autocracy = { 
-			popularity = 22
-		}
-		
-		fangism = { 
-			popularity = 0
-		}
-		
-		social_liberal = { 
-			popularity = 9
-		}
-		
-		solidarism = { 
-			popularity = 1
-		}
-	}
-	
+set_politics = {	
 	ruling_party = authoritarian_democrat
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    paternalism = 6
+    authoritarian_democrat = 50
+    autocratic_despotism = 12
+    national_autocracy = 22
+    fangism = 0
+    social_liberal = 9
+    solidarism = 1
 }
 
 

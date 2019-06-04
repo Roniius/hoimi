@@ -10,27 +10,17 @@ add_ideas = {
 	orthodox_idea
 }
 
-set_politics = {
-
-	parties = {
-		
-		authoritarian_democrat = { 
-			popularity = 63
-		}
-		
-		social_liberal = { 
-			popularity = 33
-		}
-		
-		solidarism = { 
-			popularity = 4
-		}
-	}
-	
+set_politics = {	
 	ruling_party = authoritarian_democrat
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    authoritarian_democrat = 63
+    social_liberal = 33
+    solidarism = 4
 }
 
 create_country_leader = {

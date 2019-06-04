@@ -10,64 +10,24 @@ add_ideas = {
 	buddhism_idea
 }
 
-set_politics = {
-
-	parties = {
-		fangism = { 
-			popularity = 25
-			banned = yes
-		}
-		
-		liberationism = { 
-			popularity = 50
-			banned = no
-		}
-		
-		solidarism = { 
-			popularity = 25
-			banned = no
-		}
-
-		socialism = {
-			popularity = 0
-			banned = yes
-		}
-		
-		social_liberal = { 
-			popularity = 0
-			banned = yes
-		}
-		
-		market_liberal = { 
-			popularity = 0
-			banned = yes
-		}
-		
-		paternalism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
-		authoritarian_democrat = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
-		autocratic_despotism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
-		national_autocracy = {
-			popularity = 0
-			#banned = no #default is no
-		}
-	}
-	
+set_politics = {	
 	ruling_party = liberationism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    fangism = 25
+    liberationism = 50
+    solidarism = 25
+    socialism = 0
+    social_liberal = 0
+    market_liberal = 0
+    paternalism = 0
+    authoritarian_democrat = 0
+    autocratic_despotism = 0
+    national_autocracy = 0
 }
 
 create_country_leader = {

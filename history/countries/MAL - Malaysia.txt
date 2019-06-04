@@ -8,42 +8,21 @@ add_ideas = {
 	limited_conscription
 	tengri_idea
 }
-set_politics = {
-
-	parties = {
-		paternalism = { 
-			popularity = 4
-		}
-		
-		authoritarian_democrat = { 
-			popularity = 76
-		}
-		
-		autocratic_despotism = { 
-			popularity = 5
-		}
-		
-		national_autocracy = { 
-			popularity = 10
-		}
-		
-		fangism = { 
-			popularity = 0
-		}
-		
-		social_liberal = { 
-			popularity = 5
-		}
-		
-		solidarism = { 
-			popularity = 0
-		}
-	}
-	
+set_politics = {	
 	ruling_party = authoritarian_democrat
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    paternalism = 4
+    authoritarian_democrat = 76
+    autocratic_despotism = 5
+    national_autocracy = 10
+    fangism = 0
+    social_liberal = 5
+    solidarism = 0
 }
 
 

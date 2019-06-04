@@ -16,42 +16,21 @@ set_technology = {
 set_convoys = 300
 
 
-set_politics = {
-
-	parties = {
-		social_liberal = { 
-			popularity = 20
-		}
-		
-		paternalism = { 
-			popularity = 0
-		}
-		
-		solidarism = { 
-			popularity = 65
-		}
-		
-		authoritarian_democrat = { 
-			popularity = 5
-		}
-		
-		fangism = { 
-			popularity = 5
-		}
-
-		national_autocracy = {
-			popularity = 5
-		}
-		
-		autocratic_despotism = {
-			popularity = 0
-		}
-	}
-	
+set_politics = {	
 	ruling_party = authoritarian_democrat
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    social_liberal = 20
+    paternalism = 0
+    solidarism = 65
+    authoritarian_democrat = 5
+    fangism = 5
+    national_autocracy = 5
+    autocratic_despotism = 0
 }
 
 create_country_leader = {

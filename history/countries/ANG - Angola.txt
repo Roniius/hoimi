@@ -11,29 +11,17 @@ add_ideas = {
 	catholic_idea
 }
 
-set_politics = {
-
-	parties = {
-		authoritarian_democrat = { 
-			popularity = 60
-			banned = yes
-		}
-
-		solidarism = {
-			popularity = 20
-			banned = yes
-		}
-		
-		autocratic_despotism = {
-			popularity = 20
-			#banned = no #default is no
-		}
-	}
-	
+set_politics = {	
 	ruling_party = authoritarian_democrat
 	last_election = "1935.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    authoritarian_democrat = 60
+    solidarism = 20
+    autocratic_despotism = 20
 }
 
 create_country_leader = {

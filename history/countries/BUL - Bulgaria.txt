@@ -12,30 +12,18 @@ add_ideas = {
 	orthodox_idea
 }
 
-set_politics = {
-
-	parties = {
-		autocratic_despotism = { 
-			popularity = 11
-		}
-		
-		national_autocracy = { 
-			popularity = 21
-		}
-		
-		social_liberal = { 
-			popularity = 32
-		}
-		
-		paternalism = { 
-			popularity = 36
-		}
-	}
-	
+set_politics = {	
 	ruling_party = social_liberal
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    autocratic_despotism = 11
+    national_autocracy = 21
+    social_liberal = 32
+    paternalism = 36
 }
 
 #The Palaiologos Royal House
