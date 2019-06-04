@@ -1,0 +1,38 @@
+###############################
+# Ostcasa National Focus Tree #
+# By Roniius                  #
+###############################
+
+focus_tree = {
+	id = ostcasa_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = AST
+		}
+	}
+
+  focus = {
+		id = AST_Elections_of_1932
+		icon = GFX_focus_unknown
+    cost = 10
+		x = 2
+		y = 0
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AST_Elections_of_1932"
+		}
+	}
+
+}
