@@ -55,3 +55,12 @@
  AST_autocratic_despotism_party_long:0 "Monarkikos"
  AST_national_autocracy_party:0 "Movimientse Ny Ostcasa"
  AST_national_autocracy_party_long:0 "Movimientse Ny Ostcasa"
+
+ ### National Spirits ###
+
+ AST_Party_Factionalism:0 "Party Factionalism"
+ AST_Party_Factionalism_desc:0 "The Peasant's Party of Ostcasa is far from united. From the days of re-unification under Stapel, there has been internal factionalism within the party, so much so that the Stapelists are steadily losing influence. The party is split mainly between the Stapelists, the Liberationists, the Storstists, and the Moderates. All of them have their own agendas that they seek to fulfill, and with the political sphere opening up more and more for the first time in decades, these factions fight for dominance within Ostcasa."
+ AST_Unindustrialized_Country:0 "Unindustrialized Nation"
+ AST_Unindustrialized_Country_desc:0 "The Nation of Ostcasa is severely unindustrialized. From the day he took over, Jaedon Karl Stapel has been focusing on agrarian reform. These reforms have made agriculture fairer and more productive. However, there is still a looming problem in Ostcasa. With Ostcasa as an emerging power in the world, it has little to no industry, and the only industry it does have is small and concentrated in big cities. This cannot go on for longer if Ostcasa is to protect its sovereignty and extend its power in the world."
+ AST_Protector_of_the_Barean:0 "Protector of the Barean"
+ AST_Protector_of_the_Barean_desc:0 "The Union of Ostcasa has devoted itself to protecting Ordaism worldwide and especially in the Barean Ocean. For this, it has created the Ordaist League, of which all Ordaist countries may become a part of to protect their interests. The Ostcasan people are known for their fighting spirit, especially in the revolutions that shook off Spanish colonial rule. Ostcasa will stand forevermore a bastion of Liberty and Unity in the Barean and in the world!"

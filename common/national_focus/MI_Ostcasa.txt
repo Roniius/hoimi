@@ -16,10 +16,10 @@ focus_tree = {
 	}
 
   focus = {
-		id = AST_Elections_of_1932
+		id = AST_Ledbergs_Liberation
 		icon = GFX_focus_unknown
     cost = 10
-		x = 2
+		x = 4
 		y = 0
 
 		ai_will_do = {
@@ -31,8 +31,223 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus AST_Elections_of_1932"
+			log = "[GetDateText]: [Root.GetName]: Focus AST_Ledbergs_Liberation"
 		}
 	}
 
+	focus = {
+		id = AST_Empower_the_Unions
+		icon = GFX_focus_unknown
+    cost = 10
+		relative_position_id = AST_Ledbergs_Liberation
+		x = -2
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+		prerequisite = {
+			focus = AST_Ledbergs_Liberation
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AST_Empower_the_Unions"
+		}
+	}
+
+	focus = {
+		id = AST_Shorten_Working_Hours
+		icon = GFX_focus_unknown
+    cost = 10
+		relative_position_id = AST_Empower_the_Unions
+		x = 0
+		y = 2
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+		prerequisite = {
+			focus = AST_Empower_the_Unions
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AST_Shorten_Working_Hours"
+		}
+	}
+
+	focus = {
+		id = AST_Ordaist_Democracy
+		icon = GFX_focus_unknown
+    cost = 10
+		relative_position_id = AST_Ledbergs_Liberation
+		x = 0
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+		prerequisite = {
+			focus = AST_Ledbergs_Liberation
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AST_Ordaist_Democracy"
+		}
+	}
+
+	focus = {
+		id = AST_Raise_Incomes
+		icon = GFX_focus_unknown
+    cost = 10
+		relative_position_id = AST_Ordaist_Democracy
+		x = -1
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+		prerequisite = {
+			focus = AST_Ordaist_Democracy
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AST_Raise_Incomes"
+		}
+	}
+
+	focus = {
+		id = AST_Depower_the_Military
+		icon = GFX_focus_unknown
+    cost = 10
+		relative_position_id = AST_Ordaist_Democracy
+		x = 1
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+		prerequisite = {
+			focus = AST_Ordaist_Democracy
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AST_Depower_the_Military"
+		}
+	}
+
+	focus = {
+		id = AST_Decentralize_the_Party
+		icon = GFX_focus_unknown
+    cost = 10
+		relative_position_id = AST_Depower_the_Military
+		x = 0
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+		prerequisite = {
+			focus = AST_Depower_the_Military
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AST_Decentralize_the_Party"
+		}
+	}
+
+	focus = {
+		id = AST_Improve_Indigenous_Rights
+		icon = GFX_focus_unknown
+    cost = 10
+		relative_position_id = AST_Ledbergs_Liberation
+		x = 2
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+		prerequisite = {
+			focus = AST_Ledbergs_Liberation
+			focus = AST_Cardenas_Revolution
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AST_Improve_Indigenous_Rights"
+		}
+	}
+
+	focus = {
+		id = AST_Falks_Clique
+		icon = GFX_focus_unknown
+    cost = 10
+		x = 10
+		y = 0
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AST_Falks_Clique"
+		}
+	}
+
+	focus = {
+		id = AST_Cardenas_Revolution
+		icon = GFX_focus_unknown
+    cost = 10
+		x = 7
+		y = 0
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AST_Cardenas_Revolution"
+		}
+	}
 }

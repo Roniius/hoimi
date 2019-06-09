@@ -1,0 +1,35 @@
+ideas = {
+	country = {
+		AST_Party_Factionalism = {
+      on_add = {log = "[GetDateText]: [Root.GetName]: add idea AST_Party_Factionalism"}
+      picture = generic_purge
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = -0.05
+				political_power_factor = -0.25
+			}
+		}
+    AST_Unindustrialized_Country = {
+      on_add = {log = "[GetDateText]: [Root.GetName]: add idea AST_Unindustrialized_Country"}
+      picture = FRA_factory_strikes
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = -0.1
+				production_factory_max_efficiency_factor = -0.2
+				production_factory_efficiency_gain_factor = -0.05
+			}
+		}
+    AST_Protector_of_the_Barean = {
+      on_add = {log = "[GetDateText]: [Root.GetName]: add idea AST_Protector_of_the_Barean"}
+      picture = ast_naval_auxiliary_patrol
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.1
+				conscription = 0.006
+        army_defence_factor = 0.1
+        army_morale_factor = 0.1
+			}
+		}
+  }
+}
