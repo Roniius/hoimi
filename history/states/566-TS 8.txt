@@ -1,7 +1,7 @@
 state={
 	id=566
 	name="STATE_566" #Irktusk
-	
+
 	state_category = rural
 	resources={
 		steel=20 # was: 28.000
@@ -11,7 +11,7 @@ state={
 	history={
 		owner = MON
 		victory_points = {
-			4797 3 
+			4797 3
 		}
 		buildings = {
 			infrastructure = 4
@@ -24,7 +24,7 @@ state={
 	}
 
 	provinces={
-		1707 1727 1762 1810 1829 4797 4815 7838 10524 10543 10596 10661 12525 12540 12647 13152 
+		1707 1727 1762 1829 4797 4815 7838 10524 10543 10596 10661 12525 12540 12647 13152
 	}
 	manpower=755237
 	buildings_max_level_factor=1.000

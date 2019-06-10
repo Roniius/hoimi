@@ -35,12 +35,12 @@
 
  ### Political Parties ###
 
- AST_fangism_party:0 "Parti Bondinos (S)"
+ AST_fangism_party:0 "Parti Bondinos (Stö)"
  AST_fangism_party_long:0 "Parti Bondinos (Störsto)"
- AST_liberationism_party:0 "Parti Bondinos (L)"
- AST_liberationism_party_long:0 "Parti Bondinos (Liberationisto)"
- AST_solidarism_party:0 "Parti Bondinos (S)"
- AST_solidarism_party_long:0 "Parti Bondinos (Stapelo)"
+ AST_liberationism_party:0 "Parti Bondinos (Sta)"
+ AST_liberationism_party_long:0 "Parti Bondinos (Stapelo)"
+ AST_solidarism_party:0 "Parti Bondinos (L)"
+ AST_solidarism_party_long:0 "Parti Bondinos (Liberationisto)"
  AST_socialism_party:0 "Parti Bondinos (M)"
  AST_socialism_party_long:0 "Parti Bondinos (Moderato)"
  AST_social_liberal_party:0 "Liga Liberal"
@@ -64,3 +64,15 @@
  AST_Unindustrialized_Country_desc:0 "The Nation of Ostcasa is severely unindustrialized. From the day he took over, Jaedon Karl Stapel has been focusing on agrarian reform. These reforms have made agriculture fairer and more productive. However, there is still a looming problem in Ostcasa. With Ostcasa as an emerging power in the world, it has little to no industry, and the only industry it does have is small and concentrated in big cities. This cannot go on for longer if Ostcasa is to protect its sovereignty and extend its power in the world."
  AST_Protector_of_the_Barean:0 "Protector of the Barean"
  AST_Protector_of_the_Barean_desc:0 "The Union of Ostcasa has devoted itself to protecting Ordaism worldwide and especially in the Barean Ocean. For this, it has created the Ordaist League, of which all Ordaist countries may become a part of to protect their interests. The Ostcasan people are known for their fighting spirit, especially in the revolutions that shook off Spanish colonial rule. Ostcasa will stand forevermore a bastion of Liberty and Unity in the Barean and in the world!"
+
+ ### Foci ###
+
+ AST_Ledbergs_Liberation:0 "Ledberg's Ostcasa"
+ AST_Empower_the_Unions:0 "Empower the Unions"
+ AST_Shorten_Working_Hours:0 "Shorten Working Hours"
+ AST_Ordaist_Democracy:0 "Ordaist Democracy"
+ AST_Improve_Indigenous_Rights:0 "Guarantee Indigenous Peoples' Rights"
+ AST_Raise_Incomes:0 "Raise Incomes"
+ AST_Depower_the_Military:0 "Depower the Military"
+ AST_Decentralize_the_Party:0 "Decentralize the Party"
+ AST_The_New_Workers_Nation:0 "Workers' Paradise"

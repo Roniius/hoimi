@@ -1,0 +1,21 @@
+
+state={
+	id=834
+	name="STATE_834"
+	manpower = 582121
+
+	state_category = rural
+
+	history={
+		owner = MON
+		add_core_of = MON
+		buildings = {
+			infrastructure = 4
+      industrial_complex = 1
+		}
+	}
+
+	provinces={
+    1868 4732 4801 4862 7749 7752 7823 7885 12533
+	}
+}

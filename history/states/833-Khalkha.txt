@@ -1,0 +1,24 @@
+
+state={
+	id=833
+	name="STATE_833"
+	manpower = 1024989
+
+	state_category = large_town
+
+	history={
+		owner = MON
+		add_core_of = MON
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+		}
+    victory_points = {
+			1787 2
+		}
+	}
+
+	provinces={
+    1787 4729 10558 10632 10689 12539 12669 12686
+	}
+}

@@ -1,8 +1,8 @@
 
 state={
-	id=654
-	name="STATE_654" # Gorno-Altaysk
-	manpower = 153510
+	id=830
+	name="STATE_830"
+	manpower = 264920
 
 	state_category = town
 
@@ -15,6 +15,6 @@ state={
 	}
 
 	provinces={
-		1749 1818 4781 4800 10531 10713 12427 12509
+		1685 1702 1816 7822 10580 10649
 	}
 }

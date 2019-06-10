@@ -22,7 +22,7 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = solidarism
+	ruling_party = liberationism
 	last_election = "1926.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -55,22 +55,22 @@ create_country_leader = {
 	desc = "POLITICS_JAEDON_KARL_STAPEL_DESC"
 	picture = "Portrait_AST_Jaedon_Karl_Stapel.dds"
 	expire = "1965.1.1"
-	ideology = solidarism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Norberto Pinero"
-	desc = "POLITICS_NORBERTO_PINERO_DESC"
-	picture = "Portrait_AST_Norberto_Pinero.dds"
-	expire = "1965.1.1"
 	ideology = liberationism_subtype
 	traits = {
 		#
 	}
 }
+
+#create_country_leader = {
+#	name = "Norberto Pinero"
+#	desc = "POLITICS_NORBERTO_PINERO_DESC"
+#	picture = "Portrait_AST_Norberto_Pinero.dds"
+#	expire = "1965.1.1"
+#	ideology = liberationism_subtype
+#	traits = {
+#		#
+#	}
+#}
 
 create_country_leader = {
 	name = "Juan Lund"

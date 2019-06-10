@@ -10,14 +10,14 @@ state={
 	}
 
 	history={
-		owner = MON
+		owner = SIB
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = MON
+		add_core_of = SIB
 	}
 
 	provinces={
-		1666 1761 1792 4716 4737 4762 4795 4835 4855 4868 7736 7759 7854 7889 10583 10654 12506 12538 12565 12575 
+		1666 1792 4737 4762 4795 4855 4868 7759 7889 10583 10654 12538 12565
 	}
 }
