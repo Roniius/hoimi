@@ -2,20 +2,20 @@ state={
 	id=98
 	name="STATE_98"
 	manpower = 1412100
-	
+
 	state_category = rural
 	history={
 		victory_points = {
 			3230 5
 		}
-		owner = RUS
+		owner = POL
 		buildings = {
 			infrastructure = 6
 		}
-		add_core_of = RUS
+		add_core_of = POL
 	}
 
 	provinces={
-		3230 3295 6259 6321 6347 6567 9290 9316 11385 
+		3230 3295 6259 6321 6347 6567 9290 9316 11274 11329 11385
 	}
 }

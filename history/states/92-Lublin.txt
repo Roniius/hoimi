@@ -4,21 +4,21 @@ state={
 
 	history={
 		victory_points = {
-			11399 1 
+			11399 1
 		}
-		owner = LEC
+		owner = POL
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
 			air_base = 1
 
 		}
-		add_core_of = LEC
+		add_core_of = POL
 
 	}
 
 	provinces={
-		3521 3559 6484 6580 9452 9521 9544 11399 11466 
+		3521 3559 6484 6580 9452 9521 9544 11399 11466
 	}
 	manpower=2464600
 	buildings_max_level_factor=1.000

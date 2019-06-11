@@ -7,11 +7,11 @@ state={
 		steel=23 # was: 36
 		aluminium=8 # was: 12
 	}
-	
+
 	state_category = town
 
 	history={
-		owner = NRD
+		owner = POL
 		victory_points = {
 			6282 5
 		}
@@ -30,10 +30,10 @@ state={
 			}
 			air_base = 3
 		}
-		add_core_of = NRD
+		add_core_of = POL
 	}
 
 	provinces={
-		6282 6309 6334 6390 9252 9277 9306 9334 9361 11260 11288 11316 11343 11372 
+		6282 6309 6334 6390 9252 9277 9306 9334 9361 11260 11288 11316 11343 11372
 	}
 }

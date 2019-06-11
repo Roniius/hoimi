@@ -3,18 +3,18 @@ state={
 	id=803
 	name="STATE_803"
 	manpower = 172061
-	
+
 	state_category = rural
 
 	history={
-		owner = LEC
+		owner = POL
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = LEC
+		add_core_of = POL
 	}
 
 	provinces={
-		506 479 11558 
+		506 479 3283 3510 6462 9470 11558
 	}
 }
