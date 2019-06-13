@@ -9,6 +9,13 @@ spriteTypes = {
         }
 
         textSpriteType = {
+                name = "GFX_main_lobby_button_play"
+                textureFile = "gfx/interface/main_lobby_button_play.dds"
+                noOfFrames = 3
+                effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+        }
+
+        textSpriteType = {
                 name = "GFX_main_lobby_button_multi"
                 textureFile = "gfx/interface/main_lobby_button_multi.dds"
                 noOfFrames = 3

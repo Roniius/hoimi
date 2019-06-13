@@ -95,7 +95,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "sp_continue_button"
-			position = { x = -634 y = 200 }
+			position = { x = -634 y = 150 }
 			quadTextureSprite ="GFX_main_lobby_button"
 			buttonText = "FE_CONTINUE"
 			buttonFont = "hoi_24header"
@@ -103,41 +103,41 @@ guiTypes = {
 			oversound = ui_menu_over
 		}
 
-		iconType = {
-			name = "sp_continue_flag_left"
-			#quadTextureSprite ="GFX_flag_small2_not_masked"
-			position = { x= -596 y = 204 }
-			Orientation = "UPPER_LEFT"
-			alwaystransparent = yes
-		}
+		#iconType = {
+		#	name = "sp_continue_flag_left"
+		#	#quadTextureSprite ="GFX_flag_small2_not_masked"
+		#	position = { x= -596 y = 204 }
+		#	Orientation = "UPPER_LEFT"
+		#	alwaystransparent = yes
+		#}
 
-		iconType = {
-			name = "sp_continue_flag_left_overlay"
-			#quadTextureSprite ="GFX_flag_small2_not_masked"
-			position = { x= -596 y = 204 }
-			Orientation = "UPPER_LEFT"
-			alwaystransparent = yes
-		}
+		#iconType = {
+		#	name = "sp_continue_flag_left_overlay"
+		#	#quadTextureSprite ="GFX_flag_small2_not_masked"
+		#	position = { x= -596 y = 204 }
+		#	Orientation = "UPPER_LEFT"
+		#	alwaystransparent = yes
+		#}
 
-		iconType = {
-			name = "sp_continue_flag_right"
-			#quadTextureSprite ="GFX_flag_small2_not_masked"
-			position = { x= -367 y = 204 }
-			Orientation = "UPPER_LEFT"
-			alwaystransparent = yes
-		}
+		#iconType = {
+		#	name = "sp_continue_flag_right"
+		#	#quadTextureSprite ="GFX_flag_small2_not_masked"
+		#	position = { x= -367 y = 204 }
+		#	Orientation = "UPPER_LEFT"
+		#	alwaystransparent = yes
+		#}
 
-		iconType = {
-			name = "sp_continue_flag_right_overlay"
-			#quadTextureSprite ="GFX_flag_small2_not_masked"
-			position = { x= -367 y = 204 }
-			Orientation = "UPPER_LEFT"
-			alwaystransparent = yes
-		}
+		#iconType = {
+		#	name = "sp_continue_flag_right_overlay"
+		#	#quadTextureSprite ="GFX_flag_small2_not_masked"
+		#	position = { x= -367 y = 204 }
+		#	Orientation = "UPPER_LEFT"
+		#	alwaystransparent = yes
+		#}
 
 		ButtonType = {
 			name = "sp_new_button"
-			position = { x = -309 y = 200 }
+			position = { x = -309 y = 150 }
 			quadTextureSprite ="GFX_main_lobby_button"
 			buttonText = "FE_NEW"
 			buttonFont = "hoi_24header"
@@ -147,7 +147,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "sp_load_button"
-			position = {  x = 16 y = 200 }
+			position = {  x = 16 y = 150 }
 			quadTextureSprite ="GFX_main_lobby_button"
 			buttonText = "MENU_BAR_LOAD"
 			buttonFont = "hoi_24header"
@@ -157,7 +157,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "sp_tutorial_button"
-			position = { x = 341 y = 200 }
+			position = { x = 341 y = 150 }
 			quadTextureSprite ="GFX_main_lobby_button"
 			buttonText = "FE_TUTORIAL"
 			buttonFont = "hoi_24header"
@@ -167,7 +167,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "sp_back_button"
-			position = { x = 666 y = 200 }
+			position = { x = 666 y = 150 }
 			quadTextureSprite ="GFX_main_lobby_button"
 			buttonText = "BACK"
 			buttonFont = "hoi_24header"
@@ -193,7 +193,7 @@ guiTypes = {
 		ButtonType = {
 			name = "single_player_button"
 			position = { x = -634 y = 150 }
-			quadTextureSprite ="GFX_main_lobby_button"
+			quadTextureSprite ="GFX_main_lobby_button_play"
 			font = "hoi_24header"
 			#text = "FE_SINGLE_PLAYER"
 			clicksound = click_default
