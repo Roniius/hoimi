@@ -15,6 +15,27 @@ spriteTypes = {
                 effectFile = "gfx/FX/buttonstate_onlydisable.lua"
         }
 
+        textSpriteType = {
+                name = "GFX_main_lobby_button_options"
+                textureFile = "gfx/interface/main_lobby_button_options.dds"
+                noOfFrames = 3
+                effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+        }
+
+        textSpriteType = {
+                name = "GFX_main_lobby_button_credits"
+                textureFile = "gfx/interface/main_lobby_button_credits.dds"
+                noOfFrames = 3
+                effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+        }
+
+        textSpriteType = {
+                name = "GFX_main_lobby_button_exit"
+                textureFile = "gfx/interface/main_lobby_button_exit.dds"
+                noOfFrames = 3
+                effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+        }
+
         spriteType = {
                 name = "GFX_frontend_game_logo"
                 texturefile = "gfx/interface/logo_game.dds"
