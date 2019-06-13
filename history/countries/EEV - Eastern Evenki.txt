@@ -1,0 +1,34 @@
+capital = 841
+
+# Starting tech
+set_technology = {
+	#
+}
+
+oob = "generic"
+
+add_ideas = {
+	limited_conscription
+}
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    authoritarian_democrat = 100
+}
+
+create_country_leader = {
+	name = "Thanos"
+	desc = "POLITICS_THANOS_DESC"
+	picture = "Portrait_KET_THANOS.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}

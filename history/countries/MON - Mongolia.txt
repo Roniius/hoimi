@@ -45,6 +45,13 @@ set_popularities = {
 }
 
 puppet = CAM
+puppet = KET
+puppet = DLG
+puppet = YKT
+puppet = WEV
+puppet = EEV
+puppet = EVE
+puppet = KGY
 
 
 create_country_leader = {

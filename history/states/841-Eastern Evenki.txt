@@ -1,0 +1,20 @@
+
+state={
+	id=841
+	name="STATE_841"
+	manpower = 34059
+
+	state_category = wasteland
+
+	history={
+		owner = EEV
+		add_core_of = EEV
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+    1714 1805 4810 4881 7772 10572 10598 12518
+	}
+}

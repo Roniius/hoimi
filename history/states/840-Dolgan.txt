@@ -1,0 +1,20 @@
+
+state={
+	id=840
+	name="STATE_840"
+	manpower = 9581
+
+	state_category = wasteland
+
+	history={
+		owner = DLG
+		add_core_of = DLG
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+    2923 2972 4692 4859 11261 11328 12687 13064 13065
+	}
+}

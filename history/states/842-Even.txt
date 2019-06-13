@@ -1,0 +1,23 @@
+
+state={
+	id=842
+	name="STATE_842"
+	manpower = 34059
+
+	state_category = wasteland
+
+	history={
+		owner = EVE
+		add_core_of = EVE
+		buildings = {
+			infrastructure = 1
+      13204 ={
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+    1819 1865 4006 4229 4455 5264 11607 12551 12592 12634 12683 13061 13062 13063 13204
+	}
+}

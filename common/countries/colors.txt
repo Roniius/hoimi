@@ -30,7 +30,7 @@ BEL = { color 	 = rgb { 127 0 0  }
 HOL = {	color = rgb { 203 138 74 }
 		color_ui = rgb { 255 179 96 }
 }
-CZE = {	
+CZE = {
 	color = rgb { 186  43  26 }
 	color_ui = rgb { 186  43  26 }
 }
@@ -263,7 +263,6 @@ USA = {
 	color_ui = rgb { 87 160 255 }
 }
 MON = {
-	#color = HSV { 0.1 0.15 0.4 }
 	color = rgb { 23 166 244 }
 	color_ui = rgb { 23 166 244 }
 }
@@ -375,7 +374,7 @@ ICE = {
 
 UKR = {
 	color = rgb { 165  0  132 }
-	color_ui = rgb { 165  0  132 }	
+	color_ui = rgb { 165  0  132 }
 }
 
 AZR = {
@@ -470,7 +469,7 @@ DDR = {
 }
 KOR = {
 	color = rgb { 0  127  14 }
-	color_ui = rgb { 0  127  14 }	
+	color_ui = rgb { 0  127  14 }
 }
 ISR = {
 	color = rgb { 152  130  191 }
@@ -585,8 +584,8 @@ DAN = {
 	color_ui = rgb { 54  84  55 }
 }
 PRS = {
-	color = rgb { 71  86  130 } 
-	color_ui = rgb { 71  86  130 } 
+	color = rgb { 71  86  130 }
+	color_ui = rgb { 71  86  130 }
 }
 OTO = {
 	color = rgb { 242  176  77 }
@@ -603,7 +602,7 @@ NCO = {
 SCO = {
 	color = rgb { 74  111  174 }
 	color_ui = rgb { 74  111  174 }
-} 
+}
 WAL = {
 	color = rgb { 194  171  132 }
 	color_ui = rgb { 194  171  132 }
@@ -849,20 +848,20 @@ TAM = {
 	color_ui = rgb { 57  143  202 }
 }
 GOR = {
-	color = rgb { 205 32 26 } 
-	color_ui = rgb { 205 32 26 } 
+	color = rgb { 205 32 26 }
+	color_ui = rgb { 205 32 26 }
 }
 SVE = {
-	color = rgb { 250 241 0 } 
-	color_ui = rgb { 250 241 0 } 
+	color = rgb { 250 241 0 }
+	color_ui = rgb { 250 241 0 }
 }
 TUL = {
 	color = rgb { 127 175 158 }
-	color_ui = rgb { 127 175 158 } 
+	color_ui = rgb { 127 175 158 }
 }
 BOR = {
 	color = rgb { 134 7 27 }
-	color_ui = rgb { 134 7 27 } 
+	color_ui = rgb { 134 7 27 }
 }
 MOS = {
 	color = rgb { 168 0 44 }
@@ -1011,4 +1010,32 @@ D14 = {
 D15 = {
 	color = rgb { 194 140 86 }
 	color_ui = rgb { 252 182 112 }
+}
+KET = {
+	color = rgb { 23 166 244 }
+	color_ui = rgb { 23 166 244 }
+}
+YKT = {
+	color = rgb { 23 166 244 }
+	color_ui = rgb { 23 166 244 }
+}
+EEV = {
+	color = rgb { 23 166 244 }
+	color_ui = rgb { 23 166 244 }
+}
+KGY = {
+	color = rgb { 23 166 244 }
+	color_ui = rgb { 23 166 244 }
+}
+WEV = {
+	color = rgb { 23 166 244 }
+	color_ui = rgb { 23 166 244 }
+}
+DLG = {
+	color = rgb { 23 166 244 }
+	color_ui = rgb { 23 166 244 }
+}
+EVE = {
+	color = rgb { 23 166 244 }
+	color_ui = rgb { 23 166 244 }
 }

@@ -3,19 +3,16 @@ state={
 	name="STATE_644"
 
 	history={
-		owner = MON
-		add_core_of = MON
+		owner = YKT
+		add_core_of = YKT
 		buildings = {
 			infrastructure = 1
-			13204 ={
-				naval_base = 1
-			}
 		}
 
 	}
 
 	provinces={
-		1714 1722 1745 1819 1865 2853 2877 3184 4006 4229 4455 4744 4878 5264 6211 10540 10572 11607 12518 12551 12549 12592 12634 12683 13061 13062 13063 13204
+		1722 1745 2853 2877 3184 4878 6211 12549
 	}
 	manpower=68364
 	buildings_max_level_factor=1

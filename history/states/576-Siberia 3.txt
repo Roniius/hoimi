@@ -7,14 +7,14 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = MON
-		add_core_of = MON
+		owner = WEV
+		add_core_of = WEV
 		buildings = {
 			infrastructure = 1
 		}
 	}
 
 	provinces={
-		1697 1741 1780 1837 4687 4743 4785 4831 4842 7701 7707 7805 7863 10544 10631 12555 12595 12615 12655 12666
+		1697 1741 1837 4703 4743 4812 4842 7805 7863 10628 10631 10688 12531 12668 12681
 	}
 }

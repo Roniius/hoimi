@@ -1,0 +1,23 @@
+
+state={
+	id=839
+	name="STATE_839"
+	manpower = 28502
+
+	state_category = rural
+
+	history={
+		owner = KET
+		add_core_of = KET
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			4724 1
+		}
+	}
+
+	provinces={
+    1777 1780 1850 4687 4724 4785 4831 7701 7707 7744 7815 10544 10607 12555 12595 12615 12643 12655 12666
+	}
+}

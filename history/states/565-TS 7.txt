@@ -10,14 +10,14 @@ state={
 	}
 
 	history={
-		owner = MON
+		owner = YKT
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = MON
+		add_core_of = YKT
 	}
 
 	provinces={
-		1666 1792 4737 4762 4795 4855 4868 7759 7889 10583 10654 12538 12565
+		1666 1792 1795 4726 4737 4762 4795 4821 4855 4868 7726 7759 7889 10583 10654 10714 12538 12565 12608
 	}
 }
