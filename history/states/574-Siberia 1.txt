@@ -3,12 +3,12 @@ state={
 	id=574
 	name="STATE_574" # Yakutsk
 	manpower = 407866
-	
+
 	state_category = wasteland
 
 	history={
-		owner = SIB
-		add_core_of = SIB
+		owner = MON
+		add_core_of = MON
 		victory_points = {
 			10641 1
 		}
@@ -19,6 +19,6 @@ state={
 	}
 
 	provinces={
-		1795 1852 1878 4726 4798 4821 7746 7765 7817 10589 10641 10701 10714 12611 12623 
+		1795 1852 1878 4726 4798 4821 7746 7765 7817 10589 10641 10701 10714 12611 12623
 	}
 }

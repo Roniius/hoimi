@@ -4,8 +4,8 @@ state={
 	name="STATE_637"
 
 	history={
-		owner = SIB
-		add_core_of = SIB
+		owner = MON
+		add_core_of = MON
 		buildings = {
 			infrastructure = 2
 			12207 = {
@@ -18,7 +18,7 @@ state={
 	}
 
 	provinces={
-		1823 1839 1863 4728 7878 12207 12522 
+		1823 1839 1863 4728 7878 12207 12522
 	}
 	manpower=48831
 	buildings_max_level_factor=1

@@ -1,0 +1,20 @@
+
+state={
+	id=838
+	name="STATE_838" # Northwestern Siberia
+	manpower = 10285
+
+	state_category = wasteland
+
+	history={
+		owner = SIB
+		add_core_of = SIB
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		96 1729 3336 3415 4733 4761 10536 10564 10635 12545
+	}
+}
