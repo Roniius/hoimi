@@ -1,0 +1,37 @@
+capital = 439
+
+oob = "generic"
+
+add_ideas = {
+  sunni_idea
+  MGH_Mughal_Decline
+  MGH_Unhappy_Subjects
+}
+
+set_politics = {
+	ruling_party = autocratic_despotism
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    social_liberal = 0
+    paternalism = 11
+    solidarism = 0
+    authoritarian_democrat = 15
+    fangism = 1
+    national_autocracy = 25
+    autocratic_despotism = 48
+}
+
+create_country_leader = {
+	name = "Bahadur Shah III"
+	desc = "POLITICS_BAHADUR_SHAH_III_DESC"
+	picture = "Portrait_MGH_Bahadur_Shah.dds"
+	expire = "1965.1.1"
+	ideology = autocratic_despotism_subtype
+	traits = {
+
+	}
+}

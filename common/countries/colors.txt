@@ -167,8 +167,8 @@ ELS = {
 	color_ui = rgb { 0  106  181 }
 }
 ETH = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 173 178 123 }
+	color_ui = rgb { 133 137 93 }
 }
 GUA = {
 	color = rgb { 72 49 112 }
@@ -1038,4 +1038,8 @@ DLG = {
 EVE = {
 	color = rgb { 23 166 244 }
 	color_ui = rgb { 23 166 244 }
+}
+MGH = {
+	color = rgb { 88 119 95 }
+	color_ui = rgb { 63 86 68 }
 }
