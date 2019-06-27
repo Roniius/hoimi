@@ -242,7 +242,7 @@ focus_tree = {
 
 	focus = {
 		id = AST_Falks_Clique
-		icon = GFX_focus_unknown
+		icon = GFX_PRF_integrate_BHC
     cost = 10
 		x = 12
 		y = 0
@@ -262,7 +262,7 @@ focus_tree = {
 
 	focus = {
 		id = AST_Cardenas_Revolution
-		icon = GFX_focus_unknown
+		icon = GFX_goal_revolution
     cost = 10
 		x = 8
 		y = 0
@@ -277,6 +277,395 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AST_Cardenas_Revolution"
+		}
+	}
+
+	focus = {
+		id = AST_Power_to_the_Chairman
+		icon = GFX_focus_SOV_tighter_grip_politics
+    cost = 10
+		relative_position_id = AST_Cardenas_Revolution
+		x = 0
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+		prerequisite = {
+			focus = AST_Cardenas_Revolution
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AST_Power_to_the_Chairman"
+		}
+	}
+
+	focus = {
+		id = AST_The_National_Intelligence_Agency
+		icon = GFX_goal_NOR_secret_police
+    cost = 10
+		relative_position_id = AST_Cardenas_Revolution
+		x = -1
+		y = 2
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+		prerequisite = {
+			focus = AST_Cardenas_Revolution
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AST_The_National_Intelligence_Agency"
+		}
+	}
+
+	focus = {
+		id = AST_Purge_Rightists
+		icon = GFX_goal_purge_opposition
+    cost = 10
+		relative_position_id = AST_Cardenas_Revolution
+		x = 1
+		y = 2
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+		prerequisite = {
+			focus = AST_Cardenas_Revolution
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AST_Purge_Rightists"
+		}
+	}
+
+	focus = {
+		id = AST_Anti_Religious_Campaign
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+    cost = 10
+		relative_position_id = AST_Purge_Rightists
+		x = 1
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+		prerequisite = {
+			focus = AST_Purge_Rightists
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AST_Anti_Religious_Campaign"
+		}
+	}
+
+	focus = {
+		id = AST_Ordaist_Education
+		icon = GFX_goal_KTG_Educate_natives
+    cost = 10
+		relative_position_id = AST_The_National_Intelligence_Agency
+		x = 0
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+		prerequisite = {
+			focus = AST_The_National_Intelligence_Agency
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AST_Ordaist_Education"
+		}
+	}
+
+	focus = {
+		id = AST_Expand_the_Peasants_Party
+		icon = GFX_goal_commune_politics
+    cost = 10
+		relative_position_id = AST_Ordaist_Education
+		x = -1
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+		prerequisite = {
+			focus = AST_Ordaist_Education
+			focus = AST_Decentralize_the_Party
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AST_Expand_the_Peasants_Party"
+		}
+	}
+
+	focus = {
+		id = AST_Ordaist_Youth_League
+		icon = GFX_Socialist_Law
+    cost = 10
+		relative_position_id = AST_Ordaist_Education
+		x = 1
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+		prerequisite = {
+			focus = AST_Ordaist_Education
+		}
+
+		prerequisite = {
+			focus = AST_Purge_Rightists
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AST_Ordaist_Youth_League"
+		}
+	}
+
+	focus = {
+		id = AST_Mandatory_Military_Training
+		icon = GFX_goal_reform_socialist_army
+    cost = 10
+		relative_position_id = AST_Cardenas_Revolution
+		x = 2
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+		prerequisite = {
+			focus = AST_Cardenas_Revolution
+			focus = AST_Falks_Clique
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AST_Mandatory_Military_Training"
+		}
+	}
+
+	focus = {
+		id = AST_Supplying_the_Army
+		icon = GFX_goal_forced_mil
+    cost = 10
+		relative_position_id = AST_Falks_Clique
+		x = 1
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+		prerequisite = {
+			focus = AST_Falks_Clique
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AST_Supplying_the_Army"
+		}
+	}
+
+	focus = {
+		id = AST_The_Ordaist_Hero
+		icon = GFX_goal_refugee_management
+    cost = 10
+		relative_position_id = AST_Mandatory_Military_Training
+		x = 1
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+		prerequisite = {
+			focus = AST_Mandatory_Military_Training
+		}
+
+		prerequisite = {
+			focus = AST_Falks_Clique
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AST_The_Ordaist_Hero"
+		}
+	}
+
+	focus = {
+		id = AST_Army_With_a_State
+		icon = GFX_goal_HOL_military_union
+    cost = 10
+		relative_position_id = AST_The_Ordaist_Hero
+		x = 1
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+		prerequisite = {
+			focus = AST_The_Ordaist_Hero
+		}
+
+		prerequisite = {
+			focus = AST_Supplying_the_Army
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AST_Army_With_a_State"
+		}
+	}
+
+	focus = {
+		id = AST_Expand_Conscription
+		icon = GFX_goal_national_mobilization
+    cost = 10
+		relative_position_id = AST_Army_With_a_State
+		x = -2
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+		prerequisite = {
+			focus = AST_Army_With_a_State
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AST_Expand_Conscription"
+		}
+	}
+
+	focus = {
+		id = AST_Focus_on_Military_Industry
+		icon = GFX_military_industrial_complex_1
+    cost = 10
+		relative_position_id = AST_Army_With_a_State
+		x = 0
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+		prerequisite = {
+			focus = AST_Army_With_a_State
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AST_Focus_on_Military_Industry"
+		}
+	}
+
+	focus = {
+		id = AST_Cult_of_Personality
+		icon = GFX_focus_generic_military_mission
+    cost = 10
+		relative_position_id = AST_Army_With_a_State
+		x = 2
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+		prerequisite = {
+			focus = AST_Army_With_a_State
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AST_Cult_of_Personality"
+		}
+	}
+
+	focus = {
+		id = AST_Power_on_the_Barean
+		icon = GFX_focus_generic_navy_battleship3
+    cost = 10
+		relative_position_id = AST_Supplying_the_Army
+		x = 1
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+		prerequisite = {
+			focus = AST_Supplying_the_Army
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AST_Power_on_the_Barean"
 		}
 	}
 }

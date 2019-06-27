@@ -1268,7 +1268,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_AST_skip_plebiscite.tga"
 	}
 
-	### Austrian Sphere ###	
+	### Austrian Sphere ###
 	SpriteType = {
 		name = "GFX_goal_AUS_step_on_skull"
 		texturefile = "gfx/interface/goals/goal_AUS_step_on_skull.tga"
