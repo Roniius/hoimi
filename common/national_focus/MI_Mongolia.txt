@@ -1,0 +1,456 @@
+################################
+# Mongolia National Focus Tree #
+# By Roniius                   #
+################################
+
+focus_tree = {
+	id = mongolia_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = MON
+		}
+	}
+
+  focus = {
+		id = MON_Khural_Convention_of_1932
+		icon = GFX_goal_generic_elections
+    cost = 10
+		x = 8
+		y = 0
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MON_Khural_Convention_of_1932"
+		}
+	}
+
+  focus = {
+		id = MON_A_Mongolia_for_the_People
+		icon = GFX_goal_MON_The_Popular_Prince
+    cost = 10
+    relative_position_id = MON_Khural_Convention_of_1932
+		x = -3
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+    prerequisite = {
+      focus = MON_Khural_Convention_of_1932
+    }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MON_A_Mongolia_for_the_People"
+		}
+
+    mutually_exclusive = {
+      focus = MON_A_Liberal_Mongolia
+      focus = MON_A_Patriotic_Mongolia
+    }
+	}
+
+  focus = {
+		id = MON_A_Liberal_Mongolia
+		icon = GFX_focus_generic_mongolian_option
+    cost = 10
+    relative_position_id = MON_Khural_Convention_of_1932
+		x = 0
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+    prerequisite = {
+      focus = MON_Khural_Convention_of_1932
+    }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MON_A_Liberal_Mongolia"
+		}
+
+    mutually_exclusive = {
+      focus = MON_A_Patriotic_Mongolia
+      focus = MON_A_Mongolia_for_the_People
+    }
+	}
+
+  focus = {
+		id = MON_A_Patriotic_Mongolia
+		icon = GFX_goal_MON_Statue_of_the_Khan
+    cost = 10
+    relative_position_id = MON_Khural_Convention_of_1932
+		x = 3
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    available = {
+			always = no
+		}
+
+    prerequisite = {
+      focus = MON_Khural_Convention_of_1932
+    }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MON_A_Patriotic_Mongolia"
+		}
+
+    mutually_exclusive = {
+      focus = MON_A_Liberal_Mongolia
+      focus = MON_A_Mongolia_for_the_People
+    }
+	}
+
+  focus = {
+		id = MON_Revise_Labor_Laws
+		icon = GFX_focus_SOV_revise_union_laws
+    cost = 10
+    relative_position_id = MON_A_Mongolia_for_the_People
+		x = -2
+		y = 2
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    prerequisite = {
+      focus = MON_A_Mongolia_for_the_People
+    }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MON_Revise_Labor_Laws"
+		}
+	}
+
+  focus = {
+		id = MON_Nomadic_Outreach
+		icon = GFX_goal_Settling_Nomads
+    cost = 10
+    relative_position_id = MON_A_Mongolia_for_the_People
+		x = -1
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    prerequisite = {
+      focus = MON_A_Mongolia_for_the_People
+    }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MON_Nomadic_Outreach"
+		}
+	}
+
+  focus = {
+		id = MON_Khotyn_Zakhirgaany_Baishinguud
+		icon = GFX_collective_housing
+    cost = 10
+    relative_position_id = MON_A_Mongolia_for_the_People
+		x = 0
+		y = 2
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    prerequisite = {
+      focus = MON_A_Mongolia_for_the_People
+    }
+
+    prerequisite = {
+      focus = MON_Promote_Urbanization
+    }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MON_Khotyn_Zakhirgaany_Baishinguud"
+		}
+	}
+
+  focus = {
+		id = MON_North_South_Railroad
+		icon = GFX_goal_generic_construct_infrastructure
+    cost = 10
+    relative_position_id = MON_Promote_Urbanization
+		x = 0
+		y = 2
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    prerequisite = {
+      focus = MON_Promote_Urbanization
+    }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MON_North_South_Railroad"
+		}
+	}
+
+  focus = {
+		id = MON_Economic_Redistribution_Programs
+		icon = GFX_goal_generic_construct_public_housing
+    cost = 10
+    relative_position_id = MON_Revise_Labor_Laws
+		x = 1
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    prerequisite = {
+      focus = MON_Revise_Labor_Laws
+    }
+
+    prerequisite = {
+      focus = MON_Promote_Urbanization
+    }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MON_Economic_Redistribution_Programs"
+		}
+	}
+
+  focus = {
+		id = MON_Promote_Urbanization
+		icon = GFX_ITA_urban
+    cost = 10
+    relative_position_id = MON_A_Mongolia_for_the_People
+		x = 1
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    prerequisite = {
+      focus = MON_A_Mongolia_for_the_People
+      focus = MON_A_Liberal_Mongolia
+      focus = MON_A_Patriotic_Mongolia
+    }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MON_Promote_Urbanization"
+		}
+	}
+
+  focus = {
+		id = MON_The_Gateway_to_Asia
+		icon = GFX_goal_generic_trade
+    cost = 10
+    relative_position_id = MON_Promote_Urbanization
+		x = 1
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    prerequisite = {
+      focus = MON_Promote_Urbanization
+    }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MON_The_Gateway_to_Asia"
+		}
+	}
+
+  focus = {
+		id = MON_Mongolian_National_Insurance
+		icon = GFX_focus_SOV_mongols_for_office
+    cost = 10
+    relative_position_id = MON_A_Liberal_Mongolia
+		x = 0
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    prerequisite = {
+      focus = MON_A_Liberal_Mongolia
+    }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MON_Mongolian_National_Insurance"
+		}
+	}
+
+  focus = {
+		id = MON_Tax_Luxury_Goods
+		icon = GFX_goal_HOL_progressive_tax
+    cost = 10
+    relative_position_id = MON_Mongolian_National_Insurance
+		x = 0
+		y = 2
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    prerequisite = {
+      focus = MON_Mongolian_National_Insurance
+    }
+
+    prerequisite = {
+      focus = MON_The_Gateway_to_Asia
+    }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MON_Tax_Luxury_Goods"
+		}
+	}
+
+  focus = {
+		id = MON_Equal_Opportunity_Education
+		icon = GFX_goal_KTG_Educate_natives
+    cost = 10
+    relative_position_id = MON_Mongolian_National_Insurance
+		x = 1
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    prerequisite = {
+      focus = MON_Mongolian_National_Insurance
+    }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MON_Equal_Opportunity_Education"
+		}
+	}
+
+  focus = {
+		id = MON_Old_Age_Pensions
+		icon = GFX_goal_bag_of_money
+    cost = 10
+    relative_position_id = MON_A_Liberal_Mongolia
+		x = 2
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    prerequisite = {
+      focus = MON_A_Liberal_Mongolia
+    }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MON_Old_Age_Pensions"
+		}
+	}
+
+  focus = {
+		id = MON_Tax_Cuts
+		icon = GFX_goal_OTT_Loosen_Policy
+    cost = 10
+    relative_position_id = MON_A_Patriotic_Mongolia
+		x = 1
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    prerequisite = {
+      focus = MON_A_Patriotic_Mongolia
+    }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MON_Tax_Cuts"
+		}
+	}
+
+  focus = {
+		id = MON_Anti_Ordaism
+		icon = GFX_goal_HOL_crackdown_radsoc
+    cost = 10
+    relative_position_id = MON_A_Patriotic_Mongolia
+		x = 0
+		y = 2
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    prerequisite = {
+      focus = MON_A_Patriotic_Mongolia
+    }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MON_Anti_Ordaism"
+		}
+	}
+
+  focus = {
+		id = MON_Privatization_Programs
+		icon = GFX_goal_economic_control
+    cost = 10
+    relative_position_id = MON_Anti_Ordaism
+		x = 1
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    prerequisite = {
+      focus = MON_Anti_Ordaism
+    }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MON_Privatization_Programs"
+		}
+	}
+
+  focus = {
+		id = MON_Unified_National_Identity
+		icon = GFX_goal_MON_Mongol_Identity
+    cost = 10
+    relative_position_id = MON_Anti_Ordaism
+		x = -1
+		y = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+    prerequisite = {
+      focus = MON_Anti_Ordaism
+    }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MON_Unified_National_Identity"
+		}
+	}
+}

@@ -29,7 +29,7 @@
  MON_national_autocracy:0 "Mongolian Khanate"
  MON_national_autocracy_DEF:0 "The Mongolian Khanate"
  MON_national_autocracy_ADJ:0  "Mongolian"
- 
+
  MON_fangism_party:0 ""
  MON_fangism_party_long:0 ""
  MON_liberationism_party:0 ""
@@ -50,10 +50,31 @@
  MON_autocratic_despotism_party_long:0 ""
  MON_national_autocracy_party:0 ""
  MON_national_autocracy_party_long:0 ""
- 
+
  #Events
  mongolia.1.t:0 "Mongolia Party Talks With Absolutists"
  mongolia.1.d:0 "A Grave worry for our nation has been shown as the Mongolia Party has been revealed to be in discussion with the Absolutists, if they managed to come to a deal this would pave the way to absolutist control in the Constitutional Assembly. Jakha Gambu a representative in the Constitutional Assembly for the Mongolia Party announced that his party should be attempting to break the minority government in power in whatever way possible, their leader Balingiin Tserendorj took this as try to strike a deal with the group who wishes to destroy the Assembly. Something good however is the talk between these two political parties is still in its infancy and we could attempt to strike our own deal with Mongolia Party, this may mean passing bills which go in favor of their ideas and not ours but cooperation like that may be what we need in order to stop the absolutists and to save our precious democracy. On the other hand, some advisors have suggested that there is no real threat and the talks between the two groups will head absolutly no where due to the extreme radical beliefs of the absolutists, with this in mind it may be too risky to attempt our own deal with the Mongolia Party and turn on some of our ideas."
  mongolia.1.o1:0 "Fight For Our Own Deal"
  mongolia.1.o2:0 "Nothing Will Come Of It"
- 
+
+ ### National Foci ###
+
+ MON_Khural_Convention_of_1932:0 "Khural Convention of 1932"
+ MON_A_Mongolia_for_the_People:0 "A Mongolia for the People"
+ MON_A_Liberal_Mongolia:0 "A Liberal Mongolia"
+ MON_A_Patriotic_Mongolia:0 "A Patriotic Mongolia"
+ MON_Nomadic_Outreach:0 "Nomadic Outreach"
+ MON_Revise_Labor_Laws:0 "Revise Labor Laws"
+ MON_Khotyn_Zakhirgaany_Baishinguud:0 "Khotyn Zakhirgaany Baishinguud" #Municipal Housing
+ MON_Economic_Redistribution_Programs:0 "Economic Redistribution Programs"
+ MON_Promote_Urbanization:0 "Promote Urbanization"
+ MON_North_South_Railroad:0 "North-South Railroad"
+ MON_The_Gateway_to_Asia:0 "The Gateway to Asia"
+ MON_Mongolian_National_Insurance:0 "Mongolian National Insurance"
+ MON_Equal_Opportunity_Education:0 "Equal Opportunity Education"
+ MON_Tax_Luxury_Goods:0 "Tax Luxury Goods"
+ MON_Old_Age_Pensions:0 "Old Age Pensions"
+ MON_Tax_Cuts:0 "Tax Cuts"
+ MON_Anti_Ordaism:0 "Anti-Ordaism"
+ MON_Unified_National_Identity:0 "Unified National Identity"
+ MON_Privatization_Programs:0 "Privatization Programs"
