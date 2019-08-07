@@ -1,6 +1,6 @@
 ﻿l_english:
- fangism:0 "Fangism"
- fangism_noun:0 "Fangist"
+ fangism:0 "National Ordaism"
+ fangism_noun:0 "National Ordaism"
  democratic:0 "Democratic"
  democratic_noun:0 "Democracy"
  national_autocracy:0 "National Autocracy"
@@ -8,10 +8,10 @@
  national_autocracy_desc:0 "Totalitarian Regime"
  liberationism:0 "Liberationism"
  liberationism_noun:0 "Liberationist"
- fangism_desc:0 "Totalitarian Regime"
+ fangism_desc:0 "National Ordaist Regime"
  democratic_desc:0 "Democratic Regime"
- authoritarian_democrat_desc:0 "Totalitarian Regime"
- authoritarian_democrat:0 "Authoritarian Democrat"
+ authoritarian_democrat_desc:0 "Authoritarian Regime"
+ authoritarian_democrat:0 "Authoritarian Democracy"
  paternalism:0 "Paternalism"
  paternalism_desc:0 "Paternalist Regime"
  solidarism:0 "Solidarism"
@@ -66,4 +66,3 @@
  disciplined_engelism_desc:0 "Disciplined Engelism is a form of Engelism developed in mid 19th Century China in which a disciplined army usually of martial artists who look over the people who practice the ideas of Engelism. While in some ways it is authoritarian_democrat, the leader of the army is elected by the people and can be anyone including common folk; however, usually always a martial artist is elected. Mostly seen in Jiangsu under the Coastal Army where many people go to learn forms of Kung-Fu."
  market_liberal:0 "Market Liberalism"
  market_liberal_desc:0 "Market Liberal
-
