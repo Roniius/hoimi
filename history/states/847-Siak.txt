@@ -1,0 +1,33 @@
+state={
+	id=847
+	name="STATE_847"
+	manpower = 125642
+
+	state_category = town
+
+	resources={
+		rubber=10 # was: 268
+		oil=1 # was: 24
+		aluminium=1 # was: 50
+	}
+
+
+	history=
+	{
+		owner = MLY
+		add_core_of = MLY
+    victory_points = {
+			12168 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			12168 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces={
+		1277 1332 7327 7463 10209 10225 12168 12181 12184 12212 12343
+	}
+}

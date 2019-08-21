@@ -1043,3 +1043,15 @@ MGH = {
 	color = rgb { 88 119 95 }
 	color_ui = rgb { 63 86 68 }
 }
+ACH = {
+	color = rgb { 156 93 89 }
+	color_ui = rgb { 128 76 73 }
+}
+ARU = {
+	color = rgb { 97 145 97 }
+	color_ui = rgb { 70 107 70 }
+}
+AEI = {
+	color = rgb { 102 57 57 }
+	color_ui = rgb { 74 40 40 }
+}

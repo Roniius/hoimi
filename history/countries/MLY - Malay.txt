@@ -1,4 +1,4 @@
-﻿capital = 336
+﻿capital = 797
 
 set_technology = {
 	infantry_weapons = 1
@@ -8,7 +8,7 @@ add_ideas = {
 	limited_conscription
 	ibadi_idea
 }
-set_politics = {	
+set_politics = {
 	ruling_party = autocratic_despotism
 	last_election = "1936.1.1"
 	election_frequency = 48

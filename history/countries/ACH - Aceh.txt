@@ -1,0 +1,44 @@
+capital = 844
+
+oob = "generic"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	sunni_idea
+}
+
+set_stability = 0.51
+set_war_support = 0.22
+
+set_politics = {
+	ruling_party = autocratic_despotism
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    authoritarian_democrat = 6
+    fangism = 0
+    solidarism = 0
+    paternalism = 11
+    national_autocracy = 14
+    autocratic_despotism = 62
+    social_liberal = 7
+}
+
+create_country_leader = {
+	name = "Thanos"
+	desc = "POLITICS_MOHAMMED_ALIM_KHAN_DESC"
+	picture = "Portrait_AFG_Mohammed_Alim_Khan.dds"
+	expire = "1965.1.1"
+	ideology = sub_autocratic_despotism
+	traits = {
+		#
+	}
+}

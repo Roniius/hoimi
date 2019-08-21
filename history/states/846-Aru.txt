@@ -1,0 +1,35 @@
+state={
+	id=846
+	name="STATE_846"
+	manpower = 36040
+
+	state_category = town
+
+	resources={
+		rubber=20 # was: 268
+		oil=3 # was: 24
+		aluminium=2 # was: 50
+	}
+
+
+	history=
+	{
+		owner = ARU
+		add_core_of = ARU
+		victory_points = {
+			4652 1
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+			4652 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces={
+		4652 7673 12302
+	}
+}

@@ -1,0 +1,34 @@
+state={
+	id=845
+	name="STATE_845"
+	manpower = 133013
+  resources={
+		rubber=10 # was: 2
+    oil=5
+	}
+
+	state_category = town
+
+	history={
+		owner = ACH
+		add_core_of = ACH
+    victory_points = {
+			8360 3
+		}
+    victory_points = {
+			12126 1
+		}
+		buildings = {
+      infrastructure = 3
+      industrial_complex = 1
+      air_base = 1
+      8360 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+    1428 1460 4446 8360 10522 12126
+	}
+}
