@@ -1,9 +1,10 @@
-﻿capital = 165
+﻿capital = 166
 
 puppet = AWI
 puppet = INS
 puppet = AGM
 puppet = AAF
+puppet = AEI
 
 # Starting tech
 set_technology = {
@@ -15,7 +16,7 @@ add_ideas = {
 	reformist_idea
 }
 
-set_politics = {	
+set_politics = {
 	ruling_party = paternalism
 	last_election = "1933.1.1"
 	election_frequency = 48
@@ -29,7 +30,7 @@ set_popularities = {
 }
 
 INS = {
-	set_politics = {	
+	set_politics = {
 		ruling_party = authoritarian_democrat
 		last_election = "1933.1.1"
 		election_frequency = 48

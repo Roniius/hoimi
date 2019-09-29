@@ -2,7 +2,7 @@ state= {
 	id=120
 	name="STATE_120"
 	manpower = 265873
-	
+
 	state_category = rural
 
 	resources={
@@ -13,7 +13,7 @@ state= {
 
 	history= {
 		add_core_of = SCO
-		owner = ENG
+		owner = SCO
 		victory_points = { 11064 1 }
 		buildings = {
 			infrastructure = 4
@@ -21,13 +21,12 @@ state= {
 			industrial_complex = 1
 			air_base = 1
 			11064 = {
-				naval_base = 8	
+				naval_base = 8
 			}
 			6196 = {
-				naval_base = 1	
+				naval_base = 1
 			}
 		}
-		add_core_of = ENG
 	}
 
 	provinces=

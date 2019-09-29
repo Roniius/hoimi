@@ -1,4 +1,4 @@
-﻿capital = 16
+﻿capital = 827
 
 oob = "generic"
 
@@ -25,8 +25,8 @@ add_opinion_modifier = {
     modifier = FRA_long_lasting_rivalry
 }
 
-set_politics = {	
-	ruling_party = autocratic_despotism
+set_politics = {
+	ruling_party = fangism
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -44,8 +44,7 @@ create_country_leader = {
 	desc = "POLITICS_ADOLAR_BOURBON_DESC"
 	picture = "Portrait_FRA_Adolar_Bourbon.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
-	
+	ideology = fangism_subtype
 }
 
 create_country_leader = {
@@ -54,7 +53,7 @@ create_country_leader = {
 	picture = "Portrait_FRA_Abel_Hermant.dds"
 	expire = "1965.1.1"
 	ideology = solidarism_subtype
-	
+
 }
 
 create_country_leader = {
@@ -63,7 +62,7 @@ create_country_leader = {
 	picture = "Portrait_FRA_Louis_Marin.dds"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
-	
+
 }
 
 create_country_leader = {
@@ -72,7 +71,7 @@ create_country_leader = {
 	picture = "Portrait_FRA_Bodo_Snaider.dds"
 	expire = "1965.1.1"
 	ideology = paternalism_subtype
-	
+
 }
 
 create_country_leader = {
@@ -81,7 +80,7 @@ create_country_leader = {
 	picture = "Portrait_FRA_Wigand_Fritz.dds"
 	expire = "1965.1.1"
 	ideology = despotism
-	
+
 }
 
 create_country_leader = {
@@ -105,6 +104,5 @@ create_country_leader = {
 	picture = "Portrait_FRA_Ryman_Hatsledorf.dds"
 	expire = "1965.1.1"
 	ideology = national_autocracy_ideology
-	
-}
 
+}

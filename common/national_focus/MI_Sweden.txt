@@ -1,0 +1,17 @@
+###############################
+# Sweden National Focus Tree  #
+# By Roniius                  #
+###############################
+
+focus_tree = {
+	id = sweden_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = SWE
+		}
+	}
+}

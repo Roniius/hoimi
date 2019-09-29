@@ -3,15 +3,15 @@ state=
 	id=177
 	name="STATE_177"
 	manpower = 365500
-	
+
 	state_category = rural
-	
+
 	history=
 	{
 		victory_points = {
 			9793 1
 		}
-		owner = SPR
+		owner = AGO
 		buildings = {
 			infrastructure = 6
 			air_base = 1
@@ -22,7 +22,7 @@ state=
 				naval_base = 1
 			}
 		}
-		add_core_of = SPR
+		add_core_of = AGO
 	}
 	provinces=
 	{

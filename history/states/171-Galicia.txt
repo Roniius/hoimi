@@ -3,16 +3,13 @@ state={
 	id=171
 	name="STATE_171"
 	manpower = 2295085
-	
+
 	state_category = city
 
 	history={
-		owner = SPR
+		owner = GLC
 		victory_points = {
 			758 3
-		}
-		victory_points = {
-			6734 1
 		}
 		buildings = {
 			infrastructure = 6
@@ -23,10 +20,10 @@ state={
 				naval_base = 6
 			}
 		}
-		add_core_of = SPR
+		add_core_of = GLC
 	}
 
 	provinces={
-		729 758 3761 6734 6764 6955 9686 9689 11675 11677 11692 11710 11840 
+		729 758 3761 6734 6764 6955 9686 9689 11675 11677 11692 11710 11840
 	}
 }

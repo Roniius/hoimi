@@ -3,24 +3,24 @@ state={
 	id=829
 	name="STATE_829"
 	manpower = 647453
-	
+
 	state_category = city
 
 	history={
-		
+
 		victory_points = {
 			9434 10
 		}
-		
+
 		victory_points = {
 			11563 5
 		}
 		victory_points = {
 			485 3
 		}
-		owner = BEL
-		add_core_of = BEL
-		
+		owner = FRA
+		add_core_of = FRA
+
 		buildings = {
 			infrastructure = 5
 			arms_factory = 2
@@ -33,10 +33,10 @@ state={
 				naval_base = 1
 			}
 		}
-		
+
 	}
 
 	provinces={
-		485 6569 9434 11563	
+		485 6569 9434 11563
 	}
 }

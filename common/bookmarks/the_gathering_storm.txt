@@ -6,86 +6,86 @@ bookmarks = {
 		picture = "GFX_select_date_1936"
 		default_country = "MON"
 		default = yes
-		
+
 		"MON"={
 			history = "MON_MONGOLII_IMPERIUM_DESC"
 			ideology = autocratic_despotism
 			ideas = {
-				
+
 			}
 			focuses = {
-				
+
 			}
 		}
 
-		"SOV"={
-			history = "SOV_MONGOLII_IMPERIUM_DESC"
-			ideology = autocratic_despotism
+		"SWE"={
+			history = "SWE_MONGOLII_IMPERIUM_DESC"
+			ideology = authoritarian_democrat
 			ideas = {
-				
+
 			}
 			focuses = {
-				
-			}	
+
+			}
 		}
 		
 		"NRO"={
 			history = "NRO_MONGOLII_IMPERIUM_DESC"
 			ideology = national_autocracy
 			ideas = {
-				
+
 			}
 			focuses = {
-				
+
 			}
 		}
-		
-		
+
+
 		"FRA"={
 			history = "FRA_MONGOLII_IMPERIUM_DESC"
 			ideology = autocratic_despotism
 			ideas = {
-				
+
 			}
 			focuses = {
-				
+
 			}
 		}
-		
+
 		"AST"={
 			history = "AST_MONGOLII_IMPERIUM_DESC"
 			ideology = fangism
 			ideas = {
-				
+
 			}
 			focuses = {
-				
+
 			}
 		}
-		
+
 		"POL"={
 			history = "POL_MONGOLII_IMPERIUM_DESC"
 			ideology = social_liberal
 			ideas = {
-				
+
 			}
 			focuses = {
-				
+
 			}
 		}
-		
+
 		"TRK"={
 			history = "TRK_MONGOLII_IMPERIUM_DESC"
 			ideology = national_autocracy
 			ideas = {
-				
+
 			}
 			focuses = {
-				
+
 			}
 		}
-		
-		
+
+
 
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
@@ -93,7 +93,7 @@ bookmarks = {
 
 
 		# minors from DLC ####
-		
+
 
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

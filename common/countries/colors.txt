@@ -5,8 +5,8 @@ GER = {
 	color_ui = rgb { 138 155 116 }
 }
 ENG = {
-	color = rgb { 201 56 93 }
-	color_ui = rgb { 255 73 121 }
+	color = rgb { 235 64 52 }
+	color_ui = rgb { 199 52 42 }
 }
 SOV = {
 	color = rgb { 181 150 0 }
@@ -17,8 +17,8 @@ SWE = {
 	color_ui = rgb { 47 172 255 }
 }
 FRA = {
-	color = rgb { 57 113 228 }
-	color_ui = rgb { 74 147 255 }
+	color = rgb { 45 56 82 }
+	color_ui = rgb { 30 37 54 }
 }
 LUX = {
 	color = rgb { 65 175 179 }
@@ -55,8 +55,8 @@ LAT = {
 	color_ui = rgb { 124 125 184 }
 }
 SPR = {
-	color = rgb { 242 205 94 }
-	color_ui = rgb { 255 255 122 }
+	color = rgb { 163 147 44 }
+	color_ui = rgb { 122 110 32 }
 }
 ITA = {
 	color = rgb { 127  49  124 }
@@ -99,16 +99,16 @@ BUL = {
 	color_ui = rgb { 210 147 217 }
 }
 POR = {
-	color = rgb { 39 116 70 }
-	color_ui = rgb { 51 151 91 }
+	color = rgb { 78 107 130 }
+	color_ui = rgb { 61 84 102 }
 }
 FIN = {
 	color = rgb { 205 212 228 }
 	color_ui = rgb { 255 255 255 }
 }
 IRE = {
-	color = rgb { 80 159 90 }
-	color_ui = rgb { 104 207 117 }
+	color = rgb { 85 138 96 }
+	color_ui = rgb { 60 99 68 }
 }
 HUN = {
 	color = rgb { 249 126 98 }
@@ -544,8 +544,8 @@ OCC = {
 	color_ui = rgb { 188  54  63 }
 }
 AGO = {
-	color = rgb { 89  35  31 }
-	color_ui = rgb { 89  35  31 }
+	color = rgb { 115 80 80 }
+	color_ui = rgb { 79 55 55 }
 }
 VLD = {
 	color = rgb { 0  29  159 }
@@ -600,8 +600,8 @@ NCO = {
 	color_ui = rgb { 63  127  71 }
 }
 SCO = {
-	color = rgb { 74  111  174 }
-	color_ui = rgb { 74  111  174 }
+	color = rgb { 195 217 98 }
+	color_ui = rgb { 165 184 83 }
 }
 WAL = {
 	color = rgb { 194  171  132 }
@@ -1054,4 +1054,20 @@ ARU = {
 AEI = {
 	color = rgb { 102 57 57 }
 	color_ui = rgb { 74 40 40 }
+}
+BRT = {
+	color = rgb { 116 169 179 }
+	color_ui = rgb { 98 140 148 }
+}
+GLC = {
+	color = rgb { 131 166 156 }
+	color_ui = rgb { 107 138 129 }
+}
+LEO = {
+	color = rgb { 112 27 57 }
+	color_ui = rgb { 82 20 41 }
+}
+MOR = {
+	color = rgb { 168 127 50 }
+	color_ui = rgb { 130 98 39 }
 }

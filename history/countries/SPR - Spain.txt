@@ -11,7 +11,7 @@ add_ideas = {
 	atheism_idea
 }
 
-set_politics = {	
+set_politics = {
 	ruling_party = fangism
 	last_election = "1933.1.1"
 	election_frequency = 48
@@ -19,9 +19,10 @@ set_politics = {
 }
 
 set_popularities = {
-    fangism = 75
+    fangism = 33
     autocratic_despotism = 5
-    solidarism = 10
+    solidarism = 27
+		liberationism = 25
     social_liberal = 10
 }
 
@@ -30,7 +31,7 @@ create_country_leader = {
 	desc = "POLITICS_CARLOS_R_GIMENEZ_DESC"
 	picture = "Portrait_SPR_Carlos_R_Gimenez.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = fangism_subtype
 	traits = {
 		#
 	}

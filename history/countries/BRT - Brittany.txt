@@ -1,0 +1,37 @@
+capital = 14
+
+oob = "generic"
+
+add_ideas = {
+	catholic_idea
+}
+
+set_politics = {
+	ruling_party = paternalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    fangism = 0
+    liberationism = 0
+    solidarism = 2
+    socialism = 14
+    social_liberal = 15
+    market_liberal = 31
+    paternalism = 56
+    authoritarian_democrat = 27
+    autocratic_despotism = 1
+    national_autocracy = 6
+}
+
+create_country_leader = {
+	name = "Frañsez IV"
+	desc = "POLITICS_FRANSEZ_IV_DESC"
+	picture = "Portrait_BRT_Fransez_IV.dds"
+	expire = "1965.1.1"
+	ideology = paternalism_subtype
+	traits = {
+	}
+}

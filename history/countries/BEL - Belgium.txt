@@ -1,4 +1,4 @@
-﻿capital = 827
+﻿capital = 27
 
 oob = "generic"
 
@@ -38,7 +38,7 @@ puppet = SOM
 #}
 
 
-set_politics = {	
+set_politics = {
 	ruling_party = social_liberal
 	last_election = "1932.5.1"
 	election_frequency = 48
@@ -60,7 +60,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
-		
+
 	}
 }
 
@@ -71,6 +71,6 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = sub_autocratic_despotism
 	traits = {
-		
+
 	}
 }
