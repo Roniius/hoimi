@@ -1,4 +1,4 @@
-﻿name="Hearts of Iron IV: Mongolii Imperium"
+name="Mongolii Imperium"
 path="mod/hoimi/"
 tags={
 	"Alternative History"
@@ -24,4 +24,4 @@ replace_path = "common/units/names"
 replace_path = "history/units"
 replace_path = "map/strategicregions"
 replace_path = "map/supplyareas"
-supported_version="1.7.x"
+supported_version="1.8.*"
